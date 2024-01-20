@@ -1,0 +1,24 @@
+Package: golang-gir-gobject-2.0-dev
+Architecture: amd64
+Version: 15.11~2.0.2-1+comsta
+Priority: optional
+Section: devel
+Source: go-gir-generator
+Maintainer:  Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 180
+Provides: golang-gir-gobject-2.0
+Depends: libglib2.0-dev
+Conflicts: golang-gir-gobject-2.0
+Breaks: golang-gir-gobject-2.0 (<< 0.9.3)
+Filename: ./g/golang-gir-gobject-2.0-dev/golang-gir-gobject-2.0-dev_15.11~2.0.2-1+comsta_amd64.deb
+Size: 23144
+MD5sum: c131ceceaa6da4a6f1aed82b39d745f5
+SHA1: dbaed5c927ebca94668354e7769f926c81b5497e
+SHA256: 8e1c24f2751ff2f2865b87687e80d7d3220770b69ccac90252f69631394f529f
+SHA512: 4ad063998bcfdce4e20fc73ef5f2a4c3f7c29b5820804059caeaa194d3c6896ec4a36c4cf7b9ef8932bae87ab94e7cd46894ad45a3842154b54c6008bcb486bb
+Homepage: http://www.deepin.org
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development.
+ .
+ gobject-2.0 go bindings.
+

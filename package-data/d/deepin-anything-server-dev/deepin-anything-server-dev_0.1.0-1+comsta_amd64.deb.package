@@ -1,0 +1,19 @@
+Package: deepin-anything-server-dev
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 30
+Depends: deepin-anything-server (= 0.1.0-1+comsta)
+Filename: ./d/deepin-anything-server-dev/deepin-anything-server-dev_0.1.0-1+comsta_amd64.deb
+Size: 7100
+MD5sum: 77f0aed179ebec124ba4254f0aec41f2
+SHA1: 9a2d1b5572d7005f0dedbc0cadf88e3a8cf42d55
+SHA256: 81f2d0ce193b252075d39c8bfc3907bfaf8413fbd1299e2ab33b98e2106fbd8e
+SHA512: 0d25b5eac3ae9319fac0665773edbcc8cb487fbd4512717d0d44943313ce2b6717f3638d552783235f2c5412c325c7f2b0a0c40d667f5cc81199c38dd7095b0f
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server user interface library
+ anything server library developer package.
+

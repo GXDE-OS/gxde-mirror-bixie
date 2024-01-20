@@ -1,0 +1,19 @@
+Package: deepin-anything-dev
+Architecture: i386
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 74
+Depends: libc6 (>= 2.7), deepin-anything-libs (= 0.1.0-1+comsta)
+Filename: ./d/deepin-anything-dev/deepin-anything-dev_0.1.0-1+comsta_i386.deb
+Size: 24572
+MD5sum: 4c0c54f08c0776039d97a00da46b8211
+SHA1: f709b23b6519d4843fe462bc1d42999bfabf4d6d
+SHA256: 5067c24d0f8ca02f59be98cd7557647957dd7b5c2e51327e33cdc64d8a23d117
+SHA512: cd662d6caa09a19284b474d3cd5980de60403f7b36201f32f15bdc1a631e2d919fedd34a01055eabd61dd6b7d39be4d4304ebc28ca1044d3d791c0a0d205b132
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything user interface library
+ anything library developer package.
+

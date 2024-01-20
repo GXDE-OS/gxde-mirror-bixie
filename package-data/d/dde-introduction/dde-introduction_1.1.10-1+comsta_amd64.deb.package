@@ -1,0 +1,18 @@
+Package: dde-introduction
+Architecture: amd64
+Version: 1.1.10-1+comsta
+Priority: optional
+Section: utils
+Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
+Installed-Size: 12029
+Depends: libc6 (>= 2.34), libdframeworkdbus2, libdmr0.1 (>= 5.10.6), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.1.1)
+Filename: ./d/dde-introduction/dde-introduction_1.1.10-1+comsta_amd64.deb
+Size: 11157520
+MD5sum: 0bc46e769f701030565845b1fed886cc
+SHA1: 8008db22b7ae1be51b44f7063f7d47a02b9c9b3f
+SHA256: b8131cd5166dcde789e546ecacef64d2254119e30eec4d34db94ea519a94f4ca
+SHA512: 9e773012abfb271f705e6a12a909dfa97d6dd7db6b5f623ff363b739b2bf28ac16c412558c9fb5b201441ef681489adc14fa5ac39cd65d17f6b2c432c5e01fb0
+Homepage: http://www.deepin.org
+Description: Introduction for deepin
+ Deepin initialization setup tool
+

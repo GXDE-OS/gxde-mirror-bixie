@@ -1,0 +1,18 @@
+Package: deepin-wallpapers
+Architecture: all
+Version: 1.7.7-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46750
+Breaks: deepin-desktop-base (<< 2017.11.2)
+Filename: ./d/deepin-wallpapers/deepin-wallpapers_1.7.7-1+comsta_all.deb
+Size: 45165572
+MD5sum: 72725e9ccbd2a7c07f216cb15fd6c20d
+SHA1: a7270fddbc6119ed42567f26366aa313934002b3
+SHA256: d2b3cf633e675cdc71c146105ceb317c1b6fe32fb98f4dd5fd6a25d469eee38e
+SHA512: 52a46faa0603be7a0da3d7f2d4e4df5e5c754c1e70922a4fd065850f7a5e5513cc5c488d93fe0b713454fc0bc1240f270905ee603862c7cf53c484fd4595fa1e
+Homepage: https://www.deepin.org/
+Description: dde wallpapers
+ Default wallpapers for dde
+

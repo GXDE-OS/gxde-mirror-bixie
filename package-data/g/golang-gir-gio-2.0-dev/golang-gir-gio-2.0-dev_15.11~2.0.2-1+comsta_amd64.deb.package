@@ -1,0 +1,24 @@
+Package: golang-gir-gio-2.0-dev
+Architecture: amd64
+Version: 15.11~2.0.2-1+comsta
+Priority: optional
+Section: devel
+Source: go-gir-generator
+Maintainer:  Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 622
+Provides: golang-gir-gio-2.0
+Depends: libglib2.0-dev
+Conflicts: golang-gir-gio-2.0
+Breaks: golang-gir-gio-2.0 (<< 0.9.3)
+Filename: ./g/golang-gir-gio-2.0-dev/golang-gir-gio-2.0-dev_15.11~2.0.2-1+comsta_amd64.deb
+Size: 57724
+MD5sum: c568b6d299a6e05a34963cc6916238b7
+SHA1: 97758ccade2a58381ea586c1ed2a172288186324
+SHA256: 52892b9d0511be656e4a8fb4b0c74302c616be5c3809c793922c786f252c6ac0
+SHA512: 3a6676cb83a792359348252dec3002b8b515e5030eb3c015a4abb4acb28b76bdcc1222d261b3c1d55a91d28bb0add9b4d54a6abeacc90d5bf4839c214936a1bb
+Homepage: http://www.deepin.org
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development.
+ .
+ gio-2.0 go bindings.
+

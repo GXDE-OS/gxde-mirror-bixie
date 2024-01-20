@@ -1,0 +1,23 @@
+Package: libprocps-dev
+Architecture: amd64
+Version: 2:3.3.12-3+deb9u1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: procps
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 196
+Depends: libprocps6 (= 2:3.3.12-3+deb9u1)
+Conflicts: libproc-dev, libprocps0-dev, libprocps1-dev, libprocps3-dev, libprocps4-dev
+Replaces: libproc-dev, libprocps0-dev, libprocps1-dev, libprocps3-dev, libprocps4-dev
+Filename: ./l/libprocps-dev/libprocps-dev_3.3.12-3+deb9u1_amd64.deb
+Size: 53024
+MD5sum: 9dd185c15ee68b01996b9c995cb40628
+SHA1: f57af44feddbe97d809b60fe1392f27856b1ca52
+SHA256: c9db47a5e8e379ebdd9b720e179035fe92b16f51d0d059f6ebd3b6a77b78a691
+SHA512: 82900190ba7618bf79d1dfe8862bfa7aa2cc1e0874b55eb8957f641d7d932807b821aecfba2c0d5dfbd7a61644f4889e5c18574ffb6422832cd77f59f4a75eb0
+Homepage: https://gitlab.com/procps-ng/procps
+Description: library for accessing process information from /proc
+ These are the header files for libproc. Some packages using libproc
+ to access process information from /proc need these to compile.
+

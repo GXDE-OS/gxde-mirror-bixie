@@ -1,0 +1,35 @@
+Package: psf-unifont
+Architecture: all
+Version: 1:9.0.06-2
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: unifont
+Maintainer: Paul Hardy <unifoundry@unifoundry.com>
+Installed-Size: 41
+Depends: bdf2psf
+Suggests: ttf-unifont
+Filename: ./p/psf-unifont/psf-unifont_9.0.06-2_all.deb
+Size: 31308
+MD5sum: e30b094c297aaa3a1939f0003320c70c
+SHA1: f52593145eb0e2572b45bd21af462011b0e82185
+SHA256: 0f193054557c21c9b34bf102a3d3f616b698f7e02a599c3f05824960bd0bd346
+SHA512: a7985defd67aab61091a3f71aacededbe35ecb979340905fe137c22616dfa634e6e71bfe5eb6748a67a261f8afd534eafe097eb4298b6d9a88795ddb696967f1
+Homepage: http://unifoundry.com
+Description: PSF (console) version of GNU Unifont with APL support
+ This contains a PSF font (Unifont-APL8x16.psf) as a console frame
+ buffer font with a subset of Unifont for use with GNU APL and other
+ APL implementations.  The font is installed in "/usr/share/consolefonts/".
+ This PSF font is only suitable for running in console mode, not under the
+ X Window System.
+ .
+ A PSF font allows a maximum of 512 glyphs.  The glyph subset in this
+ font includes ASCII, Latin-1, "oe" and "OE" ligatures for French, the
+ Euro sign, Unicode Box Drawing, Unicode Block Elements, plus various
+ glyphs for APL support and some other miscellaneous glyphs.  The font
+ is monospaced, 8 pixels wide by 16 pixels tall.
+ .
+ Consider using the TrueType version instead (ttf-unifont) if you are
+ not running in console mode, because that version is scalable to any
+ point size and has proper combining character support.
+

@@ -1,0 +1,27 @@
+Package: gvfs
+Architecture: amd64
+Version: 1.38.1.3-deepin3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 377
+Depends: gvfs-common (= 1.38.1.3-deepin3), gvfs-daemons (<< 1.38.1.3-deepin3.1~), gvfs-daemons (>= 1.38.1.3-deepin3), gvfs-libs (= 1.38.1.3-deepin3), libc6 (>= 2.33), libglib2.0-0 (>= 2.59.0)
+Suggests: gvfs-backends
+Filename: ./g/gvfs/gvfs_1.38.1.3-deepin3_amd64.deb
+Size: 115692
+MD5sum: b00d598cdde96f1ff627f2864683e90a
+SHA1: 7a4659d71ab1362e04034fca24da595a0eeda7e8
+SHA256: 40294555aeb6055baeb83bd41ac91a76338b919881d41ce7548af7869680fe59
+SHA512: 4b1f547ad19b8bf7779f267aa3848aba60739cf1140884f34cfb58558e666b337a3a9af91136bb5aa0c4cbfc38ac934a49d6e522d3ed5bcd5512376ee163e8ee
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - GIO module
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the GIO module that lets applications use gvfs
+ mounts.
+

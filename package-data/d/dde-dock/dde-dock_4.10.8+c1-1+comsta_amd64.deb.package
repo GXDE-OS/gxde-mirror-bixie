@@ -1,0 +1,21 @@
+Package: dde-dock
+Architecture: amd64
+Version: 4.10.8+c1-1+comsta
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3278
+Depends: deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.8+c1-1+comsta_amd64.deb
+Size: 659452
+MD5sum: 0fc0cf64c172d1cd471a030fb85994ac
+SHA1: db4699ef47e445b641510d3d620362cc3edd96e1
+SHA256: 8394677c03991d81c5c0cd0d7d835b918e5ab34a389a1e7fae8da27328e17416
+SHA512: 9592c5494b27608cf8ecdcd82db80d4d84a295b5a58037044dca0ac0015c990e9b7a887185c8a5756236ef50f0e2b11a73d00cf9cdf6dcc57703d03f07a3dcc8
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+

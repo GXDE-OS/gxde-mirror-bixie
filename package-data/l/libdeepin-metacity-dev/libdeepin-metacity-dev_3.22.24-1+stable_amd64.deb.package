@@ -1,0 +1,25 @@
+Package: libdeepin-metacity-dev
+Architecture: amd64
+Version: 3.22.24-1+stable
+Priority: optional
+Section: libdevel
+Source: deepin-metacity
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 247
+Depends: libgtk-3-dev, libdeepin-metacity-private3 (= 3.22.24-1+stable)
+Filename: ./l/libdeepin-metacity-dev/libdeepin-metacity-dev_3.22.24-1+stable_amd64.deb
+Size: 173060
+MD5sum: 7243b44d26700df1c2c0457bb772dc60
+SHA1: db1d5c6c4b2d51420fafb05760467fb4163e62bd
+SHA256: 3dd0b5bfd2d458f26901e964d1af4c1de050be92ca909fabf7f3149b3d56909b
+SHA512: afbe2af229e6ce2dea0a2e0a06de29c8f807ce00d8feac5928b45ba261012cc7da0dc0aa2b319a685b2f5e13a5439e742c0b86ebd869c7de4c9b11ff336585d6
+Homepage: https://git.gnome.org/browse/metacity
+Description: development files for the Metacity window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the development files.
+

@@ -1,0 +1,18 @@
+Package: dpa-ext-gnomekeyring
+Architecture: amd64
+Version: 0.1.0-1+stable
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 51
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgnome-keyring0 (>= 2.20.3), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./d/dpa-ext-gnomekeyring/dpa-ext-gnomekeyring_0.1.0-1+stable_amd64.deb
+Size: 11784
+MD5sum: c7d38b14a3efe5ba80267aefd5a96901
+SHA1: 23a22cfe7ba8c344ff995caf910083656a638afe
+SHA256: 01b2c72ebb9c4bdb4d5280ca88d827c7fda120f06da10602992f9f24852efed4
+SHA512: b3ab90c781a90a2ff40f71be80fd52c1e4a5dfc46c1763415b0419c2dbde93639c4ec7cf0a367276962bef3fcd65cca7e2dfa5595dfce3fafa6dba56c5bd8caa
+Homepage: https://www.deepin.org
+Description: GNOME keyring extension for dde-polkit-agent.
+ DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
+

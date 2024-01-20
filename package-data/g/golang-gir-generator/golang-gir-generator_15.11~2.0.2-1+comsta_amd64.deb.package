@@ -1,0 +1,19 @@
+Package: golang-gir-generator
+Architecture: amd64
+Version: 15.11~2.0.2-1+comsta
+Priority: optional
+Section: devel
+Source: go-gir-generator
+Maintainer:  Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2683
+Depends: libc6 (>= 2.34), libgirepository-1.0-1 (>= 1.30.0), libglib2.0-0 (>= 2.12.0)
+Filename: ./g/golang-gir-generator/golang-gir-generator_15.11~2.0.2-1+comsta_amd64.deb
+Size: 908312
+MD5sum: 48742376faecc384f8c21617eb981b40
+SHA1: 47582ac8a94814a81d50ae8b1bbcc2b4a376c4e8
+SHA256: 5087b09b524369600e2853a3a2df7372a8b46d025582be1ec29697edb295a5c4
+SHA512: edc0b9d7cb14dca32269f8404e652f5cb277671c1f4c3c589b7b7e79f399ab97ce5ce9c3844cec14b8a617818911eed87e4b5f818aef543e5b3205f094a00397
+Homepage: http://www.deepin.org
+Description: generate library binding code which support gir for golang.
+ This tool can generate library binding code which support gir for golang.
+

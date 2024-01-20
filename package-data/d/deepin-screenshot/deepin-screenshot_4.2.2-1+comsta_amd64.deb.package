@@ -1,0 +1,19 @@
+Package: deepin-screenshot
+Architecture: amd64
+Version: 4.2.2-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1296
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 2.0.16.1), libdtkwm2 (>= 2.0.11.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5), deepin-turbo-booster
+Recommends: deepin-shortcut-viewer
+Filename: ./d/deepin-screenshot/deepin-screenshot_4.2.2-1+comsta_amd64.deb
+Size: 333096
+MD5sum: 9d4972485746acc49128bc79524c699d
+SHA1: 7cba16d36cb1fead0f1015e01408962b880aa8cd
+SHA256: 2a3e2a511e6fc28cbc7469e990102bc65770474075b7a7a13053bd63e92996b8
+SHA512: 92879ff882d1df809f5b4493b0d985dd48e2942995550e1a5d7a54b207032f21273579e411d4791e41c203e7a16d3961da3a31b00bbd7f4230c82e837ada91d9
+Homepage: http://www.deepin.org
+Description: Advanced screen shoting tool
+ Easy-to-use screenshot tool for linuxdeepin desktop environment.
+

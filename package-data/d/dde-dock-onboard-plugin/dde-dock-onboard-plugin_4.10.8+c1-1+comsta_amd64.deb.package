@@ -1,0 +1,19 @@
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 4.10.8+c1-1+comsta
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 98
+Depends: onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.8+c1-1+comsta_amd64.deb
+Size: 35220
+MD5sum: 8e29c93ba7214ff90ae029f082cc661e
+SHA1: 2fe8519c10233453230241e71a06837dbb2ab795
+SHA256: 77e1e34afc830f90b34e404d6da982e7e840b54c87f743f7ab5345e2172a9df2
+SHA512: 5ad4a0b3ed1b8d9697732b5aa1a563bd7a7e2348f194ac0b7c0e962c4cc7a5d0d7f8670ea8a69f2fa8548828520a27440d20d4529e9fc2b4a345dd01967a5ccd
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+

@@ -1,0 +1,30 @@
+Package: unifont-bin
+Architecture: amd64
+Version: 1:9.0.06-2
+Priority: extra
+Section: x11
+Source: unifont
+Maintainer: Paul Hardy <unifoundry@unifoundry.com>
+Installed-Size: 611
+Depends: xfonts-utils, fontforge, libc6 (>= 2.34), perl:any, libwx-perl, libgd-perl | libgd-gd2-perl | libgd-gd2-noxpm-perl
+Suggests: unifont, texinfo
+Filename: ./u/unifont-bin/unifont-bin_9.0.06-2_amd64.deb
+Size: 378684
+MD5sum: 99c66c78caeea4f92e3ce39a3af07e61
+SHA1: 03b264e56f22e7d943994f72047d8bce7732015b
+SHA256: b0160c881fc4f8b2909672309d0d151571dff0a85a1adec24781f4202480aa00
+SHA512: 8b4eb7bf0a139df35a2441e6e3f49bd0c2175ed22a3f20c2fc1613e2a954e4f0083c23f88ffbb9030c2a37006b3f9855d0701f82d54c7ba9e594de043976d857
+Homepage: http://unifoundry.com
+Description: utilities for manipulating GNU Unifont
+ This is a set of Perl scripts, C programs, and FontForge scripts
+ to manipulate Roman Czyborra's GNU Unifont ".hex" format font
+ files.  GNU Unifont has a Unicode-compatible font structure.
+ These utilities allow editing ".hex" fonts with text and
+ graphical editors, producing final versions of fonts in BDF,
+ PCF, PSF, TrueType SBIT, and TrueType outline formats.
+ .
+ To build the TrueType fonts, install the package 'fontforge'.  To build
+ the PCF fonts, use 'bdftopcf', which is in the 'xfonts-utils' package.
+ To build the PSF font, use 'bdf2psf', which is in the 'console-setup'
+ package.  To obtain the font sources, run 'apt-get source unifont'.
+

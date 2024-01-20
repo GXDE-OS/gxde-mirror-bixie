@@ -1,0 +1,25 @@
+Package: libdeepin-metacity-private3
+Architecture: amd64
+Version: 3.22.24-1+stable
+Priority: optional
+Section: libs
+Source: deepin-metacity
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 1281
+Depends: deepin-metacity-common (= 3.22.24-1+stable), libatk1.0-0 (>= 1.12.4), libbamf3-2 (>= 0.2.20), libc6 (>= 2.29), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.19.12), libgtop-2.0-11 (>= 2.22.3), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6, libstartup-notification0 (>= 0.7), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2, libxrender1
+Filename: ./l/libdeepin-metacity-private3/libdeepin-metacity-private3_3.22.24-1+stable_amd64.deb
+Size: 453608
+MD5sum: 2a86175415346f29634a84dfe0cef49d
+SHA1: 35cf20ae3533da952266192964fb89fb5556aaa9
+SHA256: 3844e07be26c5b32d77292802397c2b5919558d31e5ec8f7111de817119a27a2
+SHA512: 8c1febb22c914219479c26bc76ee53139aa42c0e667db578379becce022ecda47da349a957ea010d28e37887f190d7e90467c2988dd7ac32958476ac499cc897
+Homepage: https://git.gnome.org/browse/metacity
+Description: library for the Metacity window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the shared library.
+

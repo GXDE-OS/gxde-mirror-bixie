@@ -1,0 +1,19 @@
+Package: libdde-waylandserver
+Architecture: amd64
+Version: 0.0.1
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 86
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5waylandcompositor5 (>= 5.14.1), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdde-waylandserver/libdde-waylandserver_0.0.1_amd64.deb
+Size: 19708
+MD5sum: bd1e10c9f719878396301018536df5bf
+SHA1: 3fcbe310d618cebc1f759ae6ce91dc33e1c78910
+SHA256: eed9ea6b7125989964bc6f573f6151f0c849458c8bc861a180285d8cdfa22edb
+SHA512: 9cda8aa703264ee4472155489ad8f1714d52e9709224d3e31deb8281be46bda3d6ecbc2d991c1024dc8c18a21f78d4ad531a6476522a0091a2968840b8f0bc34
+Description: DDE wayland server library
+ with DDE custom protocol.
+

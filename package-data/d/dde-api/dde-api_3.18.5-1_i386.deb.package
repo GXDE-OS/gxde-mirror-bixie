@@ -1,0 +1,18 @@
+Package: dde-api
+Architecture: i386
+Version: 3.18.5-1
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 54297
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.3.6-6~), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.11.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpoppler-glib8 (>= 0.18.0), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.14.4), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, rfkill, locales, libcanberra-pulse, blur-effect, librsvg2-bin, fonts-noto-cjk, ttf-unifont, bc, fontconfig, coreutils, alsa-utils
+Filename: ./d/dde-api/dde-api_3.18.5-1_i386.deb
+Size: 11635896
+MD5sum: 5b43c8a0b6eef87aa4e849e667afdba3
+SHA1: b9717073708f575d98284d43db2f677669074995
+SHA256: c83e7b43d01c17b60fd24518540bb705e90f0c092b1700687c334adf8a8034f5
+SHA512: 6ce40544b6d6ca7ee79285ca9ffa7b793cb7d7a1ef80efbc1150cbfe63be9efcf590bc408670118762751e31741b47520a28e33fe8223d1137941edce8d32907
+Homepage: http://www.deepin.org
+Description: Go-lang bingdings for dde-daemon
+ Deepin Go-lang bindings for dde-daemon
+

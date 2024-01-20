@@ -1,0 +1,35 @@
+Package: golang-gocheck-dev
+Architecture: all
+Version: 0.0~bzr20131118+85-2
+Priority: extra
+Section: devel
+Source: golang-gocheck
+Maintainer: Sergio Schvezov <sergio.schvezov@canonical.com>
+Installed-Size: 148
+Filename: ./g/golang-gocheck-dev/golang-gocheck-dev_0.0~bzr20131118+85-2_all.deb
+Size: 27188
+MD5sum: 7a6830b6003875468e1abdc75679a152
+SHA1: cccc3df8dcee724e2397e9d452f0ab974ddf2aa4
+SHA256: 0f4da9e757388a72e54d59734deb8cb473768dbecbb9a114378d32b165e43522
+SHA512: 686807a163f3c448f2e2b351c714a823f1255620065e01ba28f3e837c03d046789700cfc713b8b7721d390f4a88c507edad93e160535d66b7da67cf335237a93
+Homepage: http://labix.org/gocheck
+Description: Richer testing framework for Go libraries and applications to use
+ gocheck extends Go's internal testing library with features such as:
+ .
+    - Helpful error reporting to aid on figuring problems out
+    - Richer test helpers: assertions which interrupt the test immediately,
+      deep multi-type comparisons, string matching, etc
+    - Suite-based grouping of tests
+    - Fixtures: per suite and/or per test set up and tear down
+    - Benchmarks integrated in the suite logic (with fixtures, etc)
+    - Management of temporary directories
+    - Panic-catching logic, with proper error reporting
+    - Proper counting of successes, failures, panics, missed tests, skips, etc
+    - Explicit test skipping
+    - Support for expected failures
+    - Verbosity flag which disables output caching (helpful to debug
+      hanging tests, for instance)
+    - Multi-line string reporting for more comprehensible failures
+    - Inclusion of comments surrounding checks on failure reports
+    - Fully tested (it manages to test itself reliably)
+

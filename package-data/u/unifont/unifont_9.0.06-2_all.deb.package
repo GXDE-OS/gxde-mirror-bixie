@@ -1,0 +1,36 @@
+Package: unifont
+Architecture: all
+Version: 1:9.0.06-2
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Paul Hardy <unifoundry@unifoundry.com>
+Installed-Size: 6320
+Depends: xfonts-unifont, ttf-unifont, psf-unifont, xfonts-utils
+Suggests: unifont-bin
+Replaces: unifont-bin (<< 1:5.1.20080706-1)
+Filename: ./u/unifont/unifont_9.0.06-2_all.deb
+Size: 1432704
+MD5sum: e79d07281dbe31f3529b8f2462d12af3
+SHA1: 40582d333f3a58aebfee1589cd2ba41bec9e0ee4
+SHA256: 8dc6afb031eb0be966f7ad072d9bc3563e714b17b615bf7dc8067d6da19bfee2
+SHA512: 78ed948637834477c158aa8bd23efa92fd714a9a065fdf08d656c25427e144700583aed4ccce998b3a250b6b3562f7e6a0b9d0277323a5987d788ce77b9cf1b8
+Homepage: http://unifoundry.com
+Description: font with a glyph for each visible Unicode Plane 0 character
+ This package is a convenient way to install the PCF bitmap version,
+ PSF bitmap version, and the scalable TrueType outline version of "Unifont"
+ (intended for general-purpose use) and "Unifont Sample" (which contains
+ combining circles to use for illustration purposes).  It also installs
+ a copy of unifont.hex and related files in /usr/share/unifont.
+ .
+ GNU Unifont was designed to render something besides an empty box
+ for each visible Unicode character in the Basic Multilingual Plane
+ (BMP, or Plane 0).  The BMP contains most of the world's modern writing
+ scripts.  This font looks best at 12pt.
+ .
+ Complex fonts (such as Indic or Semitic scripts, where letters change
+ shape depending on their position in a word, or such as Mongolian, which
+ can be written vertically) will not render perfectly.  The philosophy
+ behind this font, though, is that anything meaningful is better than
+ an empty box for an unknown glyph.
+

@@ -1,0 +1,18 @@
+Package: deepin-system-monitor
+Architecture: amd64
+Version: 1.5.0-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1324
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 2.0.16.1), libdtkwm2 (>= 2.0.11.1), libgcc-s1 (>= 3.0), libpcap0.8 (>= 0.9.8), libprocps6, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxcb1, libxext6, libcap2-bin
+Filename: ./d/deepin-system-monitor/deepin-system-monitor_1.5.0-1+comsta_amd64.deb
+Size: 313572
+MD5sum: 04262eb9e3477c8e0845833babe80617
+SHA1: 5dcc919c60c9d825a0bee6774e580e57e0fdad4d
+SHA256: 790d2daad035ea00fae4a75fe480860add90c47b1ff10456ea3ebfd1e80ba457
+SHA512: a0ac5e2c9bee0f98354944b7200be23aa4367751109d77d76b6420c691dba71a33000e73d79ccf3ee0212aefcdb633a7c153b8d9c4c6d8fe8dfc725e4a03c856
+Homepage: https://github.com/manateelazycat/deepin-system-monitor
+Description: Deepin system monitor: a more user-friendly system monitor.
+ A system monitor tool for Deepin.
+

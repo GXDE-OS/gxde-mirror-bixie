@@ -1,0 +1,17 @@
+Package: deepin-menu
+Architecture: amd64
+Version: 15.11~3.4.8-1+stable
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 140
+Filename: ./d/deepin-menu/deepin-menu_15.11~3.4.8-1+stable_amd64.deb
+Size: 41324
+MD5sum: 96e10914ea068457d3282c9e6a3758aa
+SHA1: 9d005dfbeb0525a56569f02da89af3094a6121ec
+SHA256: 82e2413c9a3f8d12329701588fdbd2c5b13f17e114e291c2864e9f10d1268a89
+SHA512: f5c2d417bca6869d66bb4d24d4466120bff00060da0dfac65ad96895e708f8d9395cd9ae6005b38e185ff0a80d2c5bf575a8f7584fb32ced58db9b142c3ed27a
+Homepage: https://github.com/linuxdeepin/deepin-menu
+Description: Deepin menu service
+ Deepin menu service for building beautiful menus.
+

@@ -1,0 +1,26 @@
+Package: deepin-metacity
+Architecture: amd64
+Version: 3.22.24-1+stable
+Priority: optional
+Section: x11
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 294
+Provides: x-window-manager
+Depends: deepin-menu, deepin-metacity-common (= 3.22.24-1+stable), zenity, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdeepin-metacity-private3, libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.36.0), libgtk-3-0 (>= 3.15.2), libpango-1.0-0 (>= 1.14.0), libx11-6
+Suggests: xdg-user-dirs
+Filename: ./d/deepin-metacity/deepin-metacity_3.22.24-1+stable_amd64.deb
+Size: 181700
+MD5sum: 1ddb5a261e917a731a65b81770fb6bec
+SHA1: 86346a8d1af8953373b71b09bdab7e4e3143761b
+SHA256: f5d1a3ac0f400b3f16bf511e1a37cc46de007f7800da2f5b202f333a157a7597
+SHA512: f4e5c3a4786df98e6ca69b4c3a5586706ed71aa11c55fcd725243ea5c1b2e4936d91e761b47f1612c97b0710b863e1c7351be0d52b8d80589f11d8e13a797bdb
+Homepage: https://git.gnome.org/browse/metacity
+Description: lightweight GTK+ window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the core binaries.
+

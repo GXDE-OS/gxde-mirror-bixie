@@ -1,0 +1,20 @@
+Package: libdeepin-font-installer-dev
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Priority: optional
+Section: utils
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 31
+Depends: libdeepin-font-installer (= 1.1.5.1-1+comsta)
+Filename: ./l/libdeepin-font-installer-dev/libdeepin-font-installer-dev_1.1.5.1-1+comsta_amd64.deb
+Size: 8380
+MD5sum: 7075a94e0bfc4063d3890586b7b3e01a
+SHA1: 099419fc736b3382791b11be0a1e9ec74e970bb6
+SHA256: 6734f3839a9dff3f1054de5737b96017ba87247a7b792856cc9edb366b9d7a55
+SHA512: 7a68a14c9e2e83cd2b843cb69e3d7118c8fdabb9a520a4235070ab49e74639e388bc42dfbd06752e60efb3e9a6eca54618d4fcb91388958a8398d70d57db0bd4
+Homepage: http://www.deepin.org
+Description: Deepin Font Instaler Devel library
+ This package contains the header files and static libraries
+ of libdeepin-font-installer
+

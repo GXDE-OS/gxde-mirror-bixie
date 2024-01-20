@@ -1,0 +1,22 @@
+Package: libqcef-dev
+Architecture: amd64
+Version: 1.1.6-1
+Priority: optional
+Section: libdevel
+Source: qcef
+Maintainer: LiuLang <gsushzhsosgsu@gmail.com>
+Installed-Size: 70
+Depends: libgconf-2-4, libpulse0, libqcef1 (= 1.1.6-1)
+Filename: ./l/libqcef-dev/libqcef-dev_1.1.6-1_amd64.deb
+Size: 13332
+MD5sum: af3399f5ec3a089663c57fa1bf856767
+SHA1: 0a702723e5a18719c0519c4c094257704f2211cb
+SHA256: c4ed2ccafce60f5759d9bf1838475de6ae2a0bec9f9be989433bc53957c7f94e
+SHA512: fcfa8e2ac899b6f7c05c9a8d0b4d21b4ee19a931dfc5f9579007b3b848068967bc1c059e57c2b93230bd96c9a9075e55fb014b40de8c3ac9cba59eba07470db8
+Homepage: https://www.deepin.org
+Description: Qt5 binding of CEF3.
+ qcef provides a web browser engine that makes it easy to embed into other
+ Qt widgets.
+ .
+ This package contains the header files of qcef.
+

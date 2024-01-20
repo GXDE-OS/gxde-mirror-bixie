@@ -1,0 +1,18 @@
+Package: dde-dock-dev
+Architecture: all
+Version: 4.10.8+c1-1+comsta
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46
+Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.8+c1-1+comsta_all.deb
+Size: 19812
+MD5sum: a32bb0884c3b24c3e5024bb0e787ac2e
+SHA1: 86c426bca44a246b7cab563c7e0486c292fd6aa0
+SHA256: 560abe6e5f8510aa0a1de269123bc8551c1df03cf6f2d547bbabe040c05157d6
+SHA512: 8bd138d568aa7233a023560bfb88f5d846f31599e679634c6c3e6795f26281df7603c43a2bcfec4b8ec826b99462b16ae3c745bd2b46fe40c13b02b2739ed92d
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+

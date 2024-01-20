@@ -1,0 +1,19 @@
+Package: deepin-community-wallpapers
+Architecture: all
+Version: 1.7.7-1+comsta
+Priority: optional
+Section: utils
+Source: deepin-wallpapers
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16358
+Breaks: deepin-wallpapers (<< 1.7.5)
+Filename: ./d/deepin-community-wallpapers/deepin-community-wallpapers_1.7.7-1+comsta_all.deb
+Size: 16535924
+MD5sum: 2c03d45dc1c5612873fc7fd0f8d3df40
+SHA1: bdbbe72bfa1512b252aa35e9c9465b4e412c22c8
+SHA256: 9b77adb5733e318b0f22031f75253ef1c4a4d65232741aa0f1e1c072873c581a
+SHA512: 7c830462b78929256bd1adf9e9f7648b257c4298e4a07d3d62886f6f3866f51e829ed37936d30b3ab8d2e820b4ce66bce45164d22bc5fa380a2bc661b857f5b3
+Homepage: https://www.deepin.org/
+Description: community wallpapers
+ Community wallpapers for dde
+

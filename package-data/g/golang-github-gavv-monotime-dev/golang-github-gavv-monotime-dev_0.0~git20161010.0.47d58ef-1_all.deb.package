@@ -1,0 +1,56 @@
+Package: golang-github-gavv-monotime-dev
+Architecture: all
+Version: 0.0~git20161010.0.47d58ef-1
+Priority: extra
+Section: devel
+Source: golang-github-gavv-monotime
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18
+Filename: ./g/golang-github-gavv-monotime-dev/golang-github-gavv-monotime-dev_0.0~git20161010.0.47d58ef-1_all.deb
+Size: 3672
+MD5sum: 747e85dbe3094f99c8a60f9240fdb010
+SHA1: 27614763d3c2ebc574839243c53755626e5d5548
+SHA256: 6c39ac54a26c231c575ae6a27e3ff2f54a079ec50d27e3a615a387b82061154d
+SHA512: b29ef159482993db5ac571fafc80a34dc4f334c6ef930831d300693a9e81baaf849c9873d5c38e6928b28625ee615dfdb287fa41afe3a1e46fc9c8b8a3befcee
+Homepage: https://github.com/gavv/monotime
+Description: Measuring time intervals correctly in Go (monotonic clock).
+ monotime GoDoc (https://godoc.org/github.com/gavv/monotime) Travis
+ (https://travis-ci.org/gavv/monotime) This tiny Go package is
+ a standalone and slightly enhanced version of goarista/monotime
+ (https://github.com/aristanetworks/goarista#monotime).
+ .
+ It provides monotime.Now() function, which returns current time
+ from monotonic clock source. It's implemented using unexported
+ runtime.nanotime() function from Go runtime. It works on all platforms.
+ Why?  time.Now() function from standard library returns real time
+ (CLOCK_REALTIME in POSIX) which can jump forwards and backwards as the
+ system time is changed.
+ .
+ For time measurements, monotonic time (CLOCK_MONOTONIC or
+ CLOCK_MONOTONIC_RAW on Linux) is often preferred, which is strictly
+ increasing, without (notable) jumps.  Documentation See GoDoc
+ (https://godoc.org/github.com/gavv/monotime).  Usage example ```go
+ package main
+ .
+ import (
+     "fmt" "time"
+ "github.com/gavv/monotime"
+ .
+ )
+ .
+ func main() {
+     var start, elapsed time.Duration
+ start = monotime.Now() time.Sleep(time.Millisecond) elapsed =
+ monotime.Since(start)
+ .
+ fmt.Println(elapsed) // Prints: 1.062759ms
+ .
+ } ``` Similar packages• aristanetworks/goarista/monotime
+ (https://github.com/aristanetworks/goarista#monotime)
+ (this package is based on it)• spacemonkeygo/monotime
+ (https://github.com/spacemonkeygo/monotime) (current
+ runtime.nanotime() is more complete)• davecheney/junk/clock
+ (https://github.com/davecheney/junk/tree/master/clock) (Linux-only)•
+ jaracil/clk (https://github.com/jaracil/clk) (Linux-only)License Apache
+ 2.0 (https://github.com/gavv/monotime/blob/master/LICENSE)
+

@@ -1,0 +1,18 @@
+Package: deepin-repair-tools-dev
+Architecture: amd64
+Version: 1.0.14.1-1+comsta
+Priority: optional
+Section: utils
+Source: deepin-repair-tools
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 14
+Filename: ./d/deepin-repair-tools-dev/deepin-repair-tools-dev_1.0.14.1-1+comsta_amd64.deb
+Size: 3160
+MD5sum: a61465571ab0a0b48d56c3b0e94da4a9
+SHA1: 7fd622dc5102059cc9c3c97aeaa73b681219f8d5
+SHA256: 660a29a97f5a0d239e048635cafd2b6b0a2b4c4f2983b8d40fbb7ae67dcacebe
+SHA512: 9382a0cacc6f1c4ab8cf9eaf13e60c34a08031d403d146137533d0b108e3616ea2808a71f4b071fe7f9be7665d53dbb6792fa5a35a48c5ec5a954c806be556ef
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools - dev files
+ Deepin Repair Tools is a useful tools for system repair & clean.
+

@@ -1,0 +1,27 @@
+Package: libgnome-keyring-dev
+Architecture: i386
+Version: 3.12.0-1+b2
+Priority: optional
+Section: libdevel
+Source: libgnome-keyring (3.12.0-1)
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 900
+Depends: libgnome-keyring0 (= 3.12.0-1+b2), gir1.2-gnomekeyring-1.0 (= 3.12.0-1+b2), libglib2.0-dev (>= 2.16)
+Filename: ./l/libgnome-keyring-dev/libgnome-keyring-dev_3.12.0-1+b2_i386.deb
+Size: 84014
+MD5sum: 0ef77d6731396071a95fbb92a379375f
+SHA1: c1e43f536e9755817b1e0b33680cbd9828c94f73
+SHA256: 2371534bb0a894b2604eec468bdacaee2202174bddf79dada8ae839e13d49c57
+SHA512: 76f4627465b24b0d2d7e132bfa02833d52cb3874fb07d45bf0f0a0a33f30b8bdbad0efc38419ccc35d84ed2ec4f166ac990b95212c3d1d7cb357b9227a7aabe1
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: Development files for GNOME keyring service
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains development files for GNOME.
+

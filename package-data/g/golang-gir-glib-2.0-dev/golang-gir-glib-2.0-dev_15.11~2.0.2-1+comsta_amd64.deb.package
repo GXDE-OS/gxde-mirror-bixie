@@ -1,0 +1,24 @@
+Package: golang-gir-glib-2.0-dev
+Architecture: amd64
+Version: 15.11~2.0.2-1+comsta
+Priority: optional
+Section: devel
+Source: go-gir-generator
+Maintainer:  Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 278
+Provides: golang-gir-glib-2.0
+Depends: libglib2.0-dev
+Conflicts: golang-gir-glib-2.0
+Breaks: golang-gir-glib-2.0 (<< 0.9.3)
+Filename: ./g/golang-gir-glib-2.0-dev/golang-gir-glib-2.0-dev_15.11~2.0.2-1+comsta_amd64.deb
+Size: 37408
+MD5sum: dc1f86e121007d376f022573f585e465
+SHA1: 6b49385a6432c30f34c80795131e2d4aa6166933
+SHA256: 8f39f82918bc92b1d7352ccab382ef31df3496882db9432108de9787f84042ad
+SHA512: f0249ea316c395e04db437248d77efebd65abb08043d358d9dd68d06c64156fccd314fb019fcb54ede7678d00e0aacccb8a311c7a23db0d0f5979b012f24cae7
+Homepage: http://www.deepin.org
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development
+ .
+ glib-2.0 go bindings.
+

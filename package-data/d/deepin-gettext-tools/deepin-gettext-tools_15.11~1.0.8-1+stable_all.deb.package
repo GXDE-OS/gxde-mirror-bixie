@@ -1,0 +1,22 @@
+Package: deepin-gettext-tools
+Architecture: all
+Version: 15.11~1.0.8-1+stable
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 52
+Depends: gettext, libconfig-tiny-perl, libxml-libxml-perl, perl, python3
+Filename: ./d/deepin-gettext-tools/deepin-gettext-tools_15.11~1.0.8-1+stable_all.deb
+Size: 13580
+MD5sum: 81eba7a18c522619fa85f8608f666604
+SHA1: 61ee7e640a9fd34893c6bcf5735c9b121d7202a3
+SHA256: 71705931630464a800d993d030562ce79591fd66b89801f4339bab297e190db6
+SHA512: e9d17a3a0ef2d2b54be16d82de69f0252f76c49b76c76283d059fa479f39cccd1afbcb3f79c0227906ccda1c0de3a8a6890066be54991aceb0bfe7514421bb24
+Homepage: https://github.com/linuxdeepin/deepin-gettext-tools
+Description: Deepin Internationalization utilities
+ This package provides various tools used by Deepin software to extract
+ translatable string and manage i18n works as a supplement to regular gettext
+ tools.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+

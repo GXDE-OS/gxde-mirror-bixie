@@ -1,0 +1,21 @@
+Package: golang-gir-gudev-1.0-dev
+Architecture: amd64
+Version: 15.11~2.0.2-1+comsta
+Priority: optional
+Section: devel
+Source: go-gir-generator
+Maintainer:  Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 75
+Depends: libgudev-1.0-dev
+Filename: ./g/golang-gir-gudev-1.0-dev/golang-gir-gudev-1.0-dev_15.11~2.0.2-1+comsta_amd64.deb
+Size: 9396
+MD5sum: b7471fa90c6dabb91c56f0f0017da38f
+SHA1: c8e62c205602e6b1ea991723807883bbed23c77c
+SHA256: 7284c53b041f02fdfc2057fa705bb2cf4aa0dc4f978c2d82f3d75a11a72d5c0b
+SHA512: e80ee393a4e3562ecf7bd90c64f5be8b07f2a723d2fea7f6d2142c61b4f129a1b1ee4a941c87ff48745691bd4c2cf443e72d63aec0cd11fcfb28d5b4892b8ed9
+Homepage: http://www.deepin.org
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development
+ .
+ gudev-1.0  go bindings.
+

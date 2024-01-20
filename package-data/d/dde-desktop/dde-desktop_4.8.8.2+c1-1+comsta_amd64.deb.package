@@ -1,0 +1,21 @@
+Package: dde-desktop
+Architecture: amd64
+Version: 4.8.8.2+c1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 4972
+Depends: libc6 (>= 2.34), libdde-file-manager (= 4.8.8.2+c1-1+comsta), libdframeworkdbus2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 2.0.16.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb-shape0, qtbase-abi-5-15-8
+Recommends: qt5dxcb-plugin, deepin-screensaver
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-desktop/dde-desktop_4.8.8.2+c1-1+comsta_amd64.deb
+Size: 1953036
+MD5sum: 1fbe5da563ddb6f30f767074d769fa89
+SHA1: 813311bb6d36e36d1c1cb35b655ce1309ef2ba80
+SHA256: d1368e15038db384e21692ac33214dd125b626317dee2d3d7fe8a9a628114166
+SHA512: e7f36447d88fa95f092ac75f33f562822120afd7082a0736e154a3c8d23eceb425eb9fcfd8e39efbed93506fa4ad8d3880babdd30dd4bf374d8e2f27cac039bd
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - desktop module
+ Deepin Desktop Environment (DDE) - desktop module.
+

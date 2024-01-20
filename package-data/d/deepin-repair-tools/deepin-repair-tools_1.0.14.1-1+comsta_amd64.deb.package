@@ -1,0 +1,18 @@
+Package: deepin-repair-tools
+Architecture: amd64
+Version: 1.0.14.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 851
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), os-prober
+Filename: ./d/deepin-repair-tools/deepin-repair-tools_1.0.14.1-1+comsta_amd64.deb
+Size: 171524
+MD5sum: 34c0ae9b92d1ad0724e7015c306a3afb
+SHA1: 48789e2f7e7cb2296fd83f3143fa99fbb2c7e57d
+SHA256: b6e0fe8ab9f2728eaf818fe890a707ae5590a4c862652d28098dfecf7d9eecc5
+SHA512: 6af080e809f333f809052f9806ec71b0a7ee42c7ae61d04e57e74b01b59375799056939119dccaed788dd749b25cced7b22df2194e8fad9ed576c6e14e1e0089
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools
+ Deepin Repair Tools is a useful tools for system repair & clean.
+

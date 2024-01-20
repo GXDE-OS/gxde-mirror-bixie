@@ -1,0 +1,19 @@
+Package: deepin-anything-dev
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.34), deepin-anything-libs (= 0.1.0-1+comsta)
+Filename: ./d/deepin-anything-dev/deepin-anything-dev_0.1.0-1+comsta_amd64.deb
+Size: 21752
+MD5sum: 19f89811d0c1de68db2d61e96b30781e
+SHA1: 02d85a37eb11cafc366395685b72b292c0e46923
+SHA256: 3535cf9405fdb65f13568988cf7e157f93ce6fc0f374254c3b9aff143a868317
+SHA512: 8ef1bf18bb330d2a17e210fd1119c81ba9abdc6d68d0723998b5acec086566ab02656a4e49cd0ecd64408e4bce60abe2ae2914baf210aebe4c366a08608dfe9d
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything user interface library
+ anything library developer package.
+

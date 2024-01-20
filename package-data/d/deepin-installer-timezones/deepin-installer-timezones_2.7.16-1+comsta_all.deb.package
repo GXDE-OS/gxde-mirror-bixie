@@ -1,0 +1,18 @@
+Package: deepin-installer-timezones
+Architecture: all
+Version: 2.7.16-1+comsta
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 556
+Filename: ./d/deepin-installer-timezones/deepin-installer-timezones_2.7.16-1+comsta_all.deb
+Size: 63528
+MD5sum: 871b285f47b74cc9cfdb70962fc5e9bc
+SHA1: 802a18f224481db378477fe92197dd93222f19d1
+SHA256: 2b53a0e41d4190b87ab5ff0f5d00eaa586ece9089718e4a8b11dc57ea8e8daa6
+SHA512: 3f7bed1649aa2ed89cc93d1ad19a895bca14b66ede9fa612549b407ba5ca8b5ebfe35a4d80f5ffe95b01553d3d4c2301177d2721a16a257aaed28be4befc1779
+Homepage: http://www.deepin.org
+Description: Language package for timezone names
+ Installer language package for timezone names
+

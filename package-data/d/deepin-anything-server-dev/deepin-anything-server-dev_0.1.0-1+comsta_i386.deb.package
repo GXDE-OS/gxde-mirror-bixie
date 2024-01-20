@@ -1,0 +1,19 @@
+Package: deepin-anything-server-dev
+Architecture: i386
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 30
+Depends: deepin-anything-server (= 0.1.0-1+comsta)
+Filename: ./d/deepin-anything-server-dev/deepin-anything-server-dev_0.1.0-1+comsta_i386.deb
+Size: 7082
+MD5sum: ddc3446ff27f4c5efa1b8db78ecc741c
+SHA1: 5dcadf54ea979b3c8c2cd5b4392ed2784f282fd3
+SHA256: 3a208a2e1f6d1b8f121a68c2650c599e1fcc3fa516424670f08b532f381deed1
+SHA512: f24d4a57c2b4ad33d55c4014bea8d22e9bfdc8cd50d56babd89592d6a8088234051607d3633ed4b37d0742d7a976ccffc8b6a86dbbf1b083b3fa06b32bc0395b
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server user interface library
+ anything server library developer package.
+

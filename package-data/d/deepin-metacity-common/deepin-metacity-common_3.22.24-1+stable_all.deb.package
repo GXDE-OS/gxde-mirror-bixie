@@ -1,0 +1,25 @@
+Package: deepin-metacity-common
+Architecture: all
+Version: 3.22.24-1+stable
+Priority: optional
+Section: misc
+Source: deepin-metacity
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 5826
+Depends: dconf-gsettings-backend | gsettings-backend, sgml-base (>= 1.28)
+Filename: ./d/deepin-metacity-common/deepin-metacity-common_3.22.24-1+stable_all.deb
+Size: 814604
+MD5sum: bb6f403ee9fb07630e068c97cac2f44d
+SHA1: 339e5400e478749dacd5cd3d045fd5fffce19df1
+SHA256: b26e77d56e3c8091167c12ff8d84aec3e5dec32dbb0067820560f00d19838c21
+SHA512: 551f5816e0757aa2450d1cd75d16443e34eedbe69c615a7c169cfbbc899cba05698c5eeb3c093a7a90004e01962e080c7fd800b903462dda8efb2be0203607f7
+Homepage: https://git.gnome.org/browse/metacity
+Description: shared files for the Metacity window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the shared files.
+

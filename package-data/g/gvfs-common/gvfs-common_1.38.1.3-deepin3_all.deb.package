@@ -1,0 +1,28 @@
+Package: gvfs-common
+Architecture: all
+Version: 1.38.1.3-deepin3
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: gvfs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3534
+Depends: desktop-file-utils
+Recommends: gvfs
+Filename: ./g/gvfs-common/gvfs-common_1.38.1.3-deepin3_all.deb
+Size: 486536
+MD5sum: 74230d1b774a61ffd420fb9454cde610
+SHA1: 1c8ae189ec2b0a2e0c821e6d5b937de87a3485e1
+SHA256: 8fd425b15e67bd9a7d5e353d38a7cc85ee677cc6cc1558b11b5d1ed3d5517772
+SHA512: 8d578b717a72c26bebd907e773d3fe5ab86e4394120287be1a6611c9d809a34950cf3c93604b883bec08ece941ea816d2a4302b1fe1b7824301580e64a5595c6
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - common data files
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the data files and translations used by all gvfs
+ components.
+
