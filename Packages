@@ -5529,24 +5529,6 @@ Description: anything user interface library
 
 Package: dde-kwin
 Architecture: amd64
-Version: 5.6.6-1
-Priority: optional
-Section: devel
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2
-Depends: deepin-kwin-x11, deepin-kwin-wayland, plasma-framework, libkf5globalaccel-bin, qml-module-qtquick-controls2, qml-module-qtquick-templates2
-Filename: ./d/dde-kwin/dde-kwin_5.6.6-1_amd64.deb
-Size: 880
-MD5sum: f7e2068d32754aee0350f191c911f8fe
-SHA1: b88f863ed4ec5ecf87a975ce83b18e706217d70d
-SHA256: 59e7e25ef1436574e635c22ebab6414e074048552c24afd9496306a5a176eb41
-SHA512: 23ca709324c67a39fe59584b753b8b4e0787a365d9a1f7c1ecb22f0c1182a86a948d0bb78c8f780d5b57f3aa48e67c6f2cf3845249cf2a0dfb71739b5f286737
-Homepage: https://github.com/linuxdeepin/dde-kwin
-Description: KWin configures/plugins on the DDE
- Let kwin work well in the Deepin Desktop Environment.
-
-Package: dde-kwin
-Architecture: amd64
 Version: 5.6.5-1
 Priority: optional
 Section: devel
@@ -5554,11 +5536,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 437
 Depends: deepin-kwin-x11, deepin-kwin-wayland, plasma-framework, libkf5globalaccel-bin, qml-module-qtquick-controls2, qml-module-qtquick-templates2
 Filename: ./d/dde-kwin/dde-kwin_5.6.5-1_amd64.deb
-Size: 81492
-MD5sum: 45012a13a5b6a90f987a1de7fdd3254f
-SHA1: fda149112266e2bc37735ae4e0cdf96b510e1e59
-SHA256: dce0cf4afeff8d9cfc75522e7c208fa5f297b8e1327bb22a8061e1c402ed0b26
-SHA512: f6f27d2fc1da9bbb97f558bf982bd1231fcd7e70238cef8f6b8a193174251e6abae6aea3920188f05239a180f8c0de07cf47a09ffee291e8d68916ba73e84a74
+Size: 80784
+MD5sum: c219aa1a3f7766ea0d96eeb649bdb555
+SHA1: 307066f8c34fcfa7617728525627ead91c0eea02
+SHA256: b24534cfb921a8d84f959fedb97bcf6e5e18e2bab803cbe38d449cdc43fcfe04
+SHA512: 6534a796e3d16282800caec5260aee13f72950f47f27d5ffbec5765666676f839e4e68797f9e3b6782b39b0feb61d19aab7dbab339290b74cdc8c806b1cc0d6d
 Homepage: https://github.com/linuxdeepin/dde-kwin
 Description: KWin configures/plugins on the DDE
  Let kwin work well in the Deepin Desktop Environment.
@@ -6267,24 +6249,6 @@ MD5sum: 52003101aa29adf198d3156c97cc9616
 SHA1: e890a820c049df48eca6b33550dab86eb42ec981
 SHA256: 7540c4256b3f9899720de2861e8a9f32d5ea45c4cdaed0bea91b7a1969705acc
 SHA512: 7606718e90723abe603dd1cf332e0dd8e6b2f37ee6a4fd4fefdb9c959d42d0e2160a59d90549a70d697aa7a040631ca847989d79ab843d22640041ea3ca864ef
-Homepage: https://github.com/linuxdeepin/dde-kwin
-Description: Developer package of dde-kwin
- Provide dde-kwin plugin implementation basis files.
-
-Package: dde-kwin-dev
-Architecture: amd64
-Version: 5.6.6-1
-Priority: optional
-Section: libdevel
-Source: dde-kwin
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2
-Filename: ./d/dde-kwin-dev/dde-kwin-dev_5.6.6-1_amd64.deb
-Size: 792
-MD5sum: 353c8eb0c82fc29bbad8cfb5553140d6
-SHA1: 46f5cfa08b8ccf143711efb41b152be026749aab
-SHA256: 49eed8565fffbfba85d17ddd56693c8d49c41f12c735ea270ce2b1f9695a53f5
-SHA512: 238765f4b088b25b4011909754df85b71a6f88eddbef8a227658c2329d0d819fc03ef1a3d873849ea2fa570ce230cabdfb58ca5d424a2ec655bb09ac2a71e9a1
 Homepage: https://github.com/linuxdeepin/dde-kwin
 Description: Developer package of dde-kwin
  Provide dde-kwin plugin implementation basis files.

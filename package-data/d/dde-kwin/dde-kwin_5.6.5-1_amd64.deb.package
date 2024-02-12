@@ -7,11 +7,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 437
 Depends: deepin-kwin-x11, deepin-kwin-wayland, plasma-framework, libkf5globalaccel-bin, qml-module-qtquick-controls2, qml-module-qtquick-templates2
 Filename: ./d/dde-kwin/dde-kwin_5.6.5-1_amd64.deb
-Size: 81492
-MD5sum: 45012a13a5b6a90f987a1de7fdd3254f
-SHA1: fda149112266e2bc37735ae4e0cdf96b510e1e59
-SHA256: dce0cf4afeff8d9cfc75522e7c208fa5f297b8e1327bb22a8061e1c402ed0b26
-SHA512: f6f27d2fc1da9bbb97f558bf982bd1231fcd7e70238cef8f6b8a193174251e6abae6aea3920188f05239a180f8c0de07cf47a09ffee291e8d68916ba73e84a74
+Size: 80784
+MD5sum: c219aa1a3f7766ea0d96eeb649bdb555
+SHA1: 307066f8c34fcfa7617728525627ead91c0eea02
+SHA256: b24534cfb921a8d84f959fedb97bcf6e5e18e2bab803cbe38d449cdc43fcfe04
+SHA512: 6534a796e3d16282800caec5260aee13f72950f47f27d5ffbec5765666676f839e4e68797f9e3b6782b39b0feb61d19aab7dbab339290b74cdc8c806b1cc0d6d
 Homepage: https://github.com/linuxdeepin/dde-kwin
 Description: KWin configures/plugins on the DDE
  Let kwin work well in the Deepin Desktop Environment.
