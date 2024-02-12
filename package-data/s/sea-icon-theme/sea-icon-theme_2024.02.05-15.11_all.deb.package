@@ -1,0 +1,18 @@
+Package: sea-icon-theme
+Architecture: all
+Version: 2024.02.05-15.11
+Priority: optional
+Section: x11
+Source: deepin-icon-theme
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6233
+Conflicts: deepin-icon-theme (<< 15.12.65)
+Filename: ./s/sea-icon-theme/sea-icon-theme_2024.02.05-15.11_all.deb
+Size: 2017896
+MD5sum: 36a70a80b2e46649262fc329fa7270ce
+SHA1: 8f2cf7a5c298d2d12565f7063fb48a6f07ae0524
+SHA256: 44900aeaa9bed4c3e9af2a373771cdd9a4b3c920d3644d0c3e688b588f45e2e4
+SHA512: b7e29c2a6b9a7ec4e269d3842c9c31e4ed85540da0dd202a5887b63bb79a999ce326e3646ce5473229d0e3aab64d7caa0270f84ae60d36d3c8a4a0a7c5ca8326
+Description: Deepin Sea Icons
+ This package is DeepinIconTheme Sea
+

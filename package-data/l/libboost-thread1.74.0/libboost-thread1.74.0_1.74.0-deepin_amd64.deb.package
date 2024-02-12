@@ -1,0 +1,25 @@
+Package: libboost-thread1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2157
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-thread1.74.0/libboost-thread1.74.0_1.74.0-deepin_amd64.deb
+Size: 251520
+MD5sum: afb0784100b9d8378a926d13c7cc4c21
+SHA1: f6aa6ba4b9d6f48cf2e3b1f988a8b61f9881bf01
+SHA256: 96f28aa14c69f358a8baa21c1c34f17c735a3a2fd0ca0a689d0936376e9e7186
+SHA512: 4d212817ae27da99166492b8d0e4c0c46a288d606755829af2fa3c15a30bee4ac10832eace71df433c4c5055e33484fe74670aa2aec89ecef77273da416d6065
+Homepage: http://www.boost.org/libs/thread/
+Description: portable C++ multi-threading
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Toolkit for writing C++ programs that execute as multiple,
+ asynchronous, independent, threads-of-execution. Each thread has its
+ own machine state including program instruction counter and
+ registers.
+

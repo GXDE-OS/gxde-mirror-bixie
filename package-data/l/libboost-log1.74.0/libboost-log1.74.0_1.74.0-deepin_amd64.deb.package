@@ -1,0 +1,31 @@
+Package: libboost-log1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 3576
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu73, libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./l/libboost-log1.74.0/libboost-log1.74.0_1.74.0-deepin_amd64.deb
+Size: 600336
+MD5sum: 45e90f31851fbf812ae2e0627699d9ae
+SHA1: bfd40df91ebc3805a78ba9e1f802ccbfceaf6dc8
+SHA256: c97c21ba979953f0a1f415b898b13bd120b1daa4d473c178eae868e9ced9e077
+SHA512: 932b5771b6f3610dba797191dbb30a69e3afecf46b4b0ff816b58d221e933a93644129d494a5a324e5b7a61cf342da6b213fba46f748adb888e60f826cc34e9b
+Homepage: http://www.boost.org/libs/log/
+Description: C++ logging library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ This library aims to make logging significantly easier for the
+ application developer. It provides a wide range of out-of-the-box
+ tools along with public interfaces for extending the library. The
+ main goals of the library are:
+ .
+  * Simplicity. A small example code snippet should be enough to get
+ the feel of the library and be ready to use its basic features.
+  * Extensibility. A user should be able to extend functionality of the
+ library for collecting and storing information into logs.
+  * Performance. The library should have as little performance impact on
+ the user's application as possible.
+

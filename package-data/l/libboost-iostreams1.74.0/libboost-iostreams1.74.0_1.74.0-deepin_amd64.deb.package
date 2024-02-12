@@ -1,0 +1,24 @@
+Package: libboost-iostreams1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2113
+Depends: libbz2-1.0, libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblzma5 (>= 5.2.2), libstdc++6 (>= 5.2), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Filename: ./l/libboost-iostreams1.74.0/libboost-iostreams1.74.0_1.74.0-deepin_amd64.deb
+Size: 234624
+MD5sum: 2a9df29038af1b34df98de5679509579
+SHA1: fe18ed7f47b7bec03e653615570122297b94581f
+SHA256: c4ff1594a5f2b0970971318a6ce8938346209eedf6b1f9ce0b9fbc8d78e3bfda
+SHA512: 4eabeb685e14ca784bdba0af966bb3f6a31d1dded8ed6f3f07393be2238e8e1a3f855d65c96240101223810f8ec6768eb5644c4a4e8b3a23948a1dce2a8a0e4a
+Homepage: http://www.boost.org/libs/iostreams/
+Description: Boost.Iostreams Library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Boost.Iostreams are a collection of concepts and a set of templates
+ which turn models of these concepts into C++ standard library streams
+ and stream buffers.
+

@@ -1,0 +1,18 @@
+Package: deepin-ocr
+Architecture: amd64
+Version: 1.1.2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 318
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkocr (>= 1.0.5), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 11)
+Filename: ./d/deepin-ocr/deepin-ocr_1.1.2_amd64.deb
+Size: 72632
+MD5sum: 42da97e15c67f47d23d8759cb568010a
+SHA1: 567f24aa87034f6a8ebb3b266c0f854718d35f4a
+SHA256: 738baad66fe2c1145c108465a61b551a51da13ac15eed65a62d1685eab02ec06
+SHA512: 05ea46eb2040835940b74e188d5e93ac53794b040d84a59cd8aa4b70018bc725e49273d8f7fc1d8de189790f587a66a840e9d5fa80359d1cfde3183b62d320c8
+Homepage: http://www.deepin.org/
+Description: Ocr for UOS
+ Ocr is a text recognition software.
+

@@ -1,0 +1,17 @@
+Package: deepin-desktop-base
+Architecture: all
+Version: 2024.02.06-1+comsta~15.11
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 81
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.02.06-1+comsta~15.11_all.deb
+Size: 16708
+MD5sum: 38590ce971736a6cb9986e4ba082681d
+SHA1: ac90559a15b6c50a30c13f868cef45287c5b0b75
+SHA256: 65d954b34117ac082f14242e87983229ea1a7040e3fa524e9b2ea814edd7de80
+SHA512: a5b61935db23fd8773391b332f7284419a0e41c142e68d4ee24b162b116e42637d4ef18cecc81239866f670976e880321b3ed02020b84cedb86ed73540695a8b
+Description: Base files for Deepin Desktop
+

@@ -1,0 +1,22 @@
+Package: rar
+Architecture: amd64
+Version: 2:5.5.0-1
+Priority: optional
+Section: non-free/utils
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 778
+Suggests: unrar
+Filename: ./r/rar/rar_5.5.0-1_amd64.deb
+Size: 295016
+MD5sum: 39bc5de8a21c695911bb58132a70a546
+SHA1: 3835e0782b2a2f93fb8956dd37058552bf96756a
+SHA256: ecfa91c5739b7472bca4814429790b0363b191eee48de0376cfacf39ffd5b9fb
+SHA512: 0079365bd6e8938568b34bfc876bb544de0b7f60655a9d8af17aebc3cef0ded36e438c1e200f2f3ecf5c6016e56f4fa087282a531a15527a13d84ecc16c3fe27
+Homepage: http://www.rarlabs.com/
+Description: Archiver for .rar files
+ This is the RAR archiver from Eugene Roshal. It supports multiple volume
+ archives and damage protection. It can also create SFX-archives. There are
+ versions which run on DOS, Windows (3.1x,95,NT), FreeBSD, BSDI.
+ .
+ This program is shareware and you must register it after 40 days of use.
+

@@ -1,0 +1,19 @@
+Package: deepin-installer-oem
+Architecture: amd64
+Version: 2.7.17
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 252
+Depends: deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.17_amd64.deb
+Size: 74636
+MD5sum: 16a374af3e3c227c16a65493c8275050
+SHA1: bba00d4da0f55f9d52fbd5ce3e6aa40ce166014c
+SHA256: 566e1a75ce16a15e6277edbb87476d539f41c169a8c6df24fd32612fea8cf01e
+SHA512: 68e1910338553ce660cccccf24f8dcc771117e4e8d4304427a7243697e5d15f61bff0fd6045e25b9d1c703059ec0208ad7490eec1fed725dd5adc4b5502be347
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+

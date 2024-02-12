@@ -1,0 +1,24 @@
+Package: libboost-program-options1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2441
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./l/libboost-program-options1.74.0/libboost-program-options1.74.0_1.74.0-deepin_amd64.deb
+Size: 326208
+MD5sum: cfaf2c2020e585476a88ad9eac94a8f0
+SHA1: a2c6b8b8003ff90779847f2fd6c8bc5ecff07382
+SHA256: 9363a3a4986aa1aeb53529ee7d8d3f7380ff66290ce6707dc60573b095cbbecc
+SHA512: 6e83a8b28c7287a526f5b30ecbdd91ecd0c30c8a4c50d00e4e661de405a145e281120f20a40a8da557c69d29715e3229f1e424b9b394d64f4d2d9e1bd3d8463d
+Homepage: http://www.boost.org/libs/program_options/
+Description: program options library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Library to let program developers obtain program options, that is
+ (name, value) pairs from the user, via conventional methods such as
+ command line and config file.
+

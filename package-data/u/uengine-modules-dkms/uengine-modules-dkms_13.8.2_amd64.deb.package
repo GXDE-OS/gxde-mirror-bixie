@@ -1,0 +1,17 @@
+Package: uengine-modules-dkms
+Architecture: amd64
+Version: 13.8.2
+Priority: optional
+Section: kernel
+Maintainer: Simon Fels <morphis@gravedo.de>
+Installed-Size: 214
+Depends: dkms (>= 2.1.0.0), deepin-elf-verify (>= 1.1.1-1)
+Filename: ./u/uengine-modules-dkms/uengine-modules-dkms_13.8.2_amd64.deb
+Size: 48728
+MD5sum: d4a31e253cb64647dd6f3713fde20ba1
+SHA1: 4956f0fb664202c855807b51fe833c11344ce61d
+SHA256: 47a11d748cbdff60342ade9f37596cd824893ee031a56dfb74e8d9fa719376a3
+SHA512: 1dfe0005ffe5a0d9f41bdbd726a89d90aa03270955d4c5a2738374e55a77d8525ed8aa1366e1879232cad1e80a1bb1f770a4817935b041cb4f3ac8553339d4a1
+Homepage: https://anbox.io
+Description: Android kernel driver (binder, ashmem) in DKMS format. . This package contains a out-of-tree version of the core Android kernel functionalities binder and ashmem.
+

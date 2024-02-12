@@ -1,0 +1,24 @@
+Package: libboost-filesystem1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2149
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-filesystem1.74.0/libboost-filesystem1.74.0_1.74.0-deepin_amd64.deb
+Size: 253936
+MD5sum: 9c4e716e79529bf03a892689c9553c1b
+SHA1: 623fe7344ca403cfa9a21836a56a6542b3132514
+SHA256: 6f053fbb565a9e5f693639807f8654352733e241edf9f0fd19b33b89286b747d
+SHA512: fc7e83b78dfe3fc2b2be34a12132eb031b1dd9bf8ba864146eb04bab004407d256f4bbec4df865f4e62ac16c89cd59c597907b0f9dd72f8066d00dfa4afc1a49
+Homepage: http://boost.org/libs/filesystem/
+Description: filesystem operations (portable paths, iteration over directories, etc) in C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Filesystem Library provides portable facilities to query and
+ manipulate paths, files, and directories.  The goal is to
+ facilitate portable script-like operations from within C++ programs.
+

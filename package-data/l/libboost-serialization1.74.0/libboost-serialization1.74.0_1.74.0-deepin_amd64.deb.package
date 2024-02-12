@@ -1,0 +1,32 @@
+Package: libboost-serialization1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2492
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./l/libboost-serialization1.74.0/libboost-serialization1.74.0_1.74.0-deepin_amd64.deb
+Size: 313328
+MD5sum: a249905ff08fa85297f4ea0f8a2f5e61
+SHA1: 2cb8dda3f670fb3537da9c1f01c222046e684129
+SHA256: cb102ba9467c3b4f9852348c568791e85c71b8400a2afdb8b0458de30670d238
+SHA512: 4f395f55976413c7fc9f91f895ed1ad4985af99886242957f5fe1c7e6d3f80460b7db6ea1f5dad5d75a0ffc94518c288c37ab1da537fd1ae1420f15f7ae6f51c
+Homepage: http://www.boost.org/libs/serialization/
+Description: serialization library for C++
+ This package forms part of the Boost C++ Libraries collection,
+ containing the following functionalities:
+ .
+  * proper restoration of pointers to shared data
+  * serialization of STL containers and other commonly used templates
+  * data portability - streams of bytes created on one platform should
+    be readable on any other
+  * archive interface must be rich enough to permit the creation of an
+    archive that presents serialized data as XML in a useful manner
+ .
+ Here, "serialization" means the reversible deconstruction of an
+ arbitrary set of C++ data structures to a sequence of bytes.
+ archive: to refer to a specific rendering of this stream of bytes.
+

@@ -1,0 +1,25 @@
+Package: libboost-test1.74.0
+Architecture: amd64
+Version: 1.74.0-deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.74
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2804
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./l/libboost-test1.74.0/libboost-test1.74.0_1.74.0-deepin_amd64.deb
+Size: 447652
+MD5sum: 7b07050cd9cc67e1ed902deaef1a15f6
+SHA1: b124e4dea19a085417e80d326a20016ace87f7cd
+SHA256: 011d53bd457bddd19d9d8e187df7dff6654feb766c7ad34fc99346e14732734c
+SHA512: 9e64e02d800ad68269d17af96aeea135e2185096927072d1d6301f673474019c055ce4054596abcff049be5796a0f07a114820eb71b9ba0385765afe3a907fc8
+Homepage: http://www.boost.org/libs/test/
+Description: components for writing and executing test suites
+ This package forms part of the Boost C++ Libraries collection.  The
+ library contains several components.
+ .
+  * Basic execution, error detection, and reporting facility.
+  * Facilities to monitor program execution and produce error reports.
+  * Unit test framework to simplify writing test cases.
+

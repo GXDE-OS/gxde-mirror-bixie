@@ -1,0 +1,22 @@
+Package: debiandde
+Architecture: all
+Version: 15.11~2024.02.07
+Priority: extra
+Section: metapackages
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 20
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-center (>> 2.90.5), startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-introduction, dde-kwin, deepin-screensaver
+Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
+Filename: ./d/debiandde/debiandde_15.11~2024.02.07_all.deb
+Size: 3552
+MD5sum: 84882f9449355ad5a5f0ef21840b06a0
+SHA1: 5484ee53e862e51598970c1dbe76c39cfb129b32
+SHA256: 14d1dfdfbdfb67cafbeb3a3f10f9478cd4693d32b05ee5b136cf701c12e3d6bf
+SHA512: fc7cd43b90120c5a2a5c3bcb0a80d6be8033e60bae6e38df08b3369e27aeba2b03d966f3e3f86eb016ab81a774dfdd9483319491ee1a7c639f1428cff292444e
+Homepage: http://www.gfdgdxi.top
+Description: Deepin New Desktop Environment - Next
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
