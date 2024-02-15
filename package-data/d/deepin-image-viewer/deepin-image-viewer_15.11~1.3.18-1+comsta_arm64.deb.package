@@ -1,0 +1,19 @@
+Package: deepin-image-viewer
+Architecture: arm64
+Version: 15.11~1.3.18-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5729
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libexif12 (>= 0.6.21-1~), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libraw20 (>= 0.16.0), libstdc++6 (>= 4.5), libqt5sql5-sqlite, qt5-image-formats-plugins
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Filename: ./d/deepin-image-viewer/deepin-image-viewer_15.11~1.3.18-1+comsta_arm64.deb
+Size: 3840636
+MD5sum: 185891849cb3fdfd4defd030c38cf72e
+SHA1: a3baba19e6c3ab0905c29f071448052667919c91
+SHA256: 1f3e5ed5668435ec4774b46d4c530b0daa6f279e91ab8881e78c5d084c141c28
+SHA512: fe6af4e8674bec1e24e963291b22de044f35d58ae692bdc374fde62253c312dfb2c74f56154d02cf649094419bffc6a70d45c915ea7afcf58925cd7733bfa9f7
+Homepage: http://www.deepin.org
+Description: Image Viewer for Deepin Desktop Environment
+ Deepin Image Viewer is Deepin Desktop Environment Image Viewer.
+

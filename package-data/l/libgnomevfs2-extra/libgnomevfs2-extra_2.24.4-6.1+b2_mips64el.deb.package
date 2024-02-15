@@ -1,0 +1,30 @@
+Package: libgnomevfs2-extra
+Architecture: mips64el
+Version: 1:2.24.4-6.1+b2
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: gnome-vfs (1:2.24.4-6.1)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 513
+Depends: gconf-service, libbz2-1.0, libc6 (>= 2.4), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.31.8), libgnomevfs2-0 (>= 1:2.17.90), libgssapi-krb5-2 (>= 1.14+dfsg), libxml2 (>= 2.7.4), libgnomevfs2-common (= 1:2.24.4-6.1)
+Conflicts: libgnomevfs2-0 (<< 1:2.16.0-1), libgnomevfs2-common (<< 2.12.2-7)
+Filename: ./l/libgnomevfs2-extra/libgnomevfs2-extra_2.24.4-6.1+b2_mips64el.deb
+Size: 359422
+MD5sum: 78dfa5051276e1f7c0947fbbaf14d098
+SHA1: 1cb103c0299322459c6591b62b89c8f57fae5780
+SHA256: 34c6067f6d2c8d5e0a9efedfc586eb46e692e42ba30e16f281074977c96b9c0b
+SHA512: 293f2ee4c7bc0cb3555f87a2fbd8771b29b9e0a51d3270ff8be544846ebd411b8a51e1ce876100899768e8499ed350dbc2ac7c48a20a82603939164a99033d93
+Description: GNOME Virtual File System (extra modules)
+ GNOME VFS is the GNOME virtual file system.  It is the foundation of the
+ Nautilus file manager.  It provides a modular architecture and ships with
+ several modules that implement support for local files, http, ftp and others.
+ It provides an URI-based API, a backend supporting asynchronous file
+ operations, a MIME type manipulation library and other features.
+ .
+ This package contains extra VFS modules for the GNOME Virtual
+ File System.  It includes:
+  * the bzip2 module;
+  * the ftp module;
+  * the http module (which also includes support for WebDAV).
+

@@ -1,0 +1,19 @@
+Package: libgnome2-0
+Architecture: mips64el
+Version: 2.32.1-5+b1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: libgnome (2.32.1-5)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 429
+Depends: libgnome-2-0 (= 2.32.1-5+b1), libgnome2-bin (= 2.32.1-5+b1)
+Filename: ./l/libgnome2-0/libgnome2-0_2.32.1-5+b1_mips64el.deb
+Size: 429784
+MD5sum: 3d510c4da2624fa12df462329fbab41e
+SHA1: 201b14e92379c05638c5cd6d0d609d9691ba786f
+SHA256: 61c98635b467107726822c4893d872e6bfa10005d06827848883aaaba1ff2cf0
+SHA512: b153b4e8182924e24474bf3f24cfa57d4ea429e686ac1f12228fbbe306b75d064213609a3d8f12cf4a04e13611bfcadf85a45b44c503607bbbcfc702963c2a7a
+Description: The GNOME library - transition package
+ This convenience package is for upgrades.
+

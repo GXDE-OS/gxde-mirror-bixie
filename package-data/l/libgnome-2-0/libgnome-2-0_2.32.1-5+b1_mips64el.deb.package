@@ -1,0 +1,22 @@
+Package: libgnome-2-0
+Architecture: mips64el
+Version: 2.32.1-5+b1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: libgnome (2.32.1-5)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 588
+Depends: gconf-service, libbonobo2-0 (>= 2.32.1-3~), libc6 (>= 2.4), libcanberra0 (>= 0.2), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.35.9), libgnomevfs2-0 (>= 1:2.17.90), liborbit-2-0 (>= 1:2.14.10), libpopt0 (>= 1.14), libgnome2-common (= 2.32.1-5)
+Breaks: libgnome2-0 (<< 2.32.1-5)
+Replaces: libgnome2-0 (<< 2.32.1-5)
+Filename: ./l/libgnome-2-0/libgnome-2-0_2.32.1-5+b1_mips64el.deb
+Size: 467068
+MD5sum: af338522357909081d9632d9242e50fd
+SHA1: 643a8c1f6acce32d3f346cf8a1b7ddb5ef2c7bbb
+SHA256: 6b5cb7635e5cf95eca7d214a97659d525af9432bd85c292f3890f945f3528c26
+SHA512: 57ef47a3d8d21704a1c69d56834ef5d8ca75c0513d7ec806fd57f176fc09e02d03acc695c84c94e0a4fecbde91af68245a15a602afa31b6b734dfe9312b49168
+Description: The GNOME library - runtime files
+ This package contains the shared library for the base GNOME library
+ functions.
+

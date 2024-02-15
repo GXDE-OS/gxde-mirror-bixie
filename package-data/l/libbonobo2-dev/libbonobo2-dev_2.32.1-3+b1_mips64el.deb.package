@@ -1,0 +1,31 @@
+Package: libbonobo2-dev
+Architecture: mips64el
+Version: 2.32.1-3+b1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libbonobo (2.32.1-3)
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3601
+Depends: libbonobo2-0 (= 2.32.1-3+b1), libglib2.0-dev (>= 2.26.0), liborbit2-dev (>= 1:2.14.19-0.3~), libpopt-dev
+Conflicts: libbonobo-activation-dev (<< 1:2.4)
+Replaces: libbonobo-activation-dev (<< 1:2.4), libbonobo2-common (<< 2.20.3-1)
+Filename: ./l/libbonobo2-dev/libbonobo2-dev_2.32.1-3+b1_mips64el.deb
+Size: 623122
+MD5sum: 8d90d5d07c46a6449382ee669efa5e83
+SHA1: 9feb617fccf1398730dc716f67dd521a79ca47ad
+SHA256: b9b62e14d5b5dd9a9ec6ba778b6a925a746520a79c6a65f87b1bf09495e16d99
+SHA512: f894527b33b9d268f8f6167e8c2adcb8afd3f0e90b8089e01e53e50c6474a9dda98417daf7a63644928d7d455be795550313bcd6e010ce58e446abac7f9c0e50
+Description: Bonobo CORBA interfaces library -- development files
+ Bonobo is a set of language and system independent CORBA interfaces
+ for creating reusable components, controls and creating compound
+ documents.
+ .
+ The Bonobo distribution includes a Gtk+ based implementation of the
+ Bonobo interfaces, enabling developers to create reusable
+ components and applications that can be used to form more complex
+ documents.
+ .
+ This package contains the headers and development libraries needed to
+ build applications using Bonobo.
+

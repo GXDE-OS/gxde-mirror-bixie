@@ -1,0 +1,20 @@
+Package: dde-polkit-agent
+Architecture: arm64
+Version: 0.3.0-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 272
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), dpa-ext-gnomekeyring
+Filename: ./d/dde-polkit-agent/dde-polkit-agent_0.3.0-1+comsta_arm64.deb
+Size: 54048
+MD5sum: c0ab8705d2d0ad3899edc6245dafe7d3
+SHA1: 6f8d1b12083409360a39dcfde2010173889abb61
+SHA256: 0ebf8e2abb1207e14f2b3a3969522e5952eecc93443df4d4380ccbb0ce1b832b
+SHA512: 3f360e9542b35dd843ddfea32e5cf3c822e25f91b685570af46e2c20bdeab6886f7b6f6e83c49b27a9e0d73c69d4df88bf21c2c42ab953f67c19a366924bc473
+Homepage: http://www.deepin.org/
+Description: PolicyKit agent for DDE.
+ PolicyKit agent is usually a dialog used to provide a way to let users
+ grant permission to specific actions, this package serves the role in
+ Deepin Desktop Environment.
+

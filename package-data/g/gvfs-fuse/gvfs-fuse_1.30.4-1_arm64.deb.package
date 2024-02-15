@@ -1,0 +1,26 @@
+Package: gvfs-fuse
+Architecture: arm64
+Version: 1.30.4-1
+Priority: optional
+Section: gnome
+Source: gvfs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 63
+Depends: libc6 (>= 2.17), libfuse2 (>= 2.8), libglib2.0-0 (>= 2.49.3), gvfs (= 1.30.4-1), fuse (>= 2.8.4)
+Filename: ./g/gvfs-fuse/gvfs-fuse_1.30.4-1_arm64.deb
+Size: 26804
+MD5sum: 3346c24e090c7d9da5f1534d67e947bc
+SHA1: 1b498643e5af6d6b39476cbf02258a5eefc9e8a6
+SHA256: 51fcabab42e69315d56fec03090d20929228cfbf78dfeaf5d03acc0fcdc5a599
+SHA512: 17808ed997a5d22309db9b425e30216a5272c50fb17ff8abe94d1f0204fbdaa6cc806181567df1ec8438cf5e581c55c3be44355ee02a17d701a1104e23c46378
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - fuse server
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the gvfs-fuse server that exports gvfs mounts to
+ all applications using FUSE.
+

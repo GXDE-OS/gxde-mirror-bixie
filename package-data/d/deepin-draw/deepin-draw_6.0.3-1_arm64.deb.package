@@ -1,0 +1,19 @@
+Package: deepin-draw
+Architecture: arm64
+Version: 6.0.3-1
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 27065
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), qt5-image-formats-plugins, deepin-picker-cli
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-draw/deepin-draw_6.0.3-1_arm64.deb
+Size: 24067016
+MD5sum: c4b6afdcc6c5aba02ff9869788c9a2ae
+SHA1: e22932a5350f97e6c6d45c5e34d1777f70bd2049
+SHA256: ab9b79a8b1b0b6d50a1a0ba5c23dbe76097684b088ea2845090ab1cf6243e58e
+SHA512: 88f3e4c5031ff7559722683ac81933ab2e4e5cd9e511e0a71991a6fe8e81ce42641f829c0b22f54057c7f6b7038246243aafa6c21ed4382f778be60f3265b16d
+Homepage: http://www.deepin.org
+Description: Draw for UOS
+ Draw is a lightweight drawing tool for users to freely draw and simply edit images.
+

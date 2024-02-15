@@ -1,0 +1,25 @@
+Package: orbit2-nameserver
+Architecture: mips64el
+Version: 1:2.14.19-2+b1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: orbit2 (1:2.14.19-2)
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 171
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), liborbit-2-0 (>= 1:2.14.10)
+Filename: ./o/orbit2-nameserver/orbit2-nameserver_2.14.19-2+b1_mips64el.deb
+Size: 112686
+MD5sum: fa419ca91fd62080117fb46786b48841
+SHA1: 71db1e514a1f7886f0406e979d464b63bcb3c360
+SHA256: b82b679be90aa9c6a9b3bc98aa356a55698155b0971af8f0b006f29fab64562a
+SHA512: 070a6b3fa4089a2bc5f379a555fa5f8c18c083b277162777b3358a8d5e79bd11540df416e59005aaf4d73de40b3a0a9fcc04c2d136922212446aac14c591876b
+Description: high-performance CORBA implementation - name server
+ CORBA (Common Object Request Broker Architecture) is an architecture
+ that enables program objects to communicate, sending requests and
+ receiving replies, between different applications, regardless of their
+ programming language, operating system or network location.
+ .
+ This package contains the CORBA nameserver provided by the ORBit2
+ implementation of CORBA, and a utility client program.
+

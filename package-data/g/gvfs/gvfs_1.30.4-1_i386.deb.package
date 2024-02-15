@@ -1,0 +1,27 @@
+Package: gvfs
+Architecture: i386
+Version: 1.30.4-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 381
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.49.3), gvfs-daemons (>= 1.30.4-1), gvfs-daemons (<< 1.30.4-1.1~), gvfs-libs (= 1.30.4-1), gvfs-common (= 1.30.4-1)
+Suggests: gvfs-backends
+Filename: ./g/gvfs/gvfs_1.30.4-1_i386.deb
+Size: 131672
+MD5sum: 064312aad176239c88790b9096f689b5
+SHA1: 2cb9cf7e307c58b0dd4e2ebb9ae183627899835b
+SHA256: d56c8520fd71d652e28126aa4cff0af520ef7d0d82afc452bc688ea590c5338d
+SHA512: 884e92e64869ed85b457bc5a9cefd4f3117b188365f44dc255abb14c597c216abc96e8e1dd32c3710e4a3a07aedd9e5db6377bf6992260480280a90a361003ca
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - GIO module
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the GIO module that lets applications use gvfs
+ mounts.
+

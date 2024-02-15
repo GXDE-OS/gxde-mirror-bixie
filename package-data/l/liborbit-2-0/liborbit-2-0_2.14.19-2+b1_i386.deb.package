@@ -1,0 +1,28 @@
+Package: liborbit-2-0
+Architecture: i386
+Version: 1:2.14.19-2+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: orbit2 (1:2.14.19-2)
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 559
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9)
+Breaks: liborbit2 (<< 1:2.14.19-0.3)
+Replaces: liborbit2 (<< 1:2.14.19-0.3)
+Filename: ./l/liborbit-2-0/liborbit-2-0_2.14.19-2+b1_i386.deb
+Size: 228526
+MD5sum: 154bfac64ac74fcb3a8bfef3ed8f7705
+SHA1: ed39b94793501d3b380b09e40374f6c86150a40b
+SHA256: 69e79de815d0244dbfb98337c9a5f850066d064ff5a3656f2d1c9f08bc6c32c5
+SHA512: ce4cc69fe19f27c61c792e7af5f643f33e65e109f56167bbd3839f8ccb14220fee97e32a0d42ca436f852f98f1af829b4a39fa514ca066359e759c2dbb93724c
+Description: high-performance CORBA implementation - common libraries
+ CORBA (Common Object Request Broker Architecture) is an architecture
+ that enables program objects to communicate, sending requests and
+ receiving replies, between different applications, regardless of their
+ programming language, operating system or network location.
+ .
+ This package contains the run-time libraries needed by applications
+ that communicate with each other using the ORBit2 implementation of
+ CORBA.
+

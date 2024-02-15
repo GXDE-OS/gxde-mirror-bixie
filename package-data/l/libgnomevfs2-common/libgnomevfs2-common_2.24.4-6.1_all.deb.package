@@ -1,0 +1,26 @@
+Package: libgnomevfs2-common
+Architecture: all
+Version: 1:2.24.4-6.1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: gnome-vfs
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 5828
+Depends: gconf2 (>= 2.28.1-2), gnome-mime-data, shared-mime-info
+Conflicts: gnome-panel (<< 2.10.0), libgnomevfs2-0 (<< 2.12.2-4), libgnomevfs2-extra (<< 1:2.16.3-6)
+Filename: ./l/libgnomevfs2-common/libgnomevfs2-common_2.24.4-6.1_all.deb
+Size: 759704
+MD5sum: 44da15e35deaf09b6c4f99aa85d58a5c
+SHA1: 360a852d65fe22e865af81a1511d931a763514ad
+SHA256: 1361b73c9fd2c86ead74b330979cbef95bf72d0299f8013e3cb08f5781d56e5a
+SHA512: 755efd3c7249a2979d3a4235fc3591b28f18848734ee4dae25ac7b44cdf89217b01dcce96f7ed5486aacdd54235b01fa0c18326bfe566e1880b3371d731a1161
+Description: GNOME Virtual File System (common files)
+ GNOME VFS is the GNOME virtual file system.  It is the foundation of the
+ Nautilus file manager.  It provides a modular architecture and ships with
+ several modules that implement support for local files, http, ftp and others.
+ It provides an URI-based API, a backend supporting asynchronous file
+ operations, a MIME type manipulation library and other features.
+ .
+ This package contains the documentation, data files and locales.
+

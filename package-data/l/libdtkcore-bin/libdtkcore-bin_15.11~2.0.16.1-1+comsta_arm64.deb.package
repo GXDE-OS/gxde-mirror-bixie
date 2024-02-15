@@ -1,0 +1,20 @@
+Package: libdtkcore-bin
+Architecture: arm64
+Version: 15.11~2.0.16.1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 164
+Depends: libc6 (>= 2.34), libdtkcore2 (= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1), deepin-desktop-base
+Filename: ./l/libdtkcore-bin/libdtkcore-bin_15.11~2.0.16.1-1+comsta_arm64.deb
+Size: 34440
+MD5sum: 5a39fadb165f6bed14f0c8a226a4d3f6
+SHA1: 23fc1534abd18dd89d11bd7013e43498f9233d61
+SHA256: 21762e430632ee2f0d8fa305abd8dca7c3a883f772b8c4a9a7d60b6bda063987
+SHA512: 95a44365ac71425929929a52f691224d2419cde0f5ed0f42028fe4cf9e9fcdf0dcd94914d3e5560978ff3c9ad044910d9abd1dd788ee549560645033a4c70f8c
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+

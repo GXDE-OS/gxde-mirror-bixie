@@ -1,0 +1,26 @@
+Package: libgnomevfs2-dev
+Architecture: i386
+Version: 1:2.24.4-6.1+b2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: gnome-vfs (1:2.24.4-6.1)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 1335
+Depends: libgnomevfs2-0 (= 1:2.24.4-6.1+b2), libgconf2-dev (>= 2.8.0-1), libgnutls28-dev, libxml2-dev, libavahi-client-dev (>= 0.6), libavahi-glib-dev (>= 0.6), libdbus-1-dev, libselinux1-dev
+Filename: ./l/libgnomevfs2-dev/libgnomevfs2-dev_2.24.4-6.1+b2_i386.deb
+Size: 522326
+MD5sum: 1e954d50b0c2ef33d964e985788d882e
+SHA1: 2693578127a606ada37bbbef255d050e56950b7c
+SHA256: 93e187ff326f46f31941c6abdaf58c6e33f2290ca635d845a9c97f66535f0c64
+SHA512: fff45eef868161a34e74281961bc8d6e2076d5ec52cf181df741078a0fe6f27a6a59466b6f9f09a342b7c89b5030ee25761fbe25745dc262e25ddcc50a0d110e
+Description: GNOME Virtual File System library (development files)
+ GNOME VFS is the GNOME virtual file system.  It is the foundation of the
+ Nautilus file manager.  It provides a modular architecture and ships with
+ several modules that implement support for local files, http, ftp and others.
+ It provides an URI-based API, a backend supporting asynchronous file
+ operations, a MIME type manipulation library and other features.
+ .
+ This package provides the necessary development libraries for writing
+ GNOME VFS modules and applications that use the GNOME VFS APIs.
+

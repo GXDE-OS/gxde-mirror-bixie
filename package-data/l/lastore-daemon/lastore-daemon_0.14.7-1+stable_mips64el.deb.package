@@ -1,0 +1,20 @@
+Package: lastore-daemon
+Architecture: mips64el
+Version: 0.14.7-1+stable
+Priority: extra
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 44929
+Provides: update-notifier
+Depends: libc6 (>= 2.3.2), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), ostree, dbus, procps, util-linux, libgtk2-perl
+Recommends: deepin-default-settings
+Filename: ./l/lastore-daemon/lastore-daemon_0.14.7-1+stable_mips64el.deb
+Size: 8930182
+MD5sum: 2192e02e0c7e2183807117e1c1885265
+SHA1: 48881fc43d96eeac387aeceac91e25173c57bd5a
+SHA256: b34f8ce80d61b157fad6b758d6f06ec482a1bf1ccbf6a836b50e8a5f4e70b136
+SHA512: e84ce9a41f51d335a5a83bd94d7c01473492e1b5d05a4616a04b39e3ab97f0bbde70417c4b0abfbb15aa920c7e00e0717f7905e1a68df4cb3a6187406eddb1ab
+Homepage: http://github.com/linuxdeepin/lastore-daemon
+Description: daemon of lastore
+ daemon of lastore - support dbus interface
+

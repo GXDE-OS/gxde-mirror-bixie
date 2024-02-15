@@ -1,0 +1,22 @@
+Package: startdde
+Architecture: amd64
+Version: 3.14.6.6+c1-1+stable
+Priority: extra
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10239
+Provides: x-session-manager
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.3), libgnome-keyring0 (>= 2.20.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), dde-daemon (>> 3.24.1+), gnome-keyring, libpam-gnome-keyring, gvfs-bin, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>= 3.2.4), libgnome2-bin, dde-api
+Recommends: dde-qt5integration
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: startdde (<= 2.91.1)
+Filename: ./s/startdde/startdde_3.14.6.6+c1-1+stable_amd64.deb
+Size: 2174958
+MD5sum: 17b199e971ea5cb272fb01bfafb6a846
+SHA1: 331272e43bdb93c3e1f5a8b14963952b1fcbdc5c
+SHA256: 9298a8a1595c9c9f6f859eae230f3569c41e462cb15d4219cf9ee2fffd4d4fc1
+SHA512: 38ae8d3e327d390ec68b2383ad8a656475cf3c231ac0a20cd73c533c87a16dbcd03422aff3a2036ff2f50fac0092d1e65dd6e1cfdd7ec0047784127daa00a038
+Homepage: http://github.com/linuxdeepin/startdde
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+

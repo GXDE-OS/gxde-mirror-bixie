@@ -9,11 +9,11 @@ Installed-Size: 406
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Conflicts: rar (<= 2.60-1)
 Filename: ./u/unrar/unrar_5.6.6-1_arm64.deb
-Size: 97856
-MD5sum: 61918821e43424fc3a1edd606efe54fa
-SHA1: ad9dcaa4a5a4d8e818849cf30abbcf2e291698cf
-SHA256: a89dd9c07c631bf91f6dfa2e849a6f4bd97add57158e0213126d871fc6abb51c
-SHA512: 2de3355629d90ff45f0d5448be6ba519425b0488523161d8c49fe868ae008d91946e2158b29baf3f4109668dad735d63d98a532ca54351ea2c579e32a364d49e
+Size: 97852
+MD5sum: 8edce68c761529044df299f85014ffca
+SHA1: 373d13a9c41d2ad7f70e6f2ced2d25a928f69782
+SHA256: 842cc4691a7fe57926c97270b3c618b2014d9d9393b53c5df3bfd27b0d8642c8
+SHA512: e488510eea34d3c40cdf7d25178e0c03473ed468025c17dc7a004255d1c5fa1193eb933c1ebae86f1804792b7cbb0d833d68050da3fc8b768dfaa85fd26d2376
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar

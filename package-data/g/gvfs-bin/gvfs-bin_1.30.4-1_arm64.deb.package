@@ -1,0 +1,27 @@
+Package: gvfs-bin
+Architecture: arm64
+Version: 1.30.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: gvfs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 295
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.49.3), gvfs-common (= 1.30.4-1)
+Suggests: gvfs
+Filename: ./g/gvfs-bin/gvfs-bin_1.30.4-1_arm64.deb
+Size: 47510
+MD5sum: d0f2f9127d09d37fec7102a4d4956afa
+SHA1: 2849eb65d32ae5512fd4fd9d48f8d04fbe347520
+SHA256: 7cf61c5de3c075c5c442114cdb82ebbae76657df033ffbb15e62c56938775261
+SHA512: c621d0379532f4a5b381034973688ac240b3b064dc5cbe01ae9ac84591058b4da635ea5c7a76a57a23915e144cd39a8dc1728f157d446f897eec7b12994d21a5
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - binaries
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the support binaries.
+

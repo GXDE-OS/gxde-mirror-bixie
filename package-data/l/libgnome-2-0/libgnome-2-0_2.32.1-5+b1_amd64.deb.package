@@ -1,0 +1,22 @@
+Package: libgnome-2-0
+Architecture: amd64
+Version: 2.32.1-5+b1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: libgnome (2.32.1-5)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 578
+Depends: gconf-service, libbonobo2-0 (>= 2.32.1-3~), libc6 (>= 2.14), libcanberra0 (>= 0.2), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.35.9), libgnomevfs2-0 (>= 1:2.17.90), liborbit-2-0 (>= 1:2.14.10), libpopt0 (>= 1.14), libgnome2-common (= 2.32.1-5)
+Breaks: libgnome2-0 (<< 2.32.1-5)
+Replaces: libgnome2-0 (<< 2.32.1-5)
+Filename: ./l/libgnome-2-0/libgnome-2-0_2.32.1-5+b1_amd64.deb
+Size: 472150
+MD5sum: 2c328359923469a546cbd00fbde2a29d
+SHA1: 563c42f4a98772439210f0923b8f38819a47f20c
+SHA256: 059e5262c0086145e0dc73c4c6086728d483eb7337ba1d4b227cd108d44fb801
+SHA512: ba143c96fdf3066f09b693b097deb24140dbb3a0610dd1816579fcb163d7b18f3eac3a58083a02fd96f0c5725c51b5ee72cfc7e88ee58d5c0e53cdd12f494189
+Description: The GNOME library - runtime files
+ This package contains the shared library for the base GNOME library
+ functions.
+

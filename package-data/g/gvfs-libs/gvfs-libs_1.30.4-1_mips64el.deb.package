@@ -1,0 +1,27 @@
+Package: gvfs-libs
+Architecture: mips64el
+Version: 1.30.4-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gvfs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 447
+Depends: libc6 (>= 2.4), libgck-1-0 (>= 2.91.1), libgcr-base-3-1 (>= 3.8.0), libglib2.0-0 (>= 2.49.3), libp11-kit0 (>= 0.2), libsecret-1-0 (>= 0.7), gvfs-common (= 1.30.4-1)
+Filename: ./g/gvfs-libs/gvfs-libs_1.30.4-1_mips64el.deb
+Size: 82820
+MD5sum: ae3bd82eefe2b900823155b8fd051369
+SHA1: 902f66df0995d2a6b1a7fb803795c98588eada56
+SHA256: 7cdc02d41a9dc49c85984dc8c4056aca94fb5508edfd2633c75e64b5e416f212
+SHA512: d18ccc7250329f0d3a8f1fd501a7f3796494c54cba957280fb847b3f1da2c369daa7ce4932203149c30e0eb5e5955b17b8a9aeadd9d70aa167c948fd9a359139
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - private libraries
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains private libraries with common functions between
+ the daemons and the GIO module.
+

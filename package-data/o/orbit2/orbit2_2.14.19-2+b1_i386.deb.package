@@ -1,0 +1,29 @@
+Package: orbit2
+Architecture: i386
+Version: 1:2.14.19-2+b1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: orbit2 (1:2.14.19-2)
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 282
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libidl-2-0 (>= 0.8.14), liborbit-2-0 (>= 1:2.14.10)
+Breaks: liborbit2-dev (<< 1:2.14.19-0.3)
+Replaces: liborbit2-dev (<< 1:2.14.19-0.3)
+Filename: ./o/orbit2/orbit2_2.14.19-2+b1_i386.deb
+Size: 152106
+MD5sum: 678f60c00a2a0480129cdffb4a761cad
+SHA1: 43865c701d13a3af48f18238129d97eab14681c5
+SHA256: 0d8c3225206da48167cbc6291124fcef20fe5d0c352d4e7d70628675ad0db7b5
+SHA512: 56dc53d1ba8006a41af83b1d54ed0c37170e83dee8a9db69aa1db4c40a706bf7b3ff86a4d54661169cf9c9abbd7ff36cbd26bf5e5f35dfbfe9941b774f705992
+Description: high-performance CORBA implementation - Object Request Broker
+ CORBA (Common Object Request Broker Architecture) is an architecture
+ that enables program objects to communicate, sending requests and
+ receiving replies, between different applications, regardless of their
+ programming language, operating system or network location.
+ .
+ This package contains support programs for the ORBit2 implementation of
+ CORBA: the IDL compiler needed to import objects definitions into your
+ C programs, and the command-line utilities ior-decode-2 and
+ typelib-dump.
+

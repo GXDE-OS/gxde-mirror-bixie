@@ -1,0 +1,19 @@
+Package: libgnome2-0
+Architecture: arm64
+Version: 2.32.1-5+b1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: libgnome (2.32.1-5)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 429
+Depends: libgnome-2-0 (= 2.32.1-5+b1), libgnome2-bin (= 2.32.1-5+b1)
+Filename: ./l/libgnome2-0/libgnome2-0_2.32.1-5+b1_arm64.deb
+Size: 429776
+MD5sum: 782b65e165fc573149e8589d7d012d07
+SHA1: 0e66ab8cec3ac52a970841ee3756439059c932ce
+SHA256: 33e9fefbd7c15b5d338061746507b9db6b44c9b212454eae2b1cd9deb0fa72c5
+SHA512: fe256f5ca18db8e86aaca0f8f8b0ff4041b7ccaf26707995ba481518a547caa720b8e803777555744e41c6070c6e0d1355605c9b20a5fd6da88a339a041166e1
+Description: The GNOME library - transition package
+ This convenience package is for upgrades.
+

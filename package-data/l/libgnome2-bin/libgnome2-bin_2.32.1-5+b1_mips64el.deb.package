@@ -1,0 +1,22 @@
+Package: libgnome2-bin
+Architecture: mips64el
+Version: 2.32.1-5+b1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: libgnome (2.32.1-5)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 444
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgnome-2-0
+Breaks: libgnome2-0 (<< 2.32.1-5)
+Replaces: libgnome2-0 (<< 2.32.1-5)
+Filename: ./l/libgnome2-bin/libgnome2-bin_2.32.1-5+b1_mips64el.deb
+Size: 433304
+MD5sum: a37bfdd59377e76e635556e993972784
+SHA1: c312f4a342f08d916804aed25f68914057597cd6
+SHA256: 83a306548cb48ae1b76b2cc56497cf48454cf7b717eef9a4e65e3a1d7f6f4033
+SHA512: e18314bfe60b1cb9b835c9e023148129b3494e49e9f4a7df5039059f7fd3d6452180349bea5a4576d32f1b55dd7b7817f29684e2093e50ca8876465572ccb7ea
+Description: The GNOME library - binary files
+ This package contains gnome-open, a utility that exposes functionality from
+ the base GNOME library.
+

@@ -1,0 +1,19 @@
+Package: dde-dock-onboard-plugin
+Architecture: arm64
+Version: 4.10.8+c1-1+comsta
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 158
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.8+c1-1+comsta_arm64.deb
+Size: 34312
+MD5sum: e2b3166f814b31970a5bcdcd212c17c7
+SHA1: b1bf298c96fcbd3d8c59fdf649a1d86b05b1b38b
+SHA256: 70570775b3c87e399b74761c4522cd57c34f5d11824ce890d7cbc5bc4c17952c
+SHA512: e0cb20a8829c1b9e626aa39094267fb8904885190b65c232d4325e1c40022a1f7d2e7c450bceac98caadfa30a569d74666f990f185e6f95e0c682015c1599cbc
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+

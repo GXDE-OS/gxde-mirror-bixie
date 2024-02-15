@@ -1,0 +1,23 @@
+Package: deepin-terminal
+Architecture: arm64
+Version: 5.0.0+ds1-3
+Priority: optional
+Section: x11
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 2235
+Provides: x-terminal-emulator
+Depends: dbus-x11, deepin-menu, expect, lrzsz, zssh, libc6 (>= 2.34), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgtk-3-0 (>= 3.21.4), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6
+Filename: ./d/deepin-terminal/deepin-terminal_5.0.0+ds1-3_arm64.deb
+Size: 341304
+MD5sum: 61f0f92d36afe171b2c2799ce92bc26d
+SHA1: f809ffb51757f2e2859f7e73f0ada85d81657907
+SHA256: 89a335d632bb00e5bcf19cea3b77492a9be403f509e2f92ffd632a26df9a820d
+SHA512: 3e8e302924bf9d76ea5a85992f54c5422afa4ef240d0d411d885de83f38a8de85c6a8e38ba2e4b79fe92900f8647d93d6d78c39e48c4f65425b4bd0d2ba7ea0b
+Homepage: https://github.com/linuxdeepin/deepin-terminal
+Description: Deepin terminal emulator application
+ Deepin Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features. It sharpens your
+ focus in the world of command line.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+

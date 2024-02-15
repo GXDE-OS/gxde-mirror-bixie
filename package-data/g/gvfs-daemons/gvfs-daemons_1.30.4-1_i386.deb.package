@@ -1,0 +1,28 @@
+Package: gvfs-daemons
+Architecture: i386
+Version: 1.30.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: gvfs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 484
+Depends: libbluray1 (>= 1:0.2.2), libc6 (>= 2.7), libglib2.0-0 (>= 2.49.3), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd0, libudev1 (>= 183), libudisks2-0 (>= 2.0.91), x11-utils, udisks2, gvfs-libs (= 1.30.4-1), gvfs-common (= 1.30.4-1)
+Recommends: dbus, gvfs
+Suggests: gvfs-backends
+Filename: ./g/gvfs-daemons/gvfs-daemons_1.30.4-1_i386.deb
+Size: 139114
+MD5sum: d11fab0a28af3f2e510a4fca65ba06c9
+SHA1: 7cf935ce15d03ad3fda4bd8ec24cedf9325fa744
+SHA256: 714fee622e3135d1bd29c6087d978d168b36c83deb1ef809b146a56898fc4d12
+SHA512: 70d65bc5099f5c943d47965db6b3f08a0f0f80c0e7f1e0355e2dda4b58e368b3101fbe079117b2abb4e03e44b279520cdc03f7e75f8f34b4cddee8b530020c48
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - servers
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the gvfs server and the minimal set of backends.
+

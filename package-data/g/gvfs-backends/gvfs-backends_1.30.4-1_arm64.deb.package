@@ -1,0 +1,29 @@
+Package: gvfs-backends
+Architecture: arm64
+Version: 1.30.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: gvfs
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1528
+Depends: libarchive13 (>= 3.0.4), libatk1.0-0 (>= 1.12.4), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcap2 (>= 1:2.10), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libcdio13 (>= 0.83), libgcrypt20 (>= 1.7.0), libgdata22 (>= 0.15.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.3), libgoa-1.0-0b (>= 3.7.90), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 146), libimobiledevice6 (>= 1.1.5), libjson-glib-1.0-0 (>= 0.12.0), libmtp9 (>= 1.1.12), libnfs8 (>= 1.9.7), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libplist3 (>= 1.11), libpolkit-gobject-1-0 (>= 0.101), libsecret-1-0 (>= 0.7), libsmbclient (>= 2:4.0.3+dfsg1), libsoup2.4-1 (>= 2.42.0), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend, gvfs (= 1.30.4-1), gvfs-daemons (= 1.30.4-1), gvfs-libs (= 1.30.4-1), gvfs-common (= 1.30.4-1), psmisc
+Recommends: gnome-keyring
+Suggests: bluez-obexd, samba-common
+Filename: ./g/gvfs-backends/gvfs-backends_1.30.4-1_arm64.deb
+Size: 280190
+MD5sum: 9ca9fa7adb202be6a9cbd070e079a170
+SHA1: 640dc1f226abd2d088125e5285ec514c8b9ff34f
+SHA256: e7973cf78cf97deda5e3a95826c3e989b082cb694276f5a4f596b23445975472
+SHA512: 0fa60d84c187e38c59ad213076e05a91b1d3f2dd5a9cf27d745eba1b2a96f12c59f3136bf123f286bea24ccb21488bedf5132b63871ab2d21916f02edf96eed9
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: userspace virtual filesystem - backends
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the afc, afp, archive, cdda, dav, dnssd, ftp,
+ gphoto2, http, mtp, network, sftp, smb and smb-browse backends.
+

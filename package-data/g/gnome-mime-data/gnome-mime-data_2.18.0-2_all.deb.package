@@ -1,0 +1,18 @@
+Package: gnome-mime-data
+Architecture: all
+Version: 2.18.0-2
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 3742
+Filename: ./g/gnome-mime-data/gnome-mime-data_2.18.0-2_all.deb
+Size: 362568
+MD5sum: fd0f91e48db19eba19ecff1a209a11b1
+SHA1: b6fc43f42023f528305d659ef31b9d6d93e27d7e
+SHA256: bb27d34a0b150422d06bc87db8c52404735a25d4ee8f56114a4b267cc848e2a4
+SHA512: c2d0f22c50fb9d0e44fddef2f940777c3b28fda947f7d94e4a48b33eaf5abbcd597bedfa5f73797beae33ccd3420a760c1168808a18bf6a06a7aa6a3e0bc8f44
+Description: base MIME and Application database for GNOME.
+ This module contains the base MIME and Application database for GNOME.
+ It is meant to be accessed through the MIME functions in GnomeVFS.
+

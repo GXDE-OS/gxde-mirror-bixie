@@ -1,0 +1,22 @@
+Package: libgnome2-common
+Architecture: all
+Version: 2.32.1-5
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: libgnome
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 5713
+Depends: gconf2 (>= 2.28.1-2)
+Suggests: desktop-base (>= 0.3.16)
+Breaks: gnome-panel (<< 2.28)
+Filename: ./l/libgnome2-common/libgnome2-common_2.32.1-5_all.deb
+Size: 936312
+MD5sum: 42857beac804944294c30127a3d33d1a
+SHA1: 5369187c039230aa4b69074d25d211a6d285c71a
+SHA256: 598b3ec26c6c33349c7c69f6a934e7c6180550651d33ed7f2babb2b9662cf0df
+SHA512: 41d776612a78a14d1a8a04ee3531cd8c88105fe9d544f95e589ca65d131ea0d841a1ced874e7495ed0adef1b15bb077dff07ad92151eac5d7c4f4c2da3ab5de4
+Description: The GNOME library - common files
+ This package contains internationalization files for the base GNOME
+ library functions.
+

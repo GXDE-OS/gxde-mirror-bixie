@@ -1,0 +1,21 @@
+Package: libgnome2-dev
+Architecture: amd64
+Version: 2.32.1-5+b1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libgnome (2.32.1-5)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 658
+Depends: libgnome-2-0 (= 2.32.1-5+b1), libglib2.0-dev, libbonobo2-dev, liborbit2-dev, libgconf2-dev, libgnomevfs2-dev, libcanberra-dev, libpopt-dev
+Suggests: libgnome2-doc
+Filename: ./l/libgnome2-dev/libgnome2-dev_2.32.1-5+b1_amd64.deb
+Size: 474612
+MD5sum: 9581dbdf0a0e70aa877cab5af273e95b
+SHA1: 9308ce067eb43fbb0070b3d881556a24727f6e9f
+SHA256: c89a40f86a0d63b1715385e22d25e1dc85cd6a5dc1c56b835ee14b20c7758c41
+SHA512: 0c2036a9b782c69bd688849ea7e0f94ac3654fd812e733e44fa0c9495dbe984e0e645d20e3e80a7907bc3fe6d7be39ffc89a8d9b708d9850fa7686deaff6dc78
+Description: The GNOME library - development files
+ This package contains the static library and development headers for
+ the base GNOME library functions.
+

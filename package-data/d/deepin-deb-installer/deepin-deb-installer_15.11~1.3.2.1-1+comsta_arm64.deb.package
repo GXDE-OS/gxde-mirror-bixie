@@ -1,0 +1,19 @@
+Package: deepin-deb-installer
+Architecture: arm64
+Version: 15.11~1.3.2.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 757
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libqapt3-runtime
+Filename: ./d/deepin-deb-installer/deepin-deb-installer_15.11~1.3.2.1-1+comsta_arm64.deb
+Size: 188076
+MD5sum: be0ab1e64f159bab47213bcf84cf2ff9
+SHA1: 2f3c7a3271aa34fe4ac8a3eeb47b123d4a812186
+SHA256: 339be54f6e9fe9b76a0f9a480fbbbbc4b749106da5961c9ff8fb3d930aa44a83
+SHA512: fb56e8ad793c1d312ebc18b2cf777b17362a6beefc8d857473c31f11d8c5a2c5ec846a1a52cfb3f4b01c6abd2e2c948c28503ecba488833f103beb92fda70096
+Homepage: https://www.deepin.com/
+Description: deepin deb installer tool
+ Deepin Package Manager is used to help users install and
+ remove local software, supports to bulk install.
+
