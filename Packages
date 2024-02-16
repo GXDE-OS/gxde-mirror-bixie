@@ -8343,6 +8343,24 @@ SHA512: e48cb80bdc0eaa760630f29b4c74aa7f164b2bf38b86246d5bb69471b7901acaa399f1b5
 Description: Deepin Icons
  This package is DeepinIconTheme
 
+Package: deepin-icon-theme
+Architecture: all
+Version: 2024.02.16
+Priority: optional
+Section: x11
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46395
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: ./d/deepin-icon-theme/deepin-icon-theme_2024.02.16_all.deb
+Size: 7133252
+MD5sum: a01ccccbebec2f91a3ee58af86995c08
+SHA1: f879275b984f3f25a626f8db5de24c3e905c4224
+SHA256: b8a0492a0ffa0ee4a7e2a3492f0730612b5079bba3486d05ff1b92474d165d0c
+SHA512: 3bfc49f090a233faf4777399037cc854a4b87b5a706d6a7f2e2deba0f965a8dedc1dbfb77601acd7ce4949f627189f89a66a395c11d146d38134d92b687f4047
+Description: Deepin Icons
+ This package is DeepinIconTheme
+
 Package: dde-file-manager
 Architecture: arm64
 Version: 4.8.8.2+c1-1+comsta
@@ -10622,6 +10640,25 @@ Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries - data files
  DWayland provides a Qt-style Server library wrapper for
  the Wayland libraries.
+
+Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.02.16
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 111
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.02.16_amd64.deb
+Size: 15532
+MD5sum: 7672fff9476cc45db9e43956b36e5eaa
+SHA1: 634a0600a5779f370dc95d1b7f170388043a3585
+SHA256: 526d5663c696b7f14faee9ca2ccaf2850435142872030c5648726470f4f3f537
+SHA512: 071e226605c188163624218b14c40d46ec96245476654e69139edb3d8192c4b7cccadcab0a0592359e85daa8ba0fff861f84892c608b83c0306ace7cd7b82b91
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
 
 Package: deepin-desktop-base
 Architecture: all
