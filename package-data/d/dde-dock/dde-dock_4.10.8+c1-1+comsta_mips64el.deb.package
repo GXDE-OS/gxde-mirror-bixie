@@ -1,0 +1,21 @@
+Package: dde-dock
+Architecture: mips64el
+Version: 4.10.8+c1-1+comsta
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3565
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb-shm0, libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.8+c1-1+comsta_mips64el.deb
+Size: 505404
+MD5sum: 66635e030887dbcaa5eb6415c496937f
+SHA1: 90f7ca76ce21012cb32660b60512dd4f8950f435
+SHA256: 784f7dd13f2950decb61a5b415a9730b5c481cb2ec454839b902ebd70434dcec
+SHA512: 931fd612fcd9fd6963b130d5aadf038ff0131304ee99b78e628f303d5c281b84faf6b68a8e3a7ff50fa8173c71e80737f5216d967e58ea55f3db0491ed2ff595
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+

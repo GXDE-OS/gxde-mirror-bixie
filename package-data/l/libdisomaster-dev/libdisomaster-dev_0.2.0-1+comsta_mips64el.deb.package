@@ -1,0 +1,18 @@
+Package: libdisomaster-dev
+Architecture: mips64el
+Version: 0.2.0-1+comsta
+Priority: optional
+Section: libs
+Source: disomaster
+Maintainer: Chris Xiong <chirs241097@gmail.com>
+Installed-Size: 17
+Depends: libdisomaster
+Filename: ./l/libdisomaster-dev/libdisomaster-dev_0.2.0-1+comsta_mips64el.deb
+Size: 3260
+MD5sum: a0b6c0576cd46996c5900ea21068b8ab
+SHA1: 4280ac493e6d164576c770787e653c15cf0dcb0c
+SHA256: a78637d64f88847b1f3670ebad0202a35b8b7575c7912a473f55f508b75288c2
+SHA512: 126b9777be74bf71c7f985057366ac9ef7c2a7856c62ac81a442f821a874c4b9b24e5d6f9578923ac460e744a0e8be36162bc528a7de543195101dafb535ffc9
+Homepage: https://github.com/linuxdeepin/disomaster
+Description: Development package for libdisomaster.
+

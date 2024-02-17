@@ -1,0 +1,21 @@
+Package: libdtkwidget-bin
+Architecture: mips64el
+Version: 15.11~2.0.16.1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 90
+Depends: libc6 (>= 2.34), libdtkwidget2 (= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget-bin/libdtkwidget-bin_15.11~2.0.16.1-1+comsta_mips64el.deb
+Size: 21140
+MD5sum: bb2eb80fad40cbf87d3add041f9c9989
+SHA1: 852b5e5944a64f6b9ee4353286c603c5e74a5c9b
+SHA256: 60e046fa1b31d78f6266756ddde22434eb49d030574a66f4a6a44b8e171e1b77
+SHA512: 1406f5a3098dfe3ceec3d9ca40563bd4d0f662b3041d514acf660fba762957f618f2d89d5b4ac10d25ad91afd8ef163bf5f25d02a53fc619cff05f6824aa1b1b
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+

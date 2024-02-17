@@ -1,0 +1,19 @@
+Package: libdde-network-utils-dev
+Architecture: mips64el
+Version: 15.11~0.1.4-1+comsta
+Priority: optional
+Section: libdevel
+Source: dde-network-utils
+Maintainer: listenerri <listenerri@gmail.com>
+Installed-Size: 45
+Depends: libdde-network-utils
+Filename: ./l/libdde-network-utils-dev/libdde-network-utils-dev_15.11~0.1.4-1+comsta_mips64el.deb
+Size: 6468
+MD5sum: b8d9070bf3723d7239a71c718f005f29
+SHA1: 48871bca8b1e73824972ae90c50a822a6542e069
+SHA256: 50898006cb9e245ef1ce27801d4ac2dfbf46fb590fff529e55bff46927b66db1
+SHA512: 56ba3bf75e155eb5e211796d3aa61fc8e4a1ef55a18fd1ecabbef1719533409e9823e8a5a9f47e30668052863a3d0f9dec3a2abd9b21f38b6eb513c02e881a0d
+Homepage: https://github.com/linuxdeepin/dde-network-utils
+Description: DDE network utils dev
+ DDE network utils dev.
+

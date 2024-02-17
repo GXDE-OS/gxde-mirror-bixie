@@ -1,0 +1,18 @@
+Package: dde-introduction
+Architecture: mips64el
+Version: 1.1.10-1+comsta
+Priority: optional
+Section: utils
+Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
+Installed-Size: 12134
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.1.1)
+Filename: ./d/dde-introduction/dde-introduction_1.1.10-1+comsta_mips64el.deb
+Size: 11151592
+MD5sum: 133986d891fa240fc6a74b21bbfd7e3c
+SHA1: d9cb93dfc38fb3b424797d17a80ff2850852843a
+SHA256: 1a1323c02bbf25578b8f5b9327e7c51be5a06d9151f7b255f819bf8268689d03
+SHA512: 46687026397703e07ee79a9d7769ccff95e0e4669e2a60c9dd85e7a86a6945d37e055336396b96490deffa23e1519f6b69878f33e4331445c9a95cb2c1adcdcc
+Homepage: http://www.deepin.org
+Description: Introduction for deepin
+ Deepin initialization setup tool
+

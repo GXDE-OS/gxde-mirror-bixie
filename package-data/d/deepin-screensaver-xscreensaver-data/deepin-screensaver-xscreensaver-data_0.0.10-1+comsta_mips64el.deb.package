@@ -1,0 +1,18 @@
+Package: deepin-screensaver-xscreensaver-data
+Architecture: mips64el
+Version: 0.0.10-1+comsta
+Priority: optional
+Section: devel
+Source: deepin-screensaver
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 897
+Depends: deepin-screensaver, xscreensaver-data-extra, xscreensaver-gl-extra
+Filename: ./d/deepin-screensaver-xscreensaver-data/deepin-screensaver-xscreensaver-data_0.0.10-1+comsta_mips64el.deb
+Size: 655164
+MD5sum: c929909cc058a2ffa3ac5c9b1c1feb85
+SHA1: a5cfc201c0980a66edcc2a80a6c17b0fcf3e52e7
+SHA256: 3f26e84c198e42a6b182b0031f0f8b8d73760475b61ce9e52f77062a9b413264
+SHA512: 71c7d176b7fe4abd937a2aa57256fe573bb82f1d5e61ace6974fe5c2c5a4d0f1539df62661c945f720c63aa357e4916296c0422d1e3f76c3b83f09c1fce3bc1e
+Description: Screensaver data
+ xscreensaver extra with the Deepin Screensaver.
+

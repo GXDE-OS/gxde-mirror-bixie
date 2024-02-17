@@ -1,0 +1,21 @@
+Package: libdde-file-manager
+Architecture: mips64el
+Version: 4.8.8.2+c1-1+comsta
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 11443
+Depends: libc6 (>= 2.34), libdisomaster, libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.49.2), libkf5codecs5 (>= 4.96.0), libpoppler-cpp0v5 (>= 22.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 11), libudisks2-qt5-0 (>= 5.0.6), qtbase-abi-5-15-8, gvfs-backends (>= 1.27.3), cryptsetup
+Breaks: dde-file-manager (<= 1.2.3-3)
+Filename: ./l/libdde-file-manager/libdde-file-manager_4.8.8.2+c1-1+comsta_mips64el.deb
+Size: 2172280
+MD5sum: 8770dd4e683de83d266d44a07229745f
+SHA1: 219e8360b66ac72501abee4e53cdb204c49229c7
+SHA256: e645a5c6afdc8c1a2f889f0626186f2f5382e5a42c5d9186a2142edfb79d7388
+SHA512: d3f519f306f1449d437c4942f2da31b9eafbc96710d5794f5f6c02c7cbd7bcae9f85586daf1961dcbb8d7f7e995e46078a6e50921e11f3ee2b9ec5293d605bef
+Homepage: http://www.deepin.org
+Description: DDE File Manager library
+ This package contains the shared libraries.
+

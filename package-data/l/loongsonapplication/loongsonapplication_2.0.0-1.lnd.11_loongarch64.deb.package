@@ -1,0 +1,18 @@
+Package: loongsonapplication
+Architecture: loongarch64
+Version: 2.0.0-1.lnd.11
+Priority: optional
+Section: utils
+Maintainer: loongson <loongson@loongson-pc>
+Installed-Size: 428324
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
+Filename: ./l/loongsonapplication/loongsonapplication_2.0.0-1.lnd.11_loongarch64.deb
+Size: 88606476
+MD5sum: 613336b11efc9f0c797d4a6b4684756a
+SHA1: 7c645111ec374f2bc118734ff8485654bb3cdd9f
+SHA256: 4fa7f63f8391f82f9e0126b5c17073054581432669a6dbe49fbf5dfffb948b95
+SHA512: 81ea15865bb844156c01afe714e0cf7dc0d809be335d60fd5e7da976bec3e9891931773872aba9bfea9c8e676dbec7290855faf7778da45a8b8fe0d328126751
+Homepage: http://app.loongapps.cn/
+Description: 龙芯应用合作社
+ 龙芯应用合作社
+

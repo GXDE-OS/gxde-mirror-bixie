@@ -1,0 +1,19 @@
+Package: dde-launcher
+Architecture: mips64el
+Version: 4.6.14+c1-1+comsta
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2018
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb-ewmh2 (>= 0.4.1), libxcb1, qtbase-abi-5-15-8, lastore-daemon, deepin-desktop-schemas (>= 3.1.11)
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_4.6.14+c1-1+comsta_mips64el.deb
+Size: 334712
+MD5sum: 327fb62fc649fb95fd041c6c1de01de4
+SHA1: 21f1c3111b744d04400632b5cde2106dc7ad9dbd
+SHA256: 5a1ffb1cc955e334f12689eee4971b27e9f79d9aee4bbe8a2b2f42df93a843e9
+SHA512: abea1c94808184be9f0076709d7a8ae1a63ff55bfe68b9523e3db54bfe7df2c91ec920d665df4b3506c27fb2cee5fcca8bde35d3e4ac8053c518d0e7de76a113
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+

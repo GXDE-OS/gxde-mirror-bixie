@@ -1,0 +1,19 @@
+Package: dde-file-manager
+Architecture: mips64el
+Version: 4.8.8.2+c1-1+comsta
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 1259
+Depends: libc6 (>= 2.34), libdde-file-manager (= 4.8.8.2+c1-1+comsta), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, socat
+Recommends: dde-qt5integration, avfs, samba
+Filename: ./d/dde-file-manager/dde-file-manager_4.8.8.2+c1-1+comsta_mips64el.deb
+Size: 277224
+MD5sum: 5a937e17f5f67cbd3ed0e3a30c7f0970
+SHA1: 23e6f40d35ca314088e2e63ff5e6060b0be6b58c
+SHA256: 4916957dc21929b714414185e1ab97826e60bc69e1120cbe425d3f224e4e248b
+SHA512: a5ee49980ed0c46ea54da7b77b807f57a6a3624d60354392f0d5d660ae83fe1e30c8ba0ca166e6c15bddefb62e2811a462bccb2f60251c7ffb72363364dde755
+Homepage: http://www.deepin.org
+Description: File manager front end
+ File manager front-end of Deepin OS
+
