@@ -1,0 +1,18 @@
+Package: dde-kwin-dev
+Architecture: mips64el
+Version: 5.6.6-1
+Priority: optional
+Section: libdevel
+Source: dde-kwin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14
+Filename: ./d/dde-kwin-dev/dde-kwin-dev_5.6.6-1_mips64el.deb
+Size: 8536
+MD5sum: e98260fccb78d9668fc2ec1ef346ee31
+SHA1: 84ef82ee0f6e61b82bbc8122915210941f5bbe27
+SHA256: 11dcde9b093990484feb12909c1e85192b386554c7165baf01835c32a1116b54
+SHA512: 86772a4ff8095090b78dc75e874c79b7ad79879cd937612ac5431a4a238f25c3e351a1627e8de587e2da4aee9f42d8cccff4d7adfdbe609563b960d0f160221b
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+

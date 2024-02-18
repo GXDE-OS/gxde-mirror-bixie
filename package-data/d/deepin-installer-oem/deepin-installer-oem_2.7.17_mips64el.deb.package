@@ -1,0 +1,19 @@
+Package: deepin-installer-oem
+Architecture: mips64el
+Version: 2.7.17
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 358
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.17_mips64el.deb
+Size: 69136
+MD5sum: e4608f8e7f95065e55b365883e4fda29
+SHA1: 17c8d277666306c95967230dc420019928f21404
+SHA256: 8202ee8d87d205d9153a446a9d8f9f5ffdd14c8b11a66dd061bddd1cbdeb91f9
+SHA512: 5791dfcc0f1ac6642d837344a1f51421bf34b9e67ac64e123baffe2d58d8b9aa2bb60025aabc09d28321862263bc4c36b8e66b982325f8e933d70296d394dc9f
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+

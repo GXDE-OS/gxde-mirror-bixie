@@ -1,0 +1,19 @@
+Package: imageworsener
+Architecture: mips64el
+Version: 1.3.2-1
+Priority: optional
+Section: misc
+Maintainer: leaeasy <lilongyu@deepin.com>
+Installed-Size: 227
+Depends: libc6 (>= 2.34), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Filename: ./i/imageworsener/imageworsener_1.3.2-1_mips64el.deb
+Size: 95948
+MD5sum: 9b9dc4d62c7ab4844a9346f6e8016944
+SHA1: cb8f73df363a73547ed23c32a6206fd46c5b9dcc
+SHA256: 716365a8700219439ab7e2a885f1034235ec79dd8fc737ac0ab4fd7297421576
+SHA512: af9e6c612843bcea3c9c1b5ecf6dc6916b0d2a238acfa513b54c41ef20f9d8907e9886fb35bf9dd5166a42735e89016f328d11be999f14d9fffefdb5c2a9ad8a
+Homepage: https://github.com/jsummers/imageworsener.git
+Description: ImageWorsener is a cross-platform command-line utility and library for image scaling and other image processing.
+ A utility for processing PNG, JPEG, BMP, and WebP images.
+ Features include resize/resample, dither, grayscale, apply background color, subpixel rendering.
+

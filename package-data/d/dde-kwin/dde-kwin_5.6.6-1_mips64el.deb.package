@@ -1,0 +1,18 @@
+Package: dde-kwin
+Architecture: mips64el
+Version: 5.6.6-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 516
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.5.33~), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-kwin-x11, deepin-kwin-wayland, plasma-framework, qml-module-qtquick-controls2, qml-module-qtquick-templates2
+Filename: ./d/dde-kwin/dde-kwin_5.6.6-1_mips64el.deb
+Size: 80232
+MD5sum: 89bcf74095657fab2f1fc02f0801d550
+SHA1: e82d04734df1aa895e70c9e260473bf383742447
+SHA256: 199db774c7d5b11560984f0b308ee3917747f05fc680688e995048530fee3c22
+SHA512: 26e666f087efb5deb4a43b9762442f8ca5ca015575d06b227064096a8b052aa387d862c6d8b3058ffbf1b28447538ec4a1b8908cb5d0eebbde351163659a0e0d
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: KWin configures/plugins on the DDE
+ Let kwin work well in the Deepin Desktop Environment.
+
