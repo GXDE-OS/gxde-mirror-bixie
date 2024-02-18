@@ -8896,6 +8896,23 @@ SHA512: a98ec584727e2730d34ad89e40fc48e7f5b4e0544cd1f2c1045155e2c5ea44a953d8253a
 Homepage: minesweep
 Description: minesweep.
 
+Package: minesweep
+Architecture: mips64el
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: liuminghang  <liuminghang0821@gmail.com>
+Installed-Size: 154
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./m/minesweep/minesweep_1.0.1_mips64el.deb
+Size: 25924
+MD5sum: 3f2a067ef313eba3753f14f484fcd47c
+SHA1: c1a94584e1015f116c6700e02c2398925b893381
+SHA256: 0fb245743fd446b534462e4644553eb40a00fdf84ca9a12a996be65f62330713
+SHA512: c1965533176b6d30d9a84b253f5257a61e1e8efe4b4ad8aac98cfa3c9d680c82deb09e75b043a4175db8ba28718b83cd48cc5073f3cf2f1c3f2e9a0e34d8bf2c
+Homepage: minesweep
+Description: minesweep.
+
 Package: deepin-artwork
 Architecture: all
 Version: 2018.10.9-1
