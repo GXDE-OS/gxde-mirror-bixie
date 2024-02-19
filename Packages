@@ -5381,56 +5381,6 @@ Description: Deepin Tool Kit Gui Utilities
  .
  This package contains the utilities of DtkGui
 
-Package: libdframeworkdbus2
-Architecture: amd64
-Version: 1.1.6-1+comsta
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: dde-qt-dbus-factory
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2240
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
-Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_1.1.6-1+comsta_amd64.deb
-Size: 445936
-MD5sum: f20899b129f0b83a5c771e037a0c2a1d
-SHA1: ba0edccbc4934334402845434446150f89b50a7c
-SHA256: fc9ff04eb0e38faf26c08ab05aa7f420c5f2481c3dacafc8485efcd6e9210ade
-SHA512: da243bfc423571058f5f7406bdf7df4e00dd0c22b06356d73f795f9cb77874105c95ac935fd82d8ded10264815ffa7851d426f3d2af66447c541c55da23747cf
-Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
-Description: Qt DBus interface library for Deepin software (shared library)
- Libdframeworkdbus provides Qt DBus interface for various Deepin software.
- It centralizes DBus-related code into single library for Deepin software
- written in Qt and get itself generated from handwritten XML DBus interface
- descriptions.
- .
- This package is part of DDE (Deepin Desktop Environment).
-
-Package: libdframeworkdbus2
-Architecture: amd64
-Version: 15.11~11.1.6-1+comsta
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: dde-qt-dbus-factory
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2240
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
-Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_15.11~11.1.6-1+comsta_amd64.deb
-Size: 445940
-MD5sum: 44a45e0aa0055e9d06288412beea818b
-SHA1: df968d6dab09270c00e87488df0a84ee0b26e53a
-SHA256: 06321f0f636a7ec8e19c5c2ff5aba632f7a39c89935530e3221977eabb32af47
-SHA512: 1546a30810899ebed0c10267c1143c721ca60a3c2a3f71e6293468349bbf5978b009fc2e66d343ad69d8541a3a2b56867d1545e177459f33d275d38200ba8201
-Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
-Description: Qt DBus interface library for Deepin software (shared library)
- Libdframeworkdbus provides Qt DBus interface for various Deepin software.
- It centralizes DBus-related code into single library for Deepin software
- written in Qt and get itself generated from handwritten XML DBus interface
- descriptions.
- .
- This package is part of DDE (Deepin Desktop Environment).
-
 Package: libdeepin-kwinglutils13
 Architecture: arm64
 Version: 4:5.25.11-kwin.5.24.3
@@ -6774,60 +6724,6 @@ SHA512: d3f519f306f1449d437c4942f2da31b9eafbc96710d5794f5f6c02c7cbd7bcae9f85586d
 Homepage: http://www.deepin.org
 Description: DDE File Manager library
  This package contains the shared libraries.
-
-Package: libdframeworkdbus-dev
-Architecture: amd64
-Version: 15.11~11.1.6-1+comsta
-Priority: optional
-Section: libdevel
-Source: dde-qt-dbus-factory
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 489
-Depends: libdframeworkdbus2 (= 15.11~11.1.6-1+comsta)
-Conflicts: libdframeworkdbus
-Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_15.11~11.1.6-1+comsta_amd64.deb
-Size: 39372
-MD5sum: 8f60ae998ee34707534d6d5bbd1167ab
-SHA1: 17cbb98bde1b9003ed994b211ef3def0c490485f
-SHA256: 52fa1e038c3c49197ad7b876268fe303c7bde1c77d8f4214226c83dd9c49f5ab
-SHA512: ebf4b88d02f9bb43db8d8f76158bd90a7cadb17c81ada35b0a92a421914b4c966da26ddc9a639d795e0b51d657d414818886e78b8975800439d6090e78265da5
-Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
-Description: Qt DBus interface library for Deepin software (development files)
- Libdframeworkdbus provides Qt DBus interface for various Deepin software.
- It centralizes DBus-related code into single library for Deepin software
- written in Qt and get itself generated from handwritten XML DBus interface
- descriptions.
- .
- This package is part of DDE (Deepin Desktop Environment).
- .
- This package provides development header files for libdframeworkdbus.
-
-Package: libdframeworkdbus-dev
-Architecture: amd64
-Version: 1.1.6-1+comsta
-Priority: optional
-Section: libdevel
-Source: dde-qt-dbus-factory
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 489
-Depends: libdframeworkdbus2 (= 1.1.6-1+comsta)
-Conflicts: libdframeworkdbus
-Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_1.1.6-1+comsta_amd64.deb
-Size: 39352
-MD5sum: bf5056fab5c1a3771308808c2138c959
-SHA1: 5a74167ceee1ec7855ba232d13bbb52ddf77123f
-SHA256: 9c7d1cbce2065a464b7c2ce5157d0fe2b48c9cb45b47fe3bcd214db9ec1efd31
-SHA512: 09b50f011d94934c6b1f69045ac8198a01b6bf2143f2e59bb70b3e43450541846289b5d2b272b5b819d4730fda695ce6f4ccb13f011c216cfdf2a368736bc697
-Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
-Description: Qt DBus interface library for Deepin software (development files)
- Libdframeworkdbus provides Qt DBus interface for various Deepin software.
- It centralizes DBus-related code into single library for Deepin software
- written in Qt and get itself generated from handwritten XML DBus interface
- descriptions.
- .
- This package is part of DDE (Deepin Desktop Environment).
- .
- This package provides development header files for libdframeworkdbus.
 
 Package: libgnome-2-0
 Architecture: arm64
