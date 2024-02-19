@@ -6039,26 +6039,6 @@ Description: Deepin Tool Kit Core library
 
 Package: libdtkcore2
 Architecture: amd64
-Version: 15.11~2.2.1-1+rb2
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: dtkcore2
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 685
-Filename: ./l/libdtkcore2/libdtkcore2_15.11~2.2.1-1+rb2_amd64.deb
-Size: 192768
-MD5sum: d0d021d8207c3a1efbec1ecfd5bf8a22
-SHA1: ee0a3778f1ad5d8db2371760f8e7dec702e7e081
-SHA256: 4f275a87b864ea8eabe87573f45a5297f40b3d53f1e1a8440e012b0a1eefc2d0
-SHA512: 2aed55d001ccdfe4e8ac4e6a80cc719305c9846becc6e0bbcf0c71562b7e9e28e5acab27a02532c97b6caca3d3951a8854d039a64ea2aa71ef3bbd617fea482c
-Description: Deepin Tool Kit Core library
- DtkCore is base library of Deepin Qt/C++ applications.
- .
- This package contains the shared libraries.
-
-Package: libdtkcore2
-Architecture: amd64
 Version: 15.11~2.0.16.1-1+comsta
 Multi-Arch: same
 Priority: optional
@@ -8091,27 +8071,6 @@ SHA512: 41d776612a78a14d1a8a04ee3531cd8c88105fe9d544f95e589ca65d131ea0d841a1ced8
 Description: The GNOME library - common files
  This package contains internationalization files for the base GNOME
  library functions.
-
-Package: libdtkwidget2
-Architecture: amd64
-Version: 15.11~2.2.1+rebuild-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: dtkwidget2
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2576
-Depends: libdframeworkdbus2
-Filename: ./l/libdtkwidget2/libdtkwidget2_15.11~2.2.1+rebuild-1_amd64.deb
-Size: 629380
-MD5sum: b01e5af8c47cac45b64f1e4e2a963780
-SHA1: f8f8ac1760616111eff27fb4c4752deb00680e43
-SHA256: 875f05867be9f3aa041dd2db19399402b60b5cf0ac1f84b2ed8286906d5bbaf8
-SHA512: 4de1768ca77478ba355c9fc57266742fe9adba1030ca155a05550a355febd82b5efa61473cb290605c942efcae5a94141d38436552bc77af9958be69674d01ce
-Description: Deepin graphical user interface library
- DtkWidget is Deepin graphical user interface for deepin desktop development.
- .
- This package contains the shared libraries.
 
 Package: libdtkwidget2
 Architecture: arm64
