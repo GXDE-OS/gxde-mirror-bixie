@@ -1,0 +1,17 @@
+Package: dde-top-panel
+Architecture: amd64
+Version: 0.6.8
+Priority: Optional
+Section: utils
+Maintainer: SeptemberHX
+Installed-Size: 21285
+Depends: libqt5dbus5, libqt5core5a, libqt5gui5, libxcb-ewmh2, libxcb1, libdframeworkdbus2,
+         libdtkcore5-bin, libkf5windowsystem5, libqt5svg5, libqt5concurrent5, libgsettings-qt1, libxcb-util0
+Filename: ./d/dde-top-panel/dde-top-panel_0.6.8_amd64.deb
+Size: 8220990
+MD5sum: 21aa708d208de7b1f09cccff826c8084
+SHA1: ca50963b756672349efda5fdc96f077698a816f5
+SHA256: 650ed36909a73dad52958f4c777d6f38291cc7ce043587ba11b068a88f72fb32
+SHA512: ef84e3d2eb3188053ae400a04641d2846fa7fc44e4f3976e8b0a8750a24d93fa3ede54a421d38fe63a0e7952d69adc9bdc0a8321f3623da0fb9411939b7e897d
+Description: DDE Top Panel is a top bar supporting the global menu for Deepin V20
+
