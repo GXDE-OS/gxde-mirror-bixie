@@ -1,0 +1,16 @@
+Package: dde-globalmenu-service
+Architecture: amd64
+Version: 1.1.0
+Priority: Optional
+Section: utils
+Maintainer: SeptemberHX
+Installed-Size: 846
+Depends: libdbusmenu-gtk3-4, libdbusmenu-gtk4, libdbusmenu-qt5-2
+Filename: ./d/dde-globalmenu-service/dde-globalmenu-service-1.1.0-Linux.deb
+Size: 204640
+MD5sum: ae86c637356e534c45cc6cb059cf4db5
+SHA1: 5f79d83427449d0daf4bef507afa70b4d53769d1
+SHA256: c0f138511fb6981cfff6359d19f6e2fc1b282283543b50150060aa4c2f418374
+SHA512: 4aca26e981a8fb37fe8a44b773ccc4ba399d6484f86ee1bd344602f66513e964abf2b60875cc1a58b5b67d6ccd167593642b9aee6f438d0f9352ecd0db25730e
+Description: DDE Global Menu Service Daemon
+
