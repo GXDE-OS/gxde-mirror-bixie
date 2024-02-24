@@ -12612,6 +12612,24 @@ Description: KDE window manager x11 plugin
  .
  This package is part of the KDE base workspace module
 
+Package: dde-qt5wayland-plugin
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: devel
+Source: dde-qt5platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 425
+Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5waylandclient5 (>= 5.10.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-8, qtwayland-client-abi-5-15-8, qtwayland5
+Filename: ./d/dde-qt5wayland-plugin/dde-qt5wayland-plugin_5.6.22_amd64.deb
+Size: 115772
+MD5sum: 8fd2ad92762cc47e7727b483d4326a9c
+SHA1: c20354e93506aa75cafa443ab20dccffc0f18a81
+SHA256: 31f5375730c78faefa13e0881fbbc7d443a592510e46a6e7bb013d6d05a25284
+SHA512: 07167c780025653930f19e5d7b95f078ab5b727ea0c4697747576fb60a2d9067124fa7a47e9057324e792278c1a2dbc3f723dcd0a28fa429656eda054a92643f
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
 Package: deepin-screensaver-xscreensaver-data
 Architecture: amd64
 Version: 0.0.10-1+comsta
@@ -14224,6 +14242,28 @@ SHA512: d3cd5f5b3fc0757b9912396975546c3255511998164b01eb205abbda0ab1c14e93ee4ca0
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything library
  anything library package
+
+Package: dde-qt5xcb-plugin
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: devel
+Source: dde-qt5platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 764
+Provides: libqt5dxcb-plugin
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.10.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-8
+Conflicts: libqt5dxcb-plugin, qt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Replaces: qt5dxcb-plugin
+Filename: ./d/dde-qt5xcb-plugin/dde-qt5xcb-plugin_5.6.22_amd64.deb
+Size: 239816
+MD5sum: ab8e511b89ad445eae7bcf4733f3679f
+SHA1: dba6847d286957908ef47434972c1ac9b949924e
+SHA256: 47439fd42a1dd5fe8e0eb4637779939fe72c989c1cdd1175edfdb2efdb0f9630
+SHA512: ba916d7485d405f7f4da9ff79fb8d59e8cd660c24f839f5cbd72e5f40a2b57f53bfa67c8c9873bc01ca5c6c25acec84b50b3b15a59fe3f164f6606e47e25828c
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
 
 Package: deepin-deb-installer
 Architecture: arm64
