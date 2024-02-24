@@ -1,0 +1,19 @@
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.9gxde0_amd64.deb
+Size: 20572
+MD5sum: 222369d51b20425c99fc4329820c6c60
+SHA1: 5c5f37dbe838b91ea7fd86ed614eba62f96aa94f
+SHA256: 9fa002539b86b756f18164c17b696458f972beb66a69d9bd02eb7eea19245f1f
+SHA512: 74e60445c42f9c1489dfdb1311a75b2ff6874db84a7915ba4b4b2bcfa02aea87be84c56bda3beb630c2f6d55900c7bf799756099c3f781c19a4281f1538dd139
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+

@@ -1,0 +1,18 @@
+Package: deepin-repair-tools-dev
+Architecture: amd64
+Version: 5.0.5+qtzc-1
+Priority: optional
+Section: utils
+Source: deepin-repair-tools
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 14
+Filename: ./d/deepin-repair-tools-dev/deepin-repair-tools-dev_5.0.5+qtzc-1_amd64.deb
+Size: 3172
+MD5sum: 227f80180dfc7826ece596a7dd751bc3
+SHA1: 36d91abaf771d008fc12bbcf72a9ff1f74f970a1
+SHA256: b28bb0c66b696d7a28fb4761553cc70b2c5d69cab4efd76b88e16680a4fff738
+SHA512: 5d0f672e797e7a4b631a3e1a395330416880a6c2d9dc43d016e5e58dc2759272ce61268d4eed38ab963add11a9b5e322caa59f582fbbef068cc48ee219b862cd
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools - dev files
+ Deepin Repair Tools is a useful tools for system repair & clean.
+

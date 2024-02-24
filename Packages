@@ -11278,6 +11278,24 @@ Description: Deepin Print Manager is a eazy tool to manage printers.
 
 Package: dde-dock-dev
 Architecture: all
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 31
+Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.9gxde0_all.deb
+Size: 5072
+MD5sum: becb7dd42e3d42a7f6fcfd8d7333b282
+SHA1: 8207fc0a84eb3b4a4883a7571456e18eaa440158
+SHA256: 37a137ed945dffb386c464d7fdfad42ad1fdfa53c97e3176000dcd34d26f2620
+SHA512: 781086b1b17d0acef6d8065c34ba4c54978dde05b50137f5e7b30a517d750ecbd34b521ac4200864e7eb4e2be82ef24593a46acaabeebcce19aa1ad2b6d52c05
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+
+Package: dde-dock-dev
+Architecture: all
 Version: 4.10.8+c1-1+comsta
 Priority: optional
 Section: x11
@@ -11780,6 +11798,24 @@ MD5sum: a61465571ab0a0b48d56c3b0e94da4a9
 SHA1: 7fd622dc5102059cc9c3c97aeaa73b681219f8d5
 SHA256: 660a29a97f5a0d239e048635cafd2b6b0a2b4c4f2983b8d40fbb7ae67dcacebe
 SHA512: 9382a0cacc6f1c4ab8cf9eaf13e60c34a08031d403d146137533d0b108e3616ea2808a71f4b071fe7f9be7665d53dbb6792fa5a35a48c5ec5a954c806be556ef
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools - dev files
+ Deepin Repair Tools is a useful tools for system repair & clean.
+
+Package: deepin-repair-tools-dev
+Architecture: amd64
+Version: 5.0.5+qtzc-1
+Priority: optional
+Section: utils
+Source: deepin-repair-tools
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 14
+Filename: ./d/deepin-repair-tools-dev/deepin-repair-tools-dev_5.0.5+qtzc-1_amd64.deb
+Size: 3172
+MD5sum: 227f80180dfc7826ece596a7dd751bc3
+SHA1: 36d91abaf771d008fc12bbcf72a9ff1f74f970a1
+SHA256: b28bb0c66b696d7a28fb4761553cc70b2c5d69cab4efd76b88e16680a4fff738
+SHA512: 5d0f672e797e7a4b631a3e1a395330416880a6c2d9dc43d016e5e58dc2759272ce61268d4eed38ab963add11a9b5e322caa59f582fbbef068cc48ee219b862cd
 Homepage: https://www.deepin.com/
 Description: deepin system repair tools - dev files
  Deepin Repair Tools is a useful tools for system repair & clean.
@@ -12388,6 +12424,24 @@ Homepage: https://www.deepin.com/
 Description: deepin system repair tools
  Deepin Repair Tools is a useful tools for system repair & clean.
 
+Package: deepin-repair-tools
+Architecture: amd64
+Version: 5.0.5+qtzc-1
+Priority: optional
+Section: utils
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 990
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.5.33~), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), os-prober
+Filename: ./d/deepin-repair-tools/deepin-repair-tools_5.0.5+qtzc-1_amd64.deb
+Size: 193400
+MD5sum: 8cf83f59c3405dfca92e339ef9330849
+SHA1: fd6ca32317e10264e8fa69e95fbbc1699889fe9d
+SHA256: 1e56ad5f077062a1fb51ddacaf0907ed754e4f8a053100a674e4a9b5671e85c2
+SHA512: 22500216b8be6f85e0d9c742eea72b22982f6caaa4e11b11302e5911b4e5b2950b7b74650b7cdb32ec82bc2c566772c675ad7427f3a556bcfdffd68c3e3da6ee
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools
+ Deepin Repair Tools is a useful tools for system repair & clean.
+
 Package: deepin-kwin-wayland-backend-x11
 Architecture: loong64
 Version: 4:5.25.11-kwin.5.24.3
@@ -12741,6 +12795,25 @@ MD5sum: 8e29c93ba7214ff90ae029f082cc661e
 SHA1: 2fe8519c10233453230241e71a06837dbb2ab795
 SHA256: 77e1e34afc830f90b34e404d6da982e7e840b54c87f743f7ab5345e2172a9df2
 SHA512: 5ad4a0b3ed1b8d9697732b5aa1a563bd7a7e2348f194ac0b7c0e962c4cc7a5d0d7f8670ea8a69f2fa8548828520a27440d20d4529e9fc2b4a345dd01967a5ccd
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.9gxde0_amd64.deb
+Size: 20572
+MD5sum: 222369d51b20425c99fc4329820c6c60
+SHA1: 5c5f37dbe838b91ea7fd86ed614eba62f96aa94f
+SHA256: 9fa002539b86b756f18164c17b696458f972beb66a69d9bd02eb7eea19245f1f
+SHA512: 74e60445c42f9c1489dfdb1311a75b2ff6874db84a7915ba4b4b2bcfa02aea87be84c56bda3beb630c2f6d55900c7bf799756099c3f781c19a4281f1538dd139
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
@@ -14497,6 +14570,27 @@ SHA512: abea1c94808184be9f0076709d7a8ae1a63ff55bfe68b9523e3db54bfe7df2c91ec920d6
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - launcher module
  Deepin desktop environment 2015 - launcher module.
+
+Package: dde-dock
+Architecture: amd64
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3263
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.5.33~), libdtkgui5 (>= 5.5.25~), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.9gxde0_amd64.deb
+Size: 642612
+MD5sum: 242381a50ab8d50cacd0916554908b1c
+SHA1: 3d3f1f9c2c9369b62575957767a0edf33da60e81
+SHA256: 4a4a6275956d34dc20ce26fad5f8f39f3d2d2adb3ac05f897550c81faaa51edb
+SHA512: f02c5eeecb6911e26cf1e61894936483a2aa493b2f60a2b0cedf36c7874136fc4939df1fbac54ce573713fb0b9ec3d9113884384be1a7b6537c1d9df35369222
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
 
 Package: dde-dock
 Architecture: arm64
