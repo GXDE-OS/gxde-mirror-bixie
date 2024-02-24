@@ -1,0 +1,29 @@
+Package: deepin-kwin-data
+Architecture: all
+Version: 4:5.25.15-kwin.5.24.3
+Multi-Arch: foreign
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12639
+Depends: python3:any
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Filename: ./d/deepin-kwin-data/deepin-kwin-data_5.25.15-kwin.5.24.3_all.deb
+Size: 4012032
+MD5sum: a89f60e1016d615fce876b454fde6f59
+SHA1: 92e9fbeff756386d48e1aba391355b4bb0a4534f
+SHA256: 9e4389ac2f2dd0b588b278788dac74665a1acadd23a7887bc57d89583ba1cf7c
+SHA512: c52e92e83c88a4cbe4db0f5000240fe5cfa901606792ffe54d764878b70be7def5cc27e699cede6564e51775cfe5150d3b9094343c65c59eebf006fe329aa8da
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+

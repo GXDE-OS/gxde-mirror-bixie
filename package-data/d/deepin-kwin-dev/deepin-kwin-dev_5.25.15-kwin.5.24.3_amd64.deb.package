@@ -1,0 +1,28 @@
+Package: deepin-kwin-dev
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libdevel
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 313
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.3), libkf5config-dev (>= 5.89~), libkf5coreaddons-dev (>= 5.89~), libkf5windowsystem-dev (>= 5.89~), libqt5x11extras5-dev (>= 5.15.0~), libxcb-xfixes0-dev (>= 1.10~), qtbase5-dev (>= 5.15.0~)
+Replaces: kde-workspace-dev
+Filename: ./d/deepin-kwin-dev/deepin-kwin-dev_5.25.15-kwin.5.24.3_amd64.deb
+Size: 63724
+MD5sum: 919046e8d5bbd7589e946d5a45a19fcf
+SHA1: fef105424b35111b429c025d314ddd0fcc95a5ab
+SHA256: da84cfde1aec50b1a3e2cfc45b937dc2153ef13ca54251ccb6c8a221ded566b8
+SHA512: 2acd93bc3f9cec66de6a32cd9361cad6e5ec972e9ed74b0f2783843a29ed2073561a5abf3a3ce17f7c22ae80b70d78097fc077834b60ba000b91dccd9d6f2ce6
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager - devel files
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+

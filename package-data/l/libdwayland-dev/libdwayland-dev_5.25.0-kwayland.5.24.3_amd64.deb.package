@@ -11,11 +11,11 @@ Recommends: libdwayland-doc (= 5.25.0-kwayland.5.24.3)
 Breaks: dwayland-dev (<< 4:5.23.0-2~)
 Replaces: dwayland-dev (<< 4:5.23.0-2~)
 Filename: ./l/libdwayland-dev/libdwayland-dev_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 106244
-MD5sum: 821cd4c91d9b501d7abd1607e7859f74
-SHA1: 989a66b85345063db1dcf3057986a7760a544728
-SHA256: d2df71bd7af9ea4fef05fe3c914c8279826975b2cd44780a1d7f5fa494edf53c
-SHA512: 0e025e604dde55fbc42e7fce8d8041840c586bb28ac126b05008ed36d30fa8fba309c5a5962d80b2fc36fb73c16144b1837b0a11f145c71fcd7cce11faf716ce
+Size: 106196
+MD5sum: 8c5ee97f27a0d52fb4a12d6bb524bedd
+SHA1: 6a2b5cebf86c4b2ac068e5ec6c6154eca82b2346
+SHA256: 2c8b4c52f7954239df9e57e03eee11a94578c1ec513296fc4fe9165108bff361
+SHA512: a9303f90cbc1ff1b443bf44ffac64c0087e2bdd0b27bc1536257a723cac2fd246b246c0c5e77a5d4f282ab75880f08e9d82ac6b88bad19d13671a897ce943178
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: development files for dwayland
  DWayland provides a Qt-style Client and Server library wrapper for
