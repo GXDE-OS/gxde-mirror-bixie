@@ -885,16 +885,16 @@ Version: 0.6.9
 Priority: Optional
 Section: utils
 Maintainer: gfdgd xi
-Installed-Size: 19525
+Installed-Size: 19513
 Depends: libqt5dbus5, libqt5core5a, libqt5gui5, libxcb-ewmh2, libxcb1, libdframeworkdbus2,
          libdtkcore5-bin, libkf5windowsystem5, libqt5svg5, libqt5concurrent5, libgsettings-qt1, libxcb-util1
 Conflicts: dde-top-panel
 Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9_amd64.deb
-Size: 8483824
-MD5sum: aac942200427c596a09e7d1279122776
-SHA1: 5dc1c887ae897a31b8f0508c5b0e7f1d32a9fb27
-SHA256: 93fb7ff8b7e50b6bdb69c179ed59f6bcf7fd115b76b6c429797017f07bf6b414
-SHA512: d6ec751e6c2f550ef6cd4da5cedbb9804d3f3eaa50bbcceb4a27383067e67a1414f86b9dbc83df57d0d9e22e2c898f77a2d2de11243294a01131c7161c9b920e
+Size: 8483728
+MD5sum: a0cffb2eecf963bca34baed3683181bc
+SHA1: 2a81a586c0b7344bb087b00a7fa21234bee20163
+SHA256: f7a4ed22cf9b63b6524e8e2ef4db1e48f17195a5fd49deac7b788f8622a7caef
+SHA512: 8cd3b138f0a054693663f139f22ff3f7d4fb88b9373f2d36850b221e49a75a7d9f1fda241e825ef1fff485ea6eb97bef6fc40c7db38283be865630b099a27f7e
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
 Package: gvfs-backends
