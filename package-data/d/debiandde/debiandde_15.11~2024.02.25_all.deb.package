@@ -5,15 +5,15 @@ Priority: extra
 Section: metapackages
 Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Installed-Size: 31
-Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-center (>> 2.90.5), startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-introduction, dde-kwin, deepin-screensaver
-Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark, gxde-top-panel, plank
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver
+Recommends: file-roller, deepin-manual, dde-introduction, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark, gxde-top-panel, plank
 Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
 Filename: ./d/debiandde/debiandde_15.11~2024.02.25_all.deb
 Size: 6168
-MD5sum: b51c81434e161a9fe383cba494feee65
-SHA1: 17783f9de6ef48cb134cae956ea2e1b6204705a8
-SHA256: fa9fbc82f6b5d5d569d87163c619bd8162eb87d4e29ceecef7217d114b211e72
-SHA512: fa303e87e1bfbc0e2da776456eb6ab9def02bd605dd95f1425a8bd07b5478df7fe4dfaa2a12ae81df8607606b93f18cfe5843ae65af5985f8440c96b0eba478d
+MD5sum: f1d122df2a6ceb8e7cd3a7d1c5d1b233
+SHA1: 10452ca2a70438a567dd06e013ecf0a26244d066
+SHA256: ef7340c15a362168e27d0cb03f88317c7b35a3396011a1f22f81385f82cc0de7
+SHA512: 379e8811992d5d98b88c59b8a4f0ba8c0775701688d4118c705c3d6e860a6e352f529351b92b09300efbffff2eaa3de04ae44ab314a9a27477482e95f7eb92b3
 Homepage: http://www.gfdgdxi.top
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
