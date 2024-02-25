@@ -50,33 +50,6 @@ Description: userspace virtual filesystem - GIO module
  mounts.
 
 Package: gvfs
-Architecture: amd64
-Version: 1.50.3gxde0
-Multi-Arch: same
-Priority: optional
-Section: libs
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 388
-Depends: gvfs-common (= 1.50.3gxde0), gvfs-daemons (<< 1.50.3gxde0.1~), gvfs-daemons (>= 1.50.3gxde0), gvfs-libs (= 1.50.3gxde0), libc6 (>= 2.33), libglib2.0-0 (>= 2.70.0)
-Suggests: gvfs-backends
-Filename: ./g/gvfs/gvfs_1.50.3gxde0_amd64.deb
-Size: 122776
-MD5sum: cb62a684ae78e195e131d3b62ed415a5
-SHA1: 32fafc168e42fc6ed3bda5a00855752cf887159f
-SHA256: c6867a3a05a682a811fcfa1c3a18b4c135e6898326e67297c002e8beec293f30
-SHA512: e4b0949e3861f48a28311947c34fc6afa2c1776f2f5e0cd697fdb7a39d7b93c7aa07cc70be6555a8546b4803f597a6987b78313be23f244d626a32f6a2fcdd5d
-Homepage: https://wiki.gnome.org/Projects/gvfs
-Description: userspace virtual filesystem - GIO module
- gvfs is a userspace virtual filesystem where mounts run as separate
- processes which you talk to via D-Bus. It also contains a gio module
- that seamlessly adds gvfs support to all applications using the gio
- API. It also supports exposing the gvfs mounts to non-gio applications
- using fuse.
- .
- This package contains the GIO module that lets applications use gvfs
- mounts.
-
-Package: gvfs
 Architecture: mips64el
 Version: 1.30.4-1
 Multi-Arch: same
@@ -210,34 +183,6 @@ Description: Richer testing framework for Go libraries and applications to use
     - Multi-line string reporting for more comprehensible failures
     - Inclusion of comments surrounding checks on failure reports
     - Fully tested (it manages to test itself reliably)
-
-Package: gvfs-daemons
-Architecture: amd64
-Version: 1.50.3gxde0
-Multi-Arch: foreign
-Priority: optional
-Section: libs
-Source: gvfs
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 537
-Depends: gvfs-common (= 1.50.3gxde0), gvfs-libs (= 1.50.3gxde0), lsof, udisks2, libbluray2 (>= 1:0.2.2), libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgudev-1.0-0 (>= 147), libsecret-1-0 (>= 0.7), libsystemd0, libudisks2-0 (>= 2.0.91)
-Recommends: dbus, gvfs
-Suggests: gvfs-backends
-Filename: ./g/gvfs-daemons/gvfs-daemons_1.50.3gxde0_amd64.deb
-Size: 124996
-MD5sum: 353c497430192b383f89eb5f586112d8
-SHA1: a42abe8e322f5690434ef5b8d79d966cd01661e6
-SHA256: 602b67cedbd581d6bdc2827d3dcc33d23bb9374cd9949527c76a56e22dc887e0
-SHA512: 0226b89b112a11ea3b45c33d83924e92dc483a2a2791aacd88cdfef74465f8909708ec2911f963be5f9f9482b389bf02b4f2a1929e3cee0fbaf1063d1aeaedc5
-Homepage: https://wiki.gnome.org/Projects/gvfs
-Description: userspace virtual filesystem - servers
- gvfs is a userspace virtual filesystem where mounts run as separate
- processes which you talk to via D-Bus. It also contains a gio module
- that seamlessly adds gvfs support to all applications using the gio
- API. It also supports exposing the gvfs mounts to non-gio applications
- using fuse.
- .
- This package contains the gvfs server and the minimal set of backends.
 
 Package: gvfs-daemons
 Architecture: i386
@@ -448,33 +393,6 @@ MD5sum: 3b7b91fdfeeaa4578f3f423d2f4905b8
 SHA1: 4bf13fdc80116c01d5e3daa2021f590caf9ca885
 SHA256: 4cc2d16eb6b8dc796d8bd7df8cf5dfa21c9fdaecfaeadedf214a2df0288acbfe
 SHA512: fa4b4a2d1451f9c536f1f88b24bfbd08abf855562dca99aa10f48b5f735a35884f9ea2b6cc449307b36cdc052b8a34767860de326acde6b9e15529fd67cf04ad
-Homepage: https://wiki.gnome.org/Projects/gvfs
-Description: userspace virtual filesystem - private libraries
- gvfs is a userspace virtual filesystem where mounts run as separate
- processes which you talk to via D-Bus. It also contains a gio module
- that seamlessly adds gvfs support to all applications using the gio
- API. It also supports exposing the gvfs mounts to non-gio applications
- using fuse.
- .
- This package contains private libraries with common functions between
- the daemons and the GIO module.
-
-Package: gvfs-libs
-Architecture: amd64
-Version: 1.50.3gxde0
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: gvfs
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 446
-Depends: gsettings-desktop-schemas (>= 3.33.0), gvfs-common (= 1.50.3gxde0), libc6 (>= 2.33), libgcr-base-3-1 (>= 3.8.0), libglib2.0-0 (>= 2.70.0), libsecret-1-0 (>= 0.7)
-Filename: ./g/gvfs-libs/gvfs-libs_1.50.3gxde0_amd64.deb
-Size: 102472
-MD5sum: 9ace89f5995c0e6b9ddcc1bf8bd6fb8d
-SHA1: 45512c3b092116381bdbf69ef2ee1b750f0a6a40
-SHA256: a1c86fe1d1de6fbccaa6744e75c218beda1390a97c176856a1d7a2c1008ad1c3
-SHA512: f53b848cddb9fb27a216dc40e728a40e98911d36c8b9bbc64442922b7a8e7aa6de25c1dc89b75a6b378256259e082da188c3645ca2f157b7b066c9bee3442688
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - private libraries
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -986,35 +904,6 @@ Description: userspace virtual filesystem - backends
 
 Package: gvfs-backends
 Architecture: amd64
-Version: 1.50.3gxde0
-Multi-Arch: foreign
-Priority: optional
-Section: gnome
-Source: gvfs
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1894
-Depends: gvfs (= 1.50.3gxde0), gvfs-common (= 1.50.3gxde0), gvfs-daemons (= 1.50.3gxde0), gvfs-libs (= 1.50.3gxde0), psmisc, dconf-gsettings-backend | gsettings-backend, libarchive13 (>= 3.0.4), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.34), libcdio-cdda2 (>= 10.2+2.0.0), libcdio-paranoia2 (>= 10.2+2.0.0), libcdio19 (>= 2.1.0), libgcrypt20 (>= 1.10.0), libgdata22 (>= 0.18.0), libglib2.0-0 (>= 2.70.0), libgoa-1.0-0b (>= 3.17.1), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgudev-1.0-0 (>= 147), libimobiledevice6 (>= 1.3.0), libmtp9 (>= 1.1.16), libnfs13 (>= 1.9.8), libplist3 (>= 2.2.0), libpolkit-gobject-1-0 (>= 0.101), libsmbclient (>= 2:4.12.0+dfsg), libsoup-3.0-0 (>= 3.0.3), libusb-1.0-0 (>= 2:1.0.21), libxml2 (>= 2.7.4)
-Recommends: gnome-keyring
-Suggests: bluez-obexd, pkexec, samba-common
-Filename: ./g/gvfs-backends/gvfs-backends_1.50.3gxde0_amd64.deb
-Size: 365444
-MD5sum: fd39238a149893298ab46b04dbca4207
-SHA1: 176cbd23b72bfcbc5c27ba13ba433c1178d45689
-SHA256: 097d710e2005ff2b694cdea73eebde114ea04b2721d08578a6ab6be8feadf2ca
-SHA512: 59aa9a26c0f0bb6485840fde37c4859729b54032addccfee21ccddae7d494b99aea457f9516f64a9d9390c59775938d4655db7054de2582af894886994a02400
-Homepage: https://wiki.gnome.org/Projects/gvfs
-Description: userspace virtual filesystem - backends
- gvfs is a userspace virtual filesystem where mounts run as separate
- processes which you talk to via D-Bus. It also contains a gio module
- that seamlessly adds gvfs support to all applications using the gio
- API. It also supports exposing the gvfs mounts to non-gio applications
- using fuse.
- .
- This package contains the afc, afp, archive, cdda, dav, dnssd, ftp,
- gphoto2, http, mtp, network, sftp, smb and smb-browse backends.
-
-Package: gvfs-backends
-Architecture: amd64
 Version: 1.38.1.3-deepin3
 Multi-Arch: foreign
 Priority: optional
@@ -1104,32 +993,6 @@ MD5sum: 9f5c1dcfee0c21a50360b8768215649a
 SHA1: 1dfeb1626496e38fe6765e3d6f51e75c841bf29d
 SHA256: b2bc1f11f0d11677588c264d0716eb6634d1caf245cdda44181f9d77c6be3fea
 SHA512: 4c4451830694512909e876b59519bd5b3ad743a7696d2a098449bcf04486cae09dc32260f8988048edda67ea723874448d6da555b1b2fc52237489f8ccda3c3e
-Homepage: https://wiki.gnome.org/Projects/gvfs
-Description: userspace virtual filesystem - fuse server
- gvfs is a userspace virtual filesystem where mounts run as separate
- processes which you talk to via D-Bus. It also contains a gio module
- that seamlessly adds gvfs support to all applications using the gio
- API. It also supports exposing the gvfs mounts to non-gio applications
- using fuse.
- .
- This package contains the gvfs-fuse server that exports gvfs mounts to
- all applications using FUSE.
-
-Package: gvfs-fuse
-Architecture: amd64
-Version: 1.50.3gxde0
-Priority: optional
-Section: gnome
-Source: gvfs
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 63
-Depends: fuse3, gvfs (= 1.50.3gxde0), libc6 (>= 2.34), libfuse3-3 (>= 3.12.0), libglib2.0-0 (>= 2.70.0)
-Filename: ./g/gvfs-fuse/gvfs-fuse_1.50.3gxde0_amd64.deb
-Size: 20452
-MD5sum: 08658b04ec2debddb64239af8edca9a0
-SHA1: 9a66572206e5c238f5d552fc4c085595576484ca
-SHA256: 40be29384efd8f23547257c4003eb1343a2f28511f4026ef074123310cf92936
-SHA512: ae276260c8cc51739b0595f12e07398b8fcdc24fcccc5cb137c7c70922bb3d2295060185e7b55005c285ceca8411d79e4254db4ee4dae686fef1cbff1cc29b87
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - fuse server
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -1238,34 +1101,6 @@ MD5sum: 74230d1b774a61ffd420fb9454cde610
 SHA1: 1c8ae189ec2b0a2e0c821e6d5b937de87a3485e1
 SHA256: 8fd425b15e67bd9a7d5e353d38a7cc85ee677cc6cc1558b11b5d1ed3d5517772
 SHA512: 8d578b717a72c26bebd907e773d3fe5ab86e4394120287be1a6611c9d809a34950cf3c93604b883bec08ece941ea816d2a4302b1fe1b7824301580e64a5595c6
-Homepage: https://wiki.gnome.org/Projects/gvfs
-Description: userspace virtual filesystem - common data files
- gvfs is a userspace virtual filesystem where mounts run as separate
- processes which you talk to via D-Bus. It also contains a gio module
- that seamlessly adds gvfs support to all applications using the gio
- API. It also supports exposing the gvfs mounts to non-gio applications
- using fuse.
- .
- This package contains the data files and translations used by all gvfs
- components.
-
-Package: gvfs-common
-Architecture: all
-Version: 1.50.3gxde0
-Multi-Arch: foreign
-Priority: optional
-Section: libs
-Source: gvfs
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3602
-Depends: desktop-file-utils
-Recommends: gvfs
-Filename: ./g/gvfs-common/gvfs-common_1.50.3gxde0_all.deb
-Size: 479688
-MD5sum: f18402ad2042c868044d4fef324b4a55
-SHA1: 94315f752f2b294a3e44a2d9911c5aad4ca25d21
-SHA256: 9bf60adac43974c44dd68d73a7c3e962914dce6237788ff04fb3f8ae7e7b3ee3
-SHA512: bbb27533668d6dee88a99ca0d021b05d2e3ce93c49430fbd108e8394daaa666e140265ae8840bd23d34a424f84c2eda75651e9d19f8a462355e44540d065c96a
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - common data files
  gvfs is a userspace virtual filesystem where mounts run as separate
