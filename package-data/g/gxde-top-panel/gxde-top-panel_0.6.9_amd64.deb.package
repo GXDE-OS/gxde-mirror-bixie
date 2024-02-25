@@ -9,10 +9,10 @@ Depends: libqt5dbus5, libqt5core5a, libqt5gui5, libxcb-ewmh2, libxcb1, libdframe
          libdtkcore5-bin, libkf5windowsystem5, libqt5svg5, libqt5concurrent5, libgsettings-qt1, libxcb-util1
 Conflicts: dde-top-panel
 Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9_amd64.deb
-Size: 8483728
-MD5sum: a0cffb2eecf963bca34baed3683181bc
-SHA1: 2a81a586c0b7344bb087b00a7fa21234bee20163
-SHA256: f7a4ed22cf9b63b6524e8e2ef4db1e48f17195a5fd49deac7b788f8622a7caef
-SHA512: 8cd3b138f0a054693663f139f22ff3f7d4fb88b9373f2d36850b221e49a75a7d9f1fda241e825ef1fff485ea6eb97bef6fc40c7db38283be865630b099a27f7e
+Size: 8483720
+MD5sum: 47b1c6bbc0ff7d66c32081de04eb88e3
+SHA1: 76473a809526a40448e863a2e6572dcf1744454a
+SHA256: 212b17c0088a053b9d2b1a82c735523d1a60f31803bca88b154ce7c0e4946df3
+SHA512: 21ab2ab1d836bfb77bff56cf6ed14b50dad19b27fe08af884976ed54224c49dd84995e706592d0e5dacd5f652aaadb88b5ea4dbd9fab9b808ca20ac7d16b8a88
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
