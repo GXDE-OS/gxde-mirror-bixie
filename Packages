@@ -521,11 +521,11 @@ Depends: libc6 (>= 2.34), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libglib
 Conflicts: fantascene-dynamic-wallpaper
 Replaces: fantascene-dynamic-wallpaper
 Filename: ./g/gxde-fantascene-dynamic-wallpaper/gxde-fantascene-dynamic-wallpaper_1.6.5_amd64.deb
-Size: 6481624
-MD5sum: 84c38074de320a3c6bc9b22a417bed78
-SHA1: a2856ad2fd6cef38d9bf1e6808a8f1d3ef0d9320
-SHA256: 2d875334d02c960223f9233524902605f98c3493984e41704aeb0ae4e6ef1faa
-SHA512: b52a34eca450b661fa5b06346a254a28cd6baf9b2b68156b30f1123618c63a620dc48d224261de8cbf52d40f641043809a9bda336f1e2b147fce915ffc150be4
+Size: 6481344
+MD5sum: 0181165690910678a6f0d62d34937c1e
+SHA1: f0109d7cbfa7dd6522c9242b23bf94c54554027f
+SHA256: b3091952bc7c0117b575a4c6683712b53555c6cce9b13f5fdf5b20bd461ba612
+SHA512: 30aecd21cfa70a09b07d8d96963ff5f0125b7ec9c67791c900f35d4dee92b562efc0825ccab591e70c1bb114b4c126a93e2a314874af48c292d7bf6ea749afa2
 Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
 Description: video wallpaper for fantascene.
 
