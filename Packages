@@ -510,6 +510,25 @@ Gstreamer-Decoders: audio/mpeg, mpegversion=(int)1, layer=(int)[ 1, 3 ]
 Gstreamer-Elements: flump3dec
 Gstreamer-Version: 1.22
 
+Package: gxde-fantascene-dynamic-wallpaper
+Architecture: amd64
+Version: 1.6.5
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 6993
+Depends: libc6 (>= 2.34), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6
+Conflicts: fantascene-dynamic-wallpaper
+Replaces: fantascene-dynamic-wallpaper
+Filename: ./g/gxde-fantascene-dynamic-wallpaper/gxde-fantascene-dynamic-wallpaper_1.6.5_amd64.deb
+Size: 6481624
+MD5sum: 84c38074de320a3c6bc9b22a417bed78
+SHA1: a2856ad2fd6cef38d9bf1e6808a8f1d3ef0d9320
+SHA256: 2d875334d02c960223f9233524902605f98c3493984e41704aeb0ae4e6ef1faa
+SHA512: b52a34eca450b661fa5b06346a254a28cd6baf9b2b68156b30f1123618c63a620dc48d224261de8cbf52d40f641043809a9bda336f1e2b147fce915ffc150be4
+Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
+Description: video wallpaper for fantascene.
+
 Package: gir1.2-gnomekeyring-1.0
 Architecture: mips64el
 Version: 3.12.0-1+b2
@@ -803,16 +822,16 @@ Version: 0.6.9
 Priority: Optional
 Section: utils
 Maintainer: gfdgd xi
-Installed-Size: 19513
+Installed-Size: 19508
 Depends: libqt5dbus5, libqt5core5a, libqt5gui5, libxcb-ewmh2, libxcb1, libdframeworkdbus2,
          libdtkcore5-bin, libkf5windowsystem5, libqt5svg5, libqt5concurrent5, libgsettings-qt1, libxcb-util1
 Conflicts: dde-top-panel
 Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9_amd64.deb
-Size: 8483728
-MD5sum: 6dbe34ca0a289b95c7c792cc38436b18
-SHA1: fadd15fc4b58650212ca49419f5330185d641ac0
-SHA256: 01683a33a9678018518bba8945faaebc6a5aa3ba8d60865a8c1fe98cfbebb7de
-SHA512: 53cc2e2745061fedb5ebaa7f2ab26747fab668197c1a0354326d2fc39144fb35cc085cdf6d0522a114a4cb34d33aa408c51f7691827e1b71bc3331d7c610b6d0
+Size: 8483426
+MD5sum: c4632eabde7ec5d441502d38bbc2df80
+SHA1: 0ce3629a4cead9280ba942c0903491ddfc0fdb4e
+SHA256: 8166c2edd865c768ab4fa11e041fed19927561d47a3fe559e02d0a3e7574a3c6
+SHA512: 39c45e25e3acf0d772653068c9d2a1463ba6e55f8346441713def31500337238ab80e0880df8a46fa375e9550e7d518d731274716171d9b76ea60566beebde84
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
 Package: gvfs-backends
@@ -13319,6 +13338,28 @@ MD5sum: c2c91f9c0dc4fd4ba87c059f9d2d8a59
 SHA1: a05ba6fad00cab0b827b63647abe2fa93e6798de
 SHA256: 1a037503622d11b0132f10ae045551fd075b63551d969fc2be4eed8f5198bc5a
 SHA512: 81085c4dd817da1438a2979be8a8480829bc222ce4033f2f447506e04f36cd80e327f062a535e17bd6f7ee6f17399a1e4637e9c140d31f805929e83d9f5f511a
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
+Version: 4.10.17
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14266
+Depends: dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.17_amd64.deb
+Size: 4213148
+MD5sum: be6b9e756674eb31394dc4b6456bce7f
+SHA1: 314c27e96a3135e348a2be64fae9f546b2ebf8c4
+SHA256: e803597ceb9cbdc5107a4928ec5abf9422fcbe9eb34f3c78551df31ae67c4866
+SHA512: 60e97a60ffa6e39cb4dd6d18ba50b9b261e95f957f64b0d45a65c8a370a5e5eea463f943788e97f1d4dd948d521bdb4ad274c3b8f5efa505dcf923ad58258a04
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
