@@ -1,0 +1,19 @@
+Package: dde-disk-mount-plugin
+Architecture: loong64
+Version: 4.8.8.2+c1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 465
+Depends: libdde-file-manager (= 4.8.8.2+c1-1+comsta)
+Filename: ./d/dde-disk-mount-plugin/dde-disk-mount-plugin_4.8.8.2+c1-1+comsta_loong64.deb
+Size: 146844
+MD5sum: d15c98dd76008953c5885c1d542bc81b
+SHA1: 2ed1e1412051503c2951204ff79434173fbdc59d
+SHA256: 2cd6af152c2e1e8e69274ea5190087d3749cd617739ae1646e2189c5e089a0b1
+SHA512: cd04ec901ec4770e3e9e00aefd83da1bb165fd56d37d28d5e7ca905fb0130acc5dade9335968614b1d3306fa80f7fc60bc5aa5977e601defc432520c8d8538aa
+Homepage: http://www.deepin.org
+Description: plugin of dde-dock
+ Disk mount plugin of dde-dock which is created by libdde-file-manager
+

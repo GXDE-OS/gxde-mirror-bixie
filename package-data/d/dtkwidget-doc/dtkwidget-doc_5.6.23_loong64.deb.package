@@ -1,0 +1,20 @@
+Package: dtkwidget-doc
+Architecture: loong64
+Version: 5.6.23
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10
+Filename: ./d/dtkwidget-doc/dtkwidget-doc_5.6.23_loong64.deb
+Size: 4420
+MD5sum: 7dc6417a6e085bfed583464116166578
+SHA1: edd4d9889df3b2a3a26d84a5af210d3ceb6ce914
+SHA256: dc3bd3c33de1b75c731d535976ff0b11f7aff5df46f2629fd5ce0630d4ce55d6
+SHA512: 8579e7cbc7e403db919ae7c93542500c834c3df4006124036247901bdc6f1300b111be83c9c49372a03cde46feaba7e5a60e946b894efe4a3fa46a956dccc853
+Description: Deepin graphical user interface library (Document)
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
+

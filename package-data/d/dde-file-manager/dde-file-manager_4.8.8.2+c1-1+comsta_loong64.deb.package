@@ -1,0 +1,19 @@
+Package: dde-file-manager
+Architecture: loong64
+Version: 4.8.8.2+c1-1+comsta
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 992
+Depends: libdde-file-manager (= 4.8.8.2+c1-1+comsta), socat
+Recommends: dde-qt5integration, avfs, samba
+Filename: ./d/dde-file-manager/dde-file-manager_4.8.8.2+c1-1+comsta_loong64.deb
+Size: 273072
+MD5sum: f58c758b6a60f5b4cb2cd31e6895828f
+SHA1: 95acf0af9ffe8ba7492e9ab8081c8febba74f73d
+SHA256: 9702d64d34893d95b6fc1b5d4f2d5373374fb48b32339fb980bb75cbf06ac2e7
+SHA512: 6675bcf9de268d27497839e2e37bf48894a20875a71358786bab3bae49e987225d731f35b5a28b96412d4d0af2e91a406dfaeb8c8038abcbfb005d410837d2c6
+Homepage: http://www.deepin.org
+Description: File manager front end
+ File manager front-end of Deepin OS
+

@@ -1,0 +1,18 @@
+Package: libdde-network-utils
+Architecture: loong64
+Version: 15.11~0.1.4-1+comsta
+Priority: optional
+Section: libs
+Source: dde-network-utils
+Maintainer: listenerri <listenerri@gmail.com>
+Installed-Size: 379
+Filename: ./l/libdde-network-utils/libdde-network-utils_15.11~0.1.4-1+comsta_loong64.deb
+Size: 78360
+MD5sum: f1d4558dbf9f06d427d0172a0c1e8662
+SHA1: 0826cbfb51ff6a9727742f716913f8e0c1f6567f
+SHA256: 487be7a712959257484c4943481638eb1ae4eb218be5fc2fb7390ddbc1638822
+SHA512: ae263ec5ddd6516c57e29f0051f7361900f4cf5803232ac0d4e64c67dcb8642968dc1cf254f211fb4356a5f0b6c662296b8a038bc15a6c3509ea7e2700ffb72d
+Homepage: https://github.com/linuxdeepin/dde-network-utils
+Description: DDE network utils
+ DDE network utils.
+

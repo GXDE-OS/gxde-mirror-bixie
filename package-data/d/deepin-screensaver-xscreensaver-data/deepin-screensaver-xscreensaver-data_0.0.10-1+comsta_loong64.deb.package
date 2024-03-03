@@ -1,0 +1,18 @@
+Package: deepin-screensaver-xscreensaver-data
+Architecture: loong64
+Version: 0.0.10-1+comsta
+Priority: optional
+Section: devel
+Source: deepin-screensaver
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 897
+Depends: deepin-screensaver, xscreensaver-data-extra, xscreensaver-gl-extra
+Filename: ./d/deepin-screensaver-xscreensaver-data/deepin-screensaver-xscreensaver-data_0.0.10-1+comsta_loong64.deb
+Size: 655164
+MD5sum: 75faab1b859e98b63871cef8767d159f
+SHA1: 7e3b29e2babb1f45836424e9c38ed8c06287249f
+SHA256: 17374668cee0a50ddd1b38203cde5f38ef71980befdd9fc476db10e22e4bd0d9
+SHA512: 8e3251e432c23d33939a8d51e52b22d6d61621dd37bf9f665da3ca23fc596207741cfb6c4b0ab316885cf9f5c78e9bdcc8b45e80c4f4c6179080034b8a88e76a
+Description: Screensaver data
+ xscreensaver extra with the Deepin Screensaver.
+

@@ -1,0 +1,17 @@
+Package: deepin-screensaver
+Architecture: loong64
+Version: 0.0.10-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 133
+Depends: deepin-screensaver-xscreensaver-data
+Filename: ./d/deepin-screensaver/deepin-screensaver_0.0.10-1+comsta_loong64.deb
+Size: 32688
+MD5sum: 46aa8f1124f359d4dac7cabbd00a20f6
+SHA1: 27bd928e26e057359b9686d1de64f0cc46a0f6bd
+SHA256: c486d350e3916c7bafbbc9094e50cde1c6ec9bdfcb69503e54d32e0a9e9d5b28
+SHA512: 56f7c9ccf5b01b806c797283bd777521f5cc914c5ee37db23d510f3b209155a8faae3d22017bfbbcd733ba5bda64b7cf8947d6eca3b4a8ea01580254dd160009
+Description: Screensaver Tool
+ Deepin screensaver viewer and tools.
+

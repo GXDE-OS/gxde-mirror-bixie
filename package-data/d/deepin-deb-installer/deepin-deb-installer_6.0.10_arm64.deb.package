@@ -5,14 +5,14 @@ Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2814
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libqapt3-runtime
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.5.33~), libdtkgui5 (>= 5.5.25~), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libqapt3-runtime
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.10_arm64.deb
-Size: 1007192
-MD5sum: d026eb6a5697e0202f088c4a65eced59
-SHA1: 9c9890e8eb208d869627d1fc9849af9ebcb3ac85
-SHA256: a6f50e5ae816cf1f9e94574fdb3b22362eba13590d9e8a20bc788ca1416c4984
-SHA512: 8ade777e46ebba10ebd15be2c4d436e27252a2d60dad18b78ea38a5a7bb3c6af7102215a79567d6b7481889057e4725a6df58826286decc8ccdc04997488f4f6
+Size: 993764
+MD5sum: b822f45082fa7323535e44e1c99119bf
+SHA1: eb315933bde9975c4637c6b6393c633310a6668e
+SHA256: a1a083fdc5375c5724972be9b36d56e83ccc1a8637b60fc79a2ce156e4a61b9d
+SHA512: 2322a65c57e442d00b8fdeedb601cca0671644b5efc5ddc0493f3f97ce423262b503a707d2a2dbe04e504bd6ce5d76eee53df82785a6a51fdf6d40162dfc1cdb
 Homepage: https://www.deepin.com/
 Description: Package Installer helps users install and remove local packages.
  Package Installer is an easy-to-use .deb package management tool
