@@ -12394,6 +12394,29 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
 
+Package: dde-session-ui
+Architecture: arm64
+Version: 4.9.14-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 10109
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_4.9.14-1+comsta_arm64.deb
+Size: 2001824
+MD5sum: c94a16eab4e35c7a8ba18f1e23b4af8c
+SHA1: 7d75835cd8c6c0a184b4e1201a803c9fd13bf59e
+SHA256: 2a7c045ea1081d794f41edc285119179be084c1fd48bd935d562b1cc2ce8baca
+SHA512: bc23762b5c8e81062d3473e12b20701af6a5e1e8236b3cf1a8898ffb424f1d29cd74fa56e8cd15bb3ee5f6214c1cb47633916f8d101a52539c83844e2b1c0e55
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+
 Package: dde-kwin-dev
 Architecture: loong64
 Version: 5.6.6-1
@@ -16041,6 +16064,25 @@ MD5sum: 71f975705684390529587958b9da4238
 SHA1: cdc0d1da962587e75fea9f95999b2c2f933ea7ab
 SHA256: b650c6734cc5651b947f5cade9444da7c5f4ff9a0cdd3988c221f3ee7e38d3b1
 SHA512: 49d8773a9b49d1e890e8ab9f3ffe82735850e6cbd3730b77763995e7bb58114cd311be4de0dee18769a4953d8f16a7b5d8440986cb9e189a44bff3ce4df73066
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+
+Package: dde-launcher
+Architecture: loong64
+Version: 3.0.12-1
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1702
+Depends: libc6 (>= 2.37), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.5.33~), libdtkgui5 (>= 5.5.25~), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, qtbase-abi-5-15-8, lastore-daemon, deepin-desktop-schemas (>= 3.1.11)
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_3.0.12-1_loong64.deb
+Size: 337592
+MD5sum: 508bbe6519c96caa9001dfff5b810c29
+SHA1: c91678eb3f6072a70ffa9ec0abd061bcaeb06c4c
+SHA256: 393bf0cf686187e18585650da9fca408b0455a8bf4c34c2eba5ebad7a8e79c35
+SHA512: aebe28c2c3dfa475f8c905abcf578f2408fcd042a1cdbe3d1876cef5371c1c5699121ab85363b4b7a00d0ddbae77128ce7e605cc2675bde3ac6587481fcdb183
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - launcher module
  Deepin desktop environment 2015 - launcher module.
