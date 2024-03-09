@@ -1,0 +1,26 @@
+Package: qt5dxcb-plugin
+Architecture: loong64
+Version: 5.0.65-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: deepin-qt5dxcb-plugin
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 760
+Provides: libqt5dxcb-plugin
+Conflicts: libqt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Filename: ./q/qt5dxcb-plugin/qt5dxcb-plugin_5.0.65-1_loong64.deb
+Size: 224188
+MD5sum: 982b22537c8c00458b3d0bdf529ad989
+SHA1: acc09c80a7f3810354262d69a00238ad8afa829b
+SHA256: b213024fd90309f89a3ebcbd328109afa3d7520373e87764720dbd46b528c30d
+SHA512: 69fbdb3aa9cb0099194c13c975480f5aacee1b9d9be059cf36971ca4d72a1966386426a70504a2c9feafad3197001f63423051b7cbebf104375b080758a8cbc2
+Homepage: https://github.com/linuxdeepin/qt5platform-plugins
+Description: Qt platform theme integration plugin for DDE
+ Deepin's qt5dxcb-plugin is the Qt platform integration plugin for Deepin
+ Desktop Environment. It provides an abstract interface between Deepin
+ applications and Qt tookit for further application theme customization.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+

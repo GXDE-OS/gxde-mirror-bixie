@@ -1,0 +1,23 @@
+Package: libmpv-dev
+Architecture: loong64
+Version: 0.36.0-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: mpv
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 166
+Depends: libmpv2 (= 0.36.0-1), libarchive-dev (>= 3.4), libasound2-dev, libass-dev, libavcodec-dev (>= 7:4.0), libavdevice-dev (>= 7:4.0), libavfilter-dev (>= 7:4.0), libavformat-dev (>= 7:4.0), libavutil-dev (>= 7:4.0), libbluray-dev, libcaca-dev, libcdio-paranoia-dev, libdrm-dev (>= 2.4.75), libdvdnav-dev, libegl-dev, libgbm-dev, libgl-dev, libjack-dev, libjpeg-dev, liblcms2-dev (>= 2.6~), liblua5.2-dev, libmujs-dev, libpipewire-0.3-dev, libplacebo-dev (>= 4.157), libpulse-dev, librubberband-dev, libsdl2-dev, libsixel-dev, libspirv-cross-c-shared-dev, libswscale-dev (>= 7:4.0), libuchardet-dev, libva-dev, libvdpau-dev, libvulkan-dev, libwayland-dev (>= 1.15.0), libx11-dev, libxinerama-dev, libxkbcommon-dev, libxpresent-dev, libxrandr-dev, libxss-dev, libxv-dev, libzimg-dev, wayland-protocols
+Filename: ./l/libmpv-dev/libmpv-dev_0.36.0-1_loong64.deb
+Size: 46780
+MD5sum: 5edf10eda44941fab4321570fbdd4d75
+SHA1: 15dd75f75fc845e2711e96a4e5467e057ae42b7c
+SHA256: d98043a3b25ccb6b0377970d3647f7b04c1761ede39cbf49e0f1cc8c56a29138
+SHA512: 2eaa8f53dcee78274b5ebc09972ed94f1e088c4fba30c27a2f499a12005b16a660faaa18fc9360b0fcb54206d74a669a54a87f017a38989c16e627367757de00
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2 (client library dev files)
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ This package provides development files for libmpv.
+

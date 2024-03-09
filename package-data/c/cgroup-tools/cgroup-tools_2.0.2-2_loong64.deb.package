@@ -1,0 +1,28 @@
+Package: cgroup-tools
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 335
+Breaks: cgroup-bin (<< 0.40~rc1-3~)
+Replaces: cgroup-bin (<< 0.40~rc1-3~)
+Filename: ./c/cgroup-tools/cgroup-tools_2.0.2-2_loong64.deb
+Size: 72096
+MD5sum: 079e697344bf82cdf0e2a7620a08c801
+SHA1: 281be5271fed899d3e6584bc18786ec1ab60d8d3
+SHA256: f2abd601e2d958612f441909fcb51ab767f5facd87efc09b9547c27f046b1598
+SHA512: 40992b3764fcbd9a4bf0abf94fbe9277a62536125649d0f0725afc373b7effc71385d401f37aa6672a04d0957a6ccf2060b9bcdc582d4156915d644d61083b41
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (tools)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the command-line tools.
+

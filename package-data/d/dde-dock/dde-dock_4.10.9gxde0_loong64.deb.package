@@ -1,0 +1,21 @@
+Package: dde-dock
+Architecture: loong64
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3310
+Depends: deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.9gxde0_loong64.deb
+Size: 598592
+MD5sum: b9b990d2d0796fa2dc94a7d54496d54a
+SHA1: 9703da72f15c5f419d2bf35d105199dad468082b
+SHA256: ba5e7c982e8b446cca1f5229b10222c41f4e587aa507b4f6c33d92f78fde7f5c
+SHA512: 24a7089402bacefea8f1641c41ec63f1d2a8256f35516936e22e55b2c7cba11ab707a8febdf3fe85b5225467f9808d4b331c144fc1fc1f808f3c2683135e5e8e
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+

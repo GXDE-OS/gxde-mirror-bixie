@@ -1,0 +1,28 @@
+Package: libpam-cgroup
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: same
+Priority: optional
+Section: admin
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 35
+Filename: ./l/libpam-cgroup/libpam-cgroup_2.0.2-2_loong64.deb
+Size: 6356
+MD5sum: 7a76dfe3d529e9e976862c7cc74f6c1c
+SHA1: 625d1644d7407dbb6a4f560fd6a8b750b00677d2
+SHA256: 1ffb0c0912e8f82aa43524ec4465ef8f5d6a7c8a153156ceef5f718c5fdfdbdd
+SHA512: eea406deb60e37ac7427d845492cda1e3b471a872dba9b6d47e477b4c69c642b61e85431b8bd80260a906a9cbde518d903ad08558e343c2b697d16deaef31999
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (PAM)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the PAM module to move a user session into an existing
+ cgroup by attempting to match uid and gid against the defined cgroup rules
+ configuration.
+

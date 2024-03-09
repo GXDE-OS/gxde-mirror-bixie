@@ -1,0 +1,18 @@
+Package: dde-api
+Architecture: loong64
+Version: 3.18.5-1+comsta
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 56516
+Depends: rfkill, locales, libcanberra-pulse, blur-effect, librsvg2-bin, fonts-noto-cjk, ttf-unifont, bc, fontconfig, coreutils, alsa-utils
+Filename: ./d/dde-api/dde-api_3.18.5-1+comsta_loong64.deb
+Size: 11362148
+MD5sum: 90f69e3c8d3e0fdde2bc3cd4924f3e5a
+SHA1: 05d53a30c1835767d7432385a82acabde5cd98fd
+SHA256: c40ee41bbc30528d7993f02e64bbb9300de6f2c2238bcf6a1634242754d878cb
+SHA512: c02700d18ff758e559bc7287c8882c837aadbfc707634c33de46b9159f151c30397e5dde5731b400ae3371f39d2f35b0c6a79ff26e79da33b451ce0cbebe0a0e
+Homepage: http://www.deepin.org
+Description: Go-lang bingdings for dde-daemon
+ Deepin Go-lang bindings for dde-daemon
+

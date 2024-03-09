@@ -1,0 +1,26 @@
+Package: libgtk2-perl
+Architecture: loong64
+Version: 2:1.2499-1
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 2822
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libcairo-perl, libglib-perl (>= 3:1.280), libpango-perl, shared-mime-info
+Suggests: libgtk2-perl-doc, librsvg2-common
+Filename: ./l/libgtk2-perl/libgtk2-perl_1.2499-1_loong64.deb
+Size: 539656
+MD5sum: 8e1edc8647d059ae2b95a07fe2cd0b4c
+SHA1: 930feb3ddba64375570a7a17635bf1ad36c54d22
+SHA256: 0c6971d10fccef5d9e358903b47ea37277af8b10f265c8932b4abe2e4db71126
+SHA512: a6e564eee2aa2b55aa668a4ac14ad4a70227b7d845aff89d2627d546d54d02a1a15d548ce04c305d6b6c73faaa5e5a0a54ac5d331f34d598d604481276319afd
+Homepage: http://gtk2-perl.sourceforge.net/
+Description: Perl interface to the 2.x series of the Gimp Toolkit library
+ Gtk2 allows you to write graphical user interfaces in a Perlish and
+ object-oriented way, freeing you from the casting and memory management in C,
+ yet remaining very close in spirit to original API.
+ .
+ Gtk+ is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, the Gtk+ is suitable for projects ranging
+ from small one-off tools to complete application suites. Find out more about
+ Gtk+ at http://www.gtk.org.
+

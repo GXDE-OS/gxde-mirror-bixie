@@ -1,0 +1,26 @@
+Package: libcgroup2
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 140
+Filename: ./l/libcgroup2/libcgroup2_2.0.2-2_loong64.deb
+Size: 46096
+MD5sum: 47650e6ecf337f72eaf2588873bc5ed2
+SHA1: 787345b8e9522662249e73d1da97e9282cf5d715
+SHA256: a2dfc69db551123a8f9d078852a319cff15321fbc3e58b255a4f2cf6eb2c6419
+SHA512: 7392588f815c4ea46d59b9f835101b70ae872798b7b4f36d65cba2239c85fe609f365be863a0b9aefa7f53ce1923da3d8c0d27e7c6d139ba89e9472541c8bcc6
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (library)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the shared library.
+

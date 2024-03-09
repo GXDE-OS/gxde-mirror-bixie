@@ -1,0 +1,22 @@
+Package: startdde
+Architecture: loong64
+Version: 3.14.7-1+comsta
+Priority: extra
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9033
+Provides: x-session-manager
+Depends: dde-daemon (>> 3.24.1+), gnome-keyring, libpam-gnome-keyring, gvfs-common, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>= 3.2.4), dde-api, libgnome-keyring0, libxfixes3, libxcursor1
+Recommends: dde-qt5integration
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: startdde (<= 2.91.1)
+Filename: ./s/startdde/startdde_3.14.7-1+comsta_loong64.deb
+Size: 2075488
+MD5sum: d19af5297085053531e0fc2a2ce7e71b
+SHA1: c8fe749dc4a439aa91061a0bcaeb73f9684465e2
+SHA256: eac5b7977ece6dd4df52911bfa251f8b60539c813f1c47a9a6ff11477e832c8a
+SHA512: 5f0de08bf1c392eff5c28e54603da1f510ced3340a3189ee877f15d2eb1377105ba998e9144510c1025601164945fee7af40a28402888dfb2a46b80694898c74
+Homepage: http://github.com/linuxdeepin/startdde
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+

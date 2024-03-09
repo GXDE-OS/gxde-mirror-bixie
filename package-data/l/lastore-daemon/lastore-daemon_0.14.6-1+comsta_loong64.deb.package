@@ -1,0 +1,20 @@
+Package: lastore-daemon
+Architecture: loong64
+Version: 0.14.6-1+comsta
+Priority: extra
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 45536
+Provides: update-notifier
+Depends: ostree, dbus, procps, util-linux, libgtk2-perl
+Recommends: deepin-default-settings
+Filename: ./l/lastore-daemon/lastore-daemon_0.14.6-1+comsta_loong64.deb
+Size: 18801996
+MD5sum: b466e69fad6a9539235e5aa1b632547f
+SHA1: 7eb696078d3333e3448ff9161e57a93e328bfec8
+SHA256: ec41ee4c6b41bfa674b78acfd0cee7c5e4ea8ca1d096ab2fcf040bae125073bd
+SHA512: 89dea0e9d740742b364d8239292a61f7c2b8501daaf1f6724933190156804ecb655e113b980e9243f8b9cafcd1e731eb7785738603ddbf4451ca672d34627958
+Homepage: http://github.com/linuxdeepin/lastore-daemon
+Description: daemon of lastore
+ daemon of lastore - support dbus interface
+

@@ -1,0 +1,36 @@
+Package: libcroco3
+Architecture: loong64
+Version: 0.6.11-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcroco
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 335
+Filename: ./l/libcroco3/libcroco3_0.6.11-3_loong64.deb
+Size: 135368
+MD5sum: 7e0b26f8476827b13df5b571f30dd6e7
+SHA1: 63c7642620b222accc0d4ff77f4ff68d0a1d611d
+SHA256: 60df32ddbf78b7fbf839e32dddb19851f415f39a8ba8579e6ab7da54a681ad2e
+SHA512: 571daa3d7d02fe5cc0564a9b4a797a79db5884a9f151b2613b1e2aa3aa3cbc697a99178c469fcedb0c17225d7f8c482867c0fa7fef831c5577375934dc3e1b92
+Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ Services provided by Libcroco
+  * A parser module that provides
+    o A SAC like API. SAC stands for Simple API for CSS. SAC is an event driven
+      API which resembles SAX in the xml world.
+    o A CSSOM like API. CSSOM stands for Cascading Style Sheet Object Model.
+ .
+    The libcroco parser implements the CSS Level 2 specification, the CSS
+    forward compatibility rules and the CSS cascading rules.
+ .
+  * A CSS2 selection engine
+    Given an xml element node (that obviously comes from an xml document) and
+    a stylesheet cascade, the Libcroco selection engine can evaluate the css
+    selectors of the cascade and return the style properties associated to
+    the xml element node.
+ .
+    Note that the xml manipulation toolkit used by the libcroco selection
+    engine at the moment is libxml2.
+ .
+ This package contains the shared libraries.
+

@@ -1,0 +1,29 @@
+Package: dde-qt5integration
+Architecture: loong64
+Version: 5.5.23-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 1255
+Provides: dde-qt5integration5, dde-qt5integration5.5, libqt5deepintheme-plugin
+Depends: dde-qt5xcb-plugin | qt5dxcb-plugin
+Conflicts: libqt5deepintheme-plugin
+Filename: ./d/dde-qt5integration/dde-qt5integration_5.5.23-1_loong64.deb
+Size: 268884
+MD5sum: f594bd2928e2b020918d9a007e1ae6b5
+SHA1: bb2601b07df3f158368a63301d507e88b7c7b0b1
+SHA256: 8acfb6dc29a287d38cd7edf2a8f8a9fee6f1595fd58ee839bd0d1917653ce52a
+SHA512: c7addd3c928de26a10555063708053e16e8c67851f3e926a509deccb8d9c90a4e112a27e1b8ce10dd12a0c493988ab171f6546f96b6e9e29ac1a50e07048cfac
+Homepage: https://github.com/linuxdeepin/qt5integration
+Description: Qt5 theme integration for Deepin application
+ Deepin's qt5integration provides library plugins used by Deepin
+ application and Deepin Desktop Environment. It implements many extra
+ features on top of stock Qt, include hijacking window decoration /
+ shadow painting, better support for cursors under HiDPI, retrieval of
+ full list of windows under current workspace, support for window of
+ arbitrary shape with anti-aliasing and so on, to make Qt5 application
+ and Deepin Desktop Environment more user-friendly.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+

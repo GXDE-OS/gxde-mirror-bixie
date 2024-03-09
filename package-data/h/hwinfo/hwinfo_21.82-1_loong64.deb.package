@@ -1,0 +1,29 @@
+Package: hwinfo
+Architecture: loong64
+Version: 21.82-1
+Priority: optional
+Section: admin
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Installed-Size: 88
+Filename: ./h/hwinfo/hwinfo_21.82-1_loong64.deb
+Size: 27980
+MD5sum: 66b3576777e89545b6326e6e7a810c07
+SHA1: 9b3c077cbe6deb106a62a3781958817437dc0614
+SHA256: 0a83924ee0fa0b84704de5a73dd362eec1dd1abcb2e9b44cd0867e847eef694d
+SHA512: 40100d6635a142e8c56eafb91047028fb8841b1560656ff9f497a8540d47aa7c49b30bf8c577cae540d674cf1bf83e6aa7c28043f8887b1033a9e0ccbb5fb5b6
+Homepage: https://github.com/openSUSE/hwinfo
+Description: Hardware identification system
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover when
+ detecting mouse, keyboard and monitor.
+ .
+ hwinfo collects information about the hardware installed on a system.  Among
+ others, libhd contains information about cdrom, zip, floppy, disks and
+ partitions, network card, graphics card, monitor, camera, mouse, sound, pppoe,
+ isdn, modem, printer, scanner, bios, cpu, usb, memory and smp.
+ .
+ This package does not include the binaries hwscan, hwscand and hwscanqueue. If
+ you think one or more of these should be included in the package, please
+ contact the maintainer at hwinfo@packages.debian.org.
+

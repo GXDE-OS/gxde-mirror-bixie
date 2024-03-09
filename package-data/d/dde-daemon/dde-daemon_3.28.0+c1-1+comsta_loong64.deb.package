@@ -1,0 +1,26 @@
+Package: dde-daemon
+Architecture: loong64
+Version: 3.28.0+c1-1+comsta
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 65243
+Provides: lastore-daemon-migration
+Depends: upower, network-manager, iso-codes, gvfs-common, gnome-keyring, deepin-desktop-base, deepin-sound-theme, user-setup, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>> 3.13.7+), mobile-broadband-provider-info, bamfdaemon, dde-polkit-agent, xdotool, libpam0g, libnl-3-200, libnl-genl-3-200, libfprint0, dnsmasq-base, cgroup-tools, imwheel, procps, lastore-daemon, deepin-installer-timezones, dde-api (>> 3.17.1+), libpam-runtime (>= 1.1.3-2~), hwinfo
+Recommends: proxychains4, flatpak, laptop-mode-tools, iio-sensor-proxy
+Suggests: bluez (>= 5.4), network-manager-pptp, network-manager-l2tp, network-manager-openconnect, network-manager-openvpn, network-manager-vpnc, network-manager-sstp, xserver-xorg-input-wacom, xserver-xorg-input-synaptics, miraclecast
+Conflicts: dde-workspace, lastore-daemon-migration
+Breaks: dde-daemon (<< 2.92.2), dde-workspace, lastore-daemon (<< 0.9.64)
+Replaces: lastore-daemon (<< 0.9.64)
+Filename: ./d/dde-daemon/dde-daemon_3.28.0+c1-1+comsta_loong64.deb
+Size: 11656256
+MD5sum: 8f9ab2470ace06287f57a18e5bf518e6
+SHA1: f3ddbbba2e93cf7138f823ac2c34047bbe7b69f7
+SHA256: f6a714a50baabed33e8af404a627957d49d9dd8c32e42590069645c4014347c9
+SHA512: 2e4547af2bceb27d64a1a4fbed751e900bce60a0af7d5fe2013bbe46253ac91d9c2d08194f28b58efa0ef184b8d76501671b3c41997024d2d411c31cf7078a5a
+Homepage: http://www.deepin.org
+Description: daemon handling the DDE session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a DDE session and the applications that run
+ under it.
+

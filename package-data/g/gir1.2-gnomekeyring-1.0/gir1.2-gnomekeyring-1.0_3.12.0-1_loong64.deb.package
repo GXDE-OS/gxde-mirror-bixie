@@ -1,0 +1,29 @@
+Package: gir1.2-gnomekeyring-1.0
+Architecture: loong64
+Version: 3.12.0-1
+Priority: optional
+Section: introspection
+Source: libgnome-keyring
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 60
+Depends: libgnome-keyring0 (= 3.12.0-1), gir1.2-glib-2.0 (>= 1.30)
+Filename: ./g/gir1.2-gnomekeyring-1.0/gir1.2-gnomekeyring-1.0_3.12.0-1_loong64.deb
+Size: 39084
+MD5sum: 759fd326bc2bb1a91eb56ee36843b27a
+SHA1: bd9ccd9c48d662ec80d235b26678a49a8076369e
+SHA256: 24c17b209ebec248f832091dca6b7c86319c8bc49a41611f29a2aeaf889c6e9f
+SHA512: 93d3161c74dbca448813dd4c3d25a348c81caabf6e6aa5bd57492f6402719c1e0088f9a087b766a62d6b6862ad2947e8e672a23641b7c9a9a8e4db7166e7df48
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: GNOME keyring services library - introspection data
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package provides introspection data for libgnome-keyring. It can
+ be used by packages using the GIRepository format to generate dynamic
+ bindings.
+

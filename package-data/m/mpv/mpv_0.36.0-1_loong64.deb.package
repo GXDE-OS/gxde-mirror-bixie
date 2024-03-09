@@ -1,0 +1,32 @@
+Package: mpv
+Architecture: loong64
+Version: 0.36.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2964
+Recommends: xdg-utils, yt-dlp
+Filename: ./m/mpv/mpv_0.36.0-1_loong64.deb
+Size: 1129156
+MD5sum: 6f49cbfcc9367b12ff1e87cc73302ae0
+SHA1: 9e0d6d45c3022acfe6d26caafc999197eadd2139
+SHA256: 3d37534a540e3476a18de31cb495ee37ef9a1dd5d2b38b712ccd7005d461e712
+SHA512: de006442053949afafc0e6c10c5397ef891e41cd0e3222e313e3cd788c89e714baadbee5b8ad5c6654bf916cd2bf2f09ec47ab65f3e6dc046591db2cb03578ae
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ Changes from mplayer2 to mpv include:
+  * Removal of lots of unneeded code to encourage developer activity
+  * Better OSD rendering
+  * Cleaned up terminal output
+  * Improved OpenGL output
+  * Encoding functionality (replacement for mencoder)
+  * Wayland support
+  * Support for playing URLs of popular streaming sites
+  * Screenshot improvements
+  * ...
+ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
+

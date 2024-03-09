@@ -1,0 +1,18 @@
+Package: gxde-fantascene-dynamic-wallpaper
+Architecture: loong64
+Version: 1.6.5
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 7016
+Conflicts: fantascene-dynamic-wallpaper
+Replaces: fantascene-dynamic-wallpaper
+Filename: ./g/gxde-fantascene-dynamic-wallpaper/gxde-fantascene-dynamic-wallpaper_1.6.5_loong64.deb
+Size: 6466224
+MD5sum: cf90e28306d68c418082661cbe4e8c61
+SHA1: 9042100a27d2e3c25af152866fa97e06bfd0f5a8
+SHA256: f46831d3ce25341fc422f9f4e09cf146dac0f6c070097882a98d58c802690171
+SHA512: 6ccbc437b8c9639c1303cbac9d09b58ac9b2034fc2e316d28eaae3d90193981da1f66bd24a9b889a64d1b2dff29624180fb920c76b5ed9ff030a2446a94e317c
+Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
+Description: video wallpaper for fantascene.
+

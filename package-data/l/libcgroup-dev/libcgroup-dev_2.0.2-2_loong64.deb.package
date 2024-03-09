@@ -1,0 +1,27 @@
+Package: libcgroup-dev
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 274
+Depends: libcgroup2 (= 2.0.2-2)
+Filename: ./l/libcgroup-dev/libcgroup-dev_2.0.2-2_loong64.deb
+Size: 62408
+MD5sum: 6c72b2e026c3dfaf4b4b10bcc7012f95
+SHA1: 7ae695f4569ef0709199844b225ec08515b14092
+SHA256: 3263f5e89b538fc0f2e03b34c85c7764999e7d24a74bcb01ab16bc1c89a562bf
+SHA512: 119a043599fcf1786828d3e969f8fd5e3d99e52c5e5f149bbf957fed7c05aa8fd8fb92e4cbb894d5d0f55fbdc5f790c1282c992d0f50b7df01caa1f10f2e46d4
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (development)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the development files.
+

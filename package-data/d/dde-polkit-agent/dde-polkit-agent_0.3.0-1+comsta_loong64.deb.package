@@ -1,0 +1,20 @@
+Package: dde-polkit-agent
+Architecture: loong64
+Version: 0.3.0-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 257
+Depends: dpa-ext-gnomekeyring
+Filename: ./d/dde-polkit-agent/dde-polkit-agent_0.3.0-1+comsta_loong64.deb
+Size: 54716
+MD5sum: b4a79fa95396bd7955239a566dfa002e
+SHA1: dce77c029655a046a47633dd1f4734c0c85e4917
+SHA256: 3213cdd11d810b6a7c1cd5ee6d222eb5d6f3eff816d82f848602fd56c8b53144
+SHA512: c0f95be4c91778138fd4761184bf7501bd6a61d430354366f2e7912e5139b829e1451dd822ce9719727849516e86a5cb19f361d53b8d40a3ff6b8cf18402a66b
+Homepage: http://www.deepin.org/
+Description: PolicyKit agent for DDE.
+ PolicyKit agent is usually a dialog used to provide a way to let users
+ grant permission to specific actions, this package serves the role in
+ Deepin Desktop Environment.
+

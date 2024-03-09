@@ -1,0 +1,23 @@
+Package: dde-session-ui
+Architecture: loong64
+Version: 4.9.14-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 10015
+Provides: lightdm-greeter
+Depends: deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_4.9.14-1+comsta_loong64.deb
+Size: 2007876
+MD5sum: 6140195058ef773473ea72564aed9399
+SHA1: dd3646491074a114e334319293100f68f0f0fd32
+SHA256: f56fd0b84ce538ffc7d6dc43a8ccb668bc93cbb8b572ea7dd3c2e1f897a47e15
+SHA512: b1a2927ff98d443159af943c96d2a7e26400c1d1e84ea72a7f5424ec300ad12c88d9ae5c0283a8dab1b089aaf4c383ccfd43ff1260cb949f79d2f9239db21070
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+

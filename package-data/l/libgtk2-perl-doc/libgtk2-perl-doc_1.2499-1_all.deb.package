@@ -8,11 +8,11 @@ Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Installed-Size: 2399
 Recommends: libgtk2-perl
 Filename: ./l/libgtk2-perl-doc/libgtk2-perl-doc_1.2499-1_all.deb
-Size: 1088864
-MD5sum: dada5fdd01da6fa1dc7577cb55d1225f
-SHA1: 534e6ffb3b5a2ee4e2a358db7f8aa6f03a88fdaf
-SHA256: 5cc01f3116b04fa5099e782fd16cb593e33a94f9bb48a903b727fb5914f702fa
-SHA512: 82d53bd33196375f1a5212b4b8c49bf111921dc2924b99fd5034e57226a67a9c51a9982d7f7398ab152afbdfe39930a623b2e8f8c79ad75d03ce5b250b571b02
+Size: 1088772
+MD5sum: e4975ab3ad2ccd3947e3a1dddfe0a9fc
+SHA1: e9224acc84d988ab80cb4d5e464dc5769db90a14
+SHA256: 2ca658182520eec95c5399562c5579387229fe1f4376fb8abbfbf8d27aa2fdab
+SHA512: 4bfd60b9c1ed0512f836ab7cc1be35a4e26b313acc630f7d71fcc4a21470e1111c8f63b181aad33acb0e27520b50f76682933347afbdc0982b870ca468ae9ad3
 Homepage: http://gtk2-perl.sourceforge.net/
 Description: Perl interface to the Gtk 2.x series (documentation files)
  Gtk2 allows you to write graphical user interfaces in a Perlish and

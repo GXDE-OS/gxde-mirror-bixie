@@ -551,6 +551,24 @@ Gstreamer-Elements: flump3dec
 Gstreamer-Version: 1.22
 
 Package: gxde-fantascene-dynamic-wallpaper
+Architecture: loong64
+Version: 1.6.5
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 7016
+Conflicts: fantascene-dynamic-wallpaper
+Replaces: fantascene-dynamic-wallpaper
+Filename: ./g/gxde-fantascene-dynamic-wallpaper/gxde-fantascene-dynamic-wallpaper_1.6.5_loong64.deb
+Size: 6466224
+MD5sum: cf90e28306d68c418082661cbe4e8c61
+SHA1: 9042100a27d2e3c25af152866fa97e06bfd0f5a8
+SHA256: f46831d3ce25341fc422f9f4e09cf146dac0f6c070097882a98d58c802690171
+SHA512: 6ccbc437b8c9639c1303cbac9d09b58ac9b2034fc2e316d28eaae3d90193981da1f66bd24a9b889a64d1b2dff29624180fb920c76b5ed9ff030a2446a94e317c
+Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
+Description: video wallpaper for fantascene.
+
+Package: gxde-fantascene-dynamic-wallpaper
 Architecture: arm64
 Version: 1.6.5
 Priority: optional
@@ -603,6 +621,35 @@ MD5sum: 8418af2700220c4d1c29150e50b40ff8
 SHA1: 3f64c99504f3be84be0214644c6d8a0502707680
 SHA256: 0367dc7401d35dd3d14857dae12aa48f02faa7b96a346d6d4bcd4238b5095189
 SHA512: 2eab6d121a51b1ce0d5c3030fa85f3307592ca27f7ee3a74fd33332227460ae8db9e662185582f8ee627c4f1d28a79ffa70db0af754d50a206eda5f0949824c0
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: GNOME keyring services library - introspection data
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package provides introspection data for libgnome-keyring. It can
+ be used by packages using the GIRepository format to generate dynamic
+ bindings.
+
+Package: gir1.2-gnomekeyring-1.0
+Architecture: loong64
+Version: 3.12.0-1
+Priority: optional
+Section: introspection
+Source: libgnome-keyring
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 60
+Depends: libgnome-keyring0 (= 3.12.0-1), gir1.2-glib-2.0 (>= 1.30)
+Filename: ./g/gir1.2-gnomekeyring-1.0/gir1.2-gnomekeyring-1.0_3.12.0-1_loong64.deb
+Size: 39084
+MD5sum: 759fd326bc2bb1a91eb56ee36843b27a
+SHA1: bd9ccd9c48d662ec80d235b26678a49a8076369e
+SHA256: 24c17b209ebec248f832091dca6b7c86319c8bc49a41611f29a2aeaf889c6e9f
+SHA512: 93d3161c74dbca448813dd4c3d25a348c81caabf6e6aa5bd57492f6402719c1e0088f9a087b766a62d6b6862ad2947e8e672a23641b7c9a9a8e4db7166e7df48
 Homepage: https://wiki.gnome.org/GnomeKeyring
 Description: GNOME keyring services library - introspection data
  gnome-keyring is a daemon in the session, similar to ssh-agent,
@@ -891,6 +938,24 @@ MD5sum: c4632eabde7ec5d441502d38bbc2df80
 SHA1: 0ce3629a4cead9280ba942c0903491ddfc0fdb4e
 SHA256: 8166c2edd865c768ab4fa11e041fed19927561d47a3fe559e02d0a3e7574a3c6
 SHA512: 39c45e25e3acf0d772653068c9d2a1463ba6e55f8346441713def31500337238ab80e0880df8a46fa375e9550e7d518d731274716171d9b76ea60566beebde84
+Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
+
+Package: gxde-top-panel
+Architecture: loong64
+Version: 0.6.9
+Priority: Optional
+Section: utils
+Maintainer: gfdgd xi
+Installed-Size: 19478
+Depends: libqt5dbus5, libqt5core5a, libqt5gui5, libxcb-ewmh2, libxcb1, libdframeworkdbus2,
+         libdtkcore5-bin, libkf5windowsystem5, libqt5svg5, libqt5concurrent5, libgsettings-qt1, libxcb-util1
+Conflicts: dde-top-panel
+Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9_loong64.deb
+Size: 8380512
+MD5sum: 2cf8a07cb9a59246e35830dd79710855
+SHA1: b742ea9c073e0ef2a69920f3944d18c728f75107
+SHA256: 5f667df1323358c67870812a2291c5f5a1e8f5825eafaae19cc3f822e7353151
+SHA512: 536b3f172549605c19956db0b3d9a57b6a58752e66159b59346fc2a5491c2ee390ada2c7133cb59a835d911f460bf746bd4d9d8c8ed7a5b9debc8205f5a2e8bf
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
 Package: gxde-top-panel
@@ -1749,6 +1814,30 @@ Description: KDE window manager render utils library
  .
  This package is part of the KDE base workspace module.
 
+Package: libmpv2
+Architecture: loong64
+Version: 0.36.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mpv
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2548
+Recommends: yt-dlp
+Filename: ./l/libmpv2/libmpv2_0.36.0-1_loong64.deb
+Size: 837308
+MD5sum: db25305bdbf69ecb263a94c844051158
+SHA1: 6359fc80d9bb03df77ccba437a233032bc6317a5
+SHA256: bfeaf80b7b91ae8fbb4c485cabbd57e77e86d33c4d927661c87ef550799d61e7
+SHA512: c154baa73b6929ed7b2c12e4f63de881ba63ee116b942808ef50bfbaee0ba7c4969d398386748726588fb4a21819b5a425af3b539149498f1a21103d833b4a6d
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2 (client library)
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ This package provides a client library that can be used to embed mpv in other
+ applications.
+
 Package: libdtkwidget5-bin
 Architecture: arm64
 Version: 5.6.12-1
@@ -1956,6 +2045,26 @@ Description: daemon of lastore
  daemon of lastore - support dbus interface
 
 Package: lastore-daemon
+Architecture: loong64
+Version: 0.14.6-1+comsta
+Priority: extra
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 45536
+Provides: update-notifier
+Depends: ostree, dbus, procps, util-linux, libgtk2-perl
+Recommends: deepin-default-settings
+Filename: ./l/lastore-daemon/lastore-daemon_0.14.6-1+comsta_loong64.deb
+Size: 18801996
+MD5sum: b466e69fad6a9539235e5aa1b632547f
+SHA1: 7eb696078d3333e3448ff9161e57a93e328bfec8
+SHA256: ec41ee4c6b41bfa674b78acfd0cee7c5e4ea8ca1d096ab2fcf040bae125073bd
+SHA512: 89dea0e9d740742b364d8239292a61f7c2b8501daaf1f6724933190156804ecb655e113b980e9243f8b9cafcd1e731eb7785738603ddbf4451ca672d34627958
+Homepage: http://github.com/linuxdeepin/lastore-daemon
+Description: daemon of lastore
+ daemon of lastore - support dbus interface
+
+Package: lastore-daemon
 Architecture: i386
 Version: 0.14.7-1+stable
 Priority: extra
@@ -1975,6 +2084,33 @@ Homepage: http://github.com/linuxdeepin/lastore-daemon
 Description: daemon of lastore
  daemon of lastore - support dbus interface
 
+Package: libcgroup-dev
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 274
+Depends: libcgroup2 (= 2.0.2-2)
+Filename: ./l/libcgroup-dev/libcgroup-dev_2.0.2-2_loong64.deb
+Size: 62408
+MD5sum: 6c72b2e026c3dfaf4b4b10bcc7012f95
+SHA1: 7ae695f4569ef0709199844b225ec08515b14092
+SHA256: 3263f5e89b538fc0f2e03b34c85c7764999e7d24a74bcb01ab16bc1c89a562bf
+SHA512: 119a043599fcf1786828d3e969f8fd5e3d99e52c5e5f149bbf957fed7c05aa8fd8fb92e4cbb894d5d0f55fbdc5f790c1282c992d0f50b7df01caa1f10f2e46d4
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (development)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the development files.
+
 Package: libgtk2-perl
 Architecture: i386
 Version: 2:1.2499-1
@@ -1990,6 +2126,32 @@ MD5sum: 2201df6dea42d6f426caefee1fa4e87b
 SHA1: 887a9bdf9716d6d798ea9bd4fd8979fbd9784b21
 SHA256: 817c8fb06a311f19d1d6287caea6137528a9dba1bfd36e5ef8f50051184bf958
 SHA512: 95ac3a8dd14feffc8c65ea2fb7ba9321b9156efb203695421bafebde193c8475767435b9178f3a6493d0073cd8145b3c98658128c1a85ff2774d1e7e167e62aa
+Homepage: http://gtk2-perl.sourceforge.net/
+Description: Perl interface to the 2.x series of the Gimp Toolkit library
+ Gtk2 allows you to write graphical user interfaces in a Perlish and
+ object-oriented way, freeing you from the casting and memory management in C,
+ yet remaining very close in spirit to original API.
+ .
+ Gtk+ is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, the Gtk+ is suitable for projects ranging
+ from small one-off tools to complete application suites. Find out more about
+ Gtk+ at http://www.gtk.org.
+
+Package: libgtk2-perl
+Architecture: loong64
+Version: 2:1.2499-1
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 2822
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libcairo-perl, libglib-perl (>= 3:1.280), libpango-perl, shared-mime-info
+Suggests: libgtk2-perl-doc, librsvg2-common
+Filename: ./l/libgtk2-perl/libgtk2-perl_1.2499-1_loong64.deb
+Size: 539656
+MD5sum: 8e1edc8647d059ae2b95a07fe2cd0b4c
+SHA1: 930feb3ddba64375570a7a17635bf1ad36c54d22
+SHA256: 0c6971d10fccef5d9e358903b47ea37277af8b10f265c8932b4abe2e4db71126
+SHA512: a6e564eee2aa2b55aa668a4ac14ad4a70227b7d845aff89d2627d546d54d02a1a15d548ce04c305d6b6c73faaa5e5a0a54ac5d331f34d598d604481276319afd
 Homepage: http://gtk2-perl.sourceforge.net/
 Description: Perl interface to the 2.x series of the Gimp Toolkit library
  Gtk2 allows you to write graphical user interfaces in a Perlish and
@@ -2303,6 +2465,32 @@ Description: library for accessing process information from /proc
  .
  This package contains the shared libraries necessary to run programs
  compiled with libprocps.
+
+Package: libcgroup2
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 140
+Filename: ./l/libcgroup2/libcgroup2_2.0.2-2_loong64.deb
+Size: 46096
+MD5sum: 47650e6ecf337f72eaf2588873bc5ed2
+SHA1: 787345b8e9522662249e73d1da97e9282cf5d715
+SHA256: a2dfc69db551123a8f9d078852a319cff15321fbc3e58b255a4f2cf6eb2c6419
+SHA512: 7392588f815c4ea46d59b9f835101b70ae872798b7b4f36d65cba2239c85fe609f365be863a0b9aefa7f53ce1923da3d8c0d27e7c6d139ba89e9472541c8bcc6
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (library)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the shared library.
 
 Package: libdeepin-kwineffects13
 Architecture: loong64
@@ -2876,11 +3064,11 @@ Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Installed-Size: 2399
 Recommends: libgtk2-perl
 Filename: ./l/libgtk2-perl-doc/libgtk2-perl-doc_1.2499-1_all.deb
-Size: 1088864
-MD5sum: dada5fdd01da6fa1dc7577cb55d1225f
-SHA1: 534e6ffb3b5a2ee4e2a358db7f8aa6f03a88fdaf
-SHA256: 5cc01f3116b04fa5099e782fd16cb593e33a94f9bb48a903b727fb5914f702fa
-SHA512: 82d53bd33196375f1a5212b4b8c49bf111921dc2924b99fd5034e57226a67a9c51a9982d7f7398ab152afbdfe39930a623b2e8f8c79ad75d03ce5b250b571b02
+Size: 1088772
+MD5sum: e4975ab3ad2ccd3947e3a1dddfe0a9fc
+SHA1: e9224acc84d988ab80cb4d5e464dc5769db90a14
+SHA256: 2ca658182520eec95c5399562c5579387229fe1f4376fb8abbfbf8d27aa2fdab
+SHA512: 4bfd60b9c1ed0512f836ab7cc1be35a4e26b313acc630f7d71fcc4a21470e1111c8f63b181aad33acb0e27520b50f76682933347afbdc0982b870ca468ae9ad3
 Homepage: http://gtk2-perl.sourceforge.net/
 Description: Perl interface to the Gtk 2.x series (documentation files)
  Gtk2 allows you to write graphical user interfaces in a Perlish and
@@ -2894,6 +3082,25 @@ Description: Perl interface to the Gtk 2.x series (documentation files)
  .
  This package contains the documentation for the Gtk2 perl modules and some
  examples.
+
+Package: lastore-daemon-dev
+Architecture: all
+Version: 0.14.6-1+comsta
+Priority: extra
+Section: admin
+Source: lastore-daemon
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 40
+Depends: lastore-daemon (= 0.14.6-1+comsta)
+Filename: ./l/lastore-daemon-dev/lastore-daemon-dev_0.14.6-1+comsta_all.deb
+Size: 10636
+MD5sum: f6dbbf060e9b28bb513f0a4eec59699b
+SHA1: 494182c2e43e7b3b56c5406c6e03d7166fc36c6c
+SHA256: e38a82783ce2195077302c082dd170f0436604cf78fe57260ff7a0dd20b2d8e8
+SHA512: 95f9b4fbe8acd8db487a5b7fed9bb7cf8e03126cf5b551a23a157965306302e1c30c9d2fc0f68516cd8fef3de7304c1a15ee6b93e2e57cee60c0348760d4ee57
+Homepage: http://github.com/linuxdeepin/lastore-daemon
+Description: daemon of lastore - development files.
+ daemon of lastore - support dbus interface - development files.
 
 Package: libgnome2-bin
 Architecture: i386
@@ -3719,6 +3926,35 @@ Description: filesystem operations (portable paths, iteration over directories, 
  manipulate paths, files, and directories.  The goal is to
  facilitate portable script-like operations from within C++ programs.
 
+Package: libhd21
+Architecture: loong64
+Version: 21.82-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: hwinfo
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Installed-Size: 3119
+Filename: ./l/libhd21/libhd21_21.82-1_loong64.deb
+Size: 701540
+MD5sum: 891fd7f9abf1a19a59d22a644cccb54d
+SHA1: f897d15110633a5c826968a58f3c1120853834e8
+SHA256: f53bc96e078a673e75fb10b4ef14d54f8ae8cd5b4d39ed7500eb771e723bd693
+SHA512: c83938684b1a17e586f62c2f1982f0d44c03d6c73314ebf44d7e3eb0dac377a622f3b5041073e8f8ff4fc6b68252e0dadd0b6fc1ec0f328ca82f7e763163afbe
+Homepage: https://github.com/openSUSE/hwinfo
+Description: Hardware identification system library
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover when
+ detecting mouse, keyboard and monitor.
+ .
+ hwinfo collects information about the hardware installed on a system.  Among
+ others, libhd contains information about cdrom, zip, floppy, disks and
+ partitions, network card, graphics card, monitor, camera, mouse, sound, pppoe,
+ isdn, modem, printer, scanner, bios, cpu, usb, memory and smp.
+ .
+ This package contains the shared library from the hwinfo package.
+
 Package: libgnome2-dev
 Architecture: arm64
 Version: 2.32.1-5+b1
@@ -3835,6 +4071,34 @@ Description: protocol buffers C++ library (lite version)
  This package contains the runtime library needed for C++ applications whose
  message definitions have the "lite runtime" optimization setting.
 
+Package: libpam-cgroup
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: same
+Priority: optional
+Section: admin
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 35
+Filename: ./l/libpam-cgroup/libpam-cgroup_2.0.2-2_loong64.deb
+Size: 6356
+MD5sum: 7a76dfe3d529e9e976862c7cc74f6c1c
+SHA1: 625d1644d7407dbb6a4f560fd6a8b750b00677d2
+SHA256: 1ffb0c0912e8f82aa43524ec4465ef8f5d6a7c8a153156ceef5f718c5fdfdbdd
+SHA512: eea406deb60e37ac7427d845492cda1e3b471a872dba9b6d47e477b4c69c642b61e85431b8bd80260a906a9cbde518d903ad08558e343c2b697d16deaef31999
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (PAM)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the PAM module to move a user session into an existing
+ cgroup by attempting to match uid and gid against the defined cgroup rules
+ configuration.
+
 Package: libboost-log1.74.0
 Architecture: amd64
 Version: 1.74.0-deepin
@@ -3921,6 +4185,39 @@ Description: async fingerprint library of fprint project, shared libraries
  This package provides shared libraries.
 
 Package: libfprint0
+Architecture: loong64
+Version: 1:0.6.0-2
+Multi-Arch: same
+Priority: extra
+Section: libs
+Source: libfprint
+Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
+Installed-Size: 472
+Filename: ./l/libfprint0/libfprint0_0.6.0-2_loong64.deb
+Size: 144040
+MD5sum: 6db688327e2611abf5663d25a5492704
+SHA1: e71bbfb6bdc3f8a31dc82b7c54a78c070fcae62e
+SHA256: 59fe910df66d2b536293b060b0cba5ba72239caca4ef5f5ece89a37d6bc5be0b
+SHA512: cab26af8057c775303447fb36060f2d1c007a95457c07cbcbdf4d413d694216e2745a66a9175a5206da22ff07efb393212a61aadb97d9647fe0d461a25d7385e
+Homepage: http://www.freedesktop.org/wiki/Software/fprint/libfprint
+Description: async fingerprint library of fprint project, shared libraries
+ The fprint project aims to support for consumer fingerprint reader devices.
+ .
+ Previously, Linux support for such devices has been scattered amongst different
+ projects (many incomplete) and inconsistent in that application developers
+ would have to implement support for each type of fingerprint reader separately.
+ The idea is to change that by providing a central system to support all the
+ fingerprint readers as it's possible to get hands on.
+ .
+ libfprint is the centre of efforts, this component does the dirty job of
+ talking to fingerprint reading devices, and processing fingerprint data.
+ .
+ This library depends on the new libusb, which performs asynchronous callbacks,
+ allowing fprint to perform non-blocking device tasks.
+ .
+ This package provides shared libraries.
+
+Package: libfprint0
 Architecture: amd64
 Version: 1:0.6.0-2
 Multi-Arch: same
@@ -3987,6 +4284,44 @@ Description: async fingerprint library of fprint project, shared libraries
  allowing fprint to perform non-blocking device tasks.
  .
  This package provides shared libraries.
+
+Package: libcroco3-dev
+Architecture: loong64
+Version: 0.6.11-3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libcroco
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1575
+Depends: libcroco3 (= 0.6.11-3), libxml2-dev (>= 2.4.23), libglib2.0-dev (>= 2.0)
+Filename: ./l/libcroco3-dev/libcroco3-dev_0.6.11-3_loong64.deb
+Size: 210712
+MD5sum: 7ced7f900213188719c8b1d31301143f
+SHA1: 7b19faa6aeb33e35c42b51ea3fbac25e5455e705
+SHA256: 4c0e3530751e81bc6669ecad65a54405141fa70a2b5085de066fafb4e7e11e78
+SHA512: e893351046fcce9325d7b3295500735fff307093f3e44ca1042f39279200b1d74e1c34685ce0b9604305e0eaf46b683d953247136882bd6967de6e837171f5b5
+Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ Services provided by Libcroco
+  * A parser module that provides
+    o A SAC like API. SAC stands for Simple API for CSS. SAC is an event driven
+      API which resembles SAX in the xml world.
+    o A CSSOM like API. CSSOM stands for Cascading Style Sheet Object Model.
+ .
+    The libcroco parser implements the CSS Level 2 specification, the CSS
+    forward compatibility rules and the CSS cascading rules.
+ .
+  * A CSS2 selection engine
+    Given an xml element node (that obviously comes from an xml document) and
+    a stylesheet cascade, the Libcroco selection engine can evaluate the css
+    selectors of the cascade and return the style properties associated to
+    the xml element node.
+ .
+    Note that the xml manipulation toolkit used by the libcroco selection
+    engine at the moment is libxml2.
+ .
+ This package contains the header files and static libraries which is
+ needed for developing the GTK+ applications.
 
 Package: libdde-waylandserver
 Architecture: amd64
@@ -4939,6 +5274,36 @@ Description: GNOME keyring services library
  .
  This package contains shared libraries for GNOME.
 
+Package: libgnome-keyring0
+Architecture: loong64
+Version: 3.12.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libgnome-keyring
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 219
+Depends: libgnome-keyring-common (= 3.12.0-1)
+Suggests: gnome-keyring
+Breaks: gnome-keyring (<< 3.0)
+Filename: ./l/libgnome-keyring0/libgnome-keyring0_3.12.0-1_loong64.deb
+Size: 83008
+MD5sum: 4efb41d77485e1d692d93b8142b3c3e7
+SHA1: f2266b017083d18dfbe4352fc885ca524cd761c3
+SHA256: f44c876bdec0a1944d09a4f9d386c8dd5083cfb42ea054f8853cceac5c0ac714
+SHA512: 442eac9a19c9bf87c78affa61f321e28a45ec919b7860b1065ae49cec30e5152048ff474df402e1df8eb1a1c1d43483ea1e3f097e4caf87284fa19bf47150d83
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: GNOME keyring services library
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains shared libraries for GNOME.
+
 Package: libgnome-keyring-common
 Architecture: all
 Version: 3.12.0-1
@@ -4947,15 +5312,15 @@ Priority: optional
 Section: libs
 Source: libgnome-keyring
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 149
+Installed-Size: 328
 Breaks: libgnome-keyring0 (<< 3.2.0-4)
 Replaces: libgnome-keyring0 (<< 3.2.0-4)
 Filename: ./l/libgnome-keyring-common/libgnome-keyring-common_3.12.0-1_all.deb
-Size: 59538
-MD5sum: c8175cf8173308ffe1ab5fe41329267c
-SHA1: 99141ed4135de346bac0dfeb58e4995a6ca2b1eb
-SHA256: c45a411282bbc19880121528caa306acd3ea1e683f0d21afa02867aeb1c948f3
-SHA512: dd2e5467bf425457f3e13403499a50e66359a7fa3e9832605c1d392941dad61614681fd72223d4b4e32bb8b2f19986002a2692dccdec54a76f3c2c2d30cbe0f4
+Size: 57364
+MD5sum: c1f9ab8b63a6b7df0f33184704a52c68
+SHA1: 1cd8bd1b9e6ba0ff5c358b9e8e322bcb4156dd82
+SHA256: 5acbff0101e61d8a5b88661db122cdc411df3e40625d34c1ee384811a566b464
+SHA512: 9e801b56771c812fbb913483b14019bcd40948fb0edf7209ca5aa23f6aba2924914e649b517c5f3fd9e3928ca989e8a99696454c1fdacece4815c7de4e6c88ac
 Homepage: https://wiki.gnome.org/GnomeKeyring
 Description: GNOME keyring services library - data files
  gnome-keyring is a daemon in the session, similar to ssh-agent,
@@ -5516,6 +5881,33 @@ MD5sum: 0ef77d6731396071a95fbb92a379375f
 SHA1: c1e43f536e9755817b1e0b33680cbd9828c94f73
 SHA256: 2371534bb0a894b2604eec468bdacaee2202174bddf79dada8ae839e13d49c57
 SHA512: 76f4627465b24b0d2d7e132bfa02833d52cb3874fb07d45bf0f0a0a33f30b8bdbad0efc38419ccc35d84ed2ec4f166ac990b95212c3d1d7cb357b9227a7aabe1
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: Development files for GNOME keyring service
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains development files for GNOME.
+
+Package: libgnome-keyring-dev
+Architecture: loong64
+Version: 3.12.0-1
+Priority: optional
+Section: libdevel
+Source: libgnome-keyring
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 963
+Depends: libgnome-keyring0 (= 3.12.0-1), gir1.2-gnomekeyring-1.0 (= 3.12.0-1), libglib2.0-dev (>= 2.16)
+Filename: ./l/libgnome-keyring-dev/libgnome-keyring-dev_3.12.0-1_loong64.deb
+Size: 86440
+MD5sum: c48c742ff9bcc896012ded528d7f4f2a
+SHA1: 802561d99dcf8f9deb52bbd75168cd8a8ea4584e
+SHA256: aaccf9afeb3236edb5b250ea2bf8ca3b7769c7a44e7a8dd9307fe6290ee4d4c8
+SHA512: 4948e163bd5165143f1f201497b19da93ed089e88416803fabdd93e50eb61e7878ebdc224fdfa4b1ef7204f7c02ed63e497faa7dc05b231d2b4c5c62eae2d94d
 Homepage: https://wiki.gnome.org/GnomeKeyring
 Description: Development files for GNOME keyring service
  gnome-keyring is a daemon in the session, similar to ssh-agent,
@@ -6227,6 +6619,39 @@ MD5sum: 21ecb3b8aceefe0af5c15733310567a6
 SHA1: 674a9d46de98c9040f549ab8a79dcf4d3c28b26c
 SHA256: b8835d03d1b32751949d1b578ed82daa00847803c1950ca07459bc0f8b35e76f
 SHA512: 046fe41e02d92295c24b14c39305a7e60fb90d013d3d5df4f0173c429846392d8001fb7e6801e1906945313686eee4b4f3adc41b018a2b06adb242997e9b3801
+Homepage: http://www.freedesktop.org/wiki/Software/fprint/libfprint
+Description: async fingerprint library of fprint project, development headers
+ The fprint project aims to support for consumer fingerprint reader devices.
+ .
+ Previously, Linux support for such devices has been scattered amongst different
+ projects (many incomplete) and inconsistent in that application developers
+ would have to implement support for each type of fingerprint reader separately.
+ The idea is to change that by providing a central system to support all the
+ fingerprint readers as it's possible to get hands on.
+ .
+ libfprint is the centre of efforts, this component does the dirty job of
+ talking to fingerprint reading devices, and processing fingerprint data.
+ .
+ This library depends on the new libusb, which performs asynchronous callbacks,
+ allowing fprint to perform non-blocking device tasks.
+ .
+ This package provides development headers.
+
+Package: libfprint-dev
+Architecture: loong64
+Version: 1:0.6.0-2
+Priority: extra
+Section: libdevel
+Source: libfprint
+Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
+Installed-Size: 805
+Depends: libfprint0 (= 1:0.6.0-2)
+Filename: ./l/libfprint-dev/libfprint-dev_0.6.0-2_loong64.deb
+Size: 177488
+MD5sum: 222b2890cfb1dafcd7b439eb5f0bc443
+SHA1: dfde313c2927696ee34bf4837e053d5a930f084b
+SHA256: 524cb4eaca278b19f8746cd809043cd399985bdc30afdc5ca98fda25fa51188b
+SHA512: 127443156d805a8825bc61e96d07c76d4b7b70b189bb8cfb041628e181082dbfae079ab2f1f1042c7e8c22f45588fe7b2db5f5c8203006c4f13b670c1758c900
 Homepage: http://www.freedesktop.org/wiki/Software/fprint/libfprint
 Description: async fingerprint library of fprint project, development headers
  The fprint project aims to support for consumer fingerprint reader devices.
@@ -7194,6 +7619,62 @@ Description: high-performance CORBA implementation - extra libraries
  applications that communicate with each other using the ORBit2
  implementation of CORBA.
 
+Package: libmpv-dev
+Architecture: loong64
+Version: 0.36.0-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: mpv
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 166
+Depends: libmpv2 (= 0.36.0-1), libarchive-dev (>= 3.4), libasound2-dev, libass-dev, libavcodec-dev (>= 7:4.0), libavdevice-dev (>= 7:4.0), libavfilter-dev (>= 7:4.0), libavformat-dev (>= 7:4.0), libavutil-dev (>= 7:4.0), libbluray-dev, libcaca-dev, libcdio-paranoia-dev, libdrm-dev (>= 2.4.75), libdvdnav-dev, libegl-dev, libgbm-dev, libgl-dev, libjack-dev, libjpeg-dev, liblcms2-dev (>= 2.6~), liblua5.2-dev, libmujs-dev, libpipewire-0.3-dev, libplacebo-dev (>= 4.157), libpulse-dev, librubberband-dev, libsdl2-dev, libsixel-dev, libspirv-cross-c-shared-dev, libswscale-dev (>= 7:4.0), libuchardet-dev, libva-dev, libvdpau-dev, libvulkan-dev, libwayland-dev (>= 1.15.0), libx11-dev, libxinerama-dev, libxkbcommon-dev, libxpresent-dev, libxrandr-dev, libxss-dev, libxv-dev, libzimg-dev, wayland-protocols
+Filename: ./l/libmpv-dev/libmpv-dev_0.36.0-1_loong64.deb
+Size: 46780
+MD5sum: 5edf10eda44941fab4321570fbdd4d75
+SHA1: 15dd75f75fc845e2711e96a4e5467e057ae42b7c
+SHA256: d98043a3b25ccb6b0377970d3647f7b04c1761ede39cbf49e0f1cc8c56a29138
+SHA512: 2eaa8f53dcee78274b5ebc09972ed94f1e088c4fba30c27a2f499a12005b16a660faaa18fc9360b0fcb54206d74a669a54a87f017a38989c16e627367757de00
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2 (client library dev files)
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ This package provides development files for libmpv.
+
+Package: libhd-dev
+Architecture: loong64
+Version: 21.82-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: hwinfo
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Installed-Size: 110
+Provides: libhd12-dev, libhd13-dev, libhd14-dev, libhd15-dev, libhd16-dev, libhd20-dev, libhd21-dev
+Depends: libhd21 (= 21.82-1)
+Suggests: libhd-doc
+Filename: ./l/libhd-dev/libhd-dev_21.82-1_loong64.deb
+Size: 32048
+MD5sum: d4ff8b1cc4902952d59894b74d0600fe
+SHA1: 4a40de4e3ebee75a5360b11dffa1050d1bcc02a9
+SHA256: b479e7ad7fe67a26f5663fa8fc96d204b72f8217bb0cd6e9a8e4ccf29db20d57
+SHA512: 2b7c6b1747b8cf3ccbd6a7ed710d0b9c5f5fbe6156974f278dd7fdb9e4754dfe24627758ac3c457f41abfb550123372179240be065f32d5be0a776f7c10803d8
+Homepage: https://github.com/openSUSE/hwinfo
+Description: Hardware identification system library and headers
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover when
+ detecting mouse, keyboard and monitor.
+ .
+ hwinfo collects information about the hardware installed on a system.  Among
+ others, libhd contains information about cdrom, zip, floppy, disks and
+ partitions, network card, graphics card, monitor, camera, mouse, sound, pppoe,
+ isdn, modem, printer, scanner, bios, cpu, usb, memory and smp.
+ .
+ This package contains the static library and header files from the hwinfo
+ package.
+
 Package: linux-headers-6.1.32-amd64-desktop-hwe
 Architecture: amd64
 Version: 23.01.00.20-1
@@ -7833,6 +8314,43 @@ Homepage: http://www.deepin.org
 Description: IDE 'Union Code' devel library
  IDE 'Union Code' development can be carried out through this library
 
+Package: libcroco-tools
+Architecture: loong64
+Version: 0.6.11-3
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: libcroco
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 103
+Filename: ./l/libcroco-tools/libcroco-tools_0.6.11-3_loong64.deb
+Size: 69296
+MD5sum: 37ae7665dfd4d82c62c5796d51c11660
+SHA1: c7f7ac34c1152a036f69272b1df35ae707c44e2a
+SHA256: 80bdb3a1a999dfce9c6fa4951b7bfde5ddf06a688c95ae10f1c2d14e53a93fff
+SHA512: 6a3788f0c86081439199d536a2bce90354d2b2df7cff67d7f1efc8e77b0da4d1f72cd96f3d63f3955e2e874389a166c0fc2f1d9b7f1ae267944f728b2b930123
+Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit - utils
+ Services provided by Libcroco
+  * A parser module that provides
+    o A SAC like API. SAC stands for Simple API for CSS. SAC is an event driven
+      API which resembles SAX in the xml world.
+    o A CSSOM like API. CSSOM stands for Cascading Style Sheet Object Model.
+ .
+    The libcroco parser implements the CSS Level 2 specification, the CSS
+    forward compatibility rules and the CSS cascading rules.
+ .
+  * A CSS2 selection engine
+    Given an xml element node (that obviously comes from an xml document) and
+    a stylesheet cascade, the Libcroco selection engine can evaluate the css
+    selectors of the cascade and return the style properties associated to
+    the xml element node.
+ .
+    Note that the xml manipulation toolkit used by the libcroco selection
+    engine at the moment is libxml2.
+ .
+ This package contains csslint, a standalone utility based on libcroco that
+ can be used for testing CSS correctness.
+
 Package: linglong-box
 Architecture: arm64
 Version: 1.3.3.15-1
@@ -8350,6 +8868,38 @@ SHA512: 9082a5c0a3a1d13ec1625aca8dc6326e0a2a50551d0e5852744268217b04c455f07af124
 Description: DDE wayland client library
  include header files.
 
+Package: libhd-doc
+Architecture: all
+Version: 21.82-1
+Priority: optional
+Section: doc
+Source: hwinfo
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Installed-Size: 12184
+Provides: libhd12-doc, libhd13-doc, libhd14-doc, libhd15-doc, libhd16-doc, libhd20-doc, libhd21-doc
+Depends: libjs-jquery
+Suggests: doc-base
+Enhances: libhd-dev
+Filename: ./l/libhd-doc/libhd-doc_21.82-1_all.deb
+Size: 599744
+MD5sum: 306744b524eeed918daa5173091d448c
+SHA1: 6a5b5030a8d8ba00f7126d28be028506e3361a3e
+SHA256: 490a90d8b28e7560615e3a3342abd378d0afbc0c7910cbb80d387bcae497e548
+SHA512: 516679ee5c4616647a32e16825fb690980a2cf7ad91e2eee8e324db2c785fd4d1bb45142d86b5efdbc55f39d66fff1eb48119d5d430d1d670f6e19a5f2891382
+Homepage: https://github.com/openSUSE/hwinfo
+Description: Hardware identification system library documentation
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover when
+ detecting mouse, keyboard and monitor.
+ .
+ hwinfo collects information about the hardware installed on a system.  Among
+ others, libhd contains information about cdrom, zip, floppy, disks and
+ partitions, network card, graphics card, monitor, camera, mouse, sound, pppoe,
+ isdn, modem, printer, scanner, bios, cpu, usb, memory and smp.
+ .
+ This package contains the documentation for the libhd21-dev package.
+
 Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
 Version: 6.1.32-hwe
@@ -8369,6 +8919,42 @@ Homepage: http://www.deepin.com
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
+
+Package: libcroco3
+Architecture: loong64
+Version: 0.6.11-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcroco
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 335
+Filename: ./l/libcroco3/libcroco3_0.6.11-3_loong64.deb
+Size: 135368
+MD5sum: 7e0b26f8476827b13df5b571f30dd6e7
+SHA1: 63c7642620b222accc0d4ff77f4ff68d0a1d611d
+SHA256: 60df32ddbf78b7fbf839e32dddb19851f415f39a8ba8579e6ab7da54a681ad2e
+SHA512: 571daa3d7d02fe5cc0564a9b4a797a79db5884a9f151b2613b1e2aa3aa3cbc697a99178c469fcedb0c17225d7f8c482867c0fa7fef831c5577375934dc3e1b92
+Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ Services provided by Libcroco
+  * A parser module that provides
+    o A SAC like API. SAC stands for Simple API for CSS. SAC is an event driven
+      API which resembles SAX in the xml world.
+    o A CSSOM like API. CSSOM stands for Cascading Style Sheet Object Model.
+ .
+    The libcroco parser implements the CSS Level 2 specification, the CSS
+    forward compatibility rules and the CSS cascading rules.
+ .
+  * A CSS2 selection engine
+    Given an xml element node (that obviously comes from an xml document) and
+    a stylesheet cascade, the Libcroco selection engine can evaluate the css
+    selectors of the cascade and return the style properties associated to
+    the xml element node.
+ .
+    Note that the xml manipulation toolkit used by the libcroco selection
+    engine at the moment is libxml2.
+ .
+ This package contains the shared libraries.
 
 Package: linglong-installer
 Architecture: amd64
@@ -9404,6 +9990,35 @@ Description: Archiver for .rar files
  .
  This program is shareware and you must register it after 40 days of use.
 
+Package: hwinfo
+Architecture: loong64
+Version: 21.82-1
+Priority: optional
+Section: admin
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Installed-Size: 88
+Filename: ./h/hwinfo/hwinfo_21.82-1_loong64.deb
+Size: 27980
+MD5sum: 66b3576777e89545b6326e6e7a810c07
+SHA1: 9b3c077cbe6deb106a62a3781958817437dc0614
+SHA256: 0a83924ee0fa0b84704de5a73dd362eec1dd1abcb2e9b44cd0867e847eef694d
+SHA512: 40100d6635a142e8c56eafb91047028fb8841b1560656ff9f497a8540d47aa7c49b30bf8c577cae540d674cf1bf83e6aa7c28043f8887b1033a9e0ccbb5fb5b6
+Homepage: https://github.com/openSUSE/hwinfo
+Description: Hardware identification system
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover when
+ detecting mouse, keyboard and monitor.
+ .
+ hwinfo collects information about the hardware installed on a system.  Among
+ others, libhd contains information about cdrom, zip, floppy, disks and
+ partitions, network card, graphics card, monitor, camera, mouse, sound, pppoe,
+ isdn, modem, printer, scanner, bios, cpu, usb, memory and smp.
+ .
+ This package does not include the binaries hwscan, hwscand and hwscanqueue. If
+ you think one or more of these should be included in the package, please
+ contact the maintainer at hwinfo@packages.debian.org.
+
 Package: procps
 Architecture: arm64
 Version: 2:3.3.12-3+deb9u1
@@ -9644,6 +10259,38 @@ SHA512: c1965533176b6d30d9a84b253f5257a61e1e8efe4b4ad8aac98cfa3c9d680c82deb09e75
 Homepage: minesweep
 Description: minesweep.
 
+Package: mpv
+Architecture: loong64
+Version: 0.36.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2964
+Recommends: xdg-utils, yt-dlp
+Filename: ./m/mpv/mpv_0.36.0-1_loong64.deb
+Size: 1129156
+MD5sum: 6f49cbfcc9367b12ff1e87cc73302ae0
+SHA1: 9e0d6d45c3022acfe6d26caafc999197eadd2139
+SHA256: 3d37534a540e3476a18de31cb495ee37ef9a1dd5d2b38b712ccd7005d461e712
+SHA512: de006442053949afafc0e6c10c5397ef891e41cd0e3222e313e3cd788c89e714baadbee5b8ad5c6654bf916cd2bf2f09ec47ab65f3e6dc046591db2cb03578ae
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ Changes from mplayer2 to mpv include:
+  * Removal of lots of unneeded code to encourage developer activity
+  * Better OSD rendering
+  * Cleaned up terminal output
+  * Improved OpenGL output
+  * Encoding functionality (replacement for mencoder)
+  * Wayland support
+  * Support for playing URLs of popular streaming sites
+  * Screenshot improvements
+  * ...
+ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
+
 Package: deepin-artwork
 Architecture: all
 Version: 2018.10.9-1
@@ -9749,6 +10396,23 @@ MD5sum: 02777910a1d071c9dad0b736f36279ed
 SHA1: 2b7f08f6a044c63f3ac776c93b91e8ba44131c32
 SHA256: 2b11c84566e3ed3d3c383de55f17db15a34e867ba27bea427fed8e9307aac81c
 SHA512: ef099186cd4c110ac37472c90a6bccc33504c814fb3c49161f2816b14625858c6009febe02e6ab19c7b038116fe5533cbb8167a5642cd0eadb441b4096c73ac8
+Homepage: https://www.deepin.org
+Description: GNOME keyring extension for dde-polkit-agent.
+ DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
+
+Package: dpa-ext-gnomekeyring
+Architecture: loong64
+Version: 0.1.0-1+stable
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Filename: ./d/dpa-ext-gnomekeyring/dpa-ext-gnomekeyring_0.1.0-1+stable_loong64.deb
+Size: 2020
+MD5sum: 83165310409d259b5c50611e39090b70
+SHA1: 3c5844fb03d808d07f532502967fd7c402282c30
+SHA256: 3fdb47fb39313e3aa0c5ed72b267cafd720ef5f3b479d53f17ef4bd36ad9ecb9
+SHA512: fa16479f0deb38836e406f9daa2dfcb4b83011f9c3644482f1c631b5815e7e584b39a55f6306e573f5da47b3dd37a357dad4b14ddb9aba852897662d7915b831
 Homepage: https://www.deepin.org
 Description: GNOME keyring extension for dde-polkit-agent.
  DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
@@ -10101,6 +10765,24 @@ MD5sum: 9a1486adac79d047aefe4b438521dfab
 SHA1: fcebb14088022ac76d7caf4a3878d3ad18a00aad
 SHA256: 93cf7cfbbf1104becbb6bdf4bb0fac99f1e9be5c93e82856221113d3f8e02390
 SHA512: 46c742c981946e77428d81361ce2d724550b5c7f57d7c1cc742f4dc43f7be36221d762684bbfbb24d0638a2561e98d4450ad7f4b7f1953152ee740b541ee6b66
+Homepage: http://www.deepin.org/
+Description: developement files of dde-polkit-agent extensions.
+ Development files of dde-polkit-agent extensions.
+
+Package: dde-polkit-agent-dev
+Architecture: loong64
+Version: 0.3.0-1+comsta
+Priority: optional
+Section: devel
+Source: dde-polkit-agent
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 15
+Filename: ./d/dde-polkit-agent-dev/dde-polkit-agent-dev_0.3.0-1+comsta_loong64.deb
+Size: 3708
+MD5sum: 4dc807441e777797d211d5cede57f20c
+SHA1: ae81d40fcccbb955a77d9809cbe8b7a9247ae960
+SHA256: 7a17deea1cf312dfbdd6fedc5dcad2e47e30667e240ea884397fd012b6607c6c
+SHA512: 374b100b7cb5fe2e7172fbac680111cab8af6bc7d83e899d8cc2ad0a4f1370485d7b0941909bbbe69e9b4eaf84315b32f6270e2f72deff37f3e58fe2667efc7e
 Homepage: http://www.deepin.org/
 Description: developement files of dde-polkit-agent extensions.
  Development files of dde-polkit-agent extensions.
@@ -10686,6 +11368,32 @@ Description: KDE window manager, common files
  of windows and switching between them.
  .
  This package is part of the KDE base workspace module.
+
+Package: dde-daemon
+Architecture: loong64
+Version: 3.28.0+c1-1+comsta
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 65243
+Provides: lastore-daemon-migration
+Depends: upower, network-manager, iso-codes, gvfs-common, gnome-keyring, deepin-desktop-base, deepin-sound-theme, user-setup, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>> 3.13.7+), mobile-broadband-provider-info, bamfdaemon, dde-polkit-agent, xdotool, libpam0g, libnl-3-200, libnl-genl-3-200, libfprint0, dnsmasq-base, cgroup-tools, imwheel, procps, lastore-daemon, deepin-installer-timezones, dde-api (>> 3.17.1+), libpam-runtime (>= 1.1.3-2~), hwinfo
+Recommends: proxychains4, flatpak, laptop-mode-tools, iio-sensor-proxy
+Suggests: bluez (>= 5.4), network-manager-pptp, network-manager-l2tp, network-manager-openconnect, network-manager-openvpn, network-manager-vpnc, network-manager-sstp, xserver-xorg-input-wacom, xserver-xorg-input-synaptics, miraclecast
+Conflicts: dde-workspace, lastore-daemon-migration
+Breaks: dde-daemon (<< 2.92.2), dde-workspace, lastore-daemon (<< 0.9.64)
+Replaces: lastore-daemon (<< 0.9.64)
+Filename: ./d/dde-daemon/dde-daemon_3.28.0+c1-1+comsta_loong64.deb
+Size: 11656256
+MD5sum: 8f9ab2470ace06287f57a18e5bf518e6
+SHA1: f3ddbbba2e93cf7138f823ac2c34047bbe7b69f7
+SHA256: f6a714a50baabed33e8af404a627957d49d9dd8c32e42590069645c4014347c9
+SHA512: 2e4547af2bceb27d64a1a4fbed751e900bce60a0af7d5fe2013bbe46253ac91d9c2d08194f28b58efa0ef184b8d76501671b3c41997024d2d411c31cf7078a5a
+Homepage: http://www.deepin.org
+Description: daemon handling the DDE session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a DDE session and the applications that run
+ under it.
 
 Package: dde-daemon
 Architecture: mips64el
@@ -11376,6 +12084,35 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server application and lib
  anything server package
 
+Package: dde-qt5integration
+Architecture: loong64
+Version: 5.5.23-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 1255
+Provides: dde-qt5integration5, dde-qt5integration5.5, libqt5deepintheme-plugin
+Depends: dde-qt5xcb-plugin | qt5dxcb-plugin
+Conflicts: libqt5deepintheme-plugin
+Filename: ./d/dde-qt5integration/dde-qt5integration_5.5.23-1_loong64.deb
+Size: 268884
+MD5sum: f594bd2928e2b020918d9a007e1ae6b5
+SHA1: bb2601b07df3f158368a63301d507e88b7c7b0b1
+SHA256: 8acfb6dc29a287d38cd7edf2a8f8a9fee6f1595fd58ee839bd0d1917653ce52a
+SHA512: c7addd3c928de26a10555063708053e16e8c67851f3e926a509deccb8d9c90a4e112a27e1b8ce10dd12a0c493988ab171f6546f96b6e9e29ac1a50e07048cfac
+Homepage: https://github.com/linuxdeepin/qt5integration
+Description: Qt5 theme integration for Deepin application
+ Deepin's qt5integration provides library plugins used by Deepin
+ application and Deepin Desktop Environment. It implements many extra
+ features on top of stock Qt, include hijacking window decoration /
+ shadow painting, better support for cursors under HiDPI, retrieval of
+ full list of windows under current workspace, support for window of
+ arbitrary shape with anti-aliasing and so on, to make Qt5 application
+ and Deepin Desktop Environment more user-friendly.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
 Package: dde-api
 Architecture: amd64
 Version: 3.18.4.2-1+stable
@@ -11390,6 +12127,24 @@ MD5sum: 93102e2168e3c11041ab9c372c2fdb90
 SHA1: ffb74611b709c258c75014bbbb1ebbf2a439e27a
 SHA256: 74833d0a9cd1ed1024bd2d49b58f6de6bcdd92cc1768bb827dfb7ed285c63fdc
 SHA512: b07e5cf78df794766c6fa5220eb5fa99273ae481d1d0980a442987bbde6b4bfa5a1723af8f5144466c0bf99c5d95b4ecc45450befb3e7237f65c507c58d32820
+Homepage: http://www.deepin.org
+Description: Go-lang bingdings for dde-daemon
+ Deepin Go-lang bindings for dde-daemon
+
+Package: dde-api
+Architecture: loong64
+Version: 3.18.5-1+comsta
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 56516
+Depends: rfkill, locales, libcanberra-pulse, blur-effect, librsvg2-bin, fonts-noto-cjk, ttf-unifont, bc, fontconfig, coreutils, alsa-utils
+Filename: ./d/dde-api/dde-api_3.18.5-1+comsta_loong64.deb
+Size: 11362148
+MD5sum: 90f69e3c8d3e0fdde2bc3cd4924f3e5a
+SHA1: 05d53a30c1835767d7432385a82acabde5cd98fd
+SHA256: c40ee41bbc30528d7993f02e64bbb9300de6f2c2238bcf6a1634242754d878cb
+SHA512: c02700d18ff758e559bc7287c8882c837aadbfc707634c33de46b9159f151c30397e5dde5731b400ae3371f39d2f35b0c6a79ff26e79da33b451ce0cbebe0a0e
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Deepin Go-lang bindings for dde-daemon
@@ -12293,11 +13048,11 @@ Source: dde-dock
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 31
 Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.9gxde0_all.deb
-Size: 5076
-MD5sum: 2e7e62bc26a017c3483b5210012a351a
-SHA1: 038480bc366b2bcf0e100605a71ed23342af8e18
-SHA256: 16e56c9d5c8196fb4e8051854a50286ea21c45fd0f58cc58726609e0307e3751
-SHA512: 44aaf6786ba109fbeec02f460ae3a5e3fe62f7fbbae79f26ea8dc957c2fee9f3c74f871f7829f62112a9d9e0573f6e79e5c69ea71465812e7b9ea3aaaa4c5387
+Size: 5080
+MD5sum: 6657e594410259963465894fd3c5d51e
+SHA1: 40e8668af1e9c5a2be788f182c479d37d10ad613
+SHA256: 91163658bd406ecb4f67078e8062d6a1db96cfb7fe4ff75eac85ad93fa5a074d
+SHA512: 4953eca0728b8aa09bd09e0ab75e1922eb2ce2b037bfa9c93d8903aa373b4ece73c303014ad0c3946d988d6784a2801fcca8018f35df70280dc5be5bb4e4169c
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Deepin desktop environment - dock module development files.
@@ -12362,6 +13117,29 @@ MD5sum: d03d3d570ee65a74baa9b9598187cd5a
 SHA1: 29d10cdc0e2fd9e2627c3d5910a935d12aa7f395
 SHA256: e018cb7bb8e3901579bb505f70abfb4eb86c94c995113c2dc07592bef972c65e
 SHA512: e9fc78bc328b70afb231d5acffd739a55269fe6e0d3d46cc0b687b723e7e337519fccfaecdfdf32c13d89f5f55eef22e5cef05852a5b1fc03b8fda35ce7109ad
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+
+Package: dde-session-ui
+Architecture: loong64
+Version: 4.9.14-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 10015
+Provides: lightdm-greeter
+Depends: deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_4.9.14-1+comsta_loong64.deb
+Size: 2007876
+MD5sum: 6140195058ef773473ea72564aed9399
+SHA1: dd3646491074a114e334319293100f68f0f0fd32
+SHA256: f56fd0b84ce538ffc7d6dc43a8ccb668bc93cbb8b572ea7dd3c2e1f897a47e15
+SHA512: b1a2927ff98d443159af943c96d2a7e26400c1d1e84ea72a7f5424ec300ad12c88d9ae5c0283a8dab1b089aaf4c383ccfd43ff1260cb949f79d2f9239db21070
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -13941,6 +14719,24 @@ SHA512: 6240ee7e24d2846c9ae62bd15af9839e98aa35acec1af721e1808687cb64c7b8cc8f8384
 Description: Qt platform plugins
  Qt platform plugins for DDE.
 
+Package: dde-qt5wayland-plugin
+Architecture: loong64
+Version: 5.6.22
+Priority: optional
+Section: devel
+Source: dde-qt5platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 444
+Depends: qtwayland5
+Filename: ./d/dde-qt5wayland-plugin/dde-qt5wayland-plugin_5.6.22_loong64.deb
+Size: 108420
+MD5sum: 9bd7e4d18c134ed6d8305edbdaafd078
+SHA1: eeab9c6d27d774a3df603677fb492e1ff2d0b8b1
+SHA256: 1767fd5b534782b811eda53df1f124c55ad9921db37f100ae6426e33aaf14a13
+SHA512: 45f928a65a9d34e7d8ea65bb0888f6523a8b8148e29ec0e55fc87e76ea24f6f4d4d5feb44b882e1cbb98ef8c5a4ea40aaa955f7d09cd62b0f50c86e2af6238c5
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
 Package: deepin-screensaver-xscreensaver-data
 Architecture: loong64
 Version: 0.0.10-1+comsta
@@ -14075,6 +14871,25 @@ SHA512: 932044565e5181feec83304645f6a355a3d1592d31388800b9769ed52612d1e979d374dd
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
+
+Package: dde-dock-onboard-plugin
+Architecture: loong64
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 95
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.5.33~), libdtkgui5 (>= 5.5.25~), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.9gxde0_loong64.deb
+Size: 19700
+MD5sum: 90549be4cd39d242366259134ba3f995
+SHA1: 248a45e5c452cc3f66d1df5631a973427fe7378f
+SHA256: d67fe592e30dac6b89371889b02fd21be6da4d88af99d1133856ff26876e36c7
+SHA512: 169cafedc7be16a7018749f0441acf68815b7a918dec34b20df1ec3f0366168af05f8e43cc75b3a4f4479dbe24171de743392bc8a9588e244c3f64426088d41c
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
 
 Package: dde-dock-onboard-plugin
 Architecture: amd64
@@ -14562,6 +15377,25 @@ MD5sum: e5e6fc5565b81b7e289705926b8eca3d
 SHA1: 48461ad8128670f4682e50471d0ed819746c6b57
 SHA256: 21790b5a1cfbf850052d05eb2ef4789996e7a32354b7badb4eb6109f3ccb1f1b
 SHA512: 7e8770e32c13de63522e479f90c237df113e9a8caf51056d0347fd9a643e3c481c47d0be2b906a03b972a654f821affbb40facdc59cce31856287cac69579e50
+Homepage: http://www.deepin.org
+Description: Go-lang bingdings for dde-daemon
+ Go-lang bindings for dde-daemon -- dev file
+
+Package: dde-api-dev
+Architecture: all
+Version: 3.18.5-1+comsta
+Priority: extra
+Section: devel
+Source: dde-api
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 930
+Depends: golang-dlib-dev (>= 1.2.13), golang-gir-gobject-2.0-dev (>> 1.2.0+), golang-gir-gio-2.0-dev (>> 1.2.0+), golang-gir-glib-2.0-dev (>> 1.2.0+), golang-gir-gudev-1.0-dev (>> 1.2.0+), golang-github-linuxdeepin-go-x11-client-dev (>= 0.0.4), golang-github-linuxdeepin-go-dbus-factory-dev (>> 0.7.0+), golang-gopkg-alecthomas-kingpin.v2-dev, libxi-dev, libcanberra-dev, librsvg2-dev, libgtk-3-dev, libgdk-pixbuf2.0-dev, libcairo2-dev, libfreetype6-dev, libpoppler-glib-dev
+Filename: ./d/dde-api-dev/dde-api-dev_3.18.5-1+comsta_all.deb
+Size: 72280
+MD5sum: c95dc4d4508aedcaaaab203f97b424fb
+SHA1: e326e3d65446c0ce7f9761ecc51ae3148b04f005
+SHA256: 8ad5b562c5c355837c8dd339d230431a1b5468228edb24d4360fc8b3958c1a73
+SHA512: e62a6939b4839c51e1243acff1dc90224a0420c22e08f271497d675667a423645ac91e388ce73d7727108ddeb8d2466fc78bebdecc3ca312d73fd6cd1d5fd5d0
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Go-lang bindings for dde-daemon -- dev file
@@ -15931,6 +16765,27 @@ SHA512: b3025a5d18d06c8c8998bfae234045b621aa19b38666992481ab7615a6e02d81132a593c
 Description: Qt platform plugins
  Qt platform plugins for DDE.
 
+Package: dde-qt5xcb-plugin
+Architecture: loong64
+Version: 5.6.22
+Priority: optional
+Section: devel
+Source: dde-qt5platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 797
+Provides: libqt5dxcb-plugin
+Conflicts: libqt5dxcb-plugin, qt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Replaces: qt5dxcb-plugin
+Filename: ./d/dde-qt5xcb-plugin/dde-qt5xcb-plugin_5.6.22_loong64.deb
+Size: 223352
+MD5sum: 4d2e7f489bf44c29f99bc1cb1c78b5c7
+SHA1: 97ef9c83ec794a1dfb1805a7cf5eefe89c6d74ab
+SHA256: 9aa9660a25d5f9cc889b7f0592889bf995057f3375058ace41e8c4692b4dba9a
+SHA512: 93734833a8d80b213ed72286740387b898e1cb13c1f45a1f19d196ab97d38dece3ee58c86984d066ddac2cb2286f1f43969ba228a3f12bdcac5ebd6484f51963
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
 Package: deepin-deb-installer
 Architecture: arm64
 Version: 15.11~1.3.2.1-1+comsta
@@ -16240,6 +17095,27 @@ MD5sum: 66635e030887dbcaa5eb6415c496937f
 SHA1: 90f7ca76ce21012cb32660b60512dd4f8950f435
 SHA256: 784f7dd13f2950decb61a5b415a9730b5c481cb2ec454839b902ebd70434dcec
 SHA512: 931fd612fcd9fd6963b130d5aadf038ff0131304ee99b78e628f303d5c281b84faf6b68a8e3a7ff50fa8173c71e80737f5216d967e58ea55f3db0491ed2ff595
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+
+Package: dde-dock
+Architecture: loong64
+Version: 4.10.9gxde0
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3310
+Depends: deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.9gxde0_loong64.deb
+Size: 598592
+MD5sum: b9b990d2d0796fa2dc94a7d54496d54a
+SHA1: 9703da72f15c5f419d2bf35d105199dad468082b
+SHA256: ba5e7c982e8b446cca1f5229b10222c41f4e587aa507b4f6c33d92f78fde7f5c
+SHA512: 24a7089402bacefea8f1641c41ec63f1d2a8256f35516936e22e55b2c7cba11ab707a8febdf3fe85b5225467f9808d4b331c144fc1fc1f808f3c2683135e5e8e
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
@@ -17132,6 +18008,26 @@ Description: Image Viewer for Deepin Desktop Environment
  Deepin Image Viewer is Deepin Desktop Environment Image Viewer.
 
 Package: dde-polkit-agent
+Architecture: loong64
+Version: 0.3.0-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 257
+Depends: dpa-ext-gnomekeyring
+Filename: ./d/dde-polkit-agent/dde-polkit-agent_0.3.0-1+comsta_loong64.deb
+Size: 54716
+MD5sum: b4a79fa95396bd7955239a566dfa002e
+SHA1: dce77c029655a046a47633dd1f4734c0c85e4917
+SHA256: 3213cdd11d810b6a7c1cd5ee6d222eb5d6f3eff816d82f848602fd56c8b53144
+SHA512: c0f95be4c91778138fd4761184bf7501bd6a61d430354366f2e7912e5139b829e1451dd822ce9719727849516e86a5cb19f361d53b8d40a3ff6b8cf18402a66b
+Homepage: http://www.deepin.org/
+Description: PolicyKit agent for DDE.
+ PolicyKit agent is usually a dialog used to provide a way to let users
+ grant permission to specific actions, this package serves the role in
+ Deepin Desktop Environment.
+
+Package: dde-polkit-agent
 Architecture: arm64
 Version: 0.3.0-1+comsta
 Priority: optional
@@ -17661,6 +18557,58 @@ Description: PCF (bitmap) version of GNU Unifont
  that version is scalable to any point size and has proper combining
  character support.
 
+Package: qt5dxcb-plugin
+Architecture: loong64
+Version: 5.0.65-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: deepin-qt5dxcb-plugin
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 760
+Provides: libqt5dxcb-plugin
+Conflicts: libqt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Filename: ./q/qt5dxcb-plugin/qt5dxcb-plugin_5.0.65-1_loong64.deb
+Size: 224188
+MD5sum: 982b22537c8c00458b3d0bdf529ad989
+SHA1: acc09c80a7f3810354262d69a00238ad8afa829b
+SHA256: b213024fd90309f89a3ebcbd328109afa3d7520373e87764720dbd46b528c30d
+SHA512: 69fbdb3aa9cb0099194c13c975480f5aacee1b9d9be059cf36971ca4d72a1966386426a70504a2c9feafad3197001f63423051b7cbebf104375b080758a8cbc2
+Homepage: https://github.com/linuxdeepin/qt5platform-plugins
+Description: Qt platform theme integration plugin for DDE
+ Deepin's qt5dxcb-plugin is the Qt platform integration plugin for Deepin
+ Desktop Environment. It provides an abstract interface between Deepin
+ applications and Qt tookit for further application theme customization.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
+Package: qt5dxcb-plugin
+Architecture: loong64
+Version: 5.0.65-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: deepin-qt5dxcb-plugin
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 760
+Provides: libqt5dxcb-plugin
+Conflicts: libqt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Filename: ./q/qt5dxcb-plugin/qt5dxcb-plugin_5.0.65-2_loong64.deb
+Size: 224192
+MD5sum: 76416a3690c7777918b5891fa3ec42d0
+SHA1: 8ceff669a738b21f956db415615fba178432e9d2
+SHA256: bb4c3fdda5f4757160081ae4a01ee28c9732ea8772546e1a6676bc3ed70dd7e7
+SHA512: e02ab2847445c6b2d3a293ef16e3522f0667b6eb3b5689c5c33106e30d94cc40c7cb405c7516b49d4cbaab2fa8e12895beebf5170ce382e1957fd777e596e22e
+Homepage: https://github.com/linuxdeepin/qt5platform-plugins
+Description: Qt platform theme integration plugin for DDE
+ Deepin's qt5dxcb-plugin is the Qt platform integration plugin for Deepin
+ Desktop Environment. It provides an abstract interface between Deepin
+ applications and Qt tookit for further application theme customization.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
 Package: startdde
 Architecture: i386
 Version: 3.14.6.6+c1-1+stable
@@ -17767,6 +18715,28 @@ MD5sum: 496ab62ac224bd3d80753c5c61e03b02
 SHA1: 3f2061f8c9181787b63df11f391e00754321c2f8
 SHA256: e02e79cc032f785663bd368835f069ab3d58a79003eeae528befc29cb024460d
 SHA512: c5e8d33f444c92965d16e4c4e41f18459c3652062b0339ff028880235ee6216e240808d58b2245dba78fe56c3af29567b3f9861d996b504597cf296afb42312f
+Homepage: http://github.com/linuxdeepin/startdde
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+
+Package: startdde
+Architecture: loong64
+Version: 3.14.7-1+comsta
+Priority: extra
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9033
+Provides: x-session-manager
+Depends: dde-daemon (>> 3.24.1+), gnome-keyring, libpam-gnome-keyring, gvfs-common, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>= 3.2.4), dde-api, libgnome-keyring0, libxfixes3, libxcursor1
+Recommends: dde-qt5integration
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: startdde (<= 2.91.1)
+Filename: ./s/startdde/startdde_3.14.7-1+comsta_loong64.deb
+Size: 2075488
+MD5sum: d19af5297085053531e0fc2a2ce7e71b
+SHA1: c8fe749dc4a439aa91061a0bcaeb73f9684465e2
+SHA256: eac5b7977ece6dd4df52911bfa251f8b60539c813f1c47a9a6ff11477e832c8a
+SHA512: 5f0de08bf1c392eff5c28e54603da1f510ced3340a3189ee877f15d2eb1377105ba998e9144510c1025601164945fee7af40a28402888dfb2a46b80694898c74
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
@@ -18032,6 +19002,34 @@ SHA256: 606c5c8c17e777cd9ca2b865482e277078711f721d1a2ca9174c08681b10f055
 SHA512: 46a4ae1a77491785240db6e2f1ab970a6ddf96fbc66cb15065e4a14e0047f5c130f0658981acb832ff1d72fa9bd2f32a2e8d62024b5ea39e3ee0b677eb09fcf3
 Description: Gomoku is a small chess game for two players.
  Gomoku is an easy and funny chess game that is suitable for all ages.
+
+Package: cgroup-tools
+Architecture: loong64
+Version: 2.0.2-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: libcgroup
+Maintainer: Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>
+Installed-Size: 335
+Breaks: cgroup-bin (<< 0.40~rc1-3~)
+Replaces: cgroup-bin (<< 0.40~rc1-3~)
+Filename: ./c/cgroup-tools/cgroup-tools_2.0.2-2_loong64.deb
+Size: 72096
+MD5sum: 079e697344bf82cdf0e2a7620a08c801
+SHA1: 281be5271fed899d3e6584bc18786ec1ab60d8d3
+SHA256: f2abd601e2d958612f441909fcb51ab767f5facd87efc09b9547c27f046b1598
+SHA512: 40992b3764fcbd9a4bf0abf94fbe9277a62536125649d0f0725afc373b7effc71385d401f37aa6672a04d0957a6ccf2060b9bcdc582d4156915d644d61083b41
+Homepage: http://libcg.sourceforge.net/
+Description: control and monitor control groups (tools)
+ Control Groups (cgroups) provide a mechanism for aggregating/partitioning sets
+ of tasks, and all their future children, into hierarchical groups with
+ specialized behaviour.
+ .
+ libcgroup allows one to manipulate, control, administrate and monitor cgroups
+ and the associated controllers.
+ .
+ This package contains the command-line tools.
 
 Package: com.gitee.uengine.runner.spark
 Architecture: all

@@ -1,0 +1,24 @@
+Package: libmpv2
+Architecture: loong64
+Version: 0.36.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mpv
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2548
+Recommends: yt-dlp
+Filename: ./l/libmpv2/libmpv2_0.36.0-1_loong64.deb
+Size: 837308
+MD5sum: db25305bdbf69ecb263a94c844051158
+SHA1: 6359fc80d9bb03df77ccba437a233032bc6317a5
+SHA256: bfeaf80b7b91ae8fbb4c485cabbd57e77e86d33c4d927661c87ef550799d61e7
+SHA512: c154baa73b6929ed7b2c12e4f63de881ba63ee116b942808ef50bfbaee0ba7c4969d398386748726588fb4a21819b5a425af3b539149498f1a21103d833b4a6d
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2 (client library)
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ This package provides a client library that can be used to embed mpv in other
+ applications.
+
