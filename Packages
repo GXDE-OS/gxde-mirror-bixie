@@ -224,6 +224,29 @@ Description: Richer testing framework for Go libraries and applications to use
     - Inclusion of comments surrounding checks on failure reports
     - Fully tested (it manages to test itself reliably)
 
+Package: gxde-desktop
+Architecture: all
+Version: 2024.03.10
+Priority: extra
+Section: metapackages
+Source: gxde
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver
+Recommends: file-roller, deepin-manual, dde-introduction, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, cheese, gxde-top-panel, plank
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
+Filename: ./g/gxde-desktop/gxde-desktop_2024.03.10_all.deb
+Size: 2652
+MD5sum: 32b56ac4f5f084772d5a95a53fcf2578
+SHA1: 76735bed37a03131b6e086bedbdb5bedfacb04f6
+SHA256: 31b703897ad440ce5b9e83bcbe122bd3c472c0e99da518e8f22738fe69e80ae4
+SHA512: 11364274945c7a38c28fe4e09fa6007f1f9cc110fd10673bf6545b92cd0641308d2023305311ccf77e8033e82191c7bb0097ceb379820edffcf751046bd193f2
+Homepage: http://www.gfdgdxi.top
+Description: GXDE New Desktop Environment - Next
+ This is a meta package depends GXDE New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
 Package: gvfs-daemons
 Architecture: i386
 Version: 1.30.4-1
@@ -14123,6 +14146,44 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: mips64el
+Version: 2024.03.10
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.10_mips64el.deb
+Size: 19024
+MD5sum: d3c91bdf0c773906dd2bf6bbba63ed34
+SHA1: 9e118c11009652b28816a03739d023b83c70ff31
+SHA256: a4df5805b31d917730df0fece2ab6004144ce653b6fee6f81103e5596c285a27
+SHA512: e235a1d3c20a5896ca1bcd675e7fcfb8a82e81228134e7225cd409fe0ac0545e33d0e0e18a6535634106562535af7ec76ff3f4ea5bc06e6658eb17655c4ed883
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
+Architecture: arm64
+Version: 2024.03.10
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.10_arm64.deb
+Size: 19060
+MD5sum: 5acad39d046eaa94b9cf04150bcbf05f
+SHA1: 3be0a157fe4adc7465b9229e9f3f8016ea81d322
+SHA256: 48b79b4e119e4be10ff0d8c436f7bf8c3f0db9c17a6ad0f6042afe94d911b479
+SHA512: 90d3e14db9049efdb39f3611c2825f0c51a6dc0b360002ff9f4b2ea3756bd9e1e7a13413ea9ac60e77f3375e9deb6e7df956e724f7b3e56340de10b713068a37
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: amd64
 Version: 2024.02.16
 Priority: optional
@@ -14142,38 +14203,23 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
-Architecture: all
-Version: 2019.07.10-1+comsta
+Architecture: amd64
+Version: 2024.03.10
 Priority: optional
 Section: misc
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 81
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
 Provides: deepin-appstore-config
-Depends: deepin-keyring, distro-info-data
-Filename: ./d/deepin-desktop-base/deepin-desktop-base_2019.07.10-1+comsta_all.deb
-Size: 16416
-MD5sum: 715c6f8df62c9e2428fd7347535e3397
-SHA1: f68bc66209674d0b44381181a2a4cff40419ba2d
-SHA256: c3bfa82f3ec1a3d79b81b41abeae82d16b85c0a95e005058ef211a3127a82732
-SHA512: 07720ca8df1e00eeda07b54649276f250a800ffc9eb2d386d165d149ff11454e0e6d81d8e68f6515235dbad4ebab200539a9e30db847df455c7e98751dd2f6fc
-Description: Base files for Deepin Desktop
-
-Package: deepin-desktop-base
-Architecture: all
-Version: 2024.01.20-1+comsta
-Priority: optional
-Section: misc
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 122
-Provides: deepin-appstore-config
-Depends: deepin-keyring, distro-info-data
-Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.01.20-1+comsta_all.deb
-Size: 57236
-MD5sum: 705a1bf114022a26d099a7c94a21f880
-SHA1: b749c6e435a7339cc9c2eb4ec643de2e4799101b
-SHA256: 5b4d7632d4ff18457da41f60dbcc50fc4eb4d2808e291bc68fde4ce310bd8243
-SHA512: 7b07e05f6e87c7cf0b9526c94b8b23800aa14c0a15bd5e48b2f457fe6f3d7ec4b7cea9d6f287fa353d2601f96476e7014d4bda3fc7578396e85119dbb21cb400
-Description: Base files for Deepin Desktop
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.10_amd64.deb
+Size: 19052
+MD5sum: 709467cad854d7581902d72832d6b6bb
+SHA1: f58190ee5f633f62860fab758cda01f6397d344d
+SHA256: 598408b9621b995e1189ed3f8309dd6d94216033a8fd1d43b2c097fd642ad3f0
+SHA512: 12b0c8f66452628ef8d18f4b32c60168f1f8cfc98abeac9419b7eca7c1605e268c4f9985fd930c10290bce767617c1eb369d0f4cceabf7c62904e23988a275a4
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
 
 Package: deepin-desktop-base
 Architecture: mips64el
@@ -14214,21 +14260,23 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
-Architecture: all
-Version: 2024.02.06-1+comsta~15.11
+Architecture: loong64
+Version: 2024.03.10
 Priority: optional
 Section: misc
-Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 81
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
 Provides: deepin-appstore-config
-Depends: deepin-keyring, distro-info-data
-Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.02.06-1+comsta~15.11_all.deb
-Size: 16708
-MD5sum: 38590ce971736a6cb9986e4ba082681d
-SHA1: ac90559a15b6c50a30c13f868cef45287c5b0b75
-SHA256: 65d954b34117ac082f14242e87983229ea1a7040e3fa524e9b2ea814edd7de80
-SHA512: a5b61935db23fd8773391b332f7284419a0e41c142e68d4ee24b162b116e42637d4ef18cecc81239866f670976e880321b3ed02020b84cedb86ed73540695a8b
-Description: Base files for Deepin Desktop
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.10_loong64.deb
+Size: 19056
+MD5sum: 61385204e2f66fd9c808646d61123973
+SHA1: 59e67e16884724ca2c288c4213bd3c780b669aed
+SHA256: aba430010bdc998be2406bc998be9fb74bd3fae3058c61223e9dda24f9dd4ce0
+SHA512: 0ca6281fa94c226e72f7ee79046f6c5ea5b1b2cd06fa603a70e040094c88b0e770c137ef44b211ad1724385d6303542735c624c33c56e825425d986e7aecb4eb
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
 
 Package: deepin-anything-dkms
 Architecture: all
@@ -17283,6 +17331,29 @@ SHA512: fc7cd43b90120c5a2a5c3bcb0a80d6be8033e60bae6e38df08b3369e27aeba2b03d966f3
 Homepage: http://www.gfdgdxi.top
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: debiandde
+Architecture: all
+Version: 15.11~2024.03.02
+Priority: extra
+Section: metapackages
+Source: gxde
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: gxde-desktop, deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver
+Recommends: file-roller, deepin-manual, dde-introduction, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, cheese, gxde-top-panel, plank
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
+Filename: ./d/debiandde/debiandde_15.11~2024.03.02_all.deb
+Size: 2664
+MD5sum: f22490b250422270624300f2414ab1ce
+SHA1: 01f843099d3d4351f1673c867d5f305bd651dbe1
+SHA256: 890463067e53f76cb24e434c47292ae65c638c69c784b460b592ac423f920190
+SHA512: 7e869e07da7e71c97d3a537c28c56d32d5f79ff10049c2a16a07e7fcba55ab8c534d076c65b7c3dd23457f4f969a9c1d01b5737aa289f9a39426505348d4b654
+Homepage: http://www.gfdgdxi.top
+Description: GXDE New Desktop Environment - Next
+ This is a meta package depends GXDE New Desktop Envrionment.
  .
  You can safety remove it after installed.
 
