@@ -14104,6 +14104,25 @@ Description: Qt library wrapper for Wayland libraries - data files
  the Wayland libraries.
 
 Package: deepin-desktop-base
+Architecture: arm64
+Version: 2024.02.16
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 111
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.02.16_arm64.deb
+Size: 15648
+MD5sum: 47d23c5cf25e37ae4afceef4c44e136a
+SHA1: d5fff845cbf1f666e73fcc21ce7c6e53dd4dcedc
+SHA256: 6d0f6cfc99ca6b78304ee86e12424e8dce6cdd28a04f28bc45a6497df7b2ea81
+SHA512: 831cbca004c53a552e4160b4414b92cd0146134ddbe12e0cf736dafaaa228edd4ae79c62dc3bff8d67476f759af514408dedbd3ac82fc9977bfce268cf47e14b
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: amd64
 Version: 2024.02.16
 Priority: optional
@@ -15399,6 +15418,28 @@ SHA512: e62a6939b4839c51e1243acff1dc90224a0420c22e08f271497d675667a423645ac91e38
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Go-lang bindings for dde-daemon -- dev file
+
+Package: dde-control-center
+Architecture: arm64
+Version: 4.10.17
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14324
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 15.11~2.0.16.1-1+comsta), libdtkwidget2 (>= 15.11~2.0.16.1-1+comsta), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.17_arm64.deb
+Size: 4138592
+MD5sum: bb8460334cb8bfa745222b28a17f12f9
+SHA1: 0d830861357dd9d01eec3187ee738731c9db5c96
+SHA256: 60c3299d3a644aeb22f5b7db692b6bc51ae4d35284e81514ad6f24aa8dc0bb40
+SHA512: 7de109fed61014ced6779ddc57243536a382042c55935c672c0788a3d910abb8069cd93d9d8e31d68726754ae170e65d5a835286443c8424f91a7135ca770cab
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
 
 Package: dde-control-center
 Architecture: arm64
@@ -16937,6 +16978,25 @@ MD5sum: 71f975705684390529587958b9da4238
 SHA1: cdc0d1da962587e75fea9f95999b2c2f933ea7ab
 SHA256: b650c6734cc5651b947f5cade9444da7c5f4ff9a0cdd3988c221f3ee7e38d3b1
 SHA512: 49d8773a9b49d1e890e8ab9f3ffe82735850e6cbd3730b77763995e7bb58114cd311be4de0dee18769a4953d8f16a7b5d8440986cb9e189a44bff3ce4df73066
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+
+Package: dde-launcher
+Architecture: arm64
+Version: 5.0.14
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1705
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.5.33~), libdtkgui5 (>= 5.5.25~), libdtkwidget5 (>= 5.5.48), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb-ewmh2 (>= 0.4.1), libxcb1, qtbase-abi-5-15-8, lastore-daemon, deepin-desktop-schemas (>= 3.1.11)
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_5.0.14_arm64.deb
+Size: 335640
+MD5sum: 4a7d56857938caaedb97d13868c479af
+SHA1: 351d6c1ca84693de01876931646a211f4dc5bceb
+SHA256: c38dc09d4c2c1813bf461b9a66d4539e9c994764451c041bed66dd1516d2fac7
+SHA512: 5ffceac973b8562d07b13ec70996b163195d5e87f605583345d5b15c16cb76e5945d75a988e7fac45e1cc8d4373a54ad8cb0a233c5bca7276ce30db1cc4cff97
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - launcher module
  Deepin desktop environment 2015 - launcher module.
