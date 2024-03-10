@@ -17244,27 +17244,6 @@ Description: Simple recorder tools for UOS
  A simple screen shot and recorder tools for UOS
 
 Package: deepin-screen-recorder
-Architecture: arm64
-Version: 5.11.1-1
-Priority: optional
-Section: utils
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 19571
-Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgstreamer1.0-0 (>= 1.0.0), libopencv-core406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxext6, libxfixes3, libxtst6, dconf-gsettings-backend | gsettings-backend, ffmpeg
-Recommends: dde-session-ui, deepin-ocr
-Conflicts: deepin-screenshot
-Replaces: deepin-screenshot
-Filename: ./d/deepin-screen-recorder/deepin-screen-recorder_5.11.1-1_arm64.deb
-Size: 10143740
-MD5sum: 32b8516a3fce2c3437ed1321dd3a64da
-SHA1: 01160b64840e955b9aca4cc05ff457d35584573e
-SHA256: d233706ee0578bf34b5c6946af73fec2ee4b3239e3e4abe925b8651f9d5482e5
-SHA512: ba193449ef2c6464e9d52a9ddd85a7d705b5e4b3c26d6777aff19d0cd4e1c08db452940b21c856d13efb6bbc56232b857a9bb1ab2f1d6453ef7971571276bc51
-Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
-Description: Simple recorder tools for UOS
- A simple screen shot and recorder tools for UOS
-
-Package: deepin-screen-recorder
 Architecture: amd64
 Version: 5.11.1-1
 Priority: optional
@@ -18565,6 +18544,29 @@ SHA512: b548196b8c2f5e231e244dc9eacb623090515a7a505cb675b1a60468caab8119ba1353e9
 Homepage: https://srfsh.baidu.com/site/guanwang_linux/index.html
 Description: Fcitx wrapper for Baidu Pinyin IM engine
  fcitx-baidupinyin is a wrapper of Baidu Pinyin IM engine for Fcitx.
+
+Package: fonts-symbola
+Architecture: all
+Version: 2.60-1.1
+Multi-Arch: foreign
+Priority: extra
+Section: fonts
+Source: ttf-ancient-fonts
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Installed-Size: 3104
+Provides: ttf-ancient-fonts-symbola
+Breaks: ttf-ancient-fonts-symbola (<< 2.59)
+Replaces: ttf-ancient-fonts-symbola (<< 2.59)
+Filename: ./f/fonts-symbola/fonts-symbola_2.60-1.1_all.deb
+Size: 1279216
+MD5sum: d55becbcf9a3b2c630c426f9b4c08b0c
+SHA1: dc8381d6e32864cff2ccfd86d92ea3ad65fc9d86
+SHA256: 408244997437d4103e9cdc9dd75db29d0e5fbee6e6874536173995204033a6df
+SHA512: f7dbc6bb6b0d208a12ddb8a84c6b42833f7040abc8fc14f02647c79a7b4adae1deb448bf190e2b0905548e4450fa21b7561539f96b0a6b03393403db8de1d1b8
+Homepage: http://users.teilar.gr/~g1951d/
+Description: symbolic font providing emoji characters from Unicode 9.0
+ This package includes the Symbola font, which contains special symbols and
+ emoji characters which are encoded in the Unicode Standard 9.0
 
 Package: xfonts-unifont
 Architecture: all

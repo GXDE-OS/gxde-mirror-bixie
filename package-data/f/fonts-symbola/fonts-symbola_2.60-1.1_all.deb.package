@@ -1,0 +1,23 @@
+Package: fonts-symbola
+Architecture: all
+Version: 2.60-1.1
+Multi-Arch: foreign
+Priority: extra
+Section: fonts
+Source: ttf-ancient-fonts
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Installed-Size: 3104
+Provides: ttf-ancient-fonts-symbola
+Breaks: ttf-ancient-fonts-symbola (<< 2.59)
+Replaces: ttf-ancient-fonts-symbola (<< 2.59)
+Filename: ./f/fonts-symbola/fonts-symbola_2.60-1.1_all.deb
+Size: 1279216
+MD5sum: d55becbcf9a3b2c630c426f9b4c08b0c
+SHA1: dc8381d6e32864cff2ccfd86d92ea3ad65fc9d86
+SHA256: 408244997437d4103e9cdc9dd75db29d0e5fbee6e6874536173995204033a6df
+SHA512: f7dbc6bb6b0d208a12ddb8a84c6b42833f7040abc8fc14f02647c79a7b4adae1deb448bf190e2b0905548e4450fa21b7561539f96b0a6b03393403db8de1d1b8
+Homepage: http://users.teilar.gr/~g1951d/
+Description: symbolic font providing emoji characters from Unicode 9.0
+ This package includes the Symbola font, which contains special symbols and
+ emoji characters which are encoded in the Unicode Standard 9.0
+
