@@ -1401,27 +1401,6 @@ Description: Deepin graphical user interface library
  needed for developing Deepin applications.
 
 Package: libdtkwidget-dev
-Architecture: loong64
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 367
-Depends: libdtkwidget2 (= 15.11~2.0.16.1-1+comsta), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
-Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_15.11~2.0.16.1-1+comsta_loong64.deb
-Size: 50916
-MD5sum: a03ae68bc2dce09533b922e97d9ced1f
-SHA1: e8a439581de216b360bdd62154b9db96fd62c633
-SHA256: 8b614d9632283a59965ea7b0445a0d0346d2756b4b4d2b0902387a5a2f94b6c8
-SHA512: 3b2eb571489ad012c2c5c7a7e382cd307f3e300e39c118fa5b9244c068d305314136e12c3c2f027398f2234e428d187964ee6ac4af6f39856d2d55c2832ed989
-Description: Deepin graphical user interface library
- DtkWidget is Deepin graphical user interface for deepin desktop development.
- .
- This package contains the header files and static libraries which are
- needed for developing Deepin applications.
-
-Package: libdtkwidget-dev
 Architecture: arm64
 Version: 5.6.12-1
 Priority: optional
@@ -1485,48 +1464,6 @@ Description: Deepin graphical user interface library
  needed for developing Deepin applications.
 
 Package: libdtkwidget-dev
-Architecture: arm64
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 367
-Depends: libdtkwidget2 (= 15.11~2.0.16.1-1+comsta), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
-Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_15.11~2.0.16.1-1+comsta_arm64.deb
-Size: 50912
-MD5sum: 860c35e6dc0519d05b1cd4094cb5d45b
-SHA1: d8f9215e2fd59f7f636bb6658f775854644fd4af
-SHA256: 914d66a5a62c6d0369ea59690334afe5d1dbb430ac03d850eae212bea5c02086
-SHA512: ea4246ccd97457ef963c0779e3d9a61024e561f205c8ef6d81f0ec22aab5d5c6eefb6ae21bff7fe54b68598f4f3b0604fd9d5a0506042a5475a8213fb9b45e79
-Description: Deepin graphical user interface library
- DtkWidget is Deepin graphical user interface for deepin desktop development.
- .
- This package contains the header files and static libraries which are
- needed for developing Deepin applications.
-
-Package: libdtkwidget-dev
-Architecture: mips64el
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 367
-Depends: libdtkwidget2 (= 15.11~2.0.16.1-1+comsta), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
-Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_15.11~2.0.16.1-1+comsta_mips64el.deb
-Size: 50916
-MD5sum: b5a1d8411473b706225ddb6208fe39df
-SHA1: e1861bcbb826ac527e002fb247369318fd4abc45
-SHA256: fabd28ac7a535872312ac90131081be98e56b66e9043bed823df0c6c726e8dc2
-SHA512: b4dbd4c71e1ee7ccc81295e71a4ae1c963449e978cda6a558897aef22b6ea26498a3c8eb86067893f6667516f21aac6365fca7bb5128554b90b447706af16bc4
-Description: Deepin graphical user interface library
- DtkWidget is Deepin graphical user interface for deepin desktop development.
- .
- This package contains the header files and static libraries which are
- needed for developing Deepin applications.
-
-Package: libdtkwidget-dev
 Architecture: amd64
 Version: 5.6.23
 Priority: optional
@@ -1541,27 +1478,6 @@ MD5sum: b38ba8c519518dbb6f5040b39a86f30c
 SHA1: 374f1f1abb06026c3432b27da3f8ac958dc7935c
 SHA256: abb84d8523ec1ab7f57158544308c0ef4b3c38ded454f5b80a8b080991a9a500
 SHA512: f620371caf6f5229c9c7c254ff7b8c93b1004091175d3b3d1d88ff8b90e3da254656fb4311660d9d7eca5d75ec61718881d00a9f8bf6ff5810c7f5439f8232b9
-Description: Deepin graphical user interface library
- DtkWidget is Deepin graphical user interface for deepin desktop development.
- .
- This package contains the header files and static libraries which are
- needed for developing Deepin applications.
-
-Package: libdtkwidget-dev
-Architecture: amd64
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 380
-Depends: libdtkwidget2 (= 15.11~2.0.16.1-1+comsta), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
-Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_15.11~2.0.16.1-1+comsta_amd64.deb
-Size: 50940
-MD5sum: 059645c93e1d7d2216458953152742d0
-SHA1: 933e5250a8840d1d8eeec3cb437cc63bcab610d5
-SHA256: b8718ba4113980ff97737056a42c76f0102d90585e96baecd1841b4a412818c4
-SHA512: 29b7ff9200948863c3b240c1c36e1f8563dab9d5c42d56ddb382a599929964e06b282a6e7b5026f3de875ab35f1a97ba1adcb0e435e53f56b411096bd918e11d
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
@@ -3710,16 +3626,85 @@ Priority: optional
 Section: libdevel
 Source: dtkwidget2
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 380
+Installed-Size: 367
 Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
 Conflicts: libdtkwidget-dev
 Replaces: libdtkwidget-dev
 Filename: ./l/libdtkwidget2-dev/libdtkwidget2-dev_15.11~2.2.1+rebuild-1_amd64.deb
-Size: 50984
-MD5sum: b31fc49f1f54b5e782330ee529d57301
-SHA1: 5cbbaee14f632c384fc03d42f7598db470954f9a
-SHA256: 0e70fe572a2fc84ef621618342cc1c4454eb0f3aa569b84893d916637a34ff25
-SHA512: 23840d5eb6aaf89e4b96352a927b347442683f37a5e2356cc9609d40347b09e61999e97f7f991aa7bcbfe6eb7a4df4c1ed05707e8f8d90d5df7778877ed1b557
+Size: 50952
+MD5sum: e07170fc15ae212f42770602e75db035
+SHA1: 1f5fc21de0c7ec3907ce677c5e23b93b4facaa02
+SHA256: 5b3711cdf871d658349f7b8a930ca474777bcac7563d784e967988bb4e9f4242
+SHA512: 25785af8a664ed1336773e43d5dd32c20acbe70a0f9d832a003424f5be1803270c4e9852d92e9884227f98613a15eba625fe91c9afc6f87db43c57522d1dcf26
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget2-dev
+Architecture: mips64el
+Version: 15.11~2.2.1+rebuild-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 367
+Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Conflicts: libdtkwidget-dev
+Replaces: libdtkwidget-dev
+Filename: ./l/libdtkwidget2-dev/libdtkwidget2-dev_15.11~2.2.1+rebuild-1_mips64el.deb
+Size: 50960
+MD5sum: d1d0fef40fe7f294db27a1142b35346f
+SHA1: 848de2e44227ed801d226e1876b7d46b9f56b3c8
+SHA256: 5fd5b0acb16b52bb3c2756e353142676e2f4c4bac552aaf6d30f012d4c4f491b
+SHA512: f031724cb44e3ab0abdcfdd88550b09b624e738dedab35bc2f475db2d244ca927dc16945a66712dd7baa55427781bd19032a3334fd2888ff779910522c7c6fd6
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget2-dev
+Architecture: loong64
+Version: 15.11~2.2.1+rebuild-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 367
+Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Conflicts: libdtkwidget-dev
+Replaces: libdtkwidget-dev
+Filename: ./l/libdtkwidget2-dev/libdtkwidget2-dev_15.11~2.2.1+rebuild-1_loong64.deb
+Size: 50960
+MD5sum: 0b7d33f30601b71d3f920b00539f74e9
+SHA1: 475f216fdd1c6fa1d6a0b8e496930b2a424a41aa
+SHA256: a75abe44a5fcc5240c8b1a971c0d1e55b4a79e5080f6cc14b79c642dcee6855e
+SHA512: e11d20866455d18727763dfa6789f6bb327a289ac45ed250018fedd28732613cefb43a45ce8080b8a84d6395ed0398af9da1ff0390a9f52e6547ef79440583aa
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget2-dev
+Architecture: arm64
+Version: 15.11~2.2.1+rebuild-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 367
+Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Conflicts: libdtkwidget-dev
+Replaces: libdtkwidget-dev
+Filename: ./l/libdtkwidget2-dev/libdtkwidget2-dev_15.11~2.2.1+rebuild-1_arm64.deb
+Size: 50964
+MD5sum: a3e7ee8b443f5dc2b92675803d53deb7
+SHA1: b1f1194827c805f2120e01491c18b1df4ab1990d
+SHA256: f9e4e1a1d73313c9565c3019bbc7ea25bfac6298a86281cf03832eca47892d34
+SHA512: c8b48152d7bebeea55cc052a6234687b23cc97dbfb393d3524598be6536fa4bda0c3d7e3138d21dfea6fc6ba875fd5958a330c8ce2e1531ae24df72575fa2de1
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
@@ -4846,6 +4831,46 @@ Description: Deepin Tool Kit Core Utilities
  This package contains the utilities of DtkCore
 
 Package: libdtkcore-bin
+Architecture: loong64
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 145
+Depends: libdtkcore2 (= 15.11~2.2.1), deepin-desktop-base
+Filename: ./l/libdtkcore-bin/libdtkcore-bin_15.11~2.2.1_loong64.deb
+Size: 30316
+MD5sum: cb6f51a36ecd87081fc91173b091246d
+SHA1: 60e772f0ea8689cb3a165080cb92f414352660cf
+SHA256: 17ed4314c138940bd2474b78b71d2949e1cb9c793756531c5c3d0dd73043bb64
+SHA512: 9eae71028d79695deee7b09f83ddaddbcc94db6d0ebc8842e47f74c0a0777817944ae7b48e21263886c68b9f5de261b57f23d23054b504aaf2fb34c69b324487
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkcore-bin
+Architecture: mips64el
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 229
+Depends: libc6 (>= 2.34), libdtkcore2 (= 15.11~2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1), deepin-desktop-base
+Filename: ./l/libdtkcore-bin/libdtkcore-bin_15.11~2.2.1_mips64el.deb
+Size: 32588
+MD5sum: 6c65b69d527c25ffb76c971eef92ead8
+SHA1: 00d39b12521e6dc75ff36b0f594e853d3657279d
+SHA256: 807afbe8470f714b9142388742000b5d2f3d5453224a4d5604e4f2cb2d471b10
+SHA512: 0d4dbe75cd2d5fa412163aac9f0ff919d130ee9288637718c680e8b544a828c8e3e172d3811234cc64b5d581c086f3205be25767ccf0a94f6afa2d08fecb6ff5
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkcore-bin
 Architecture: arm64
 Version: 15.11~2.0.16.1-1+comsta
 Priority: optional
@@ -4886,6 +4911,26 @@ Description: Deepin Tool Kit Core Utilities
  This package contains the utilities of DtkCore
 
 Package: libdtkcore-bin
+Architecture: amd64
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 134
+Depends: libdtkcore2 (= 15.11~2.2.1), deepin-desktop-base
+Filename: ./l/libdtkcore-bin/libdtkcore-bin_15.11~2.2.1_amd64.deb
+Size: 32408
+MD5sum: 3872850b153ebb41d6ab026580a3f5d4
+SHA1: 3a5280cbbcd6c4faf65139f8d0a3c843a613ccb0
+SHA256: 4d93f95bc770939f342817a27d11d5c4f6db141c29bddbfc26da38ede2b0c87f
+SHA512: 19c96ad051a6bf325b71301cb4678462a52e8f98af16727306d9c0f84c811300dbecf53880474b34c25a99e5f9e4d29f5edf29d3cdaa5e652dc2f0daf910b8e7
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkcore-bin
 Architecture: loong64
 Version: 15.11~2.0.16.1-1+comsta
 Priority: optional
@@ -4920,6 +4965,26 @@ MD5sum: 9b5ce09ec12e88275388a29563427dbd
 SHA1: 875188b8418f379ff1e7faa5490309972649c343
 SHA256: 1bcfa533f243e3382f26f844211cdbe5bf759d7f6c842f7657fa41981862ecd3
 SHA512: a8ef1b2188619a0609d140de3f1372ccbdb51cd117fc6e586d555922ddf0e826ff8848ea6078771d09c0b3175e0a7cb85d845ba61bb066f23787cebcfe668fcd
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkcore-bin
+Architecture: arm64
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 160
+Depends: libc6 (>= 2.34), libdtkcore2 (= 15.11~2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1), deepin-desktop-base
+Filename: ./l/libdtkcore-bin/libdtkcore-bin_15.11~2.2.1_arm64.deb
+Size: 30716
+MD5sum: 6bd6b4257f27cd3a290b5c10a1c70ced
+SHA1: 7989d90c545c966c53ce0a858f3533da671d9a06
+SHA256: 145812c55915f43fb088dafa1a146103e656d2d60e46e7c17c45ae2164ea291d
+SHA512: 8435a8ca71a62884fda8c0f9c39ac10b26b4b864378d139e82603dd072e8951637941680b794af8b025236cb89d483bb93aa456606a0dbd2bb8a3dc6cb92b3d3
 Description: Deepin Tool Kit Core Utilities
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
@@ -5583,46 +5648,6 @@ Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
 
 Package: libdtkcore-dev
-Architecture: mips64el
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 153
-Depends: libdtkcore2 (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore-dev/libdtkcore-dev_15.11~2.0.16.1-1+comsta_mips64el.deb
-Size: 22344
-MD5sum: 12e4769b65f445d5a91dd5b870fd13a9
-SHA1: f4ea67a951cbcb829b66d2dc83c648e23716100b
-SHA256: 6da989baee74a8ec946167b8c7364b03b6af45aa87ed30e3416640f1624c33ed
-SHA512: 08ed555c880271c74a17426810f1e4261fce0c90d6fce49f714e7b780ac1cb0ade61abd4087b79c44b2991ac3065f463242742197d1de471fd97fd6ec6b904ed
-Description: Deepin Tool Kit Core Devel library
- DtkCore is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the header files and static libraries of DtkCore
-
-Package: libdtkcore-dev
-Architecture: amd64
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 160
-Depends: libdtkcore2 (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore-dev/libdtkcore-dev_15.11~2.0.16.1-1+comsta_amd64.deb
-Size: 22332
-MD5sum: f65d9c07a1bc4d9cc9c172316c571e7e
-SHA1: 874e43790d6c85a291e2ca42416d07b8e0f7e13b
-SHA256: 4dfc981f8699d0d97a4f867bab6ba1a072c87939341e6bcc55c8aa654229ae88
-SHA512: 7fde669c8399413c99ab8fb0ae45ba55021497e219b32bbe159323bfdd7b009aceb1e1ac3487f529ccf5d3cb2deaf7f60534f0b83f95bb820498d528c499af3d
-Description: Deepin Tool Kit Core Devel library
- DtkCore is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the header files and static libraries of DtkCore
-
-Package: libdtkcore-dev
 Architecture: arm64
 Version: 5.6.22
 Priority: optional
@@ -5657,26 +5682,6 @@ MD5sum: de76234eab838b5706ac65e6f6871daf
 SHA1: 09e88ab50d6cb3f37a5e6614548fc2abfb2f5799
 SHA256: 805299aab72bf32994aa111b702e0057391388dcd46cf1e3c2dcd4c2310c82a7
 SHA512: cd8df9834f633036e2607d41f0b8a3c80ededacbcb081da7914ed479edd2fc6c8ed8e9e63232b0a9fe8a6b7e600e480b37e6d7cfeb450a2f4b00b8606b3bd8af
-Description: Deepin Tool Kit Core Devel library
- DtkCore is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the header files and static libraries of DtkCore
-
-Package: libdtkcore-dev
-Architecture: loong64
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 153
-Depends: libdtkcore2 (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore-dev/libdtkcore-dev_15.11~2.0.16.1-1+comsta_loong64.deb
-Size: 22336
-MD5sum: 2d00f6754bfeef623f4152ec800e19a8
-SHA1: 720bfe064ff7060c18bdf86f936b4743fe2b80be
-SHA256: 47cc74339db1bad7525efa536b988e40c9616ea940e14775e2ecc25aa0d095ca
-SHA512: c15490269c6c096f0b52d34f08344767d4ac5961d4c6ca376ff2990bdfc32e83b2d6db51da9882deefda7607aacd1443b02cd6b4a6aa0a73d45641624d7092a5
 Description: Deepin Tool Kit Core Devel library
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
@@ -5737,26 +5742,6 @@ MD5sum: 76fee30cfb27105399ca1e2f6aab3712
 SHA1: 2d247317b3a52009f9341e2b77e78afb0666eea9
 SHA256: 2470a15122f5abc3b0949d16982e6cf42f83e3047d4841bc1ff4436ff5e0ab29
 SHA512: 619967d9e60da11cff8cfa2462c29d5ae780eca9b30aef29f1efc3432af1f2d2f1be4a62aaa557875642e296900a6171713933cf689995acebe0fab03c71898c
-Description: Deepin Tool Kit Core Devel library
- DtkCore is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the header files and static libraries of DtkCore
-
-Package: libdtkcore-dev
-Architecture: arm64
-Version: 15.11~2.0.16.1-1+comsta
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 153
-Depends: libdtkcore2 (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore-dev/libdtkcore-dev_15.11~2.0.16.1-1+comsta_arm64.deb
-Size: 22336
-MD5sum: 32ebc9467a33530f9b1690998227afad
-SHA1: 49329910ed1ba87fb6b0eece324eb7b26da198ce
-SHA256: 0c7e112c25188b408d22337adbc586f0e540ee23522b6b44d3a0364e82d0d87d
-SHA512: a19b5c81c46b649d24d66cafb199f349ba2a5abf0a4c8c7f99189e4610277b7363bf59a58ba0f782fb4302dd549dc7dbe1bd49da827c7bfb7e25be6ffc514ea6
 Description: Deepin Tool Kit Core Devel library
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
@@ -7057,6 +7042,26 @@ Description: Deepin Tool Kit Core library
  This package contains the shared libraries.
 
 Package: libdtkcore2
+Architecture: loong64
+Version: 15.11~2.2.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 692
+Filename: ./l/libdtkcore2/libdtkcore2_15.11~2.2.1_loong64.deb
+Size: 182732
+MD5sum: a3164b5353dc4fe0abf32166abe6072d
+SHA1: fb67c31b91e6c73d5c33f72d85ae3b6076a88b51
+SHA256: a39b5a15e06f41feed616bcbea7d4323678a01481ae05f02e6075e8bd8536c0a
+SHA512: 41eda2a186d0c93fa5177eec07b89e4ba7bd0c596a3fc1decb708c87b19159975d3a5a9c48795784a55e21c3cc28f7c113be24000e19e4a1c72f300ddfaf6dd7
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore2
 Architecture: arm64
 Version: 15.11~2.0.16.1-1+comsta
 Multi-Arch: same
@@ -7072,6 +7077,27 @@ MD5sum: 54f21ae49bceba21e835d82b566ac7e7
 SHA1: 0a238b3b26b93bf93af6ee7651897b8cb4198218
 SHA256: 8a6bbc8ac7480dc9f26d1b3898755709534786dabd71778231cbc54253723879
 SHA512: 7e19f895482ba4606bf8aaa6f6f4f6ff498c2c457665fc40897d43b3a498b5139a8bf66704f4c53c8ba2747b7f2513b04c916e552692f2d4879e3a4b0f0f6031
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore2
+Architecture: mips64el
+Version: 15.11~2.2.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 851
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.4)
+Filename: ./l/libdtkcore2/libdtkcore2_15.11~2.2.1_mips64el.deb
+Size: 184120
+MD5sum: 4bfba2457e710e3e58aa6ea542d37970
+SHA1: 570d013ccf99d92dd33f9e53b8a5d9e7019bd88d
+SHA256: b792d43827a14f0281c7e9884819c61af259d2a7a476e68b09756232a77544b2
+SHA512: 541f7c7d51456c9357e5cf0c84f844b00203ec0900d13d7f09cdbf127c9c0c21af0468718fd7d5b31be45b10ee2a047db094ea4b1ecb4eae3b6f13fe92062a13
 Description: Deepin Tool Kit Core library
  DtkCore is base library of Deepin Qt/C++ applications.
  .
@@ -7114,6 +7140,47 @@ MD5sum: e99b03ba5ac23c03b5452e19ffdb6f07
 SHA1: 0691a216336aa9597422fe685e0fc610e5c19efe
 SHA256: 9d8b967a3cea49b5c82f1bd13bb3beb2a432dddb1898e98eb88ff37482ab3f7b
 SHA512: 800537835332b8e1c8fe6207fe8213e8e58d135dd6a395928f8c998e974b66bad08560c3aa924242e6b874c4355bec5d03e743af6daac956f551492a82bc3b03
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore2
+Architecture: amd64
+Version: 15.11~2.2.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 679
+Filename: ./l/libdtkcore2/libdtkcore2_15.11~2.2.1_amd64.deb
+Size: 189564
+MD5sum: 2441999630e7aaad4999094ae5852ca3
+SHA1: 3f3fb8d8fd2fceee7c466f3551a73d97bebdd426
+SHA256: 629507a240a8c1b3a1c96a4a732939d0944199953fa0bf5ae6f62204d7406c3c
+SHA512: 297a33f89ff0214858bdccc6c74c849a1403d24670baa3023dfc29e684533dbb2057b7e629a1f9663a0b3b028d954894ded0e59ac475d10086eb68ffd3f173a0
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore2
+Architecture: arm64
+Version: 15.11~2.2.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 766
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.4)
+Filename: ./l/libdtkcore2/libdtkcore2_15.11~2.2.1_arm64.deb
+Size: 185832
+MD5sum: 25d875cb6618a24acdd5e0175f527369
+SHA1: 7ecb118368eecadad4a1ca1afc79e7fcb7996c75
+SHA256: 2d1f2270e3a5b26a3612ec975a67ec81752c92326eb703655d05f105b8996cbe
+SHA512: 8986f55b489b4316da408dc7a2849e42203c5fdc0212627eadeb6796a440438b1a8a132bd5be6b9104e69a936a49b9d87e7db79fb3519a1a4da44c16b2a9a9f6
 Description: Deepin Tool Kit Core library
  DtkCore is base library of Deepin Qt/C++ applications.
  .
@@ -8523,6 +8590,27 @@ Description: Deepin graphical user interface library utilities
  needed for developing Deepin applications.
 
 Package: libdtkwidget-bin
+Architecture: arm64
+Version: 15.11~2.2.1+rebuild-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 89
+Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget-bin/libdtkwidget-bin_15.11~2.2.1+rebuild-1_arm64.deb
+Size: 20452
+MD5sum: 71d22d8daa9d148640a3b85c3d214be0
+SHA1: 06e160890500174b94cd00748a11f66b141a8e58
+SHA256: f6d008041a644167ce0f7ebeb954f17289663dcaff13135fc13f9168c1b2d057
+SHA512: 48e35dd13e8482ddce8efdfa893a56e5815bc85499ebb27a96e86911f6fe9b45f3f9a79feabe64fc9049236914e946660ef43f78ba15c6f1aaebfc41fb58d117
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget-bin
 Architecture: mips64el
 Version: 15.11~2.0.16.1-1+comsta
 Priority: optional
@@ -8571,14 +8659,35 @@ Priority: optional
 Section: libdevel
 Source: dtkwidget2
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 47
+Installed-Size: 45
 Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
 Filename: ./l/libdtkwidget-bin/libdtkwidget-bin_15.11~2.2.1+rebuild-1_amd64.deb
-Size: 20740
-MD5sum: e2269c604d52ead2eb169b51fadc1255
-SHA1: ba43094db8af53c976173ec2bf620649be3bab3f
-SHA256: 2ffdd6ffe1ad04b2f1a37377b9dadbadd53841590b0eb01f185fe89b2535ce3d
-SHA512: 7678a06a5ea252abc1d2e1f93e0db7d61769eb0a73872dec941a3013abaf52d4dedf00ff9cb30f1d30505b507f61bbb1053090c218821d591642f307e6121c9a
+Size: 20724
+MD5sum: 673847afac23418006b32444b1fe855b
+SHA1: 624dd79cc8ff2dc3d159f69545f4f71a5326f64e
+SHA256: d124649cdf932bd03dad95dd976b50a167eef6488dc72fdd49dee6b22fd1412a
+SHA512: 98c605d76697e8cbea3b7db8c42df1437558ed9f265381b22d9508d14b0331525f261c7222fe27f28ac9fdc8626c241b6cea0b27d106ec7d9758a940ab0c8d0e
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget-bin
+Architecture: mips64el
+Version: 15.11~2.2.1+rebuild-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 90
+Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget-bin/libdtkwidget-bin_15.11~2.2.1+rebuild-1_mips64el.deb
+Size: 21064
+MD5sum: 4a43aeacc3628fe6faf6856ed6c44995
+SHA1: 7eb48f02f8f519915c47c6bd6c1ff52c74fb8683
+SHA256: 51b09627b146a3ae4195be0b0a8bc3aeb926ab9c48750766ef7b9034a01165d5
+SHA512: c881f7ab5a74a35a5228b8f181ea734734d210511659dc67e9335bcd053d31ec5d52c4b25d48a9928a1ce57a083f6623e79911b3303f643798c1f94807d69ab5
 Description: Deepin graphical user interface library utilities
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
@@ -8600,6 +8709,27 @@ MD5sum: db70b218b13baf23b0fb77653ee82f23
 SHA1: 403f8a4d5056830aa83241f6aca6219929ceb526
 SHA256: b470abf8e6b0f6da8fa9411d6c7918a9bd8821b4ef747f2504745aa8bd346172
 SHA512: 0667b381898992bdb181866c23d2ccb162986fb5bfbfb4178924664eca9200002f3ea304d7e22726d007b725af928431eacb6b2a68ba40296e2bc54766b43957
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget-bin
+Architecture: loong64
+Version: 15.11~2.2.1+rebuild-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 41
+Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget-bin/libdtkwidget-bin_15.11~2.2.1+rebuild-1_loong64.deb
+Size: 20368
+MD5sum: bd24813586ff67c96a3c82b5da13638f
+SHA1: 43b2a580147e041e19d988a3d188c6df594fcf5d
+SHA256: 4d0c0bf7f1e7111244fe0a226dd2c97c1c9dc7e50de4bc98f508995fc95c7dcd
+SHA512: 22d5cbd68317bed0b78044fea250a6e9c2e18560e3c58c0ad03d24c6f7be2a46e1d82fa6c5c96e11daf2e1b1a18535618fec2e96c470fa4535a46c1be91f1e44
 Description: Deepin graphical user interface library utilities
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
@@ -9450,6 +9580,92 @@ Description: Deepin Tool Kit Core (document)
  .
  This package contains the doc files of DtkCore
 
+Package: libdtkcore2-dev
+Architecture: loong64
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libdtkcore2 (= 15.11~2.2.1), libdtkcommon-dev
+Conflicts: libdtkcore-dev
+Replaces: libdtkcore-dev
+Filename: ./l/libdtkcore2-dev/libdtkcore2-dev_15.11~2.2.1_loong64.deb
+Size: 18796
+MD5sum: 6168839deb357f298843a32d0b2ddda4
+SHA1: a68f4a76d0a279f0293d4a8e7de617b1aa16cadf
+SHA256: 063dcf0360ac1243f6ea86b4f15562f66961b33b9b4cdab4c1e3186efd2eb0cf
+SHA512: ab08ebed3f6ee9897bba08ff643261f8f6e665aecd9ec7d6ce105c997e7a1a8bc198f99b3bb5b914396fa449422fb85a0e7995753499243dfdba1ed60e3513b4
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtkcore2-dev
+Architecture: amd64
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libdtkcore2 (= 15.11~2.2.1), libdtkcommon-dev
+Filename: ./l/libdtkcore2-dev/libdtkcore2-dev_15.11~2.2.1_amd64.deb
+Size: 18792
+MD5sum: 34a1a10d2e6b119f146ac8627f6c82b1
+SHA1: 75553db17f8ce7410365dd1c1cd98f9d38b49788
+SHA256: b270b343c663198008f223a9c7d39be16aed7418d26ff1ebf1a515f7675435ac
+SHA512: 510b7db5070e469888fb9b85062f760fd9c53ae50ae8b2aa2d99ab3d4bdef9316147806ee62736c21b48f8ba7721465cc0de5f1f022199537656e32c548621a8
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtkcore2-dev
+Architecture: arm64
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libdtkcore2 (= 15.11~2.2.1), libdtkcommon-dev
+Conflicts: libdtkcore-dev
+Replaces: libdtkcore-dev
+Filename: ./l/libdtkcore2-dev/libdtkcore2-dev_15.11~2.2.1_arm64.deb
+Size: 18796
+MD5sum: fa94dfc018cf2722f933357d0d6aab4c
+SHA1: 49ebbace4ffb8aa6b1108cd8bf57c9773b8418a1
+SHA256: f31a435200e4cff3c0116407c3c58f4d1d8671c745d4e748cfa674041a567fc2
+SHA512: a6977a1f72d71db64dd52d22502fd0a29651a4b88d58fd46a5014679d6860a3a0d2429f30fae1ccc8391198cf1cc92dbdf0b7686addfd8cd343d21fda30b4297
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtkcore2-dev
+Architecture: mips64el
+Version: 15.11~2.2.1
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libdtkcore2 (= 15.11~2.2.1), libdtkcommon-dev
+Conflicts: libdtkcore-dev
+Replaces: libdtkcore-dev
+Filename: ./l/libdtkcore2-dev/libdtkcore2-dev_15.11~2.2.1_mips64el.deb
+Size: 18808
+MD5sum: e3ba5e7848f46d3ad62355cac99e8959
+SHA1: 835cae571610d63dd38565d2bcea6be3e31a49fe
+SHA256: 2aa880bc767289a2a22371ad7c82613748b65266652bb1144082bdd1e842236e
+SHA512: fbfbc862259fcc45bbb9b734fc9cd1919602eaad084b15eeb19c7201c2d8eb1095ff7f7117d9e43d9e9c3d82618f2d82a22ea24447c75f20cdb3d3cbdffb9128
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
 Package: libgnome2-common
 Architecture: all
 Version: 2.32.1-5
@@ -9471,6 +9687,27 @@ SHA512: 41d776612a78a14d1a8a04ee3531cd8c88105fe9d544f95e589ca65d131ea0d841a1ced8
 Description: The GNOME library - common files
  This package contains internationalization files for the base GNOME
  library functions.
+
+Package: libdtkwidget2
+Architecture: amd64
+Version: 15.11~2.2.1+rebuild-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2588
+Depends: libdframeworkdbus2
+Filename: ./l/libdtkwidget2/libdtkwidget2_15.11~2.2.1+rebuild-1_amd64.deb
+Size: 635304
+MD5sum: 3374cac83a372ee6810f6b676fc71a8b
+SHA1: c0246e90383eb2e9f57a3af7c9e04d3c1fe18914
+SHA256: 94353f442164c1b93059637fa46c56577a7079a6baa95206c979647266518dfd
+SHA512: 8d588b06f276e1084e139496364c1a3619d5867f9401d55ffd3d17f05b2df4f3a266e7e7db61148047060358135b9b5490f9b83a438db211f2a851aa82e8830f
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
 
 Package: libdtkwidget2
 Architecture: arm64
@@ -9572,6 +9809,69 @@ MD5sum: cc5d8ed3d5de842408812e721bea6b5d
 SHA1: 803aba064f0a13cd5566e8c49b6cdc0db84310f5
 SHA256: fffdcbd22f7e434b5fef2fc24138e2cfd797aa3212eec90170ebdca88501e7d0
 SHA512: f1026c83ac13fc3245f1d728a7dacdcd5bc0576a818497fd697ef37869ec29f778f022cdfaf5ddd889a8474ee9ffeccebd6a64f3940cfba1420f8ef688faacec
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkwidget2
+Architecture: loong64
+Version: 15.11~2.2.1+rebuild-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2693
+Depends: libdframeworkdbus2
+Filename: ./l/libdtkwidget2/libdtkwidget2_15.11~2.2.1+rebuild-1_loong64.deb
+Size: 617760
+MD5sum: c85ad99b8c03fe93ea391111f1fe32b2
+SHA1: 7f7292ec506b78a135b6c344b12e3b447933b4e5
+SHA256: 2e0595574ef16391da9267c1eb97c3e1f3889699576ca2c980fb38df8ce0bd17
+SHA512: 3e03ff0c2aafcab40b335ebf638db101a0b33a13c43279d7489e312b76631faf2cdaef1c0ae4eee773fa88414d514c88fdbe55aa358605a1d365fd86fe7a42e6
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkwidget2
+Architecture: arm64
+Version: 15.11~2.2.1+rebuild-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2654
+Depends: libc6 (>= 2.32), libcairo2 (>= 1.2.4), libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), librsvg2-2 (>= 2.26.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-8
+Filename: ./l/libdtkwidget2/libdtkwidget2_15.11~2.2.1+rebuild-1_arm64.deb
+Size: 595660
+MD5sum: bc4eaddef79b04d2cec0e18d26fcda1d
+SHA1: c11a25b851a46a4d8f816a832be6ebc899834359
+SHA256: 93359f492893fd3811f8fb476896ddebd81930e82d1eaf2e80fb5cbfb882091c
+SHA512: bdffcfc9ed509a59c0a8873bc64a8f92c8ea711648a38aa4662b93db435965de0b4b0635d35d15b632aa96df3f38f3b4a9b036b68ba03c5a02ceb16c57499f0a
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkwidget2
+Architecture: mips64el
+Version: 15.11~2.2.1+rebuild-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3062
+Depends: libc6 (>= 2.32), libcairo2 (>= 1.2.4), libdframeworkdbus2 (>= 5.5.5), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), librsvg2-2 (>= 2.26.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-8
+Filename: ./l/libdtkwidget2/libdtkwidget2_15.11~2.2.1+rebuild-1_mips64el.deb
+Size: 576092
+MD5sum: 21002f509b7955e0c1c336f5ac6cab3b
+SHA1: b8a3ffb4657c856661a98cb236b0f146bc962594
+SHA256: 23653b84374022e85137a329257834107dabdbc3264c787426d3246ac1353bc9
+SHA512: d72fbe4406d3aee479f2f257d47dfb02d9e8f8addc3befc9f7c3bfcef4c23e39e3c03d9d97053e5141f9ac63a09b16f9b7fa069f70daffe5cdb2b38af19267e3
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .

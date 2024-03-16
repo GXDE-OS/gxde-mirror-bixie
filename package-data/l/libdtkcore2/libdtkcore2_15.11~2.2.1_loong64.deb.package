@@ -1,0 +1,20 @@
+Package: libdtkcore2
+Architecture: loong64
+Version: 15.11~2.2.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore2
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 692
+Filename: ./l/libdtkcore2/libdtkcore2_15.11~2.2.1_loong64.deb
+Size: 182732
+MD5sum: a3164b5353dc4fe0abf32166abe6072d
+SHA1: fb67c31b91e6c73d5c33f72d85ae3b6076a88b51
+SHA256: a39b5a15e06f41feed616bcbea7d4323678a01481ae05f02e6075e8bd8536c0a
+SHA512: 41eda2a186d0c93fa5177eec07b89e4ba7bd0c596a3fc1decb708c87b19159975d3a5a9c48795784a55e21c3cc28f7c113be24000e19e4a1c72f300ddfaf6dd7
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
