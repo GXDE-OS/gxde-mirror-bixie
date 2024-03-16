@@ -247,6 +247,29 @@ Description: GXDE New Desktop Environment - Next
  .
  You can safety remove it after installed.
 
+Package: gxde-desktop
+Architecture: all
+Version: 2024.03.16
+Priority: extra
+Section: metapackages
+Source: gxde
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver
+Recommends: file-roller, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, cheese, gxde-top-panel, plank, fcitx5-material-color, tela-grub2-themes, fcitx5 | fcitx
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher, libdframeworkdbus2 (>> 15)
+Filename: ./g/gxde-desktop/gxde-desktop_2024.03.16_all.deb
+Size: 2688
+MD5sum: 71f1969e8a0443488dead44d3a9acbc5
+SHA1: 56e4cee65555c9e8926df878b24209c80c88d2b7
+SHA256: d260aad168d5f8d37f903c347da1cecbd850989f771563a597947526833f6802
+SHA512: c5132b9a45cc723fc7127cee6adcd62807f0260ebb7bcec80bcf0b181eedaa71a56be4b4d116a66ef069e628f8f0b6920b55059001aa869bde026df83c1446a9
+Homepage: http://www.gfdgdxi.top
+Description: GXDE New Desktop Environment - Next
+ This is a meta package depends GXDE New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
 Package: gvfs-daemons
 Architecture: i386
 Version: 1.30.4-1
@@ -18826,6 +18849,23 @@ SHA256: cf7d4fdb950ac96e8fd3743241ce98d6397ea092889676dc0b6276d51ac1e6a0
 SHA512: 0981d2040fffcfd1e8f6e247edab990ddd7cb051dc2a98795799a75dbaa736aa04cc68b189ec02e5dfb537f0f2486f055674a57bc6c4020efc0e31a4e07407e3
 Description: deepin home
  quick login bbs, bug report.
+
+Package: tela-grub2-themes
+Architecture: all
+Version: 2022.10.30-1
+Priority: optional
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 10914
+Depends: dialog, grub-common
+Filename: ./t/tela-grub2-themes/tela-grub2-themes_2022.10.30-1_all.deb
+Size: 6330452
+MD5sum: 3b60a751d8e7ac43a5adf8218b8c4e54
+SHA1: 45e3f6d43fc224519f70271dd12245ef433089d1
+SHA256: 2880893fd664ce07368ab86690c50e5093bd25127862abac88fed0e3c730d6e2
+SHA512: 9a672aa8152028ec725bc0f67a4477eace2ec02f13881821f61466d84b78bdf1183081971f35b65fbbe66d14e99e9a59d108478f9f66f6e5b6cf3310dd60e7cd
+Homepage: https://github.com/GXDE/tela-grub2-themes
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
 
 Package: ttf-deepin-opensymbol
 Architecture: all

@@ -1,0 +1,17 @@
+Package: tela-grub2-themes
+Architecture: all
+Version: 2022.10.30-1
+Priority: optional
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 10914
+Depends: dialog, grub-common
+Filename: ./t/tela-grub2-themes/tela-grub2-themes_2022.10.30-1_all.deb
+Size: 6330452
+MD5sum: 3b60a751d8e7ac43a5adf8218b8c4e54
+SHA1: 45e3f6d43fc224519f70271dd12245ef433089d1
+SHA256: 2880893fd664ce07368ab86690c50e5093bd25127862abac88fed0e3c730d6e2
+SHA512: 9a672aa8152028ec725bc0f67a4477eace2ec02f13881821f61466d84b78bdf1183081971f35b65fbbe66d14e99e9a59d108478f9f66f6e5b6cf3310dd60e7cd
+Homepage: https://github.com/GXDE/tela-grub2-themes
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
