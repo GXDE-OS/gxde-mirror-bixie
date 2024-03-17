@@ -1,0 +1,20 @@
+Package: plymouth-theme-gxde-logo
+Architecture: all
+Version: 15.11
+Priority: optional
+Section: admin
+Source: plymouth-theme-gxde
+Maintainer: Leng Ganghua <hiweed@gmail.com>
+Installed-Size: 84
+Provides: plymouth-theme
+Depends: plymouth
+Replaces: plymouth (<< 0.8.1-1~)
+Filename: ./p/plymouth-theme-gxde-logo/plymouth-theme-gxde-logo_15.11_all.deb
+Size: 46204
+MD5sum: 5bb49af5eba3e15941e7ba0b4a6c418a
+SHA1: 4b9eb92979e13b2ec3e1a446f296130b03020c29
+SHA256: 3af2663ae7827b36fc4289e769bf5f7b8c5dfcc7b12926946af368b2830f12f7
+SHA512: 0ec9ae0a400e33ff9d8fd56b2290a0fb565cf758bc0f68ef6a6066990d4019d5b519ff27a469f4042952789b0a78bfcb019ef09db662da666df6faeb2e51515e
+Description: Plymouth theme for Linux GXDE
+ This theme package contains gxde-logo.
+
