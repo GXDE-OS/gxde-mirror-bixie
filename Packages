@@ -10481,26 +10481,6 @@ Description: /proc file system utilities
  It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
  snice, sysctl, tload, top, uptime, vmstat, w, and watch.
 
-Package: plymouth-theme-deepin-logo
-Architecture: all
-Version: 15.10.9-1+comsta
-Priority: optional
-Section: admin
-Source: plymouth-theme-deepin
-Maintainer: Leng Ganghua <hiweed@gmail.com>
-Installed-Size: 8057
-Provides: plymouth-theme
-Depends: plymouth, util-linux
-Replaces: plymouth (<< 0.8.1-1~)
-Filename: ./p/plymouth-theme-deepin-logo/plymouth-theme-deepin-logo_15.10.9-1+comsta_all.deb
-Size: 4777340
-MD5sum: ebafd5398ad14a20d04f9e673eff22f0
-SHA1: 1c7a899fbad6c5dfefe9debf39f39336843267be
-SHA256: 25801179f005fb6bb843f4ec8f1fe19e142ac00cd1a2dfd7ef1b9b88362aa785
-SHA512: 4851ccf777fd1bcbeb31622d31d25b4d30822f473126e9a3d5b21037afc7061e51f04a3d3928b06ed81e1215b26495a5e57dca48d155492601c86e76e9b39ad4
-Description: Plymouth theme for Linux Deepin
- This theme package contains deepin-logo.
-
 Package: psf-unifont
 Architecture: all
 Version: 1:9.0.06-2
