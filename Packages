@@ -13694,6 +13694,25 @@ Description: Developer package of dde-kwin
 
 Package: deepin-installer
 Architecture: amd64
+Version: 2.7.19
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 27377
+Depends: btrfs-progs, deepin-installer-timezones, dosfstools, imagemagick, jfsutils, mtools, ntfs-3g, os-prober, parted, pciutils, reiserfsprogs, squashfs-tools, tshark, udev, x11-xserver-utils, xfsprogs, xinit, xkb-data
+Filename: ./d/deepin-installer/deepin-installer_2.7.19_amd64.deb
+Size: 20160876
+MD5sum: ce4cd0aced323722a21171dbe59c4b20
+SHA1: b384a695fb60caa64502b036e3117ec1846a5a67
+SHA256: 92c2eee2aed9f6e0f47e0b57629cba217399bc672f5e5dc501018b3c467d796b
+SHA512: b4d5536fd7423f29aace25e8539f8351ae0b4b8ba7ac222e08ec944d9adac064114d2a3f8ee60f9935d688bdfa602d65b1969110d8add12b9b868992a03ab093
+Homepage: http://www.gfdgdxi.top
+Description: Release version of deepin installer
+ New version of deepin-installer, rewritten with Qt5.
+
+Package: deepin-installer
+Architecture: amd64
 Version: 2.7.17
 Priority: extra
 Section: utils
@@ -16001,6 +16020,28 @@ Description: New control center for Deepin Desktop Environment
 
 Package: dde-control-center
 Architecture: amd64
+Version: 4.10.18
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14266
+Depends: dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, libkf5networkmanagerqt6
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.18_amd64.deb
+Size: 4211724
+MD5sum: ae7134e371f057be83f39a1547a871c1
+SHA1: 7d270a0e3aa936e81d4df923949f06f7808e89ae
+SHA256: 0f97118805f02ccabab6dd0011a203bd6e6cd716f4d4928fabac5f514faa8a40
+SHA512: 653c0d75e8349770080e75e6fcec8782aec9d263cb6b6b92f808f9a047f464c455f65ddd5ac02e7acdd7a9074a825e52ba99f4e3f6087b257927b6e29f161f2a
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
 Version: 4.10.16
 Priority: optional
 Section: admin
@@ -16792,6 +16833,25 @@ Homepage: http://www.deepin.org
 Description: OEM tool
  OEM tool for deepin-installer
 
+Package: deepin-installer-oem
+Architecture: amd64
+Version: 2.7.19
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 252
+Depends: deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.19_amd64.deb
+Size: 74464
+MD5sum: 131f882ab4ed8eb99f5d19577297ef7e
+SHA1: f4891e5359b0e61b47dcd06eb7581b2094669784
+SHA256: 2b24dab5425e2528dd06858f3f937597aec0a265496b7a769d245940265b6514
+SHA512: f679fda3b237e0763489c3fd053697768c42573d73fdf38ee653d46d8a8690e4aa052adf4e0512ab7c7eea0dd0d077a535f8e9220947dcca3e1ae4603f1ff1ba
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+
 Package: deepin-draw
 Architecture: arm64
 Version: 6.0.3-1
@@ -17116,6 +17176,24 @@ Description: KDE window manager data files
  of windows and switching between them.
  .
  This package contains the data files
+
+Package: deepin-installer-timezones
+Architecture: all
+Version: 2.7.19
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 546
+Filename: ./d/deepin-installer-timezones/deepin-installer-timezones_2.7.19_all.deb
+Size: 53544
+MD5sum: 2e55748686a550b9d815e045f6dffa2c
+SHA1: 4c63c5ab618771f2a9ca10ddb7f0c9d1404c5762
+SHA256: 8ba925d9866bff1ab10cbdba4b3cb5511f3ce3b36abeb643d03683cc5b584eaf
+SHA512: 17f51b2502c493724f98c0b610f473dc1939372bf031f79db5eeec3b4c449f8fa61c3174f5ee6f085cda8f083507061d9cc946e000d3917c56d02ec96755cd28
+Homepage: http://www.gfdgdxi.top
+Description: Language package for timezone names
+ Installer language package for timezone names
 
 Package: deepin-installer-timezones
 Architecture: all

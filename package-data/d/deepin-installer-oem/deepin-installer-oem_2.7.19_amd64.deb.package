@@ -1,0 +1,19 @@
+Package: deepin-installer-oem
+Architecture: amd64
+Version: 2.7.19
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 252
+Depends: deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.19_amd64.deb
+Size: 74464
+MD5sum: 131f882ab4ed8eb99f5d19577297ef7e
+SHA1: f4891e5359b0e61b47dcd06eb7581b2094669784
+SHA256: 2b24dab5425e2528dd06858f3f937597aec0a265496b7a769d245940265b6514
+SHA512: f679fda3b237e0763489c3fd053697768c42573d73fdf38ee653d46d8a8690e4aa052adf4e0512ab7c7eea0dd0d077a535f8e9220947dcca3e1ae4603f1ff1ba
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+
