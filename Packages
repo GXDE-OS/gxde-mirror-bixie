@@ -12287,6 +12287,25 @@ Description: anything user interface library
  anything library developer package.
 
 Package: deepin-anything-dev
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: deepin-anything-libs (= 6.1.6)
+Filename: ./d/deepin-anything-dev/deepin-anything-dev_6.1.6_amd64.deb
+Size: 5752
+MD5sum: 2ddc7d92fc2115e1f09e3a06d3bc7be7
+SHA1: fdc8666cb7e4e69817634b7fe8d4dd68a77fb47c
+SHA256: 7b7f35c40cbec81472661fe58d6590409362b8c2d6b2dd1716a9c19a4094be1c
+SHA512: 3acc3f62fa67eae19d46a094c1702e2862a9242c68fd87ab48bc5c89a71e5d1456a35e6deee8d9111ec582f0188ad6a6f4bd9181b9193d862e8d911d8662f0e2
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything user interface library
+ anything library developer package.
+
+Package: deepin-anything-dev
 Architecture: i386
 Version: 0.1.0-1+comsta
 Priority: optional
@@ -12449,6 +12468,25 @@ MD5sum: a088fd1302a714a71a29927440d2bca6
 SHA1: 5f5abc00b7814c18ee4a04899a5a882f3a221247
 SHA256: 49bbaf528390306e2b2fc9eec9740fd3d39824d39bf4ab54333949ecc64519e5
 SHA512: 0cbd11094c7fdc2f1cd2daadef85281edd9615ff8eb0dcc35d8229a479692aa5ec5e9972d3152af45f70b70442d114cf2b447d3304d834df7482b392e4e1d8d1
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
+
+Package: deepin-anything-server
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 371
+Depends: deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_6.1.6_amd64.deb
+Size: 102656
+MD5sum: dd203cdb91ff01a989d0bb925eb16dd1
+SHA1: 414e110b01ff17b1ac1b0c1f23d0cc45f6e6b738
+SHA256: 12cf4af97ab55dad268e72a920a3a3ecadc85689f84962e2533e441a189a7e3e
+SHA512: b75b25fd4d4b17c5e9d8cb92fe8b84e71950010632a81a004cb79adbb39a0f28d99a607a53d31dc4b6f38754edb1da6b71f07429a718013fb615c6787835ed45
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server application and lib
  anything server package
@@ -14568,6 +14606,25 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.03.17
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.17_amd64.deb
+Size: 19132
+MD5sum: 1dad96e4945a21713254f3da593266fa
+SHA1: 81a072f2ff12cd3c9861b1540ef7d0e5c3c51ce4
+SHA256: 826c95c87edce2da76b92b33bd4e52ec5dbca72c1b3b737d1549985db1bf3b6d
+SHA512: 3c52fa01fe2704beb948ddb4db143ed10ce3fe476159f524c9b7645cdb28d5eaf809fe632e9ec0bfb55ad92a60aa7b5557e2d8504a7d7d1921dd2b8d19a83d7f
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: mips64el
 Version: 2024.02.16
 Priority: optional
@@ -14639,6 +14696,25 @@ MD5sum: f22b6db8adbb7730769f816fa22863ca
 SHA1: 894ae20e4070dc15a19e0f161377b5d238e775db
 SHA256: cb5741e72bc64b340d86e2fe7f951d6995932e1756880278a1c054b951e84510
 SHA512: e5a0a19bcc4a95a8aa6afb9d0b29936b6c53b219faad0c0fb558d5e05e8d2cf38dcbc72e7fe6b47e3180b1ecb8cc48b86cd5ffb3e206a43d2451fa79fdd62c2f
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything module
+ anything kernel module package
+
+Package: deepin-anything-dkms
+Architecture: all
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 79
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_6.1.6_all.deb
+Size: 14640
+MD5sum: a21d0c6d08a31d4fb229a5d67b294cd6
+SHA1: b897c07994df2f733c353bfe370147b5e2ddd1d6
+SHA256: b4c4ba139e937873c1e052d4664a4c0ae5830b72a80672f182b3852e23b91844
+SHA512: 53c7f4a8a6134105e3783cb3615782210c9dd75c8f3f17d8015af3055d5ee61451f69766f4c12427fac1a20ec89b6657dc2ab745128af3b5010b3dd8c65c083a
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
@@ -17119,6 +17195,25 @@ Description: anything library
  anything library package
 
 Package: deepin-anything-libs
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 194
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.35.8), libpcre3
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_6.1.6_amd64.deb
+Size: 52916
+MD5sum: 2608f1cc93870357ca05897477591130
+SHA1: 8e63cbd4d505739b054c6a2a766c84c1135bda3f
+SHA256: 5051a6cc804ad5d23ac1d9a46ea85c1d741cde1ba46843eda6e98a00ca6eed0e
+SHA512: f54a6d5573f2313099832a597f28e3ffb9d61979416d0e04add98e2659b5d7502e5f7af4496ea3e3276829b18fb5699801ef1db7bd93f199037efe51b1e89c39
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+
+Package: deepin-anything-libs
 Architecture: i386
 Version: 0.1.0-1+comsta
 Priority: optional
@@ -17315,6 +17410,25 @@ MD5sum: ddc3446ff27f4c5efa1b8db78ecc741c
 SHA1: 5dcadf54ea979b3c8c2cd5b4392ed2784f282fd3
 SHA256: 3a208a2e1f6d1b8f121a68c2650c599e1fcc3fa516424670f08b532f381deed1
 SHA512: f24d4a57c2b4ad33d55c4014bea8d22e9bfdc8cd50d56babd89592d6a8088234051607d3633ed4b37d0742d7a976ccffc8b6a86dbbf1b083b3fa06b32bc0395b
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server user interface library
+ anything server library developer package.
+
+Package: deepin-anything-server-dev
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 20
+Depends: deepin-anything-server (= 6.1.6)
+Filename: ./d/deepin-anything-server-dev/deepin-anything-server-dev_6.1.6_amd64.deb
+Size: 4360
+MD5sum: d40d169fd4b7dc06fa2ce6c6cdba6795
+SHA1: 3f20419ce60bbde1af20f795d2c69c111830d232
+SHA256: aeaafe3bb96bcefbbda7c09f3465d21a131826893c792fc86b322b32e6f8926d
+SHA512: 48674b2ee43f82f043685b736cefd236f0e15ae2b92815b46f1b2619bbf2fb33808442f3ac64f8e0938df0cebade6f71e9371c806cc9c94db2f693c3022a421a
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server user interface library
  anything server library developer package.

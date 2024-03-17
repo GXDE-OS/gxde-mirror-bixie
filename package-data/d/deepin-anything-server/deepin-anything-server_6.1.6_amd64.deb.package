@@ -1,0 +1,19 @@
+Package: deepin-anything-server
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 371
+Depends: deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_6.1.6_amd64.deb
+Size: 102656
+MD5sum: dd203cdb91ff01a989d0bb925eb16dd1
+SHA1: 414e110b01ff17b1ac1b0c1f23d0cc45f6e6b738
+SHA256: 12cf4af97ab55dad268e72a920a3a3ecadc85689f84962e2533e441a189a7e3e
+SHA512: b75b25fd4d4b17c5e9d8cb92fe8b84e71950010632a81a004cb79adbb39a0f28d99a607a53d31dc4b6f38754edb1da6b71f07429a718013fb615c6787835ed45
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
+

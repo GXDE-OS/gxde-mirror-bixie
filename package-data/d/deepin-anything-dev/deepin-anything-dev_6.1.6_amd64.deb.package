@@ -1,0 +1,19 @@
+Package: deepin-anything-dev
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: deepin-anything-libs (= 6.1.6)
+Filename: ./d/deepin-anything-dev/deepin-anything-dev_6.1.6_amd64.deb
+Size: 5752
+MD5sum: 2ddc7d92fc2115e1f09e3a06d3bc7be7
+SHA1: fdc8666cb7e4e69817634b7fe8d4dd68a77fb47c
+SHA256: 7b7f35c40cbec81472661fe58d6590409362b8c2d6b2dd1716a9c19a4094be1c
+SHA512: 3acc3f62fa67eae19d46a094c1702e2862a9242c68fd87ab48bc5c89a71e5d1456a35e6deee8d9111ec582f0188ad6a6f4bd9181b9193d862e8d911d8662f0e2
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything user interface library
+ anything library developer package.
+
