@@ -1,0 +1,21 @@
+Package: gxde-default-settings
+Architecture: all
+Version: 2024.03.17
+Priority: optional
+Section: admin
+Maintainer: gfdgd xi <3025613752@qq.com>, sysdev <sysdev@deepin.com>
+Installed-Size: 2017
+Depends: deepin-artwork, gxde-default-settings-tuning (>= 2018.1.23), iw, deepin-wallpapers
+Suggests: binfmt-support
+Conflicts: chrome-default-settings, deepin-default-settings, deepin-default-settings-network, deepinop
+Replaces: deepin-default-settings-network, deepinop
+Filename: ./g/gxde-default-settings/gxde-default-settings_2024.03.17_all.deb
+Size: 1914676
+MD5sum: bcf5ade7f30b668a1423a5bcb17edfe2
+SHA1: e4c76e3a6de5b080374a0f423a701184eb53f745
+SHA256: f477d2dc0643e7c179f4fc8d5b3fe3d852b5f2de3e37433f9044a73e855549d6
+SHA512: d0445bd6a0b497d3499c4dbd7f4a04bfc4797f0eab4eb78e3569e2fa635e7be2c353dd7002aed65e03bd700b4212298e28575ea471b050a70dfcf106b9b46bd2
+Description: default settings for deepin destkop environment
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
+

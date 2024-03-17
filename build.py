@@ -49,8 +49,9 @@ def Write(path: str):
         <h3>更新时间：{datetime.datetime.now().strftime("%Y年%m月%d日 %H:%M:%S")}</h3>
         <hr/>
         <h2>添加 apt 源</h2>
-        <pre><code>wget http://deb.debiandde.gfdgdxi.top/sources/github.sh ; bash github.sh ; rm github.sh</code></pre>
-        <p>项目地址：<a href="https://github.com/gfdgd-xi/debian-dde/">https://github.com/gfdgd-xi/debian-dde/</a></p>
+        <pre><code>wget http://dde15.debian12.gfdgdxi.top/sources/github.sh ; bash github.sh ; rm github.sh</code></pre>
+        <p>项目地址：<a href="https://gitee.com/GXDE/">https://gitee.com/GXDE/</a></p>
+        <p><a href="https://github.com/GXDE/">https://github.com/GXDE/</a></p>
         <hr/>
         <h1 id="copyright">©2020~2023 gfdgd xi</h1>
 </body>
