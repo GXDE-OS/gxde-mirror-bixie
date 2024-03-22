@@ -14607,10 +14607,10 @@ Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, dee
 Conflicts: deepin-desktop-server
 Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.22_amd64.deb
 Size: 19200
-MD5sum: 4594547475fcc3161a25e0975598a16b
-SHA1: e0ed173b30eccf78cf891303674c965317e8d741
-SHA256: 062d50d0c7d410ab445fafa7ce47f173c7e3731e0ab211e0f05619aa3d2b6fbf
-SHA512: d33e522f485b02b15a4baeb5b945e578e0887d5b1239ffc238ac49ae20557afe40268b839118aa27dac952fd2eb805c356472d2f020b3dd073d4ce8571b977ac
+MD5sum: 1410267a89dd2a9d304e0eab2176f5f4
+SHA1: 7e358511abca07120ea38286f5bdc11079fa7f1a
+SHA256: a20ab9e6a7586f34bf7ec560483069ff8ce6e2db4a5cd679633c2999cdcb1511
+SHA512: 7ec7213159f6c579b3d264b461133f5e371ecbe4c377c3a547b8a72e513a955baad389e09ea0aadeb2e5cc9fe0c312dfe6a36628953ed93502cb43566eeee0c9
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
