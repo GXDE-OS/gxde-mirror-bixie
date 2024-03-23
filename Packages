@@ -12353,6 +12353,25 @@ Description: anything user interface library
  anything library developer package.
 
 Package: deepin-anything-dev
+Architecture: arm64
+Version: 6.1.8
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: deepin-anything-libs (= 6.1.8)
+Filename: ./d/deepin-anything-dev/deepin-anything-dev_6.1.8_arm64.deb
+Size: 5816
+MD5sum: 2699177ab9f9c0df1800db7cef0b88f7
+SHA1: 1134496921499748fef7d67aaf09b7a21634dd1b
+SHA256: 6d0c5f37b864249719f6152bd00d14e5118f978d35ba30be2be345a00007a024
+SHA512: 74998da7d5767d81bc191c364da3627d627271f2a5763b0258e36b2fb8cc9b6352729bb2b1e6b93aeece3876bd18a0f27352e32bf2ec067176c469563b35e40c
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything user interface library
+ anything library developer package.
+
+Package: deepin-anything-dev
 Architecture: amd64
 Version: 6.1.6
 Priority: optional
@@ -12496,6 +12515,25 @@ MD5sum: 541844f1cb6164772f91640713fa6c21
 SHA1: ce08d8f87a4b26fd075d2d0c57f4f804cf566589
 SHA256: 9a90f6f5ac928052ae89c7072253d089606a2bac3227e8e12d8e9452bd45cbac
 SHA512: 1c0f1a59d18e123a63e75422740c8c2c3376c8a725cc8557d0c8bc83e33ff89225445580a06d423cc4c789e3df4f938600b77cdffafbf1a1a6e97aa43d62cb05
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
+
+Package: deepin-anything-server
+Architecture: arm64
+Version: 6.1.8
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 419
+Depends: deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_6.1.8_arm64.deb
+Size: 93612
+MD5sum: 8e984587621375e8ca1729d0d21bb505
+SHA1: 4f1def99208c0361127efd70dbc0ba7e5136aca0
+SHA256: a3e6daa04ed8fd8c85cd771c2d5884c610837c85f41e772a2e5dc4cdeb5f076a
+SHA512: 4493eb2cce22b475e1091fd244baf98bac96fad6b70de0aa5453aea8d84220f904ed32a9a860960d8854b2c2bc10358b34ce5a1669205c7f73350b5c94b1968d
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server application and lib
  anything server package
@@ -13778,6 +13816,25 @@ Description: Release version of deepin installer
  New version of deepin-installer, rewritten with Qt5.
 
 Package: deepin-installer
+Architecture: arm64
+Version: 2.7.19
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 23521
+Depends: deepin-installer-timezones, dosfstools, imageworsener, mtools, ntfs-3g, parted, pciutils, squashfs-tools, udev, x11-xserver-utils, xinit, xkb-data
+Filename: ./d/deepin-installer/deepin-installer_2.7.19_arm64.deb
+Size: 16086524
+MD5sum: f3fd6d41a09e210beeee7042748b1df4
+SHA1: 87fdb7889f873e105426a6d43aea2e75317d575e
+SHA256: 9ce8d15a85f51a9aaf246d72273591aba78653359c4b6d7c2284f72224d19174
+SHA512: d8a85633d7f33bed867104af53c5566bc59d96485e86a3c6c7d956241fd5710cd568032aa995d84974384254d6dc97fffa3959cebde6ea9a9321eee50adddcb8
+Homepage: http://www.gfdgdxi.top
+Description: Release version of deepin installer
+ New version of deepin-installer, rewritten with Qt5.
+
+Package: deepin-installer
 Architecture: amd64
 Version: 2.7.17
 Priority: extra
@@ -14748,6 +14805,25 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: arm64
+Version: 2024.03.22
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.22_arm64.deb
+Size: 19200
+MD5sum: f3b9e7561e99f875d0b42d673c9bb4d1
+SHA1: 4ece34451617660f5eb91a0207abc3ab6975413b
+SHA256: 26b64df5758eeb81dae0e2cf8d361d4bd274b1400660d9387e612043761eb033
+SHA512: 7d7337777b914a1aeadccc7fd8db1625708f835198f90d3efdb0d3d9db2a3b17309a4e3d791d812bc2365c73b7a317748e6a5eee8c58fea45e7d34822783ef91
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: amd64
 Version: 2024.02.12-deepin
 Priority: optional
@@ -14819,6 +14895,25 @@ MD5sum: a21d0c6d08a31d4fb229a5d67b294cd6
 SHA1: b897c07994df2f733c353bfe370147b5e2ddd1d6
 SHA256: b4c4ba139e937873c1e052d4664a4c0ae5830b72a80672f182b3852e23b91844
 SHA512: 53c7f4a8a6134105e3783cb3615782210c9dd75c8f3f17d8015af3055d5ee61451f69766f4c12427fac1a20ec89b6657dc2ab745128af3b5010b3dd8c65c083a
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything module
+ anything kernel module package
+
+Package: deepin-anything-dkms
+Architecture: all
+Version: 6.1.8
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 79
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_6.1.8_all.deb
+Size: 14704
+MD5sum: 246b8978c8ef7576ba9ef02db0f261c9
+SHA1: 6b55a6513929a7fecc18057b8d6169fe58547ad0
+SHA256: 291b547c4210181d1f07597e9b08db31a7766ae3af748e4cc71e2ac0553b6fbc
+SHA512: fa960a058fdaf13b0fe60dbf525931adb553d95c949df1539f5e3e16b8acc1cf93383813d9a0031df870f1f91b08e87bfac1280238261dac18983e6dd5f8785d
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
@@ -16148,6 +16243,28 @@ Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
 
 Package: dde-control-center
+Architecture: arm64
+Version: 4.10.18
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14324
+Depends: dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, libkf5networkmanagerqt6
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.18_arm64.deb
+Size: 4140484
+MD5sum: e706bbac815170f648024661277b97f1
+SHA1: 33c61bf59aa99625b4aaa220c34152db93e292ed
+SHA256: 905157db160df0a6c0561c806f17ee4fe3c0ea8c078fe15f1c28fb9f08b3bf63
+SHA512: 4b6f4b775114484f1bebc72cd3d6fd129838a528f0def30b8977abdc837b48e3a0bcde1aa5a41701f0f998ed7f61f93137a9cd3a7e3fa8fdd682558dbb7ba439
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
 Architecture: amd64
 Version: 4.10.17
 Priority: optional
@@ -16900,6 +17017,25 @@ Description: OEM tool
  OEM tool for deepin-installer
 
 Package: deepin-installer-oem
+Architecture: arm64
+Version: 2.7.19
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 293
+Depends: deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.19_arm64.deb
+Size: 70752
+MD5sum: c8fcc6121ca634607fa72f858def4e49
+SHA1: 9a236dcbb3f3a8568ee388446947daf8f72fd569
+SHA256: 8d9b22ac872b682ccc9b0652195a1eb3043c52a113b908cd54ffdac53ee82876
+SHA512: 12a3ce0eb860f133fba11dd336d4cd61bbf6b948f386c7d8e9372773abd9a09c80255b03bb5529966b0c3729c6a515a728fcb19fbcaae2d2792899a84f55c561
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+
+Package: deepin-installer-oem
 Architecture: amd64
 Version: 2.7.16-1+comsta
 Priority: extra
@@ -17414,6 +17550,24 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything library
  anything library package
 
+Package: deepin-anything-libs
+Architecture: arm64
+Version: 6.1.8
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 210
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_6.1.8_arm64.deb
+Size: 51556
+MD5sum: 53ae5134a585251cfcb8f130fdb4c7b8
+SHA1: be6972610e2fc03a1b03c03c6fef5f3c9ec40ae5
+SHA256: a81632c59cf183fe3617180f99a8d813156d3d633eeeee02be883c764a6ba535
+SHA512: d1d6784243a382c279e1bbb4bbb39fdd218c35f3c4443455e92ed2732bdbef4720b3661e133a315b15f49c08db49f48c378b5a32f1dda39247b463da8374e885
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+
 Package: dde-qt5xcb-plugin
 Architecture: amd64
 Version: 5.6.22
@@ -17573,6 +17727,25 @@ MD5sum: ddc3446ff27f4c5efa1b8db78ecc741c
 SHA1: 5dcadf54ea979b3c8c2cd5b4392ed2784f282fd3
 SHA256: 3a208a2e1f6d1b8f121a68c2650c599e1fcc3fa516424670f08b532f381deed1
 SHA512: f24d4a57c2b4ad33d55c4014bea8d22e9bfdc8cd50d56babd89592d6a8088234051607d3633ed4b37d0742d7a976ccffc8b6a86dbbf1b083b3fa06b32bc0395b
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server user interface library
+ anything server library developer package.
+
+Package: deepin-anything-server-dev
+Architecture: arm64
+Version: 6.1.8
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 20
+Depends: deepin-anything-server (= 6.1.8)
+Filename: ./d/deepin-anything-server-dev/deepin-anything-server-dev_6.1.8_arm64.deb
+Size: 4416
+MD5sum: b0a7445627e20de7a7d7ee35c0bc068d
+SHA1: 423bacc23db5ffd4c60d3ec4c4a17ce8fdab50c1
+SHA256: b0d6106dc7de4ea3cb02e770e739d3c01cc09dd89d56a01f53bcc7ba4f910480
+SHA512: a3ee21e3d00f9c16fb86f6454ea15c1fa3239989d13c6866e68fc56adbed295b178768e7457ca6ad28cba83ea723f8cfb81dbf17eae464e424131074e6de72fb
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server user interface library
  anything server library developer package.
