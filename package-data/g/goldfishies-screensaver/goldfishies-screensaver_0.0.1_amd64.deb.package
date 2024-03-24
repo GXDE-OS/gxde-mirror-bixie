@@ -1,0 +1,18 @@
+Package: goldfishies-screensaver
+Architecture: amd64
+Version: 0.0.1
+Priority: optional
+Section: devel
+Maintainer: zinface <zinface@163.com>
+Installed-Size: 76
+Filename: ./g/goldfishies-screensaver/goldfishies-screensaver_0.0.1_amd64.deb
+Size: 32152
+MD5sum: b588e7f89846af75126bd08ccea9e543
+SHA1: 3ab46209ea0ea05acd9e3e8a9550bca74ff47e51
+SHA256: cdbd7f93efba9aa98f32d8a2c1b728d9ba82f16f54dc88fee691b2e0959f48d8
+SHA512: 5d830843c10ebe1ba8add240f3a2fc638ab2d030af2bf40302ea53f5841a399d74b93011de4e404374b33d3dc7faeeec378c85478343f270d325fd301aeac415
+Description: 养鱼屏保
+  此程序适用于深度操作系统
+  .
+ 其它说明行部分
+

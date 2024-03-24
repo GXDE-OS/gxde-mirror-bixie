@@ -1,0 +1,16 @@
+Package: mimicry-clock-screensaver
+Architecture: amd64
+Version: 0.0.2-20240324
+Priority: optional
+Section: devel
+Maintainer: zinface <zinface@163.com>
+Installed-Size: 580
+Filename: ./m/mimicry-clock-screensaver/mimicry-clock-screensaver_0.0.2-20240324_amd64.deb
+Size: 505040
+MD5sum: 099e8cb1a058460d17e8f3e1783c54bc
+SHA1: 20e54da09e4f2ac3a99b78763d2268d5374908bb
+SHA256: 099826b1dc7e2715476974e95ccda1d40bb4146dd4ee9c897fb6db792797b7e8
+SHA512: 9e2b06355c6416030292e02299f74a251f278e1567f03e29a990632979ae0a740928f1fbac84697f0290f50f4bd731717fe044296105f78ab8e3789c3287a536
+Description: 拟态时钟屏保
+ 适用于深度操作系统的拟态时钟屏保程序
+
