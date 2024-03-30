@@ -17992,6 +17992,35 @@ Description: client to login deepin sync account
  Deepin user can login with DeepinID oauth
 
 Package: deepin-kwin-data
+Architecture: amd64
+Version: 4:5.25.18-kwin.5.24.3
+Multi-Arch: foreign
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12639
+Depends: python3:any
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Filename: ./d/deepin-kwin-data/deepin-kwin-data_5.25.18-kwin.5.24.3_amd64.deb
+Size: 4012000
+MD5sum: f33d8abd1f82c000511473bafb1d8067
+SHA1: e3c3e05fd6c28c534971020aafeb0e4f383a77e2
+SHA256: e871ef247d5d3e99c9a5e519519fac663bfb76c194bff3ee9a5c175a3b73a864
+SHA512: 23313f4c35f3432c78942d0405793815b52e3178e28d389c4e0a88385f1b86d929d85e98ef4448dcd76389038e0e9e28162e33dbff33a16e59d283336f2f727b
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
+Package: deepin-kwin-data
 Architecture: all
 Version: 4:5.25.12-kwin.5.24.3
 Multi-Arch: foreign
