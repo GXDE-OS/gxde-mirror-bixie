@@ -18785,6 +18785,29 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
  file window, allowing you to input commands with facility and no distractions.
 
 Package: deepin-terminal
+Architecture: amd64
+Version: 6.0.12
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6866
+Depends: expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.12_amd64.deb
+Size: 3394808
+MD5sum: 5145a905df5c689e28b72cc2b1c6bede
+SHA1: 5a821678a5577775a897c6742ed54ed42b6939ef
+SHA256: ec86f5d0e35062205e0d04a7a5b077c0412d860ab11a7bf053bfc7ef9131c108
+SHA512: e6098c574523d42d7d5cd035606169cc452b7f9636f3d613001e2403bf88bf4c63e600236d4bd5730e27a59616c8fa65153a52d80e6a4510ac806ff0c25d3b94
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
 Architecture: arm64
 Version: 5.0.0+ds1-3
 Priority: optional
