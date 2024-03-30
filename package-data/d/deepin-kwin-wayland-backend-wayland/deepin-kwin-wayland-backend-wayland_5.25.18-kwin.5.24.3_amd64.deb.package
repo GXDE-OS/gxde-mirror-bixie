@@ -1,0 +1,27 @@
+Package: deepin-kwin-wayland-backend-wayland
+Architecture: amd64
+Version: 4:5.25.18-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 185
+Provides: kwin-wayland-backend
+Filename: ./d/deepin-kwin-wayland-backend-wayland/deepin-kwin-wayland-backend-wayland_5.25.18-kwin.5.24.3_amd64.deb
+Size: 52528
+MD5sum: 124f4199bf10e17a57775c472c1af0d8
+SHA1: bd7f37938b3df0d6d5e241aac0b857c394e2fa3d
+SHA256: 94f4007588d64ff355e44dd92c025d75efad3b1d157110dbfc6ca595de7f0f4e
+SHA512: 73ea76463a7dd208452706ab0c7a8ec8376a9d967cdfee9e58df819111a302c40b02504ddc13ba5c59382eae57713b30636f64317ba682b650b88af1b9bd312b
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager nested wayland plugin
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+

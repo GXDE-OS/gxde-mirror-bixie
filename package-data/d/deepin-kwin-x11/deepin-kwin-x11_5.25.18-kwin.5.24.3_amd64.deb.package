@@ -1,0 +1,29 @@
+Package: deepin-kwin-x11
+Architecture: amd64
+Version: 4:5.25.18-kwin.5.24.3
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1841
+Provides: deepin-kwin, x-window-manager
+Depends: dde-qt5xcb-plugin (>= 5.6.21)
+Breaks: deepin-kwin-addons (<< 4:5.14)
+Filename: ./d/deepin-kwin-x11/deepin-kwin-x11_5.25.18-kwin.5.24.3_amd64.deb
+Size: 517408
+MD5sum: e3c6f022be6ff163ca26400e57a3a76d
+SHA1: ee312b6006fdaabdae9c56355ae066aeb24916eb
+SHA256: 7e626f3e5ce4b9b15065885a2301303d5f36f4796a53c82cbbd85ada36086777
+SHA512: 18739326f2372f85362c3e3997b2138d51e746d44d5d64322881e063f668f3133b44fbad647d14ae099853905339bdbdfb50a931977ff35abde948567f5bc650
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
