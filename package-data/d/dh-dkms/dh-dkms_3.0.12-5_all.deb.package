@@ -1,0 +1,28 @@
+Package: dh-dkms
+Architecture: all
+Version: 3.0.12-5
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: dkms
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 37
+Provides: dh-sequence-dkms
+Depends: perl:any
+Breaks: dkms (<< 3.0.3-3~)
+Replaces: dkms (<< 3.0.3-3~)
+Filename: ./d/dh-dkms/dh-dkms_3.0.12-5_all.deb
+Size: 15048
+MD5sum: 54c60facaf2a44a921a97445788f7983
+SHA1: 32a5f6204114f22e07219b9a5e1e73dee6ae12a2
+SHA256: be660df5609cb0e4a94172aa79997f35d5ddb00097bd268b5e795ec7c0b9400b
+SHA512: 84a39c77f416158cdb9c7011b2c3e79df6cebf3a6cb032dbde9df4e7a3a36a6f8917d5d1b3078f58f84065fe06f4ca9be46a67f9370f1aa468f232d9932b226e
+Homepage: https://github.com/dell/dkms
+Description: debhelper addon for the Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+ .
+ This package provides a debhelper add-on 'dkms' that simplifies packaging of
+ dkms kernel module source packages.
+

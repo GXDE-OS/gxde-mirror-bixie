@@ -1,0 +1,23 @@
+Package: libwebp6
+Architecture: loong64
+Version: 0.6.1-2.lnd.2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libwebp
+Maintainer: Jeff Breidenbach <jab@debian.org>
+Installed-Size: 448
+Depends: libc6 (>= 2.28),liblol,liblol-dkms
+Filename: ./l/libwebp6/libwebp6_0.6.1-2.lnd.2_loong64.deb
+Size: 230632
+MD5sum: f9d42a2d5e0897d7844e708588029b83
+SHA1: 96665e1d22e4a6dedd9241c3494247311bb5beb5
+SHA256: dafcfc0a1374aec805d55e30348a2cf84a90ff1c248aea82bf10239b695f1cd5
+SHA512: af2e9959b552383e51ffbddb394c01fdab0ee5e86d4ed2c5809324ff90e8b67d71808166bf64fca1ab327bb11acd6c4aea0102d015137bf1f99a6716cfd31241
+Homepage: https://developers.google.com/speed/webp/
+Description: Lossy compression of digital photographic images.
+ Image Compression format, based on the VP8 codec.
+ WebP uses the modern VP8 compression format to deliver efficient
+ compression of images for the web. More than 30% extra gain over
+ optimized JPEG, for same quality, is not unusual.
+

@@ -1,0 +1,26 @@
+Package: dkms
+Architecture: loong64
+Version: 3.0.12-5
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 196
+Provides: dkms-autopkgtest (= 3.0.12-5)
+Pre-Depends: lsb-release
+Depends: kmod | kldutils, gcc | c-compiler, dpkg-dev, make | build-essential, patch
+Recommends: fakeroot, sudo
+Suggests: menu, e2fsprogs
+Breaks: blcr-dkms (<< 0.8.6~b3-1.0), blktap-dkms (<< 2.0.93-0.10.0), oss4-dkms (<< 4.2-build2020-1~), sl-modem-dkms (<< 2.9.11~20110321-16.0)
+Filename: ./d/dkms/dkms_3.0.12-5_loong64.deb
+Size: 51552
+MD5sum: ab32fdc23adeaced85747ca08790f4be
+SHA1: d0fdee806d799357763d7cd16a7c89df666513cf
+SHA256: 77b4e9e80eaacf1d681f9fa45fbd8754e386cf8d763c59b4ca7876dbdc46bb66
+SHA512: 0cb05701bbdb6581480f2b9b716ba30fa4fe44af89a1e3efbff7de3fe519d6ba07b0e81396f887469e954addec3b7fefb4ef0d96367e0d324628cc3c8be363a1
+Homepage: https://github.com/dell/dkms
+Description: Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+

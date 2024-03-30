@@ -3291,6 +3291,32 @@ Homepage: http://github.com/linuxdeepin/lastore-daemon
 Description: daemon of lastore - development files.
  daemon of lastore - support dbus interface - development files.
 
+Package: libqt5webenginecore5
+Architecture: loong64
+Version: 5.15.2+dfsg-lnd.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qtwebengine-opensource-src
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 134825
+Provides: qtwebengine-abi-5-15-2
+Depends: libqt5webengine-data (= 5.15.2+dfsg-lnd.3), libasound2 (>= 1.0.16), libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2), libharfbuzz0b (>= 2.2.0), libjpeg62-turbo (>= 1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5positioning5 (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5webchannel5 (>= 5.15.2~), libsnappy1v5, libstdc++6, libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.lnd.1), libx11-6, libx11-xcb1, libxcb-dri3-0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxml2 (>= 2.7.4), libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxss1, zlib1g (>= 1:1.2.2),liblol,liblol-dkms
+Breaks: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Replaces: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Filename: ./l/libqt5webenginecore5/libqt5webenginecore5_5.15.2+dfsg-lnd.3_loong64.deb
+Size: 35988000
+MD5sum: b0ff694791fdaded17f9466cb7f29829
+SHA1: 838850bf613d8fb4c7ab8f97e5d932f21e08149a
+SHA256: ce28ac955d4c998aba3c06e2bf36da8cc40d842e4f98d73e3359eb394b3a2752
+SHA512: 7313d6d6cf9ac7f820bd5c9571f489284da24878cc97e7484875717bcecfbb6cd5adc6db7c189199e5b990ed00d65e35cc64ed180d81ecbf9cf969a59c33956c
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Description: Web content engine library for Qt - Core
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the core QtWebEngine library.
+
 Package: libgnome2-bin
 Architecture: i386
 Version: 2.32.1-5+b1
@@ -3674,6 +3700,29 @@ Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
  .
  This package contains the shared libraries.
+
+Package: libwebp6
+Architecture: loong64
+Version: 0.6.1-2.lnd.2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libwebp
+Maintainer: Jeff Breidenbach <jab@debian.org>
+Installed-Size: 448
+Depends: libc6 (>= 2.28),liblol,liblol-dkms
+Filename: ./l/libwebp6/libwebp6_0.6.1-2.lnd.2_loong64.deb
+Size: 230632
+MD5sum: f9d42a2d5e0897d7844e708588029b83
+SHA1: 96665e1d22e4a6dedd9241c3494247311bb5beb5
+SHA256: dafcfc0a1374aec805d55e30348a2cf84a90ff1c248aea82bf10239b695f1cd5
+SHA512: af2e9959b552383e51ffbddb394c01fdab0ee5e86d4ed2c5809324ff90e8b67d71808166bf64fca1ab327bb11acd6c4aea0102d015137bf1f99a6716cfd31241
+Homepage: https://developers.google.com/speed/webp/
+Description: Lossy compression of digital photographic images.
+ Image Compression format, based on the VP8 codec.
+ WebP uses the modern VP8 compression format to deliver efficient
+ compression of images for the web. More than 30% extra gain over
+ optimized JPEG, for same quality, is not unusual.
 
 Package: liborbit-2-0
 Architecture: arm64
@@ -4581,6 +4630,29 @@ Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit
  This package contains the header files and static libraries which is
  needed for developing the GTK+ applications.
 
+Package: libqt5webenginewidgets5
+Architecture: loong64
+Version: 5.15.2+dfsg-lnd.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qtwebengine-opensource-src
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 553
+Depends: libqt5webengine-data (= 5.15.2+dfsg-lnd.3), libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5printsupport5 (>= 5.15.2+dfsg~), libqt5quick5 (>= 5.9.0~beta) | libqt5quick5-gles (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.11.0), libqt5webenginecore5 (>= 5.15.1), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6,liblol,liblol-dkms
+Filename: ./l/libqt5webenginewidgets5/libqt5webenginewidgets5_5.15.2+dfsg-lnd.3_loong64.deb
+Size: 117748
+MD5sum: 3be1d4a6eee2a70fc86109d4d385f711
+SHA1: 90b92190e99e6b274e0d5c3cf622531f1c9e62de
+SHA256: 98d29d79c1ddf5a7c113ff77f97f7a3a154dc01760ea70be443cb3982e1fd3a7
+SHA512: 96b5f48a667a5b623f72f202b0389aff56d607cea23521b8e16bd071ca0e1ef421916d8a4037f555ca07ca4c016e881e17e746acb56e41972cbe8b354db93e83
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Description: Web content engine library for Qt - Widget
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the widget QtWebEngine library.
+
 Package: libdde-waylandserver
 Architecture: amd64
 Version: 0.0.1
@@ -5455,6 +5527,28 @@ Description: Deepin Tool Kit Gui (Document)
  DtkGui is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the qt Document of DtkGui
+
+Package: libqt5webengine-data
+Architecture: all
+Version: 5.15.2+dfsg-lnd.3
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: qtwebengine-opensource-src
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 33349
+Filename: ./l/libqt5webengine-data/libqt5webengine-data_5.15.2+dfsg-lnd.3_all.deb
+Size: 10226872
+MD5sum: c81b1c97ed82f35c126ed5aeaaac73e0
+SHA1: 3c679a579f3f02966ccab4ce764347f6705913fd
+SHA256: 5a07e1b7318bd5332f8836108dae1e7d531fd37d6179d5e7df5d09f30b444678
+SHA512: a2978bd30c8de0b248945e76bc51df60b70e4fab72ebd184867e1c2bf7b3da3ae5b23a8e7801191a9a4956c29446eac369438a67280a661b5dfdcbe285f3c531
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Description: Web content engine library for Qt - Data
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the arch independent parts of QtWebEngine libraries.
 
 Package: libopencv-mobile
 Architecture: arm64
@@ -7078,6 +7172,28 @@ Description: Deepin graphical user interface library
  DtkWm is used to handle double screen for deepin desktop development.
  This package contains the shared libraries.
 
+Package: liblol
+Architecture: loong64
+Version: 0.1.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: Miao Wang <shankerwangmiao@gmail.com>
+Installed-Size: 3728
+Depends: libstdc++6, libc6 (>= 2.36), libc6 (<< 2.38.1~)
+Recommends: liblol-dkms
+Conflicts: glibc
+Filename: ./l/liblol/liblol_0.1.4-1_loong64.deb
+Size: 988988
+MD5sum: 8337aba316ef3c231fc82ebc18134d1d
+SHA1: 6932b0ddbc4d5efe3eb58dd509e9c178cca978ae
+SHA256: 828a9c64256757094eb75a072185f1c99c23508ae6a14393167036646e456827
+SHA512: 4041c9d509dac6d6d53a8725e7d05c66a8b42ed5cf478e3991e95246408a343266a44acbd317b65b0279aee4022fa5ed59c328b6cc213d8420aae1a8ed3e6a77
+Homepage: https://github.com/AOSC-Dev/liblol
+Description: Compatibility layer for old world applications
+  This package contains a Compatibility layer for old world
+  applications on new world loongarch64 platform.
+
 Package: libdtkcommon-dev
 Architecture: arm64
 Version: 5.6.20
@@ -8516,6 +8632,57 @@ Description: Bonobo CORBA interfaces library -- support files
  documents.
  .
  This package contains the support files needed by the Bonobo library.
+
+Package: liblol-dkms
+Architecture: loong64
+Version: 0.1.0
+Priority: extra
+Section: kernel
+Maintainer: Miao Wang <shankerwangmiao@gmail.com>
+Installed-Size: 38
+Depends: dkms (>= 3.0.11)
+Conflicts: glibc
+Filename: ./l/liblol-dkms/liblol-dkms_0.1.0_loong64.deb
+Size: 7144
+MD5sum: 5d352889a917aaff8f8d68ed88d374b6
+SHA1: 7a4bebe462edee1fddf23d0eb81e5b88497d40fd
+SHA256: b04560ce25419489d06eb75ae1c484966e20a254d769886ca364b2659007990d
+SHA512: 250178dfdf844603a6ea2b2e472e49db5fe4bee4864ec69baec4fa59d75199b84f24dea9c3ab2e869d907383d7f8c38806545b8c82be3223b12462ae7415b7c7
+Homepage: https://github.com/AOSC-Dev/la_ow_syscall
+Description: Compatibility layer kmod for old world applications
+  This package contains a compatibility layer for old world
+  applications on new world loongarch64 platform.
+
+Package: libevent-2.1-6
+Architecture: loong64
+Version: 2.1.8-stable-4.1
+Multi-Arch: same
+Priority: standard
+Section: libs
+Source: libevent
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 506
+Depends: libc6 (>= 2.28),liblol,liblol-dkms
+Filename: ./l/libevent-2.1-6/libevent-2.1-6_2.1.8-stable-4.1_loong64.deb
+Size: 175060
+MD5sum: 2fea0f09707ba3bd0ea1f087c5d7b131
+SHA1: 885c1bc70885c9d44419003eea95bfaa74731dc3
+SHA256: 1b021c4731126e652a0adfa251cfd380ebdb66987f99c3a15f156b235c1d4c46
+SHA512: 780179a242cdda3bb015d397d8973941b5b10b59af1db550274d8c39691804d0ecfd52456339222b3733faba8fef3cf282b96535153927e7ced36ed480495daa
+Homepage: http://libevent.org/
+Description: Asynchronous event notification library
+ Libevent is an asynchronous event notification library that provides a
+ mechanism to execute a callback function when a specific event occurs
+ on a file descriptor or after a timeout has been reached.
+ .
+ It is meant to replace the asynchronous event loop found in
+ event driven network servers. Currently, libevent supports /dev/poll,
+ kqueue(2), event ports, select(2), poll(2) and epoll(4).
+ .
+ For backward compatibility and to transition to "libevent_core only"
+ or "libevent_core + libevent_extra", the libevent source package builds
+ the libevent library that includes everything in libevent_core and
+ libevent_extra.
 
 Package: libboost-serialization1.74.0
 Architecture: amd64
@@ -14556,6 +14723,32 @@ Description: KDE window manager virtual plugin
  This backend allows running deepin-kwin-wayland in headless mode,
  useful for testing, or in the Cloud.
 
+Package: dkms
+Architecture: loong64
+Version: 3.0.12-5
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 196
+Provides: dkms-autopkgtest (= 3.0.12-5)
+Pre-Depends: lsb-release
+Depends: kmod | kldutils, gcc | c-compiler, dpkg-dev, make | build-essential, patch
+Recommends: fakeroot, sudo
+Suggests: menu, e2fsprogs
+Breaks: blcr-dkms (<< 0.8.6~b3-1.0), blktap-dkms (<< 2.0.93-0.10.0), oss4-dkms (<< 4.2-build2020-1~), sl-modem-dkms (<< 2.9.11~20110321-16.0)
+Filename: ./d/dkms/dkms_3.0.12-5_loong64.deb
+Size: 51552
+MD5sum: ab32fdc23adeaced85747ca08790f4be
+SHA1: d0fdee806d799357763d7cd16a7c89df666513cf
+SHA256: 77b4e9e80eaacf1d681f9fa45fbd8754e386cf8d763c59b4ca7876dbdc46bb66
+SHA512: 0cb05701bbdb6581480f2b9b716ba30fa4fe44af89a1e3efbff7de3fe519d6ba07b0e81396f887469e954addec3b7fefb4ef0d96367e0d324628cc3c8be363a1
+Homepage: https://github.com/dell/dkms
+Description: Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+
 Package: deepin-repair-tools-dev
 Architecture: arm64
 Version: 1.0.14.1-1+comsta
@@ -18456,6 +18649,29 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - launcher module
  Deepin desktop environment 2015 - launcher module.
 
+Package: dkms-noautoinstall-test-dkms
+Architecture: all
+Version: 3.0.12-5
+Priority: optional
+Section: kernel
+Source: dkms
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 23
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/dkms-noautoinstall-test-dkms/dkms-noautoinstall-test-dkms_3.0.12-5_all.deb
+Size: 10496
+MD5sum: 611bd6fd3ebf729d01c99abdeda8aa25
+SHA1: 216e034f095b58c47fb336b7c112326717b92d20
+SHA256: f581721faa86a2b7fb27ad8405528945a24a8d4d8930552174a77a602bf9b683
+SHA512: 14c83c8a751b738fb317f175dd8a1253a185ec967c18a5067c6de057de79f6e6f830804e50888dfdd02edd0b9e81043550e3e8f8b66e59e6077501b5ced7c521
+Homepage: https://github.com/dell/dkms
+Description: trivial dkms noautoinstall test kernel module
+ This package provides the dkms source code for the dkms_noautoinstall_test
+ kernel module.
+ .
+ This package is only intended for ci tests and not expected to be installed
+ on regular systems
+
 Package: dde-dock
 Architecture: amd64
 Version: 4.10.9gxde0
@@ -19306,6 +19522,34 @@ Description: GnuPG keys of the Deepin archive
  The Deepin project digitally signs its Release files. This package
  contains the archive keys used for that.
 
+Package: dh-dkms
+Architecture: all
+Version: 3.0.12-5
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: dkms
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 37
+Provides: dh-sequence-dkms
+Depends: perl:any
+Breaks: dkms (<< 3.0.3-3~)
+Replaces: dkms (<< 3.0.3-3~)
+Filename: ./d/dh-dkms/dh-dkms_3.0.12-5_all.deb
+Size: 15048
+MD5sum: 54c60facaf2a44a921a97445788f7983
+SHA1: 32a5f6204114f22e07219b9a5e1e73dee6ae12a2
+SHA256: be660df5609cb0e4a94172aa79997f35d5ddb00097bd268b5e795ec7c0b9400b
+SHA512: 84a39c77f416158cdb9c7011b2c3e79df6cebf3a6cb032dbde9df4e7a3a36a6f8917d5d1b3078f58f84065fe06f4ca9be46a67f9370f1aa468f232d9932b226e
+Homepage: https://github.com/dell/dkms
+Description: debhelper addon for the Dynamic Kernel Module System (DKMS)
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+ .
+ This package provides a debhelper add-on 'dkms' that simplifies packaging of
+ dkms kernel module source packages.
+
 Package: deepin-ocr
 Architecture: arm64
 Version: 1.1.2
@@ -19771,6 +20015,28 @@ Description: dtkwidget-examples is generated by dtkwidget.
  .
  This package contains example application which are
  needed for developing Deepin applications.
+
+Package: dkms-test-dkms
+Architecture: all
+Version: 3.0.12-5
+Priority: optional
+Section: kernel
+Source: dkms
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 23
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/dkms-test-dkms/dkms-test-dkms_3.0.12-5_all.deb
+Size: 10456
+MD5sum: 36285ed00984ae5d59ab4dc03acfe373
+SHA1: 79851380991f2b35ccfe722f52aed05ca9c61d5a
+SHA256: a7e5b5f0144823344a44ae614a763d8aa26af904919863f68ea7a247a17bb71f
+SHA512: 234c75821565c7c791bf9e29250151c4cc79311355c036ea683945c59565edf89ad0e91b604bd2ef2d622dcb56fa4be6db3f01b7637da4afe5c44b31c8df7dbf
+Homepage: https://github.com/dell/dkms
+Description: trivial dkms test kernel module
+ This package provides the dkms source code for the dkms_test kernel module.
+ .
+ This package is only intended for ci tests and not expected to be installed
+ on regular systems
 
 Package: deepin-home
 Architecture: mips64el
@@ -20298,6 +20564,25 @@ SHA512: 38ae8d3e327d390ec68b2383ad8a656475cf3c231ac0a20cd73c533c87a16dbcd03422af
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
+
+Package: spark-store
+Architecture: loong64
+Version: 4.2.10
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1341
+Provides: spark-store-console-in-container
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.2), libdtkgui5 (>= 5.2), libdtkwidget5 (>= 5.2), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils,liblol,liblol-dkms
+Filename: ./s/spark-store/spark-store_4.2.10_loong64.deb
+Size: 723456
+MD5sum: 3b047fea24030bf55daaadfbcd4afffe
+SHA1: 52a4eeea6f62e058cf6000cae7a9132f31e1ef10
+SHA256: acfd2ff04ff0f607665afd68918a0b4092d6b77f0e2b14fe56b7af5bcdd03007
+SHA512: 4a92a5abb091618d53f0ea907d4d5caae00a6a8fa32f83715ce5058dc732d315b4a0173c1878cb3992c7e2f95d77b681354f4416adc065139af9c9ee0728a625
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
 
 Package: spark-store
 Architecture: amd64

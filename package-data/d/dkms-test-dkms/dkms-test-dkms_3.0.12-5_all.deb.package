@@ -1,0 +1,22 @@
+Package: dkms-test-dkms
+Architecture: all
+Version: 3.0.12-5
+Priority: optional
+Section: kernel
+Source: dkms
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 23
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/dkms-test-dkms/dkms-test-dkms_3.0.12-5_all.deb
+Size: 10456
+MD5sum: 36285ed00984ae5d59ab4dc03acfe373
+SHA1: 79851380991f2b35ccfe722f52aed05ca9c61d5a
+SHA256: a7e5b5f0144823344a44ae614a763d8aa26af904919863f68ea7a247a17bb71f
+SHA512: 234c75821565c7c791bf9e29250151c4cc79311355c036ea683945c59565edf89ad0e91b604bd2ef2d622dcb56fa4be6db3f01b7637da4afe5c44b31c8df7dbf
+Homepage: https://github.com/dell/dkms
+Description: trivial dkms test kernel module
+ This package provides the dkms source code for the dkms_test kernel module.
+ .
+ This package is only intended for ci tests and not expected to be installed
+ on regular systems
+

@@ -1,0 +1,22 @@
+Package: liblol
+Architecture: loong64
+Version: 0.1.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: Miao Wang <shankerwangmiao@gmail.com>
+Installed-Size: 3728
+Depends: libstdc++6, libc6 (>= 2.36), libc6 (<< 2.38.1~)
+Recommends: liblol-dkms
+Conflicts: glibc
+Filename: ./l/liblol/liblol_0.1.4-1_loong64.deb
+Size: 988988
+MD5sum: 8337aba316ef3c231fc82ebc18134d1d
+SHA1: 6932b0ddbc4d5efe3eb58dd509e9c178cca978ae
+SHA256: 828a9c64256757094eb75a072185f1c99c23508ae6a14393167036646e456827
+SHA512: 4041c9d509dac6d6d53a8725e7d05c66a8b42ed5cf478e3991e95246408a343266a44acbd317b65b0279aee4022fa5ed59c328b6cc213d8420aae1a8ed3e6a77
+Homepage: https://github.com/AOSC-Dev/liblol
+Description: Compatibility layer for old world applications
+  This package contains a Compatibility layer for old world
+  applications on new world loongarch64 platform.
+

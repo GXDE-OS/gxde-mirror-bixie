@@ -1,0 +1,23 @@
+Package: dkms-noautoinstall-test-dkms
+Architecture: all
+Version: 3.0.12-5
+Priority: optional
+Section: kernel
+Source: dkms
+Maintainer: Dynamic Kernel Module System Team <dkms@packages.debian.org>
+Installed-Size: 23
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/dkms-noautoinstall-test-dkms/dkms-noautoinstall-test-dkms_3.0.12-5_all.deb
+Size: 10496
+MD5sum: 611bd6fd3ebf729d01c99abdeda8aa25
+SHA1: 216e034f095b58c47fb336b7c112326717b92d20
+SHA256: f581721faa86a2b7fb27ad8405528945a24a8d4d8930552174a77a602bf9b683
+SHA512: 14c83c8a751b738fb317f175dd8a1253a185ec967c18a5067c6de057de79f6e6f830804e50888dfdd02edd0b9e81043550e3e8f8b66e59e6077501b5ced7c521
+Homepage: https://github.com/dell/dkms
+Description: trivial dkms noautoinstall test kernel module
+ This package provides the dkms source code for the dkms_noautoinstall_test
+ kernel module.
+ .
+ This package is only intended for ci tests and not expected to be installed
+ on regular systems
+
