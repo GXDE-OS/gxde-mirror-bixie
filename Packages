@@ -1467,6 +1467,31 @@ Description: userspace virtual filesystem - common data files
  This package contains the data files and translations used by all gvfs
  components.
 
+Package: iw
+Architecture: loong64
+Version: 5.19-1
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: Paride Legovini <paride@debian.org>
+Installed-Size: 303
+Recommends: wireless-regdb
+Filename: ./i/iw/iw_5.19-1_loong64.deb
+Size: 96528
+MD5sum: 77d83affebb89120c8b87237820b9911
+SHA1: bde00153c69e2b58e15eef38af4f5b6824bdcdba
+SHA256: f073eabe56ae7a87d267bdc08d5d365afd0e3768a9e0352f620cbce813b9ab14
+SHA512: af549bb272a968c669d95dd2103f5c89b616eb9720571c9a6a834ca82bf9c5c656e067ac290a35ac852d9c71ad2ede6b9c0f8b95ecc8232db7816c8361a2e648
+Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
+Description: tool for configuring Linux wireless devices
+ This package contains the 'iw' command line tool which allows one to configure
+ and show information about wireless devices.
+ .
+ iw is based on the nl80211 kernel interface and supports the majority of
+ fairly recent hardware. The old tool iwconfig, which uses Wireless Extensions
+ interface, is deprecated and it is strongly recommended to switch to iw and
+ nl80211.
+
 Package: imageworsener
 Architecture: arm64
 Version: 1.3.2-1
