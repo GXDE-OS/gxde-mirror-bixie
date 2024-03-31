@@ -1153,6 +1153,24 @@ SHA512: e083cc890ca1661b2884b70355ddf17d8cb8e663aedc2edb69f7ee0dd3437ffe140f3c6b
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
 Package: gxde-dock-weather
+Architecture: loong64
+Version: 6.3.0
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 744
+Depends: dde-dock, libdtkwidget5, libdtkcore5
+Filename: ./g/gxde-dock-weather/gxde-dock-weather_6.3.0_loong64.deb
+Size: 302164
+MD5sum: 26f4532b5b25be2fe50e00f6c6bbe0eb
+SHA1: 400c4fefbaf03b03307d50ccd521a22e1e5b4cb3
+SHA256: 3a8dec225787ccb407a18ea28f36c713ba7e405a4f67ae63ed23926cd2aa0639
+SHA512: f88e7f721101457851dd5d8d34ba4717c305a80074ccde80efb4e4cf0d4440bad46fb6ced6f89f45d5dd22918c5d84bba77d27ab12e5a2e6b1a806d203ae9acc
+Homepage: https://gitee.com/GXDE-OS/gxde-dock-weather
+Description: GXDE Dock weather forcast plugin.
+
+Package: gxde-dock-weather
 Architecture: amd64
 Version: 6.3.0
 Multi-Arch: foreign
