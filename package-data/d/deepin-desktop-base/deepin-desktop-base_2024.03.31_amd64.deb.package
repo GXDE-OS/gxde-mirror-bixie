@@ -9,11 +9,11 @@ Provides: deepin-appstore-config
 Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
 Conflicts: deepin-desktop-server
 Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.31_amd64.deb
-Size: 19284
-MD5sum: 439b6013ed4684fb16a100d67e0d2917
-SHA1: ae10e618d800945369959d8fe884f6add7708186
-SHA256: 984e2140a622bd872ed5b4562c34c6e1720a64d3eac678aab3ebf0df0437d901
-SHA512: abf608aad0eb20b359316fb02917bf1e1fb0a444fd82055940365a7316ca8149d0659fe106d233ff002849203f9074607b87d8f54f52dd88a163cc3a4121d3b9
+Size: 19288
+MD5sum: d25c1c54bddbcf4a442fcd2e0af31bd8
+SHA1: d75a48c5af7accd20975b83e8279ccb3f170144e
+SHA256: 6149768410666372e5116b03379f909688e0e1a88663665a54e6554368c7940f
+SHA512: 1aeb24ac6db9899cbb274518f4edf78f21e96333e84fa9abf5f7f4ae6b07fce78641d5b30ec864cba08ed00dc7e6a258d0e9ae12993f13193912721f8b612c4d
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
