@@ -15420,6 +15420,25 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.03.31-1
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.31-1_amd64.deb
+Size: 19792
+MD5sum: a1a43ee6c2f550224358e20527d1be8a
+SHA1: 0c30157b6bd9e82cb3ca12ab537df28946ec3fb0
+SHA256: e11fdb70053ff50e29880823cc4126d7c8e0d580a889f937b98e2163a160f3ab
+SHA512: f6bd6b30eb226a91a705f4e817be9c2038480f3619c6a8b8e8af3b268fcca37ac48e0a5928a14f3ee99034e1e0d4378c5a54a1bc21e6567d7bcc5f50bff5fb4c
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: arm64
 Version: 2024.02.16
 Priority: optional
@@ -15549,6 +15568,25 @@ MD5sum: 1dad96e4945a21713254f3da593266fa
 SHA1: 81a072f2ff12cd3c9861b1540ef7d0e5c3c51ce4
 SHA256: 826c95c87edce2da76b92b33bd4e52ec5dbca72c1b3b737d1549985db1bf3b6d
 SHA512: 3c52fa01fe2704beb948ddb4db143ed10ce3fe476159f524c9b7645cdb28d5eaf809fe632e9ec0bfb55ad92a60aa7b5557e2d8504a7d7d1921dd2b8d19a83d7f
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
+Architecture: loong64
+Version: 2024.03.31-1
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.31-1_loong64.deb
+Size: 19820
+MD5sum: 7eb4bb1bcec242ebfaa3298980f4279d
+SHA1: 9a5f60b57c0eb83f9ebea8f27b51a0c50f4ffe56
+SHA256: 8e66d20da77ae9f8167f8ac4d8cb15fbf642eea05536242e2933be14c0a4427a
+SHA512: 395742beba11838ca4a8cb3f82eb105bae9cb57cf050611f6cd220063d71459d011f0d980f11141dd73b3ee507ca35d46349173ab1bdc859cb140fe8d2407bc4
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
