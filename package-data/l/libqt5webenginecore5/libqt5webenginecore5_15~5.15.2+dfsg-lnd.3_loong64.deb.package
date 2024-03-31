@@ -1,0 +1,26 @@
+Package: libqt5webenginecore5
+Architecture: loong64
+Version: 15~5.15.2+dfsg-lnd.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qtwebengine-opensource-src
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 134825
+Provides: qtwebengine-abi-5-15-2
+Depends: libqt5webengine-data (= 15~5.15.2+dfsg-lnd.3), libasound2 (>= 1.0.16), libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2), libharfbuzz0b (>= 2.2.0), libjpeg62-turbo (>= 1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5positioning5 (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5webchannel5 (>= 5.15.2~), libsnappy1v5, libstdc++6, libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.lnd.1), libx11-6, libx11-xcb1, libxcb-dri3-0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxml2 (>= 2.7.4), libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxss1, zlib1g (>= 1:1.2.2),liblol,liblol-dkms
+Breaks: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Replaces: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Filename: ./l/libqt5webenginecore5/libqt5webenginecore5_15~5.15.2+dfsg-lnd.3_loong64.deb
+Size: 34688160
+MD5sum: 8e817cf94aa40a3f9b8e1a358196617d
+SHA1: bb6be9dc6f534b46813df3c9287499dba25372d6
+SHA256: cc94eee9959c923054a770675868faa284a076d98b6714fa44b45b22466dc1bc
+SHA512: d140bcb4776714c0dc20580b08505ee0b5d56f898248c14d3fa342e1d7636b99f1bfcc2b57f3756c6f32ab07abe628f67cd3b73836739cbadb4d39d74c62d4c7
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Description: Web content engine library for Qt - Core
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the core QtWebEngine library.
+
