@@ -15346,6 +15346,25 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.03.31
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.31_amd64.deb
+Size: 19284
+MD5sum: 439b6013ed4684fb16a100d67e0d2917
+SHA1: ae10e618d800945369959d8fe884f6add7708186
+SHA256: 984e2140a622bd872ed5b4562c34c6e1720a64d3eac678aab3ebf0df0437d901
+SHA512: abf608aad0eb20b359316fb02917bf1e1fb0a444fd82055940365a7316ca8149d0659fe106d233ff002849203f9074607b87d8f54f52dd88a163cc3a4121d3b9
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: mips64el
 Version: 2024.03.10
 Priority: optional
@@ -15437,6 +15456,25 @@ MD5sum: 1dad96e4945a21713254f3da593266fa
 SHA1: 81a072f2ff12cd3c9861b1540ef7d0e5c3c51ce4
 SHA256: 826c95c87edce2da76b92b33bd4e52ec5dbca72c1b3b737d1549985db1bf3b6d
 SHA512: 3c52fa01fe2704beb948ddb4db143ed10ce3fe476159f524c9b7645cdb28d5eaf809fe632e9ec0bfb55ad92a60aa7b5557e2d8504a7d7d1921dd2b8d19a83d7f
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
+Architecture: loong64
+Version: 2024.03.31
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.31_loong64.deb
+Size: 19288
+MD5sum: ebd94222141dc1ab48204d7e0827ad2e
+SHA1: 77b889fc2dc01c0963b8122dce9c8be337934199
+SHA256: e872c4218d910d937b8881e3d4ee483731b252e6a5e23f5e683839eed9c25a0d
+SHA512: cb07278096185fad9ba34cebc504934709c01c4d093ec6f7a2d897c284d2a707637114cb86d3132c2814503554235cabd4d14180a11c55e67e986a892b938f0d
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
@@ -16926,6 +16964,28 @@ MD5sum: dea5942045547c57d488dfcaa8b52169
 SHA1: 6d0c3a1d9c97ea85d85f7af135bb33425adbfced
 SHA256: 4a3707be92e8871b796731615db73314e7a3c957eafa89304d9cacca2397f460
 SHA512: e9ef77f482ca93d8107639400e30cb9959a42261485a37e1ab56319f05759e1f02218db933689afeb13951061c0a7831d500d68e82fc0cbd4d01520950e8bf44
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
+Version: 4.10.20
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14370
+Depends: dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, libkf5networkmanagerqt6, libdde-network-utils, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.20_amd64.deb
+Size: 4236172
+MD5sum: 0a33303e921c9f8f0a8d442921baa2f4
+SHA1: ae37b2d483ab4c1ffb700b4c2d03755929e0260e
+SHA256: 493491a2505af4eef9abfd3990dc628120e3e34d33e5a8a67e74abe87e5c84c8
+SHA512: 955efa69302d1544afd6dd5dff1205873082e6ad158a9db5e211a9a7906ad227c98fc57c1eeba5f34f2d8686c033cd5d156c52bbefcc437185b53306956f9b63
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
