@@ -1,0 +1,18 @@
+Package: scroll-number-clock-screensaver
+Architecture: arm64
+Version: 0.0.1
+Priority: optional
+Section: devel
+Maintainer: zinface <zinface@163.com>
+Installed-Size: 326
+Filename: ./s/scroll-number-clock-screensaver/scroll-number-clock-screensaver_0.0.1_arm64.deb
+Size: 128350
+MD5sum: 3d7aae878affebe2a5b438d9a5075dab
+SHA1: 2111b833bb37d553121495e21979cff581a4d243
+SHA256: 61b9c1a08e8752cf628117d0e40cd0645044e728fee5892f6c0796c24cb1772e
+SHA512: 762c260973217060f62fde2a922809c166392c2ca33ceb652bcc1e0887a02cce7e9de9ac48ded6728a6622e16cf74c6280a96ed01b1cf5625c1d96a1e337c76e
+Description: 滚动数字时钟屏保
+  此程序适用于深度操作系统
+  .
+ 其它说明行部分
+

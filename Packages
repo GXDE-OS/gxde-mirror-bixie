@@ -709,6 +709,24 @@ Gstreamer-Elements: flump3dec
 Gstreamer-Version: 1.22
 
 Package: goldfishies-screensaver
+Architecture: arm64
+Version: 0.0.1
+Priority: optional
+Section: devel
+Maintainer: zinface <zinface@163.com>
+Installed-Size: 126
+Filename: ./g/goldfishies-screensaver/goldfishies-screensaver_0.0.1_arm64.deb
+Size: 33340
+MD5sum: 410d522fa05d74f5bab0c4781f6c20a6
+SHA1: 222ea084fe4032c9363b2d88eb47f94c19684a6b
+SHA256: d4732c13f378bace928cb120b38c3dd770920f98f2ab3aed61affe616bf1079f
+SHA512: 3244001d0113779a11681552f16b63a6602468aa9a4cae11457f019104c212d473e6beba7f674b0340b37e1a42e52ed160585c6b60b74018f25002d2e1ae5978
+Description: 养鱼屏保
+  此程序适用于深度操作系统
+  .
+ 其它说明行部分
+
+Package: goldfishies-screensaver
 Architecture: amd64
 Version: 0.0.1
 Priority: optional
@@ -1167,6 +1185,24 @@ MD5sum: 26f4532b5b25be2fe50e00f6c6bbe0eb
 SHA1: 400c4fefbaf03b03307d50ccd521a22e1e5b4cb3
 SHA256: 3a8dec225787ccb407a18ea28f36c713ba7e405a4f67ae63ed23926cd2aa0639
 SHA512: f88e7f721101457851dd5d8d34ba4717c305a80074ccde80efb4e4cf0d4440bad46fb6ced6f89f45d5dd22918c5d84bba77d27ab12e5a2e6b1a806d203ae9acc
+Homepage: https://gitee.com/GXDE-OS/gxde-dock-weather
+Description: GXDE Dock weather forcast plugin.
+
+Package: gxde-dock-weather
+Architecture: arm64
+Version: 6.3.0
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 792
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), dde-dock, libdtkwidget5, libdtkcore5
+Filename: ./g/gxde-dock-weather/gxde-dock-weather_6.3.0_arm64.deb
+Size: 302688
+MD5sum: 70a91741220b9c74ef05f50417dacbbc
+SHA1: 944004af79afca1c1c7b3d8bd4767ded6121104c
+SHA256: 28f0088e594e32976120cc5b030995129aeabb60f5fa391e69d85acf1a6e5db7
+SHA512: 2b4727aa860a359e9ac23501abc3fe04371e48813e03ab56b68c2e2aa7e36cb894b70bc4c131e61685260898b6266bddf753a40f91bb1351e9fbf8c36080c1c8
 Homepage: https://gitee.com/GXDE-OS/gxde-dock-weather
 Description: GXDE Dock weather forcast plugin.
 
@@ -14370,6 +14406,29 @@ Description: deepin desktop-environment - dde-session-ui module
 
 Package: dde-session-ui
 Architecture: arm64
+Version: 4.9.15
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 10283
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_4.9.15_arm64.deb
+Size: 1998924
+MD5sum: b3b3c4bfb0a1b359d5f43761dddc7f32
+SHA1: 977aea48cb13336f8b2027257fd87391be57ef38
+SHA256: b65f8b09561507e29ee2dc5e104a4ed384b19f919d8f31752fbd535c402dd714
+SHA512: 93a4c1839f56f6c2ebeb312e4b18757b72e83960518b0967cec4de7d063217f25135fad8ebd7e8bfddb54f7531c43a331d5fa3231d2f9759971deb3f9bd8b079
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+
+Package: dde-session-ui
+Architecture: arm64
 Version: 4.9.14-1+comsta
 Priority: optional
 Section: devel
@@ -15625,6 +15684,25 @@ MD5sum: cf8b915a2e03fe940386b0570e43ef04
 SHA1: f3e3d40b6ec2d58e6d133ee14c84418acf7bdf1c
 SHA256: 1374598e18bff287680100069965c298f5d47c034bec295950691086145ba1f2
 SHA512: 25bc8846fba86eed90523847286dbcfc74b04c114f26f5ae42e84e2f96708e6cfbb0acc3feaf94391d1afd74a1498e96fc9c13f15eb842a9736d4c64ada0896e
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
+Architecture: arm64
+Version: 2024.03.31-1
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.03.31-1_arm64.deb
+Size: 19792
+MD5sum: d34e00895621dea2744725ae93415810
+SHA1: c46eabe4ab92925959967d56c83976150db64ee4
+SHA256: 7da54b55ddf4a7a536c23c688803d9306a468130db7890ad8b80429948c9ed9b
+SHA512: 6ad4afffa547ba8cfca0fc70faf039e298db2fbde95b304376c7dad12f4aa7f6c70561f13c9dbce7d7da060c26af46b401d29357421b64e799b86694091a4569
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
@@ -17051,6 +17129,28 @@ MD5sum: 6712889f497648a819852b8c83df5ab6
 SHA1: 94fec3b186aab24b068a8c1a25b0fbc917b89719
 SHA256: b71cd3ef105a9c282944b4c7586d9406d459c7eca68b98dab510dde8e7148cbc
 SHA512: ecc757b2e0e80e763ecb66b736188380119731ca93e3102a0964df45fff9e8008ea3d32c79d59957291a24aeaa73a5ebbe4c517b5277e1c28e3843ad2b5f3b73
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: arm64
+Version: 4.10.20
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14388
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.20_arm64.deb
+Size: 4159876
+MD5sum: 155484edb755268beb4d7c97e768c6c3
+SHA1: 443e7135c83a9e225681ac4c0aa7950adb0405bc
+SHA256: 0a130b13227a8bcaca60f0a14540def85a018b5da28e448ba00efa23c2d31c01
+SHA512: 12d97ddf2148fc2942d9e5b9933d685c78ff00c1542e62b05df63517899ab3269441014ba3d50a5296b665b6a2bf259aa58f638fbcc68a096aef13b02f373f3c
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -19763,6 +19863,29 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
 
 Package: deepin-terminal
 Architecture: arm64
+Version: 6.0.12
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6937
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.12_arm64.deb
+Size: 3344664
+MD5sum: 0b013dec17ccdc9101c413d305fc7312
+SHA1: 0ba012748c9e9ac9abd620b6be91f8c121029f26
+SHA256: a0119290221010345a64205521483348eb227e07688353220517da5436fc272b
+SHA512: 2f461cb6f5c154305885c8c2a4b68a6565a3738ffa85ef4cb53451ee721aedf34c8ad17eb3d52f7fbd1125ffdaa0a784d8870599989bf58e47fd6e84fa2b796d
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
+Architecture: arm64
 Version: 5.0.0+ds1-3
 Priority: optional
 Section: x11
@@ -20991,6 +21114,24 @@ Description: 滚动数字时钟屏保
   .
  其它说明行部分
 
+Package: scroll-number-clock-screensaver
+Architecture: arm64
+Version: 0.0.1
+Priority: optional
+Section: devel
+Maintainer: zinface <zinface@163.com>
+Installed-Size: 326
+Filename: ./s/scroll-number-clock-screensaver/scroll-number-clock-screensaver_0.0.1_arm64.deb
+Size: 128350
+MD5sum: 3d7aae878affebe2a5b438d9a5075dab
+SHA1: 2111b833bb37d553121495e21979cff581a4d243
+SHA256: 61b9c1a08e8752cf628117d0e40cd0645044e728fee5892f6c0796c24cb1772e
+SHA512: 762c260973217060f62fde2a922809c166392c2ca33ceb652bcc1e0887a02cce7e9de9ac48ded6728a6622e16cf74c6280a96ed01b1cf5625c1d96a1e337c76e
+Description: 滚动数字时钟屏保
+  此程序适用于深度操作系统
+  .
+ 其它说明行部分
+
 Package: sea-icon-theme
 Architecture: all
 Version: 2023.09.25
@@ -21198,6 +21339,24 @@ Description: control and monitor control groups (tools)
  and the associated controllers.
  .
  This package contains the command-line tools.
+
+Package: com.github.ccc-app-manager
+Architecture: arm64
+Version: 0.0.11
+Priority: optional
+Section: unknown
+Maintainer: keke <243768648@qq.com>
+Installed-Size: 481
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libgl1, libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4)
+Filename: ./c/com.github.ccc-app-manager/com.github.ccc-app-manager_0.0.11_arm64.deb
+Size: 182140
+MD5sum: 5f3123e2d28407601d4634174dde34bf
+SHA1: ad1b8fa40cade54be8470aa9fce18ce812d29e40
+SHA256: a439b14a897c459dd1a57312b83420bc662a1dbac1c8bbb4e207072b41d1203a
+SHA512: f9b14a24b3e67c65c0fb4531005e610825d3200732bf5b0130ffe7dbd4279edb7c6adc92c5da227ece77bb335a42ed9443a856f894c016f7b0f1ed306a2db69d
+Homepage: https://gitee.com/ct243768648/ccc-app-manager
+Description: manage your applications.
+ 应用管理器，可查看应用包信息，可卸载和打开应用，可在线或离线提取安装包。支持deepin、uos系统。
 
 Package: com.github.ccc-app-manager
 Architecture: amd64
