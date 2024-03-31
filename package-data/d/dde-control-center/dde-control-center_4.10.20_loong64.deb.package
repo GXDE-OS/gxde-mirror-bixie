@@ -1,0 +1,22 @@
+Package: dde-control-center
+Architecture: loong64
+Version: 4.10.20
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 15217
+Depends: dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, libkf5networkmanagerqt6, libdde-network-utils, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.20_loong64.deb
+Size: 4216452
+MD5sum: 808f4ef8766b0b522fae339d0cc4d778
+SHA1: ece2c8adf05cb7a943d3c0903abaeb30827dac87
+SHA256: e4d03806c791e6ee5936e4e6a5c02b5f4e3b8c66aa89bec3ac411d4b7ac2dd8a
+SHA512: 4162264bdd055bb64813300d1eacf66d65c6a0701746c2a04420edde3b45a02a7eac953bf371880dc5be3680d4abdf4b33edd5f17d0b735cc779d00b2cc79566
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
