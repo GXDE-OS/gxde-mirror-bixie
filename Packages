@@ -14128,6 +14128,29 @@ Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
 
 Package: dde-session-ui
+Architecture: loong64
+Version: 4.9.15
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 10142
+Provides: lightdm-greeter
+Depends: deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_4.9.15_loong64.deb
+Size: 2014844
+MD5sum: d945d3f84d7adf6bd9fe3f628570bdfd
+SHA1: b8191055db801b4875a6d1deae7545ba039c8cdc
+SHA256: 64a6f0d86443e10d3dc368b835f995c4f29fbbc1d94610144758c0a365e54c4e
+SHA512: 932a12a5e07efce9cfffabac1a06e9ab4fd5a2a5cda54590ee40d2ae0d15e8d789af82bae25bcd818306c91cc39da452c28ad2a8b38b93df5194a1f2472d5579
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+
+Package: dde-session-ui
 Architecture: amd64
 Version: 4.9.15
 Priority: optional
@@ -16935,6 +16958,28 @@ MD5sum: be6b9e756674eb31394dc4b6456bce7f
 SHA1: 314c27e96a3135e348a2be64fae9f546b2ebf8c4
 SHA256: e803597ceb9cbdc5107a4928ec5abf9422fcbe9eb34f3c78551df31ae67c4866
 SHA512: 60e97a60ffa6e39cb4dd6d18ba50b9b261e95f957f64b0d45a65c8a370a5e5eea463f943788e97f1d4dd948d521bdb4ad274c3b8f5efa505dcf923ad58258a04
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: loong64
+Version: 4.10.19
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 15185
+Depends: dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, libkf5networkmanagerqt6, libdde-network-utils
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.19_loong64.deb
+Size: 4207176
+MD5sum: 2ed44833ff325be9a08f5145a122701b
+SHA1: 09da8dedf11dca72491b7b615c43afbe43a3c56c
+SHA256: 1f0cf3f3e4d30f863a513114ddbf87b8dc85028b639def83600b6e113f448c40
+SHA512: d3a8960ae5a605c17acb1c35e41f08f0576c429d67ec77a3de5813fb1c2ca1f2f12ae0fa6cfc4981f6617326ab35515595194193361bf65f348d6a0b0742f3ff
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
