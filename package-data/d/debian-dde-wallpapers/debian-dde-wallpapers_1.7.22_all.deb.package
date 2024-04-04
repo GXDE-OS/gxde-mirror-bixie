@@ -1,0 +1,21 @@
+Package: debian-dde-wallpapers
+Architecture: all
+Version: 1.7.22
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 19752
+Provides: deepin-wallpapers
+Conflicts: deepin-wallpapers
+Breaks: deepin-desktop-base (<< 2017.11.2)
+Replaces: deepin-wallpapers
+Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.22_all.deb
+Size: 18360964
+MD5sum: 7f635e1331b682b7e2d2dbba4079a327
+SHA1: 5188d19ee2cb884b9c7c3959a50d625418ffbde2
+SHA256: 850703f86523f19a3ec40cf46a5f731014fea0ac8a56aa46c28f3d704729f617
+SHA512: 5c3a21e4e58554bd10f98d482f87f6e3ee03ebdf3e8021f9d003545eb7f4173937c02223cf9155e0be80fa72f115f1101d16ffa417fafcb27d633397b38b116a
+Homepage: https://www.deepin.org/
+Description: dde wallpapers
+ Default wallpapers for debian-dde
+
