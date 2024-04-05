@@ -1,0 +1,19 @@
+Package: picture-screensaver
+Architecture: loong64
+Version: 0.0.4.1
+Priority: optional
+Section: devel
+Maintainer: zinface <zinface@163.com>
+Installed-Size: 1282
+Filename: ./p/picture-screensaver/picture-screensaver_0.0.4.1_loong64.deb
+Size: 867804
+MD5sum: ff03c6a50b5ffb857dc38ba7bfd5d276
+SHA1: 426a38e3b1677885b78acd5ad4f89f2de69a7da5
+SHA256: b166da3f94d9ec85a253232ac608b03b8a7f2498ad128d40e5e3c475f09775c1
+SHA512: fd05b9877bbdc6058ababcb89814b8c58709bdd54affde3c38f564cd4bc2cb81c977da9db193f12c6f696cee3afdc164adf717d9e3d25de81cde654b1a67ec16
+Homepage: https://gitee.com/zinface/qt.picture-screensaver
+Description: 动态图片屏保
+  此程序适用于深度操作系统
+  .
+ 其它说明行部分
+

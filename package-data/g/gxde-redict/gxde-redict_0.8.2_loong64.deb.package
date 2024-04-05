@@ -1,0 +1,17 @@
+Package: gxde-redict
+Architecture: loong64
+Version: 0.8.2
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, shenmo <jifengshenmo@outlook.com>
+Installed-Size: 301
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxtst6
+Filename: ./g/gxde-redict/gxde-redict_0.8.2_loong64.deb
+Size: 63476
+MD5sum: 85dc8ce3d1a2bc5884cce052dbbc2334
+SHA1: b420179571c2e155c670a0289631a25d1a8a5d55
+SHA256: f448c3245cb7d229ef76b0cbe633b126e59041d2ae4b224d1f025d526c1ba597
+SHA512: ed9974d77a95c5bfccdbd5fcc4cfc4dec7c782d2d858b529c26dc00c4ce1bf68d3e8bf736552090dec5835de42bb36a59f085e06c4f597bd2eb22248f1d1a3bc
+Homepage: https://gitee.com/GXDE-OS/gxde-redict
+Description: A third-party youdao dictionary for deepin.forked by gfdgd xi, shenmo
+
