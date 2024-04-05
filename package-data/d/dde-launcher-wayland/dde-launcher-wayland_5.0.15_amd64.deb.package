@@ -1,0 +1,20 @@
+Package: dde-launcher-wayland
+Architecture: amd64
+Version: 5.0.15
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2321
+Depends: qtxdg-dev-tools, deepin-desktop-schemas, libdtkwidget5 (>= 5.4.19), libdtkcore5 (>= 5.4.14), libdtkgui5 (>= 5.4.13), libdframeworkdbus2 (>= 5.4.6), dde-daemon, startdde, lastore-daemon (>= 5.2.9), libxcb-util0 | libxcb-util1
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher-wayland/dde-launcher-wayland_5.0.15_amd64.deb
+Size: 516892
+MD5sum: ad23b8d1587a9750bcd2b9a650f4275f
+SHA1: 1093ec981300780c464314fd5e12bb874a79fd23
+SHA256: 061f06c7a7f34b0ae160211564f110f401b93c5a7dfee538df0998d971d72213
+SHA512: 1afc298e3f424b7fe4a0aa020bdf200f12e73d93d69e69fe274ced94da08155fe3ded9076944459f013eed57dfc9caf1aed5bf205273f671597677b470e79aa4
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-launcher module
+ Deepin desktop environment 2015 - dde-launcher module.
+ Display all installation programs, and provide access to open, uninstall, boot and start, which is convenient for users to operate quickly
+

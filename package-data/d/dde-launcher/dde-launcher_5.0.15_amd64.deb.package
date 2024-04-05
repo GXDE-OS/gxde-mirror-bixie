@@ -1,0 +1,19 @@
+Package: dde-launcher
+Architecture: amd64
+Version: 5.0.15
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1687
+Depends: lastore-daemon, deepin-desktop-schemas (>= 3.1.11), dde-launcher-wayland
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_5.0.15_amd64.deb
+Size: 354188
+MD5sum: 054116dddba1ebc2460d854b1f40f543
+SHA1: 0509eae5ac6d0f44ac548c6784a54ed39b580422
+SHA256: ab5c5a958b769d1c6f89f13c578835dcfe66c691d67aa5f10a95c4bbef81f3ef
+SHA512: ef09af9f01a75ca16b8625bd1b3202da4959b025d56cee806c4fa3f424039b9fa1d49c9ecb144dc87b1720db8837d078e5f16ac6501d7f1b34eb4149ac0731b2
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+
