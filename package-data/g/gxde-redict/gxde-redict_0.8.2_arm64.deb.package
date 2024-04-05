@@ -1,0 +1,17 @@
+Package: gxde-redict
+Architecture: arm64
+Version: 0.8.2
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, shenmo <jifengshenmo@outlook.com>
+Installed-Size: 300
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxtst6
+Filename: ./g/gxde-redict/gxde-redict_0.8.2_arm64.deb
+Size: 62832
+MD5sum: e35c71efd803212add92f0cbaba861ff
+SHA1: e84e866d82e9a0843ade23f022300b60919e6090
+SHA256: d2196e58b28ecc982bc71cd0d6e3cb3b540bc7711703cff6d855abb060005633
+SHA512: 5115c3d04650c92b8edfe9c294ee7977d2042a9bad1aa4a33b8ace8f650af31dc7cd27c54677ad8152e02af76406278e226e2abf6419f60243ee9c569466b320
+Homepage: https://gitee.com/GXDE-OS/gxde-redict
+Description: A third-party youdao dictionary for deepin.forked by gfdgd xi, shenmo
+

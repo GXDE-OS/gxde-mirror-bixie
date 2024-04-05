@@ -1,0 +1,19 @@
+Package: dde-launcher
+Architecture: arm64
+Version: 5.0.15
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1689
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb-ewmh2 (>= 0.4.1), libxcb1, qtbase-abi-5-15-8, lastore-daemon, deepin-desktop-schemas (>= 3.1.11), dde-launcher-wayland
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_5.0.15_arm64.deb
+Size: 330448
+MD5sum: e1eea74b9d3fa3c25d620c56470fc085
+SHA1: 896f0c7264707fdbb97067cf8e8f61abc522e2fb
+SHA256: 23c0b3f67775d40e724ab4bdd639aeea50f159f6df51a81801462a8e1c29ab2b
+SHA512: 3bcc3fda674a71bdc16c1fb580cc02c2cd91b9f6ff25c64b42f998c985e871b79ad0bbc9a7e1348647255d738eb1aebc73b05d2f355fb577635a7fdc9d645429
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+

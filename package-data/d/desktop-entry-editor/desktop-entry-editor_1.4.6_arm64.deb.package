@@ -1,0 +1,18 @@
+Package: desktop-entry-editor
+Architecture: arm64
+Version: 1.4.6
+Priority: optional
+Section: utils
+Maintainer: zty199 <zty2864@gmail.com>
+Installed-Size: 204
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.3.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.9.0~beta), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 4.1.1)
+Filename: ./d/desktop-entry-editor/desktop-entry-editor_1.4.6_arm64.deb
+Size: 61724
+MD5sum: 4e448204110d6dfed1bd4f6183451199
+SHA1: 7171cbb20943f3cdfc6f322717ac4790db5651a7
+SHA256: b83f527d2271b890b74dfefe586fe7697c32252dcb8be7dbf77c2b78fe0ccf5c
+SHA512: 443f13d3a9f7b93bcb87a68928b4f1cee98a6df5334829bf41a6c4a3799f19014a758e60390c78830f59368355887e44d6ee5d01c6245810eb12000e94f84adb
+Homepage: https://github.com/zty199/desktop-entry-editor
+Description: Desktop Entry Editor
+ A simple GUI tool to create and edit desktop files, desinged for Deepin.
+
