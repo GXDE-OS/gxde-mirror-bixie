@@ -1,0 +1,16 @@
+Package: gxde-redict
+Architecture: amd64
+Version: 0.8.2
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, shenmo <jifengshenmo@outlook.com>
+Installed-Size: 279
+Filename: ./g/gxde-redict/gxde-redict_0.8.2_amd64.deb
+Size: 66532
+MD5sum: 53d62d9a9dbe991b72950f7d378bfd0c
+SHA1: 59c3ab367c2811b241b802427db7e41277aa1ee4
+SHA256: 504b4264673a10c08d96b0c40cc3e9c65d75f99e6d457cfc8cbf0d37a98cbe84
+SHA512: 894d54048d4f8512d4ee4274b57b2b1af52d24da57718861c448a10a4c814ff002c293e555d990ff38956df006909d2ba1eb6e4dd5ca2175823d24b2aa41ea15
+Homepage: https://gitee.com/GXDE-OS/gxde-redict
+Description: A third-party youdao dictionary for deepin.forked by gfdgd xi, shenmo
+

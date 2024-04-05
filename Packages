@@ -1522,6 +1522,22 @@ Description: userspace virtual filesystem - common data files
  components.
 
 Package: gxde-redict
+Architecture: amd64
+Version: 0.8.2
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, shenmo <jifengshenmo@outlook.com>
+Installed-Size: 279
+Filename: ./g/gxde-redict/gxde-redict_0.8.2_amd64.deb
+Size: 66532
+MD5sum: 53d62d9a9dbe991b72950f7d378bfd0c
+SHA1: 59c3ab367c2811b241b802427db7e41277aa1ee4
+SHA256: 504b4264673a10c08d96b0c40cc3e9c65d75f99e6d457cfc8cbf0d37a98cbe84
+SHA512: 894d54048d4f8512d4ee4274b57b2b1af52d24da57718861c448a10a4c814ff002c293e555d990ff38956df006909d2ba1eb6e4dd5ca2175823d24b2aa41ea15
+Homepage: https://gitee.com/GXDE-OS/gxde-redict
+Description: A third-party youdao dictionary for deepin.forked by gfdgd xi, shenmo
+
+Package: gxde-redict
 Architecture: loong64
 Version: 0.8.2
 Priority: optional
@@ -18054,6 +18070,24 @@ Homepage: https://www.deepin.com
 Description: Deepin Appstore Daemon Home
  Deepin Home App Store Daemon.
 
+Package: desktop-entry-editor
+Architecture: loong64
+Version: 1.4.6
+Priority: optional
+Section: utils
+Maintainer: zty199 <zty2864@gmail.com>
+Installed-Size: 172
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.3.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5xdg3 (>= 3.10.0~), libqt5xdgiconloader3 (>= 3.10.0~), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./d/desktop-entry-editor/desktop-entry-editor_1.4.6_loong64.deb
+Size: 61856
+MD5sum: 8943c97d57fc446e42be011166315c45
+SHA1: 7791712a58f81d4ee3f4b8937823b148b66ef7e5
+SHA256: da42d899e21517607d5633a42686c5e3afd7581ae761712c4b34c8b537b0e4d5
+SHA512: 180f2307811c5f38a32505b915d9fe9b0c1d57c50a0c215e79ed71e00ec11cfb20eedc1c431c8e77c73c39fcf3c992612822adacfb61d719451c6156e51e60a2
+Homepage: https://github.com/zty199/desktop-entry-editor
+Description: Desktop Entry Editor
+ A simple GUI tool to create and edit desktop files, desinged for Deepin.
+
 Package: dde-top-panel
 Architecture: amd64
 Version: 0.6.8
@@ -20406,6 +20440,29 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
  file window, allowing you to input commands with facility and no distractions.
 
 Package: deepin-terminal
+Architecture: loong64
+Version: 6.0.12
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6927
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.12_loong64.deb
+Size: 3347788
+MD5sum: 61aedb6e530597bd03176307fcfda988
+SHA1: ec88cf90e6486f7859e38e4c2e85eff433650e77
+SHA256: 4540ab19d9348ce6a8a8c4a8539856f87f0bc524addde6b5b994f52be3b01b99
+SHA512: 1fb5579cfd16bac55ab2f82379fe8bb43e1241c1d1bdc18fb28dd6ea7a7376f677d4e757ff4bdc0c750a1487bf4a74b2b9c066c3c865c793bbe0654857ae54f7
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
 Architecture: arm64
 Version: 5.0.0+ds1-3
 Priority: optional
@@ -21765,6 +21822,21 @@ MD5sum: f98bdc488b8a403c0152218b2605ea62
 SHA1: feb1ab6c9096cab6e37128bf7d2154df4796b2c1
 SHA256: b605f4fcdfdaff0a491c19ffd52a4f189a73184a2c14fa93f3c09f32ed698727
 SHA512: 53b69728ec2263b38c0217ce8ac982d512009337833a23d3ba3078f80ea29a594803ab94b5214bd378eaf3fa21bb917a3f0998490bd3d3083cb31d80a05fee1e
+Description: 一个基于 dtk 制作的一个简易远程桌面连接软件
+
+Package: spark-simple-remote-desktop-accessor
+Architecture: amd64
+Version: 1.2.1
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi<3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: libdtkcore5, libdtkwidget5, libdtkgui5, rdesktop, curl, libhogweed4, libnettle6
+Filename: ./s/spark-simple-remote-desktop-accessor/spark-simple-remote-desktop-accessor_1.2.1_amd64.deb
+Size: 488272
+MD5sum: 30daf3921d1e0fab1d7d10145e8bdf1b
+SHA1: a1499fc842ba36e39c99a69c623a17797c506b90
+SHA256: 80be368be61fd55f82af1265a05109e070cc7ba351c27a60e1d2b6d15e70211c
+SHA512: 25f05be14b68869260104cfdc480ae84d927e1308214757dfc8c6caed6d8adc2e3472fa7c33630d3dea476ff2954179bd87ce4849576993a76a8ea4569f6a8ef
 Description: 一个基于 dtk 制作的一个简易远程桌面连接软件
 
 Package: spark-deepin-wine-runner
