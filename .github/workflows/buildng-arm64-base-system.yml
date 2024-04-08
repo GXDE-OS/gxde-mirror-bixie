@@ -1,5 +1,5 @@
-name: GXDE Base System Builder (amd64)
-run-name: ${{ github.actor }} Building GXDE Base System (amd64) 🚀
+name: GXDE Base System Builder (arm64)
+run-name: ${{ github.actor }} Building GXDE Base System (arm64) 🚀
 on:
   workflow_dispatch:
   push:
@@ -16,7 +16,7 @@ jobs:
           sudo apt install squashfs-tools qemu-user-static debootstrap xz-utils git -y
           cd ~
           # 部署 chroot 环境
-          sudo debootstrap bookworm debian
+          sudo debootstrap --arch=arm64 bookworm debian
           wget https://github.com/gfdgd-xi/deep-wine-runner/raw/main/pardus-chroot
           wget https://github.com/GXDE-OS/dde15-for-debian12/raw/main/.github/workflows/config.sh
           sudo cp pardus-chroot /usr/bin
@@ -24,7 +24,7 @@ jobs:
           sudo pardus-chroot debian
           ### 配置容器
           sudo cp ~/config.sh debian
-          sudo chroot debian apt install linux-headers-amd64 linux-image-amd64 -y
+          sudo chroot debian apt install linux-headers-arm64 linux-image-arm64 -y
           sudo chroot debian bash /config.sh
           sudo chroot debian apt clean
           ### 取消挂载
