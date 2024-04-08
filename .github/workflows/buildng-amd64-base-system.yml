@@ -23,7 +23,7 @@ jobs:
           sudo chmod 777 /usr/bin/pardus-chroot
           sudo pardus-chroot debian
           ### 配置容器
-          cp ~/config.sh debian
+          sudo cp ~/config.sh debian
           sudo chroot debian bash /config.sh
           sudo chroot debian apt install linux-headers-amd64 linux-image-amd64 -y
           sudo chroot debian apt clean
