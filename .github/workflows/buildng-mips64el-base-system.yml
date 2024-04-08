@@ -26,7 +26,6 @@ jobs:
           sudo cp ~/config.sh debian
           sudo chroot debian apt install linux-headers-loongson-3 linux-image-loongson-3 -y
           sudo chroot debian bash /config.sh
-          sudo chroot debian apt clean
           ### 取消挂载
           sudo umount debian/dev/pts
           sudo umount debian/dev/shm
@@ -38,7 +37,7 @@ jobs:
           sudo umount debian/tmp
           ### 生成 squashfs 文件
           cd debian
-          sudo mksquashfs ~/filesystem.squashfs *
+          sudo mksquashfs . ~/filesystem.squashfs
       - name: upload .squashfs result
         uses: actions/upload-artifact@v1
         with:
