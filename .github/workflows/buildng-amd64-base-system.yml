@@ -37,7 +37,7 @@ jobs:
           sudo umount debian/tmp
           ### 生成 squashfs 文件
           cd debian
-          sudo mksquashfs . ~/filesystem.squashfs
+          sudo mksquashfs . ~/filesystem.squashfs -comp xz
       - name: upload .squashfs result
         uses: actions/upload-artifact@v1
         with:
