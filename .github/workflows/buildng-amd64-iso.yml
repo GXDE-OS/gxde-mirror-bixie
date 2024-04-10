@@ -1,0 +1,46 @@
+name: GXDE Base System ISO (amd64)
+run-name: ${{ github.actor }} Building GXDE ISO (amd64) 🚀
+on:
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Building .squashfs
+        run: |
+          # 获取所需数据
+          cpu=$(cat /proc/cpuinfo | grep processor | wc -l)
+          # 配置环境
+          sudo apt update
+          sudo apt install squashfs-tools qemu-user-static debootstrap xz-utils git -y
+          cd ~
+          # 部署 chroot 环境
+          sudo debootstrap bookworm debian
+          wget https://github.com/gfdgd-xi/deep-wine-runner/raw/main/pardus-chroot
+          wget https://github.com/GXDE-OS/dde15-for-debian12/raw/main/.github/workflows/config.sh
+          sudo cp pardus-chroot /usr/bin
+          sudo chmod 777 /usr/bin/pardus-chroot
+          sudo pardus-chroot debian
+          ### 配置容器
+          sudo cp ~/config.sh debian
+          sudo chroot debian apt install linux-headers-amd64 linux-image-amd64 -y
+          sudo chroot debian bash /config.sh
+          ### 取消挂载
+          sudo umount debian/dev/pts
+          sudo umount debian/dev/shm
+          sudo umount debian/dev/
+          sudo umount debian/media
+          sudo umount debian/run
+          sudo umount debian/sys
+          sudo umount debian/proc
+          sudo umount debian/tmp
+          ### 生成 squashfs 文件
+          cd debian
+          sudo mksquashfs . ~/filesystem.squashfs -comp xz
+      - name: upload .squashfs result
+        uses: actions/upload-artifact@v1
+        with:
+          name: filesystem.squashfs
+          path: /home/runner/filesystem.squashfs
+      
+    

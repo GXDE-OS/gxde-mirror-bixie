@@ -6,12 +6,13 @@ Section: admin
 Source: deepin-anything
 Maintainer: Deepin Package Builder <packages@deepin.com>
 Installed-Size: 196
+Depends: libc6 (>= 2.37), libglib2.0-0 (>= 2.35.8), libpcre3
 Filename: ./d/deepin-anything-libs/deepin-anything-libs_6.1.8_loong64.deb
-Size: 52980
-MD5sum: 859ef48cc69a68437952d4ee28ce732e
-SHA1: 7f495eb0b97e762fbffa8b2847f223d2c4d7a499
-SHA256: 42a7cb9e8ddf5220a7923a997c3236a637980c1414eff2f89f9bbcf9db880eba
-SHA512: 0a8b5a2975ebdd407e0d929572fe43f852b021b34a077b6978507d936e16abfca4f09d94d66933c22c16f026f661bd724e16a9f3072d45605ae56ea16bcf5895
+Size: 53016
+MD5sum: 1c25ef4303d8440d699e6b5e6b6dcd0f
+SHA1: 6351e8850d7f3bfd136889edb02dab0443e3b51c
+SHA256: cd91fff79c60d965c40cbfbfa65f6b5e76dd40cbf6fd7ef63299b35d6d6cd8cb
+SHA512: d47147ac792a10eb871f3dfa737f4291ad006458dbffb87bee14efebc1958bcc0a202f7bb955743f2098e37ae2ae119abc440374e0e2bc613a407a6533758420
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything library
  anything library package

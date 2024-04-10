@@ -8,11 +8,11 @@ Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 770
 Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 516844
-MD5sum: 553431a465c2cdbdc3a8d7184a9b5fda
-SHA1: cb9478cf3efd56a958ae37e0e8de37e9e45dd52f
-SHA256: db8fe32ae57e850b10cb09eff1c3b4c71fccd0a2d2cc761855e01513c1a52606
-SHA512: 35cbebf212ed699b5bfece44505b01d128a13833a442d5f735b3f5d5c5400c9bd2eb27390ebc395d88dae99debd949b459f25dea9887d4f0dfd550eedacd7eae
+Size: 516808
+MD5sum: ce986e12ce0dd633046e85d2b5c88687
+SHA1: 2ac075fc282db80e533578823f9c0bcf39f82e79
+SHA256: ba76ded2af77fdcf4d49c70fe202469eb8ccb282ddfb3ad553bddfb25de7f8c0
+SHA512: 00cbaa8d2a4e1519f799bec53191156caaf66aeb522685716ec744e04d0aad517449d45d9887342b2b4ab006bea083ec17cedf477c051d0772a15eab380d4700
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries (documentation)
  DWayland provides a Qt-style Client and Server library wrapper for

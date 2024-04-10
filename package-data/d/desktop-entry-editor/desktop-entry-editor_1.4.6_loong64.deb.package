@@ -7,11 +7,11 @@ Maintainer: zty199 <zty2864@gmail.com>
 Installed-Size: 172
 Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.3.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5xdg3 (>= 3.10.0~), libqt5xdgiconloader3 (>= 3.10.0~), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./d/desktop-entry-editor/desktop-entry-editor_1.4.6_loong64.deb
-Size: 61856
-MD5sum: 8943c97d57fc446e42be011166315c45
-SHA1: 7791712a58f81d4ee3f4b8937823b148b66ef7e5
-SHA256: da42d899e21517607d5633a42686c5e3afd7581ae761712c4b34c8b537b0e4d5
-SHA512: 180f2307811c5f38a32505b915d9fe9b0c1d57c50a0c215e79ed71e00ec11cfb20eedc1c431c8e77c73c39fcf3c992612822adacfb61d719451c6156e51e60a2
+Size: 61880
+MD5sum: e02df3fce85f3dd68ca594f7e005bff6
+SHA1: 4836426a9d87147002d2f852f1c1a98a2154ecb7
+SHA256: befa26d1e52964ecae7dfc7b39524f071805483b19af2e64e945d0f9d2d4e163
+SHA512: 854616ef1ca9c450b5622c8c5c5caefa7fc16bf88cc30705037f82555782a79730b32dbcb00d6c3d1fc7314cf5526fe5e1e9ca0e55bf663489172ea4edabca46
 Homepage: https://github.com/zty199/desktop-entry-editor
 Description: Desktop Entry Editor
  A simple GUI tool to create and edit desktop files, desinged for Deepin.

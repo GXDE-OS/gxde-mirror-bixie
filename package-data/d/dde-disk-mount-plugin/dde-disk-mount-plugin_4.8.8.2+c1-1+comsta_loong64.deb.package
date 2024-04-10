@@ -6,13 +6,13 @@ Section: libdevel
 Source: dde-file-manager
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 465
-Depends: libdde-file-manager (= 4.8.8.2+c1-1+comsta)
+Depends: libc6 (>= 2.37), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgl1, libglib2.0-0 (>= 2.33.14), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 4.1.1), libudisks2-qt5-0 (>= 5.0.6), libdde-file-manager (= 4.8.8.2+c1-1+comsta)
 Filename: ./d/dde-disk-mount-plugin/dde-disk-mount-plugin_4.8.8.2+c1-1+comsta_loong64.deb
-Size: 146844
-MD5sum: d15c98dd76008953c5885c1d542bc81b
-SHA1: 2ed1e1412051503c2951204ff79434173fbdc59d
-SHA256: 2cd6af152c2e1e8e69274ea5190087d3749cd617739ae1646e2189c5e089a0b1
-SHA512: cd04ec901ec4770e3e9e00aefd83da1bb165fd56d37d28d5e7ca905fb0130acc5dade9335968614b1d3306fa80f7fc60bc5aa5977e601defc432520c8d8538aa
+Size: 146980
+MD5sum: 01fe1fd5d52c7aea7af8f71cc580c829
+SHA1: 6d2e441325ad39f3859c8fe528c66fc278656e26
+SHA256: 861256a9b1596d5106b77eb8cc7c003a2d7e0c6119544bddb4bdfe44d2ac9bf1
+SHA512: 6e593ebedc1cb0220bbf6017b35b3024bd6649024a3bbe9d3ec2a2de3ea4fc497e6b6d7428133e4186eb2534a1709359d95ae33f224a85677bbb0b7803fb8d43
 Homepage: http://www.deepin.org
 Description: plugin of dde-dock
  Disk mount plugin of dde-dock which is created by libdde-file-manager

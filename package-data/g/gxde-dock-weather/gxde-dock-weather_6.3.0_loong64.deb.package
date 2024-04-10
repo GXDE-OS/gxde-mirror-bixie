@@ -6,13 +6,13 @@ Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>
 Installed-Size: 744
-Depends: dde-dock, libdtkwidget5, libdtkcore5
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), dde-dock
 Filename: ./g/gxde-dock-weather/gxde-dock-weather_6.3.0_loong64.deb
-Size: 302164
-MD5sum: 26f4532b5b25be2fe50e00f6c6bbe0eb
-SHA1: 400c4fefbaf03b03307d50ccd521a22e1e5b4cb3
-SHA256: 3a8dec225787ccb407a18ea28f36c713ba7e405a4f67ae63ed23926cd2aa0639
-SHA512: f88e7f721101457851dd5d8d34ba4717c305a80074ccde80efb4e4cf0d4440bad46fb6ced6f89f45d5dd22918c5d84bba77d27ab12e5a2e6b1a806d203ae9acc
+Size: 302328
+MD5sum: 03f6a7bc37ef2dc7a1d37e0981ab10d1
+SHA1: a472a87c19c8f0d99cb5a6be8afd8411de6be470
+SHA256: aed50317fca0abfac3dfe92fd1fbb0fad926d8fef67e3f826c7beef37e5a8564
+SHA512: 8c0f697bd98bd2452aafa93ba2a8e81db5d437ba8b186004c7e1db5e5390e25f619fe806a93f74cc5a86a4c4dce4703dedb167ddf023d2a06ac2d7560e3cc24b
 Homepage: https://gitee.com/GXDE-OS/gxde-dock-weather
 Description: GXDE Dock weather forcast plugin.
 
