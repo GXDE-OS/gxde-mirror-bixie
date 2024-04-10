@@ -9,11 +9,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 761
 Depends: liblol, qml-module-qtquick-pdf (= 15~5.15.2+dfsg-lnd.3), libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libqt5pdfwidgets5 (>= 5.15.1), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./q/qtpdf5-examples/qtpdf5-examples_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 152624
-MD5sum: 064f4772b2b77602ab47d93b8a7a5e61
-SHA1: 8f2e52ae95b48fe49c2e510610d30ce86deb1291
-SHA256: e67cbb39b1380e79be082b52e3feaf347b41e05335303874be697ba05d564968
-SHA512: e1ce92365ff0f24906146a2d24ffaab46e9fc2cdfe61ba906ff695e28d753caaaf6dcba9f7cff6bf8aa3fd67fdb09cbd4d2fc747a0a05f95631da8d67ae7a036
+Size: 152640
+MD5sum: 9d7273f3c3f64ba74d6db86044107088
+SHA1: 9c83989d58e2c0f377c461212f7406f6f6310dd8
+SHA256: eeb49b8a5c2861e66a918c6f220372224a34e99b7b1f97ede9bfe44ee1be3fac
+SHA512: 80cd00a0c5b178cc2548e207b932b5412ff12f1de75d1ac2f8849ef0ed0787de71711ba6a8621a5e03703f3eb43efc545a75bcfd1f3351eff68cacf19d6da59a
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt PDF - examples
  The Qt PDF module contains classes and functions for rendering PDF documents.

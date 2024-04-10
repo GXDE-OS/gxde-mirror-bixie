@@ -8,11 +8,11 @@ Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2464
 Filename: ./q/qtwebengine5-doc/qtwebengine5-doc_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 1891028
-MD5sum: e40b1d164ee3154e91405b921f6499e8
-SHA1: 221791e96b31b16debc21b283f8fd20b370e549a
-SHA256: f222b260583edd7cf045374aa75b1cc9c56513229185bb5b432e72e315653a31
-SHA512: ea2fd33e25457c1950c9d21815d23bbddd0743e458cc35ca23d2717093efb5076608a2c2ea7cd6ce0be9e52d94f247fdb4e1546897c54df132c4ea09053e2dd1
+Size: 1891100
+MD5sum: f6852f8e6b8915ce67bb7947c19a59d9
+SHA1: f6a6f35ba83208fb85ab6dd0a1a4a4170e22e9fc
+SHA256: f88cc151ce628628ea472cfa972d2464bbba4fd1ade4c5f474488f26351a61a2
+SHA512: c7862fc54d911fb0344db5696ef0a016262c0e6b63b8650753c2d83cc131ba03bd2c417dcad893a1f5086aaacae04d29f058d0994d0f5e3efee8cad4a3515659
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 webengine documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature

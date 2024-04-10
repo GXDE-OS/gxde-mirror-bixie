@@ -9,11 +9,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 198
 Depends: liblol, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libstdc++6
 Filename: ./q/qt5-image-formats-plugin-pdf/qt5-image-formats-plugin-pdf_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 47256
-MD5sum: 5a66cdc8c6268c7e72db435fcde59602
-SHA1: c3db9a459662a9f46738de91c80788e10048822f
-SHA256: 0d8901da67b3822c21df02ffccfb87a5b01329965dd51599097138f493c27a6c
-SHA512: 772c3f42ccce63306833302a1ae8fabce0666daaed1a8758b5fd7722525ed4b36d81a5641c1c9d89aa228e230c5abd4135a4cc8267feadcf074ab243d0ca84a6
+Size: 47252
+MD5sum: dc217941505badb4bc65cd5993d16910
+SHA1: 29d00643f5594d83f28907f9d974a0635c93571e
+SHA256: f1ee2fb46e8dabff924b6b0ad2921733cadf43061818dff35b2aab20023bdbca
+SHA512: 3432e7bfd7151caca13a34ddb7be0cc42a4b1738161c331e1ceaa8e3cc510d3d5ef6a1c71751373aed8e9849a45cdcfbe34b5f9d09c254e969f5b2cb9ad9929e
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF image format plugin
  The Qt PDF module contains classes and functions for rendering PDF documents.

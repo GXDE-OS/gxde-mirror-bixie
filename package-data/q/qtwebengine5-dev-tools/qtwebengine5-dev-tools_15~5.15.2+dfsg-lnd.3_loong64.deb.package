@@ -9,11 +9,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 879
 Depends: liblol, qtchooser, libc6 (>= 2.28), libevent-2.1-6 (>= 2.1.8-stable), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./q/qtwebengine5-dev-tools/qtwebengine5-dev-tools_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 283536
-MD5sum: ef9aac30e33ab3e746263061735367b0
-SHA1: 502a34d80853600044f0e4b0404e7a79efd54998
-SHA256: b61c250816905130edb7c6ecc508237cfc16c43310299443db79e0676aa0242f
-SHA512: 0a9b683072137b8a2e4753afc161cc6ae6785560480518e3d3619bbdd49e3b940ea7df21a199c107ec5775a2bf67f0618daec00a3465e3bf841885a683d18ec1
+Size: 283880
+MD5sum: b8a0f2a52288cd2bd0e33bc8b6b3ec8d
+SHA1: c56af70b2c78fbd5358ee93bf86fe95dae8ade94
+SHA256: e79caca459fc7bf29f79c1fa3f4bf78618f62685d29f1f4f7b92f93f302e210e
+SHA512: 23fa6b8addd69da51cbeeb01b26cf9d82558dc4ff7632c199d58f5f94a75958ca0b608ecbf25ec071071d28ec033f5df5bc084566704949fc2bfc5239fef7028
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt WebEngine tools
  Qt is a cross-platform C++ application framework. Qt's primary feature

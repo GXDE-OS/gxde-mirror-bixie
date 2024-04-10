@@ -8,11 +8,11 @@ Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7221
 Filename: ./q/qtwebengine5-doc-html/qtwebengine5-doc-html_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 1232068
-MD5sum: c41665bd4375b6fc9d287e4de0fff77e
-SHA1: 81c2c1c09b16e1667c5bbb3e62f2f6c53764a3a4
-SHA256: 4dce85f5715c29021b643c9dd893b991dd244f398d786a3327812aa048a9f590
-SHA512: 782cc94e2193ad87ff45585ef6c977e7099cbb384a7efe81952698011c4125dc6a4ad6881c0be8c40f7a4650cb42b9a4235ad82e0a46a7ce53988f1b0f338ff3
+Size: 1232060
+MD5sum: be5e8de4bfa0c73d72dcdd4b003f3443
+SHA1: b9d068ebb0768b5b72c85e67dbc9f89ea8a1eb43
+SHA256: 264a7c5590233cc998668eebd2bde6ec05b7c6abeb65bbc0fcea5cd1f07c30eb
+SHA512: e62f2f0cdfe5db8145c85e45ececf4411ad2a824b51f9bdfb96d68e0b6343a5aa364405ddc71ae83793b74867313ec655f8c96f2096563cf518fc8e0f70d0b43
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 webengine HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature

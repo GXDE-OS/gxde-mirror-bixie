@@ -9,11 +9,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 453
 Depends: liblol, qml-module-qtquick2, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5webengine5 (>= 5.14.1), libqt5webenginecore5 (>= 5.14.1), libstdc++6, qtwebengine-abi-5-15-2
 Filename: ./q/qml-module-qtwebengine/qml-module-qtwebengine_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 72432
-MD5sum: ee0f1b8af0175f2b8c5f4938b365304e
-SHA1: 2ce77ba3d5124e0cd3ef48875e6fa46950d70dd3
-SHA256: 835a12d7ab1dba3511f9600de0985972f27764ef61ee2f7cfadee5332b99099a
-SHA512: 3ed02dce65e4b7bae1e51350e6aaf38fa4a0378eeee2434291dd8d84f35585a8ee0d7ef16e083700188ec8be5d52f5883e4a717d79bd79825504e730527eb03a
+Size: 72244
+MD5sum: f3dda36e79a104b811481b120b8012ec
+SHA1: 6d6e5f9f89f1586a856f0d06d4f6f094e1400aca
+SHA256: bda1cffa93e0fc69a125796dc27def301612b4007b8c06639fecd7a7d5f87fe6
+SHA512: bcc21f23ccd4cd313ca2e1231eed08d9a5148591944b521fd3acf0a37a9efb5503a8ab796e6480f93ff8be45375928c1f22b42df417a6af5b5cf35f9db88951c
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt WebEngine QML module
  QtWebEngine provides a Web browser engine that makes it easy to embed content

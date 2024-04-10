@@ -9,11 +9,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 395
 Depends: liblol, qml-module-qtgraphicaleffects (>= 5.12), qml-module-qtquick-controls2 (>= 5.14), qml-module-qtquick-shapes (>= 5.14), qml-module-qtquick-templates2 (>= 5.14), qml-module-qtquick-window2, qml-module-qtquick2 (>= 5.14), qt5-image-formats-plugin-pdf, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.12.2) | libqt5quick5-gles (>= 5.12.2), libstdc++6, qtdeclarative-abi-5-15-2
 Filename: ./q/qml-module-qtquick-pdf/qml-module-qtquick-pdf_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 96264
-MD5sum: 1e48aa2a8a65a97f12b5146eb5b75e4b
-SHA1: b9c61e00f4d5338a870b67fd3f55c8fc92e9847d
-SHA256: 6efe4341a553b83c17ecfdd2619545c5a32b8eeff54d086c4adeda62393823bd
-SHA512: fa6fb17a237defe3ec82648a8241c7a8c4d77935ee8af7ec7a38ddb0d7c2040167bbdce9a0b250d6028a1352582f4168be7fc04bff99c256bd9699702d884cd8
+Size: 96360
+MD5sum: c875985059890cdae283f471a3263642
+SHA1: 5ebb6cede4162b7e52ade7ade474f1673b1fbf56
+SHA256: dbfa3729b80794863edbdb4e009be023cee068e1c66952a34e4df4e246e3d803
+SHA512: 09bde39451f1653aa5dfcd5c55951f623462b7023bcb3135bf789eee0deedf4a1c3c10365b32222a45f8bd6f663c9324d7a5ab71e1d250cae3aeb8ca07c9722b
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt Quick PDF QML module
  The Qt PDF module contains classes and functions for rendering PDF documents.

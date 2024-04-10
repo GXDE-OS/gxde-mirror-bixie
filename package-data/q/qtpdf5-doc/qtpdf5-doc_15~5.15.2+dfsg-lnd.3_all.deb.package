@@ -8,11 +8,11 @@ Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 372
 Filename: ./q/qtpdf5-doc/qtpdf5-doc_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 143120
-MD5sum: 15f59c04cbb6aad83b5e3a5399768f19
-SHA1: aa44760e8fa782c28688cb4983c91879b1ff2d3e
-SHA256: e61804db926a44148d1f1d2ea21eaf24f7a9589148c43ac1a86c1480a4455424
-SHA512: 7e7821fc1c06e9991bdcecfbdecee649ee9f6c3b45b5f7d34d1956a6417d62b8921a99a2f0a1c7ab5790520f8539a9a445eff05db09fdb48a0c00e20d0ee3a64
+Size: 143128
+MD5sum: fe6b39d8745eddb83c731c12930d7604
+SHA1: a83c40f0c92ceb444b2881a6074db9b5c0523b17
+SHA256: b0ec2c7a0109f9cd4856f950c9f74fccd3d0f530aa93828a6eb2c3db3dcb1414
+SHA512: 2762ba370c41a69870a2a1f54c7a0cc2fa1900718770bc3ac1f793808c5de778365abf8db7799067c8807bdce567b80b48e2fe6c936de9ab67716a39bb3fe5e4
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF documentation
  The Qt PDF module contains classes and functions for rendering PDF documents.
