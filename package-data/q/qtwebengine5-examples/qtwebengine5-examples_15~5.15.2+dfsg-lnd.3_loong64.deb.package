@@ -1,0 +1,23 @@
+Package: qtwebengine5-examples
+Architecture: loong64
+Version: 15~5.15.2+dfsg-lnd.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qtwebengine-opensource-src
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2774
+Depends: liblol, libjs-jquery, libjs-marked, qml-module-qt-labs-settings, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtwebengine, qtwebengine5-dev-tools, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5printsupport5 (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.1.0), libqt5quickcontrols2-5 (>= 5.15.2+dfsg~), libqt5webchannel5 (>= 5.15.2~), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
+Filename: ./q/qtwebengine5-examples/qtwebengine5-examples_15~5.15.2+dfsg-lnd.3_loong64.deb
+Size: 636188
+MD5sum: 8de47eb7018b8f2f470316d5da7cc282
+SHA1: 635609a912b6390b6036f7a210e6984dc03d6121
+SHA256: 2f21f022cc7c63fbf46dcdfb670735b6bab6d2f6d4386d300f2503706554171a
+SHA512: bf162551002293d11140bc326d3a83fbd28a4b3b0a14c0b67f87aa718b4f38662348342272aa87205159e13a1ae2fccc9135619c7d61091a48a1ae93211ad59d
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Description: Qt WebEngine - Examples
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the WebEngine examples.
+
