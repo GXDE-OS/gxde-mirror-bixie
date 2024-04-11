@@ -6,15 +6,14 @@ Priority: optional
 Section: libdevel
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 446
 Depends: liblol, libqt5webchannel5-dev, libqt5webengine5 (= 15~5.15.2+dfsg-lnd.3), libqt5webenginecore5 (= 15~5.15.2+dfsg-lnd.3), libqt5webenginewidgets5 (= 15~5.15.2+dfsg-lnd.3), qtbase5-dev, qtdeclarative5-dev, qtpositioning5-dev, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Recommends: qtwebengine5-doc
 Filename: ./q/qtwebengine5-dev/qtwebengine5-dev_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 69984
-MD5sum: e5c01cddc80e21c769946ae7a69c1976
-SHA1: 15074cae31b2b0a3e73789b5484aaf64a885bf15
-SHA256: 2587df09753e96545127341af0638dd0ebc4c10c6ea1ed590bad32a3f3366352
-SHA512: 1ca2a8cfb9e4d0da70309212f292276e8e0c5675b0c99fe279f5be83b10ba30c3a48c169947f4e24453c85908df155dd11123a8dbb44d14c9427eeccd20cf463
+Size: 69992
+MD5sum: 97883fa68968ea90e0752967cfa3ddb3
+SHA1: 800c9aa4a9ad1903f2f783c16e3ca5eaa8c6ad06
+SHA256: aba29a50fe0fd4045833c8f3874da4a4c667506a513d104136b63657a7300d97
+SHA512: ee500baa07148d18e6f1c6045e6a757957337d0cae153b38280a44174d3c7ee9b8eed2be8b52b5a5bfde309e5341b553a1f8b2e3769076b41ed20081f4703fc1
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - development files
  QtWebEngine provides a Web browser engine that makes it easy to embed content
@@ -22,4 +21,5 @@ Description: Web content engine library for Qt - development files
  .
  This package contains the development files needed to build Qt 5 applications
  using QtWebEngine library.
+Instloong64ed-Size: 446
 

@@ -1,0 +1,22 @@
+Package: qtwebengine5-doc
+Architecture: loong64
+Version: 15~5.15.2+dfsg-lnd.3
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: qtwebengine-opensource-src
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Filename: ./q/qtwebengine5-doc/qtwebengine5-doc_15~5.15.2+dfsg-lnd.3_loong64.deb
+Size: 1891064
+MD5sum: c96fc7acfffc95f0708d81f842894795
+SHA1: ed4fbc345a3bbac68cced8d114371c760f54fb2f
+SHA256: c4db1c5cab6482b9d2de0440081e56fcea51176abee87b26680adb87e2f77497
+SHA512: 8282897d264e45ed27a447a101c20ac9fba088a4a4860117c987223d24481f77f9521a3fee2fe55d3296887694d0f1c907a5aa8fe4b3f1bce7f3db27df551399
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Description: Qt 5 webengine documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webengine libraries.
+Instloong64ed-Size: 2464
+

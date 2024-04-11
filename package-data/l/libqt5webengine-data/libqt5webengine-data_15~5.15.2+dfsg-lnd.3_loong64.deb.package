@@ -6,17 +6,17 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 33349
 Filename: ./l/libqt5webengine-data/libqt5webengine-data_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 10183700
-MD5sum: 1d62229dab0c924d92a0af1d9e224479
-SHA1: d8bf49620ad84e8337845c2dc093524eef57e3e6
-SHA256: 4047844f063b32d0ad8ca0c2d6ebf3895cf7f200ca5984bbd5cb86b6ad231ad1
-SHA512: e4ee862493a5c4bab94945e5949ad41425e4fe03c41eece8e7750e59e8811abac441e7cae207f4e0f7454f0bacaa5a00dae4b4f6da5a452ccde4e1a5117b1c9d
+Size: 10227092
+MD5sum: dcb5a0f5c5f4158e61f05254ee2320cd
+SHA1: 63a81baa335121e4c7fb69bbf5dc4dfa403dfda7
+SHA256: 585c558e36e203a8abefcc951f500fe6aa4a2662f7d27f1ca44249a9e91d4a54
+SHA512: 4d4c70f13f7166a3f4704e70c6fad71124603bc3f74c342c02116106a3d5e308dcf0ed708fa6635cb54d4bec9dd059f7d0c8d90ec96a847e6272aa0d8c6ee58a
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - Data
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the arch independent parts of QtWebEngine libraries.
+Instloong64ed-Size: 33349
 

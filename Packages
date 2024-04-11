@@ -3516,23 +3516,23 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 134825
 Provides: qtwebengine-abi-5-15-2
 Depends: liblol, libqt5webengine-data (= 15~5.15.2+dfsg-lnd.3), libasound2 (>= 1.0.16), libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2), libharfbuzz0b (>= 2.2.0), libjpeg62-turbo (>= 1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5positioning5 (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5webchannel5 (>= 5.15.2~), libsnappy1v5, libstdc++6, libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.lnd.1), libx11-6, libx11-xcb1, libxcb-dri3-0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxml2 (>= 2.7.4), libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxss1, zlib1g (>= 1:1.2.2)
 Breaks: libqt5webengine5 (<< 5.7.1+dfsg-4)
 Replaces: libqt5webengine5 (<< 5.7.1+dfsg-4)
 Filename: ./l/libqt5webenginecore5/libqt5webenginecore5_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 35983784
-MD5sum: 66608deb6b4826b3f7d29256d7f08a41
-SHA1: 17a710340e42b6f361bafca3a0b78727ea580bdd
-SHA256: fdf239afda4cfa7fdd7d38254a9b1a8308ac56b3191c7e57570de5c13606b734
-SHA512: 3f8f5e56d374780db41034a3327560e4f12634a82a8b8bb285327b4f63cdfac57d85ad093c7a3a6d1a92a6cf1f38f2fac546a483fc36bde636359ce891c2c3a8
+Size: 35986356
+MD5sum: bde77d14d22197d5ff59923f830b4ed1
+SHA1: 5a42b5d35eb121885cd46a7531d88e7d4ca9a765
+SHA256: 7291f0bd2a456176efec661ce776bfe520ecc1ae50f3ef74364b6576b52f0a7d
+SHA512: 45fed2024e7d1fb408204ede3ff542a23f7d0392af8f9450adbf5839b28e03ce69a0ae30eec1e88ea11d0851c142a5010ad3b073696f030e1207df6ca4c05903
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - Core
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the core QtWebEngine library.
+Instloong64ed-Size: 134825
 
 Package: libgnome2-bin
 Architecture: i386
@@ -4855,20 +4855,20 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 553
 Depends: liblol, libqt5webengine-data (= 15~5.15.2+dfsg-lnd.3), libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5printsupport5 (>= 5.15.2+dfsg~), libqt5quick5 (>= 5.9.0~beta) | libqt5quick5-gles (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.11.0), libqt5webenginecore5 (>= 5.15.1), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./l/libqt5webenginewidgets5/libqt5webenginewidgets5_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 117952
-MD5sum: 292122ca7fd3dea6c8f3e3f8533b6003
-SHA1: d664d4ff784c745487258756d67193eddd941ad2
-SHA256: 6d336a61f4ccd2f71d165db8ce34cd662b41c5ffc4e0bdd89118e4f78244d331
-SHA512: 94f85ba6d85955ebc69c5aa68f012fe15d8eb5c06934ad22f0125781843018551e2eeeba71f330d5fef025669070ea5bbbfe85d80067f972ba5e126341c3c8dc
+Size: 117712
+MD5sum: 171f557853b5e05afe17804abcc41d3d
+SHA1: 84a7a4fe410dcf3b4b68e0573cdd41261e370283
+SHA256: 0c377ddd522b3e530c77e7ac72173d1e0c0ddb40e098fddf7f3ee844f0cfb101
+SHA512: d17ebcd27d0377fd60fa25c986f7b56b544a6f70e756593f9b1ec2cd670b9c3b3832e60e163995832be62bd0fdd30710dcba3d614c44b091e6828a79d39211ce
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - Widget
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the widget QtWebEngine library.
+Instloong64ed-Size: 553
 
 Package: libqt5webenginewidgets5
 Architecture: loong64
@@ -5232,19 +5232,19 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3395
 Depends: liblol, libc6 (>= 2.28), libfreetype6 (>= 2.3.5), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libstdc++6, zlib1g (>= 1:1.1.4)
 Filename: ./l/libqt5pdf5/libqt5pdf5_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 1418456
-MD5sum: 6f01548dbee7fefd462643a267124e13
-SHA1: 648c25fa7bb3ec4307f21651cbe222b1042d3ea2
-SHA256: fb78acc60878eca7085509fcac537d40c877fba50521748647e1e96e3d8619c2
-SHA512: 1d766c3c4085b3f2ee031124c517527634fd35dc1d7b0471f80101d78fbd2b626e6f224c6747b12f6f87cf8efbc245ad96ec0a8efa2bf022f0a9035326a3d630
+Size: 1417604
+MD5sum: f9a71d0b1aa9d7f6d16fd1b38dd7dfff
+SHA1: 1b348aa67900ca1f5efbed509e4973238d1fc0fb
+SHA256: 8a7e03a56e918e70117386a5d72ec0a4dde0fb6b8f856c063c5030a5f462a44e
+SHA512: a2e3ada715af576e372f7062d7962b6601acabaeaf079a2c2aff8776edcbf72ce026262901160b4f05d54c61abd0b6538475f1fa361545936c5d6c717be2adb9
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF library
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the Qt PDF library.
+Instloong64ed-Size: 3395
 
 Package: libqt5pdf5
 Architecture: loong64
@@ -5820,41 +5820,19 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 33349
 Filename: ./l/libqt5webengine-data/libqt5webengine-data_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 10183700
-MD5sum: 1d62229dab0c924d92a0af1d9e224479
-SHA1: d8bf49620ad84e8337845c2dc093524eef57e3e6
-SHA256: 4047844f063b32d0ad8ca0c2d6ebf3895cf7f200ca5984bbd5cb86b6ad231ad1
-SHA512: e4ee862493a5c4bab94945e5949ad41425e4fe03c41eece8e7750e59e8811abac441e7cae207f4e0f7454f0bacaa5a00dae4b4f6da5a452ccde4e1a5117b1c9d
+Size: 10227092
+MD5sum: dcb5a0f5c5f4158e61f05254ee2320cd
+SHA1: 63a81baa335121e4c7fb69bbf5dc4dfa403dfda7
+SHA256: 585c558e36e203a8abefcc951f500fe6aa4a2662f7d27f1ca44249a9e91d4a54
+SHA512: 4d4c70f13f7166a3f4704e70c6fad71124603bc3f74c342c02116106a3d5e308dcf0ed708fa6635cb54d4bec9dd059f7d0c8d90ec96a847e6272aa0d8c6ee58a
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - Data
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the arch independent parts of QtWebEngine libraries.
-
-Package: libqt5webengine-data
-Architecture: all
-Version: 15~5.15.2+dfsg-lnd.3
-Multi-Arch: foreign
-Priority: optional
-Section: libs
-Source: qtwebengine-opensource-src
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 33349
-Filename: ./l/libqt5webengine-data/libqt5webengine-data_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 10223272
-MD5sum: a15a134ecc93fdf625626ce1c3515dcd
-SHA1: fe805901f55df3f5ace9418c419955c08cb14e89
-SHA256: d66ef2c1f646a5cde11587ee0bd99ab2270eed83b694a209f98ef79ee91f97e0
-SHA512: b57e0bb69bc5d68830cd41036937adef6f1ad73f14b93f7b89d09ebc30807dc855facf08d01be06e03b42b3393dd92fe81f4c090c1496df84aff53b0505852dc
-Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
-Description: Web content engine library for Qt - Data
- QtWebEngine provides a Web browser engine that makes it easy to embed content
- from the World Wide Web into your Qt application.
- .
- This package contains the arch independent parts of QtWebEngine libraries.
+Instloong64ed-Size: 33349
 
 Package: libopencv-mobile
 Architecture: arm64
@@ -7330,19 +7308,19 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 218
 Depends: liblol, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./l/libqt5pdfwidgets5/libqt5pdfwidgets5_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 53736
-MD5sum: 9d3ad15d6ace6dd0a26940a4a3e4ac82
-SHA1: 474f952f1b8cece996c0c3a9d1b98ac97eb7d2a3
-SHA256: b7821fbd5c120df515c0d7490259066fbd11abb45ce15f99ad04ecc982fcc107
-SHA512: 96a840b743a4f17dea58b69acf5034a33e9fa94820f56439f4a5a65a7ed4b616f54c3c1f14b1eca96d71b51752b6d2d7e3d92c856d388a28ca5e5ae7cf86de6b
+Size: 53656
+MD5sum: 624a6bd2319a1915b09249fdbb303100
+SHA1: 36467fcab461d42b1c479b09c891925b2a9bb136
+SHA256: 6e6359bafb3312f608cabf8ddf57e8292eb0fb729e161d5632e16228a62919f8
+SHA512: 13507aba355a512e8f7f469d6a1820d57dd7ed0a645047304e5f811016af3b043532704bb14ed6f62b40d8dffa3ca7141927c924d2977870e7b4db42c467e1f6
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF Widgets library
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the Qt PDF Widgets library.
+Instloong64ed-Size: 218
 
 Package: libqt5pdfwidgets5
 Architecture: loong64
@@ -8223,20 +8201,20 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 826
 Depends: liblol, libqt5webengine-data (= 15~5.15.2+dfsg-lnd.3), libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5test5 (>= 5.15.2+dfsg~), libqt5webchannel5 (>= 5.15.2~), libqt5webenginecore5 (>= 5.15.1), libstdc++6
 Filename: ./l/libqt5webengine5/libqt5webengine5_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 163140
-MD5sum: 76630a24412160a99d8a380dfe119cbb
-SHA1: 588c5cb786d91d7b81c65a21e7d6c75c4ed65daa
-SHA256: 30495aefb7cd9e12d6ac1b312c1c4617708f4b212402a2176b9a363344d6153b
-SHA512: e736dc0e39d0ce6964046d8ac9ecdec5b3a5a4c1f7c723bcd8f91025b6172a82d7dd6f8c9b8d36a93050641eb27968445bec0265853536630c8dbf6119bb0273
+Size: 162912
+MD5sum: 02377c24d8d3c8f20cb7addd1b0b6d68
+SHA1: 7508235b4b0fe9ed5357fa1166febfb665793a3d
+SHA256: 2c817bda0f3c34943b16ea8b870947437768cd60900a33be477373f47e0dfeae
+SHA512: 7b813a79511db921c9b53c0f4cd62546e97696767b010acda5dcee15539e3fcbdd0d6b38a265d7d852185ae1caeb4a4f5e432554657a601b3bac0ab0294d9e8b
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the QtWebEngine library.
+Instloong64ed-Size: 826
 
 Package: libqt5webengine5
 Architecture: loong64
@@ -22091,14 +22069,13 @@ Priority: optional
 Section: devel
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 879
 Depends: liblol, qtchooser, libc6 (>= 2.28), libevent-2.1-6 (>= 2.1.8-stable), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./q/qtwebengine5-dev-tools/qtwebengine5-dev-tools_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 283880
-MD5sum: b8a0f2a52288cd2bd0e33bc8b6b3ec8d
-SHA1: c56af70b2c78fbd5358ee93bf86fe95dae8ade94
-SHA256: e79caca459fc7bf29f79c1fa3f4bf78618f62685d29f1f4f7b92f93f302e210e
-SHA512: 23fa6b8addd69da51cbeeb01b26cf9d82558dc4ff7632c199d58f5f94a75958ca0b608ecbf25ec071071d28ec033f5df5bc084566704949fc2bfc5239fef7028
+Size: 283676
+MD5sum: 4a63638684f8f2c122362eedd26fa84d
+SHA1: 43eb2796473acf7690ec6cab45603b2c8b50efb8
+SHA256: ffb979cdef86b8afafe4d8184a36a98f44ef310c30c7b612bb7520e2157cbc4f
+SHA512: c61a4022c24bfd8da2db9d3c078e9ee7db4a23d1b76d1aed91a704e4068951985aba0d004e24f139f87d0c5931fbc5ed0dcccd428e2a959c0b95a5fd86f5d5b8
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt WebEngine tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -22107,6 +22084,7 @@ Description: Qt WebEngine tools
  This package contains qwebengine_convert_dict tool which converts hunspell
  'dic' dictionaries to binary 'bdic' format, which is required by spellchecker
  in Qt WebEngine.
+Instloong64ed-Size: 879
 
 Package: qml-module-qtquick-pdf
 Architecture: loong64
@@ -22116,40 +22094,40 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 395
 Depends: liblol, qml-module-qtgraphicaleffects (>= 5.12), qml-module-qtquick-controls2 (>= 5.14), qml-module-qtquick-shapes (>= 5.14), qml-module-qtquick-templates2 (>= 5.14), qml-module-qtquick-window2, qml-module-qtquick2 (>= 5.14), qt5-image-formats-plugin-pdf, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.12.2) | libqt5quick5-gles (>= 5.12.2), libstdc++6, qtdeclarative-abi-5-15-2
 Filename: ./q/qml-module-qtquick-pdf/qml-module-qtquick-pdf_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 96360
-MD5sum: c875985059890cdae283f471a3263642
-SHA1: 5ebb6cede4162b7e52ade7ade474f1673b1fbf56
-SHA256: dbfa3729b80794863edbdb4e009be023cee068e1c66952a34e4df4e246e3d803
-SHA512: 09bde39451f1653aa5dfcd5c55951f623462b7023bcb3135bf789eee0deedf4a1c3c10365b32222a45f8bd6f663c9324d7a5ab71e1d250cae3aeb8ca07c9722b
+Size: 96212
+MD5sum: 4c95bf54ecb3213ab730a92cf62719ca
+SHA1: 90b116a3fc95aad8131cfed2f248e95a44057751
+SHA256: 37e07c806b967f73b7c5e7de5fa9fda25e4fb53667809a5ab4426552c48ec29b
+SHA512: 33e908b211a4e4771714e9278d7f11f1e714a02ac31db0d100650ead5153c1e82d2b01d1621e4047e72cdf4e00a45604b2a669b2e80277664589bee03638b594
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt Quick PDF QML module
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the Qt Quick PDF QML module.
+Instloong64ed-Size: 395
 
 Package: qtpdf5-doc-html
-Architecture: all
+Architecture: loong64
 Version: 15~5.15.2+dfsg-lnd.3
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 898
-Filename: ./q/qtpdf5-doc-html/qtpdf5-doc-html_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 106208
-MD5sum: 3f0f189cbc1713d3d08a3d3bd758f9dc
-SHA1: 308048272cdb9750f86cac1c64bfbd64ca73c260
-SHA256: 5ef7946585798b72c68627b5e5b0c70b8183b9560e01ef89dbc6976545f5f54a
-SHA512: 6d5670e768b95e4a384487da92aa70e68667e4654fcd603aeb8ac608fb7b111815a1aeb57b00ec568436e970ac6813c1c3033dfab91d5c87039013b4ed0372bf
+Filename: ./q/qtpdf5-doc-html/qtpdf5-doc-html_15~5.15.2+dfsg-lnd.3_loong64.deb
+Size: 106156
+MD5sum: b58e67a46fa3819a1f52c62f720eec45
+SHA1: 1323eafc461c19a919e95472e8724d1fc5e74c7d
+SHA256: e685bd8a0003f1b6877752955900f6195dd629428af21b60c6ec1074abe31ba6
+SHA512: b77dfbdf3617e83f5b65a988b20a4c725be8c4ef1b24bfd6b1864f198082c05efd09451c0a086f78c209a62c16cf29b1b2718ff46002d870b251ea2e0669dfef
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF HTML documentation
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the HTML documentation.
+Instloong64ed-Size: 898
 
 Package: qtwebengine5-dev
 Architecture: loong64
@@ -22159,15 +22137,14 @@ Priority: optional
 Section: libdevel
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 446
 Depends: liblol, libqt5webchannel5-dev, libqt5webengine5 (= 15~5.15.2+dfsg-lnd.3), libqt5webenginecore5 (= 15~5.15.2+dfsg-lnd.3), libqt5webenginewidgets5 (= 15~5.15.2+dfsg-lnd.3), qtbase5-dev, qtdeclarative5-dev, qtpositioning5-dev, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Recommends: qtwebengine5-doc
 Filename: ./q/qtwebengine5-dev/qtwebengine5-dev_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 69984
-MD5sum: e5c01cddc80e21c769946ae7a69c1976
-SHA1: 15074cae31b2b0a3e73789b5484aaf64a885bf15
-SHA256: 2587df09753e96545127341af0638dd0ebc4c10c6ea1ed590bad32a3f3366352
-SHA512: 1ca2a8cfb9e4d0da70309212f292276e8e0c5675b0c99fe279f5be83b10ba30c3a48c169947f4e24453c85908df155dd11123a8dbb44d14c9427eeccd20cf463
+Size: 69992
+MD5sum: 97883fa68968ea90e0752967cfa3ddb3
+SHA1: 800c9aa4a9ad1903f2f783c16e3ca5eaa8c6ad06
+SHA256: aba29a50fe0fd4045833c8f3874da4a4c667506a513d104136b63657a7300d97
+SHA512: ee500baa07148d18e6f1c6045e6a757957337d0cae153b38280a44174d3c7ee9b8eed2be8b52b5a5bfde309e5341b553a1f8b2e3769076b41ed20081f4703fc1
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - development files
  QtWebEngine provides a Web browser engine that makes it easy to embed content
@@ -22175,6 +22152,7 @@ Description: Web content engine library for Qt - development files
  .
  This package contains the development files needed to build Qt 5 applications
  using QtWebEngine library.
+Instloong64ed-Size: 446
 
 Package: qml-module-qtwebengine
 Architecture: loong64
@@ -22184,42 +22162,42 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 453
 Depends: liblol, qml-module-qtquick2, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5webengine5 (>= 5.14.1), libqt5webenginecore5 (>= 5.14.1), libstdc++6, qtwebengine-abi-5-15-2
 Filename: ./q/qml-module-qtwebengine/qml-module-qtwebengine_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 72244
-MD5sum: f3dda36e79a104b811481b120b8012ec
-SHA1: 6d6e5f9f89f1586a856f0d06d4f6f094e1400aca
-SHA256: bda1cffa93e0fc69a125796dc27def301612b4007b8c06639fecd7a7d5f87fe6
-SHA512: bcc21f23ccd4cd313ca2e1231eed08d9a5148591944b521fd3acf0a37a9efb5503a8ab796e6480f93ff8be45375928c1f22b42df417a6af5b5cf35f9db88951c
+Size: 72256
+MD5sum: 7df8f0f19a1ef63eb34e2056eab8f351
+SHA1: 16526c83077cd03bd9c94cae092b92c092edd145
+SHA256: acd7422c8dde2df1a34db0246fca9f68fb10e70a8f604fd85f876103f6826b65
+SHA512: ae2d0192e01880a431a9a9a3b645a309fec0dbbc64148534eb27bf02c08a8af0f4ab6b357fa1023a50b78880fb6cf154b88f478e7262411e380cbef64b0c34a7
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt WebEngine QML module
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the WebEngine QML module for QtDeclarative.
+Instloong64ed-Size: 453
 
 Package: qtpdf5-doc
-Architecture: all
+Architecture: loong64
 Version: 15~5.15.2+dfsg-lnd.3
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 372
-Filename: ./q/qtpdf5-doc/qtpdf5-doc_15~5.15.2+dfsg-lnd.3_all.deb
+Filename: ./q/qtpdf5-doc/qtpdf5-doc_15~5.15.2+dfsg-lnd.3_loong64.deb
 Size: 143128
-MD5sum: fe6b39d8745eddb83c731c12930d7604
-SHA1: a83c40f0c92ceb444b2881a6074db9b5c0523b17
-SHA256: b0ec2c7a0109f9cd4856f950c9f74fccd3d0f530aa93828a6eb2c3db3dcb1414
-SHA512: 2762ba370c41a69870a2a1f54c7a0cc2fa1900718770bc3ac1f793808c5de778365abf8db7799067c8807bdce567b80b48e2fe6c936de9ab67716a39bb3fe5e4
+MD5sum: a29c166792f501998cea151f303ca1c9
+SHA1: 33203d4f74a5ffa7979a14e7a701ba54aa41020d
+SHA256: cfad28c533473df6b6a328f6fa632d916c64c95824991ecfd58092be47294d50
+SHA512: 13f867ca492223cf7add3250c023b46bedc47d4e35a6be1fcc9e4ae792bd37110948cf2a860b4a64eed977aeb3501c012622760f7b14e31ce4a9b24387840428
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF documentation
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the documentation in QCH format, which can be
  viewed using Qt Assistant from qttools5-dev-tools package.
+Instloong64ed-Size: 372
 
 Package: qtwebengine5-private-dev
 Architecture: loong64
@@ -22229,14 +22207,13 @@ Priority: optional
 Section: libdevel
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 382
 Depends: liblol, qtwebengine5-dev (= 15~5.15.2+dfsg-lnd.3)
 Filename: ./q/qtwebengine5-private-dev/qtwebengine5-private-dev_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 61076
-MD5sum: b0f1972c03d7d104d1f9648727298331
-SHA1: 8a4f40dc769f0502c6b01a0c1a3014cbc269a41a
-SHA256: bd97a5b8f4561f7c0d2c998aecb27813aa78d06563c37f82c02c8c0f9c360c0b
-SHA512: 55973e973620957dc404ecba62b3ced7401ef44dc370e21aeefe5f73ce008615c761098153ccd57527d24f3be0f0ebf25ffe5fda4913571fa33165ba9ea2b84b
+Size: 61104
+MD5sum: 4d7ed7c4db63a40ae544de478f6d824d
+SHA1: f3329eb46c6ef3520b0f8261b2a2e2c13847294b
+SHA256: ad3f6ef68bf4da8c4f2d729242bd390530da64a6a9bcd15b8d5a8bc67f5e44ec
+SHA512: 758ab94793d078e852378f67ad56dea3e9a2c28ed2fea36e76d85dd4189d32dfad22d9aee36da922038eba401a88dddec1f85fa272ed88d243c7ee8884ead12b
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Web content engine library for Qt - private development files
  QtWebEngine provides a Web browser engine that makes it easy to embed content
@@ -22244,22 +22221,22 @@ Description: Web content engine library for Qt - private development files
  .
  This package contains the private development files needed to build
  Qt 5 applications using QtWebEngine library.
+Instloong64ed-Size: 382
 
 Package: qtwebengine5-doc-html
-Architecture: all
+Architecture: loong64
 Version: 15~5.15.2+dfsg-lnd.3
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7221
-Filename: ./q/qtwebengine5-doc-html/qtwebengine5-doc-html_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 1232060
-MD5sum: be5e8de4bfa0c73d72dcdd4b003f3443
-SHA1: b9d068ebb0768b5b72c85e67dbc9f89ea8a1eb43
-SHA256: 264a7c5590233cc998668eebd2bde6ec05b7c6abeb65bbc0fcea5cd1f07c30eb
-SHA512: e62f2f0cdfe5db8145c85e45ececf4411ad2a824b51f9bdfb96d68e0b6343a5aa364405ddc71ae83793b74867313ec655f8c96f2096563cf518fc8e0f70d0b43
+Filename: ./q/qtwebengine5-doc-html/qtwebengine5-doc-html_15~5.15.2+dfsg-lnd.3_loong64.deb
+Size: 1232084
+MD5sum: 1dab202de2d9e4681840b70642677cbb
+SHA1: 631c593026709a073c4365c401e33c886bd4c19e
+SHA256: 8b30b348dd46b57907cff36bd6297dc33f3a715b7da68e01864c858bb8e7f723
+SHA512: 5cb2598fb182ab2ce25f88a56e41559073b73ed6ecb35e6bf71f2700b278ce1d71804d004f0aaf0909ffd81416179e48cc65aa28153f7f0fb91b822f77b9b007
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 webengine HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -22267,6 +22244,7 @@ Description: Qt 5 webengine HTML documentation
  .
  This package contains the HTML documentation for the Qt 5 webengine
  libraries.
+Instloong64ed-Size: 7221
 
 Package: qtwebengine5-examples
 Architecture: loong64
@@ -22276,20 +22254,20 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2774
 Depends: liblol, libjs-jquery, libjs-marked, qml-module-qt-labs-settings, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtwebengine, qtwebengine5-dev-tools, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5network5 (>= 5.15.2+dfsg~), libqt5printsupport5 (>= 5.15.2+dfsg~), libqt5qml5 (>= 5.1.0), libqt5quickcontrols2-5 (>= 5.15.2+dfsg~), libqt5webchannel5 (>= 5.15.2~), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./q/qtwebengine5-examples/qtwebengine5-examples_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 636272
-MD5sum: b1b3b71b335f451d4c1ee242e99e069e
-SHA1: b2bdcd69c988e7162c65af32d495723e90460fbe
-SHA256: b29c193e5638af797befc51ca90d520442902b72da9668ecd14c13c151c60324
-SHA512: e34c0cef76d6137d87684664bf7b5ee385a3accd5b6c9db944f28e9ba71d19d3839a2c7e946b1bb5d9542c3515b95e0fa42963fee7eacf55f02fb3d902e03156
+Size: 636420
+MD5sum: beab02633a7a9a78b3e9e4ae229cff34
+SHA1: c2479be7cbf420437acb8c5a6bc1c05a164dcd81
+SHA256: 1ae3303d24cac149da2e8e056cf61479b5f22261cf9e4e586241976aa7b83ec9
+SHA512: f7e187cefb2b0b04740aa694182c37d337ca42c553e6b15638827129893429a99849cc5a2969d329b8c29c33792791dc03446d3a359d58a276cbf25a1afaab32
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt WebEngine - Examples
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
  .
  This package contains the WebEngine examples.
+Instloong64ed-Size: 2774
 
 Package: qtpdf5-examples
 Architecture: loong64
@@ -22299,19 +22277,19 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 761
 Depends: liblol, qml-module-qtquick-pdf (= 15~5.15.2+dfsg-lnd.3), libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libqt5pdfwidgets5 (>= 5.15.1), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.15.2+dfsg~), libstdc++6
 Filename: ./q/qtpdf5-examples/qtpdf5-examples_15~5.15.2+dfsg-lnd.3_loong64.deb
 Size: 152640
-MD5sum: 9d7273f3c3f64ba74d6db86044107088
-SHA1: 9c83989d58e2c0f377c461212f7406f6f6310dd8
-SHA256: eeb49b8a5c2861e66a918c6f220372224a34e99b7b1f97ede9bfe44ee1be3fac
-SHA512: 80cd00a0c5b178cc2548e207b932b5412ff12f1de75d1ac2f8849ef0ed0787de71711ba6a8621a5e03703f3eb43efc545a75bcfd1f3351eff68cacf19d6da59a
+MD5sum: a52c5342010cfcffd5306cf8a2bea455
+SHA1: c01bb737c390487f1184da35ffd0d34025c132dd
+SHA256: fbcc71f9df58275a3b85b90b353ebf50261eb2fe8ec83fe46e387bc1570cffb9
+SHA512: 8182fe0943972dc33fe344816b20339efd8b271b4564d99646d3abfbe7c4d15742a46412b8be28d000caa675ab135069142b9186d84e0fc829dbacd542efa828
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt PDF - examples
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the PDF examples.
+Instloong64ed-Size: 761
 
 Package: qt5-image-formats-plugin-pdf
 Architecture: loong64
@@ -22321,42 +22299,42 @@ Priority: optional
 Section: libs
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 198
 Depends: liblol, libc6 (>= 2.28), libqt5core5a (>= 5.15.2+dfsg~), libqt5gui5 (>= 5.15.2+dfsg~) | libqt5gui5-gles (>= 5.15.2+dfsg~), libqt5pdf5 (>= 5.15.1), libstdc++6
 Filename: ./q/qt5-image-formats-plugin-pdf/qt5-image-formats-plugin-pdf_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 47252
-MD5sum: dc217941505badb4bc65cd5993d16910
-SHA1: 29d00643f5594d83f28907f9d974a0635c93571e
-SHA256: f1ee2fb46e8dabff924b6b0ad2921733cadf43061818dff35b2aab20023bdbca
-SHA512: 3432e7bfd7151caca13a34ddb7be0cc42a4b1738161c331e1ceaa8e3cc510d3d5ef6a1c71751373aed8e9849a45cdcfbe34b5f9d09c254e969f5b2cb9ad9929e
+Size: 47256
+MD5sum: fd5197da523c3c92560d4880e15a4525
+SHA1: 820055f48a28744af66206567155e196e3c873b3
+SHA256: 00dde647d736450fa1f9e0ecfbe2ab3229d45990474bb3e32cc524067c8ce8d6
+SHA512: c087d1d4109f75e6d3a10b51cb44bb8b5e2cbff5bc25217473671a7162ff2be4451ed5c2db6f5fc16a8ef4ea7cc4bd7cf18f619fa1d1c1f2d7f3409d05f55de1
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF image format plugin
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
- This package provides an image plugin that allows image-viewing applications
+ This package provides an image plugin that loong64ows image-viewing applications
  to view PDF files (the first page of PDF will be shown).
+Instloong64ed-Size: 198
 
 Package: qtwebengine5-doc
-Architecture: all
+Architecture: loong64
 Version: 15~5.15.2+dfsg-lnd.3
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2464
-Filename: ./q/qtwebengine5-doc/qtwebengine5-doc_15~5.15.2+dfsg-lnd.3_all.deb
-Size: 1891100
-MD5sum: f6852f8e6b8915ce67bb7947c19a59d9
-SHA1: f6a6f35ba83208fb85ab6dd0a1a4a4170e22e9fc
-SHA256: f88cc151ce628628ea472cfa972d2464bbba4fd1ade4c5f474488f26351a61a2
-SHA512: c7862fc54d911fb0344db5696ef0a016262c0e6b63b8650753c2d83cc131ba03bd2c417dcad893a1f5086aaacae04d29f058d0994d0f5e3efee8cad4a3515659
+Filename: ./q/qtwebengine5-doc/qtwebengine5-doc_15~5.15.2+dfsg-lnd.3_loong64.deb
+Size: 1891064
+MD5sum: c96fc7acfffc95f0708d81f842894795
+SHA1: ed4fbc345a3bbac68cced8d114371c760f54fb2f
+SHA256: c4db1c5cab6482b9d2de0440081e56fcea51176abee87b26680adb87e2f77497
+SHA512: 8282897d264e45ed27a447a101c20ac9fba088a4a4860117c987223d24481f77f9521a3fee2fe55d3296887694d0f1c907a5aa8fe4b3f1bce7f3db27df551399
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 webengine documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the documentation for the Qt 5 webengine libraries.
+Instloong64ed-Size: 2464
 
 Package: qtpdf5-dev
 Architecture: loong64
@@ -22366,20 +22344,20 @@ Priority: optional
 Section: libdevel
 Source: qtwebengine-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 271
 Depends: liblol, libqt5pdf5 (= 15~5.15.2+dfsg-lnd.3), libqt5pdfwidgets5 (= 15~5.15.2+dfsg-lnd.3), qtbase5-dev
 Filename: ./q/qtpdf5-dev/qtpdf5-dev_15~5.15.2+dfsg-lnd.3_loong64.deb
-Size: 50548
-MD5sum: 7a4756c6b3539d7b38585cf4947e493d
-SHA1: 0ba450030b4a611948edb4ca45ad7742a8f08263
-SHA256: 9167da7ac1d908c510f755822844517134bb64ee4c7df149a26b0ac16d33e883
-SHA512: 9ca250a04df0838a0ad6fd5697b799ad647f472f668a7c2075fca811157468b6e614428ce039b5d3bd6f01e03e18e3cf895bd0a6d8af928e226a3490451d0447
+Size: 50532
+MD5sum: 053a526fbfb763a34a59df28b2070929
+SHA1: fff48d079106475b3f4875bc79b993bdb25e0be6
+SHA256: 217e06a21c20f21b31009ce3496e034fb66ae83cf8b4b04b3a2ceab4c8946585
+SHA512: 8f099501609eeede6a67e7a7624a2d8cc98283c9950e7b69340282579354d8d2f8f06cdd89c4e16b51a030cbdb71d907e89a08afa9aaa65ac90e0376d0048005
 Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
 Description: Qt 5 PDF library - development files
  The Qt PDF module contains classes and functions for rendering PDF documents.
  .
  This package contains the development files needed to build Qt 5 applications
  using Qt PDF library.
+Instloong64ed-Size: 271
 
 Package: startdde
 Architecture: i386
