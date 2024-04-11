@@ -1,0 +1,19 @@
+Package: deepin-unioncode
+Architecture: loong64
+Version: 1.2.12
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 105836
+Depends: libc6 (>= 2.37), libclang1-16 (>= 1:16.0.6-1.ulb2), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.12_loong64.deb
+Size: 71139968
+MD5sum: 55a8815099273bb1317773470a41845e
+SHA1: 19d4d3e0d6e7c97b4dc1f3c9ba1c971bad74957a
+SHA256: 76791fca62c51290166527d45159aba06dac0dd23e0fdbb2cf11579a8df0fe7c
+SHA512: 890d6006cdce97b62989026f51f50e1c7e4a08ad0aa1c5329a9bc58d395773eed6dd8ad07c74ff0e3f087a764408fb0543943e2aaad246664cd7291f691aaaaa
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
+
