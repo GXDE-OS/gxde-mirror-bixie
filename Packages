@@ -947,6 +947,23 @@ Description: GNOME keyring services library - introspection data
  bindings.
 
 Package: gxde-time-screensaver
+Architecture: loong64
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 472
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.0.1_loong64.deb
+Size: 228544
+MD5sum: 236ddb459392414e9097bdf1b60f8e45
+SHA1: cc4224961ac15819bc979c2faa19cae64ba9a77f
+SHA256: 04600b798b5a87f90cb997bb3d2ac76b3bcaa1c8aa3ae99f955ce2b75f4349f5
+SHA512: f76772b3d27e475d26aa4546de152752d0914367caeda0c50cffa8d74ddd866a85f16da03f3721941484bf936e2fa32b49a9543ec9341f9d0c601f0945bf7854
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
 Architecture: amd64
 Version: 1.0.0-1
 Priority: optional
@@ -960,6 +977,23 @@ MD5sum: b385ec4e06741063a5938b41d5a45dea
 SHA1: 857b6e0f1ed221c8d662097712e749cf6ddbc6a3
 SHA256: e95f5abc59b9ba57e04f1d332eb923fca7fff70e2d6686de712e099679e77067
 SHA512: 6db377ffbabcc93add0579ce0a4f0ab2b9d0fd95c3fa26b677177461ca9aa39b8657f6f16a6c724359bb74b8b0ed904584af51712b64206f00c4a50747b493aa
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
+Architecture: arm64
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 468
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.0.1_arm64.deb
+Size: 228752
+MD5sum: a6de8e0b6360a1269aaa40073ea9205d
+SHA1: b1004d6afa9e4bded1f3eb2d94a79db535c23a3d
+SHA256: 96de52279cce4e7fb65613bfc9b4369b1ea35f9c8f89e735bca1e671540e36c9
+SHA512: bbaa79bebf866a09859f0951970279f22dd90ed31fa796a58723b0703912dbab3a52dad6bfd3299d95ed1fa43eb472e6923fc9416fa92e6bc66d98652fe63619
 Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
 Description: GXDE Screen Saver with time and good sentences
 
