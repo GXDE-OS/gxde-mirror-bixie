@@ -1,0 +1,21 @@
+Package: deepin-screen-recorder
+Architecture: amd64
+Version: 6.0.3
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 19842
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libopencv-core406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxext6, libxfixes3, libxtst6, ffmpeg, libportaudio2
+Recommends: dde-session-ui, deepin-ocr
+Conflicts: deepin-screenshot
+Replaces: deepin-screenshot
+Filename: ./d/deepin-screen-recorder/deepin-screen-recorder_6.0.3_amd64.deb
+Size: 10352680
+MD5sum: f1472a5c9dea903c1db0a2113652633d
+SHA1: a274ed07ba34f7e91733c449a79fd6acca6071ad
+SHA256: fa903633aad31d98005097294f72da57b4c74024cb5b898d117c7fee174d26d0
+SHA512: 347de64b2e573f783b4e6db6657a9418a8be23e47e296d8fd719ea534381b23faddb9d65a08053cc27e20b35e73f8ddb202bdd311429babe2ee770b968ed98db
+Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
+Description: Simple recorder tools for UOS
+ A simple screen shot and recorder tools for UOS
+
