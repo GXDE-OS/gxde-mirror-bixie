@@ -1024,10 +1024,10 @@ Installed-Size: 489
 Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), libx11-6
 Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.1.0_loong64.deb
 Size: 233000
-MD5sum: 68a0e1721754e8a57cb19af60cd3ecd4
-SHA1: 8278847686ef533c945533e3090d079f0a5dcf7a
-SHA256: 7197808d321097be6053b96e5ccc6ddf2eb32cb189783212a1010d0b1b997360
-SHA512: 4feabf906029e6dff86d449f4d89b0438fae5a09cae5b36a3174cca3b469b6bbdd556a2bf6c94283cd21e8fd9716c14c364e718c12a1c81900a7b64e23a40536
+MD5sum: 7e60b1eb153992463c182f4797a63bab
+SHA1: 54d255ae6c68951b08522e21f5b8624829ea3d10
+SHA256: 15191083c683c4cfc95140e656a94a229b3b04505cb20f1965bf13470893b286
+SHA512: 784a5ce699928fe09574a161930109ce7189f3026e4f43804f0ec4c643159db5bcb90c00e68fd0f18b9771935088c699e225e090bd42faf208e6824edf94938b
 Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
 Description: GXDE Screen Saver with time and good sentences
 
@@ -4580,6 +4580,28 @@ Description: Image Viewer library development headers.
  Deepin Image Viewer library development headers.
 
 Package: libimageeditor-dev
+Architecture: loong64
+Version: 1.0.44
+Priority: optional
+Section: utils
+Source: image-editor
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 39
+Depends: libimageeditor (= 1.0.44)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
+Conflicts: libimage-viewer-dev
+Replaces: libimage-viewer-dev
+Filename: ./l/libimageeditor-dev/libimageeditor-dev_1.0.44_loong64.deb
+Size: 10100
+MD5sum: 9313d1de1483eb62dec9eb7c0565c9a6
+SHA1: 6080f74af90f227a5cee3578950d139491640fce
+SHA256: 83350cb030755841338bc9d0f604406bcef269b88e032276a1d3962d07680a51
+SHA512: 1932b1933da794a20068454f46a80e22d2fe8de2066f04a01cc182e0c0dc04230e8aa7c0d11b29afa644212cf9459ddfa814ab6bf98b1ee2fd6aab475f678cef
+Homepage: http://www.deepin.org
+Description: Image Viewer library development headers.
+ Deepin Image Viewer library development headers.
+
+Package: libimageeditor-dev
 Architecture: arm64
 Version: 1.0.39-1
 Priority: optional
@@ -5462,6 +5484,28 @@ SHA512: 39efcd3dd845de67d96a947e5ad5471ede0a60e5ad52d725add50a8abe41c4aa0d31017e
 Homepage: http://www.deepin.org
 Description: Deepin Font Installer library
  This package contains the shared libraries.
+
+Package: libimageeditor
+Architecture: loong64
+Version: 1.0.44
+Priority: optional
+Section: utils
+Source: image-editor
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12136
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmediainfo0v5 (>= 0.7.52), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3), libzen0v5 (>= 0.4.23), zlib1g (>= 1:1.1.4)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr, ffmpegthumbnailer, ffmpeg
+Conflicts: libimage-viewer
+Replaces: libimage-viewer
+Filename: ./l/libimageeditor/libimageeditor_1.0.44_loong64.deb
+Size: 811876
+MD5sum: dc27d44ef6901362a4b977e81433909a
+SHA1: 7798e96e9dce5ca332e3420935f93f4c260778af
+SHA256: 63ab9093594001f2182e04ae57fe8a8adacd4fcf4b43da01c69fb35d9e7e1261
+SHA512: a6f5e2c75a6541f138ec790aff86815991b1464d067357a4a8236a8077039543cd0fc57632c8eb0d41d7c4be812e4c5975b99fa957104734bcd3a21fa59e71cd
+Homepage: http://www.deepin.org
+Description: Image Viewer library.
+ Deepin Image Viewer library.
 
 Package: libimageeditor
 Architecture: arm64
@@ -8462,13 +8506,14 @@ Priority: optional
 Section: libs
 Source: dde-network-utils
 Maintainer: listenerri <listenerri@gmail.com>
-Installed-Size: 379
+Installed-Size: 381
+Depends: libc6 (>= 2.37), libdframeworkdbus2 (>= 5.5.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdde-network-utils/libdde-network-utils_15.11~0.1.4-1+comsta_loong64.deb
-Size: 78360
-MD5sum: f1d4558dbf9f06d427d0172a0c1e8662
-SHA1: 0826cbfb51ff6a9727742f716913f8e0c1f6567f
-SHA256: 487be7a712959257484c4943481638eb1ae4eb218be5fc2fb7390ddbc1638822
-SHA512: ae263ec5ddd6516c57e29f0051f7361900f4cf5803232ac0d4e64c67dcb8642968dc1cf254f211fb4356a5f0b6c662296b8a038bc15a6c3509ea7e2700ffb72d
+Size: 78580
+MD5sum: ba6fe4ccae132476983992a61a77dc34
+SHA1: f0331278d715267e620153bf3ed7cd683bf85e93
+SHA256: 374dd693143154f8c722fb2b1aacac62be9c09dfd583e44b7b11a932a6e25efa
+SHA512: 753a29fe3a6288109e4641cc82cb231f25ab76260f0c8c8a11992e4c4af21a7b5aaa9d3a6210961682fec835a68ac3405d36ba889c0cd3102a1b6386544229d0
 Homepage: https://github.com/linuxdeepin/dde-network-utils
 Description: DDE network utils
  DDE network utils.
@@ -13562,6 +13607,23 @@ Description: Screensaver Tool
  Deepin screensaver viewer and tools.
 
 Package: deepin-screensaver
+Architecture: loong64
+Version: 5.0.19
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 233
+Depends: libc6 (>= 2.37), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxcb1, libxext6, libxss1, deepin-screensaver-xscreensaver-data
+Filename: ./d/deepin-screensaver/deepin-screensaver_5.0.19_loong64.deb
+Size: 61600
+MD5sum: c5f2d1a32b6fc0ad7400a6e626c657e7
+SHA1: 2f09291f37bfa03cecc2bff946854e96af0e4b3d
+SHA256: 14069b43f89419678e637ec512350353abb6bbf741c74778f5cb7ef223f4da69
+SHA512: c9f8e50f191f19e926db401482c67bd6d00b4335ff7a8ae8d2538976d244fc2eec5091d0c1f0383479b257eb7e3b37d11051803da88c7b519b38b7f916e03899
+Description: Screensaver Tool
+ Deepin screensaver viewer and tools.
+
+Package: deepin-screensaver
 Architecture: arm64
 Version: 5.0.19
 Priority: optional
@@ -17523,6 +17585,25 @@ Description: Qt platform plugins
 
 Package: deepin-screensaver-xscreensaver-data
 Architecture: loong64
+Version: 5.0.19
+Priority: optional
+Section: devel
+Source: deepin-screensaver
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1185
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5.2), libx11-6, xscreensaver-data-extra, xscreensaver-gl-extra, qml-module-qt-labs-platform, gxde-time-screensaver
+Recommends: mimicry-clock-screensaver
+Filename: ./d/deepin-screensaver-xscreensaver-data/deepin-screensaver-xscreensaver-data_5.0.19_loong64.deb
+Size: 712548
+MD5sum: d3f7ab5e6284ed3d3c2e948211cd61bc
+SHA1: 965661b3677de45c301d407a0496722fd3a62d04
+SHA256: 14990db3d00dc3779e3dbbec7aa8860a82a9ab6fdfd874793883de092d662ebe
+SHA512: 1afea77c4d3cda1b38f8a432eb8f0ffb0049df0c968057035a1f27f068671f42a04f15491f97a8a9cb03058ba9c97310308c3d682fcd6c844d26849b7664bd4f
+Description: Screensaver data
+ xscreensaver extra with the Deepin Screensaver.
+
+Package: deepin-screensaver-xscreensaver-data
+Architecture: loong64
 Version: 0.0.10-1+comsta
 Priority: optional
 Section: devel
@@ -18475,6 +18556,28 @@ MD5sum: 0a33303e921c9f8f0a8d442921baa2f4
 SHA1: ae37b2d483ab4c1ffb700b4c2d03755929e0260e
 SHA256: 493491a2505af4eef9abfd3990dc628120e3e34d33e5a8a67e74abe87e5c84c8
 SHA512: 955efa69302d1544afd6dd5dff1205873082e6ad158a9db5e211a9a7906ad227c98fc57c1eeba5f34f2d8686c033cd5d156c52bbefcc437185b53306956f9b63
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: loong64
+Version: 4.10.20+1
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 15217
+Depends: libc6 (>= 2.37), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libnm0 (>= 1.0.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, gxde-fantascene-dynamic-wallpaper, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.20+1_loong64.deb
+Size: 4215824
+MD5sum: a59e5ac3525ad554e50f6aba1d71fd02
+SHA1: be1449ab602d383d195321b181ae5496eb893193
+SHA256: cf5a674faa148054cbd0723cfa9a01b7fc604a3775e244f4d470b8fb90862ae7
+SHA512: 59ea337f6d2cb1f6910951e714dd94c03b18ed30951d47968990ebd50d7c32752e8df84742b81c90357cfb024307624c19e513c6a8248deac0d44c2cf167f1d1
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -20747,6 +20850,27 @@ MD5sum: 1c00bef3139624495a0e8e4da9ad65c4
 SHA1: 42e03bbd7c6ff611b69c792863aeb2c68a355f46
 SHA256: 787671f7b82d8a6e42c42e9d73b27a41bfa75f15781370c68f955f698bb3ff2e
 SHA512: c843250a0995ae1a0f8fd4496eb64a78e9ac95acda844319d009bbae7ea3ecdb5caa766c32461322b90c050c9a4e483218d202b122303ae7f6e66deea372ccc5
+Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
+Description: Simple recorder tools for UOS
+ A simple screen shot and recorder tools for UOS
+
+Package: deepin-screen-recorder
+Architecture: loong64
+Version: 6.0.3
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 19820
+Depends: libc6 (>= 2.37), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libopencv-core406 (>= 4.6.0+dfsg), libopencv-imgproc406 (>= 4.6.0+dfsg), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libx11-6, libxext6, libxfixes3, libxtst6, ffmpeg, libportaudio2
+Recommends: dde-session-ui, deepin-ocr
+Conflicts: deepin-screenshot
+Replaces: deepin-screenshot
+Filename: ./d/deepin-screen-recorder/deepin-screen-recorder_6.0.3_loong64.deb
+Size: 10280688
+MD5sum: 96f53b3b477a9b1e4eb6f04bc58b66ab
+SHA1: 9c837695f4dfc5f89d06c74f7b1fcd8ddfe715b1
+SHA256: a0236d4b6837e6fdecf5542be302a420edf586528b2b2ad1a7d1035dea780552
+SHA512: 22748b37b6980113aa457e58a9222d31dd5aefc9b677d4b5ab3e5b71217cfbcb271b4cd843006ce1a462ff3985377d8872d194bce420ff52ded940351f77cc9d
 Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
 Description: Simple recorder tools for UOS
  A simple screen shot and recorder tools for UOS
