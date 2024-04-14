@@ -981,6 +981,23 @@ Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
 Description: GXDE Screen Saver with time and good sentences
 
 Package: gxde-time-screensaver
+Architecture: riscv64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 472
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), libx11-6
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.1.0_riscv64.deb
+Size: 233220
+MD5sum: 9f89472ab8f5cee85c3c17839782d9dc
+SHA1: 2d13c3982c6918a1d45225f7c70ff5bbaa3becbf
+SHA256: 1df4165e6c542f0304ae1d00781c1a4957566e00c2c5981c3039c860ca1d5eef
+SHA512: a04017f96b93d65227066d43e5faf72362d6f6ca29f1620a3936908b102f7aafda4e5bd0b061e059360cbcc92c404053b0698f0bf6a8129a32121182b3192297
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
 Architecture: arm64
 Version: 1.0.1
 Priority: optional
@@ -998,6 +1015,23 @@ Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
 Description: GXDE Screen Saver with time and good sentences
 
 Package: gxde-time-screensaver
+Architecture: loong64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 489
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), libx11-6
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.1.0_loong64.deb
+Size: 233000
+MD5sum: 68a0e1721754e8a57cb19af60cd3ecd4
+SHA1: 8278847686ef533c945533e3090d079f0a5dcf7a
+SHA256: 7197808d321097be6053b96e5ccc6ddf2eb32cb189783212a1010d0b1b997360
+SHA512: 4feabf906029e6dff86d449f4d89b0438fae5a09cae5b36a3174cca3b469b6bbdd556a2bf6c94283cd21e8fd9716c14c364e718c12a1c81900a7b64e23a40536
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
 Architecture: amd64
 Version: 1.0.1
 Priority: optional
@@ -1011,6 +1045,57 @@ MD5sum: 1795839c3c861df1f87bbe718515248b
 SHA1: 2e01d6f9a2d33f3e3b5d8f086670331f35fff5e6
 SHA256: 8c41e078796781db1501c0072b5778e4f2054bb53e698c0ffed267a20f743ab0
 SHA512: 8afbee72ee5ece7fc5eff620539bceeda909c7ef0436ec3009985b8c5d0ed708bde13d0a5a1020c6ece8f43c285ba05881cbbb545a16401e503c05b646d86535
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
+Architecture: amd64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 488
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), libx11-6
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.1.0_amd64.deb
+Size: 233856
+MD5sum: ea1714e74dd1d20fada0f5f524e53316
+SHA1: 026f91af8a77a1eb80a350fb4061f13e36d2dab7
+SHA256: 52fade2ba993ba4959747a91b17abc2686b000ea65c4f9a4956786430562fb43
+SHA512: bd69961de6aad3b80bffbd3793605af7c3e459cd5998f80a2b1d26f50b1da973610e2212d5f419a6b50bc28cd0750ac4b036651fd9fa23b0b20fea17705a051c
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
+Architecture: mips64el
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 495
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), libx11-6
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.1.0_mips64el.deb
+Size: 234940
+MD5sum: ed9a6ae106a10f4c589315e5df2bbe9c
+SHA1: 0d1efd72a9b12ac0ab2e0f5e1802d1e02f3dfc0f
+SHA256: 4c4260f51d8ce68b38cc1ca66f370c4f0dcd0f299f54b78fdd8bd7d46f78cb38
+SHA512: 36423a7cf39dec70d5f9ef4864053b33dbe025e86560e06b4ba9f3f86460cdd2ba3248522fc7000fc2220d51feac42a4ad2050ab2cde0b045f92bfabe3a1ebde
+Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
+Description: GXDE Screen Saver with time and good sentences
+
+Package: gxde-time-screensaver
+Architecture: arm64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 480
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), libx11-6
+Filename: ./g/gxde-time-screensaver/gxde-time-screensaver_1.1.0_arm64.deb
+Size: 232924
+MD5sum: 0c96e6af7356899aa355f9a57d12013a
+SHA1: 835d99aa34de9d927f1a9e93b298e443fe55cf80
+SHA256: dec4cd8a3c0c0a2557d55d9748853e4fdbb739bfc7eb0703b2a5a8624deae8d2
+SHA512: 1ce62c315041e805cb73804d78ef114275b5c3e6276af2761dd4f7aebca4b346c41df047c56bf0e60c89794f502bc29ab2d0f9564387164ba099ee55cb8b9dc2
 Homepage: https://gitee.com/GXDE-OS/gxde-time-screensaver
 Description: GXDE Screen Saver with time and good sentences
 
