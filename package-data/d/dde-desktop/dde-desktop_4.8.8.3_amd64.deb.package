@@ -1,0 +1,21 @@
+Package: dde-desktop
+Architecture: amd64
+Version: 4.8.8.3
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 4931
+Depends: libdde-file-manager (= 4.8.8.3), fantascene-gxde
+Recommends: qt5dxcb-plugin, deepin-screensaver
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-desktop/dde-desktop_4.8.8.3_amd64.deb
+Size: 1909780
+MD5sum: 700fed8523361b4065c3d4f631447e62
+SHA1: 61a72f69f39e2f49467ef8f3fcb90672dc646c82
+SHA256: ac70c37927ae7d738e3a64930c8b3db4b62ac2b637a57843beb6185198239ed8
+SHA512: 14f0fa47dd168f4358a06286be6c78ef9ddcd8d0ec09929842cdafc44fea5c17d1772c5868dc507482d806bba10a4215a526e06b4e30c66c5371c6b794724b6a
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - desktop module
+ Deepin Desktop Environment (DDE) - desktop module.
+
