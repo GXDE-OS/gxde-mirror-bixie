@@ -1,0 +1,20 @@
+Package: libdde-file-manager-dev
+Architecture: arm64
+Version: 4.8.8.3
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 261
+Depends: libdde-file-manager (= 4.8.8.3)
+Filename: ./l/libdde-file-manager-dev/libdde-file-manager-dev_4.8.8.3_arm64.deb
+Size: 34692
+MD5sum: 506cd59672918103dc4e23addb475f8b
+SHA1: 783ec531e3300de6dcc476d27ae883f605b563b1
+SHA256: 0d173299fb2f0e3f66d95792eebe9593b74bf7b959bfbe3576f3362e4199757b
+SHA512: 829bfaafa7fe69da89984df6ed0e34a10a4c171e8cf5d5722b31c04ed8826bc06176e9271cfc35175fe9dcc0baf9ced9500ed52feceedb8ab1a52728af13664c
+Homepage: http://www.deepin.org
+Description: DDE File Manager Devel library
+ This package contains the header files and static libraries
+ of libdde-file-manager
+

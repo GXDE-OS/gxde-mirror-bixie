@@ -6,13 +6,13 @@ Section: libdevel
 Source: dtkwidget2
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 89
-Depends: libdtkwidget2 (= 15.11~2.2.1+rebuild-1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
+Depends: libc6 (>= 2.34), libdtkwidget2 (= 15.11~2.2.1+rebuild-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), qtmultimedia5-dev, libqt5x11extras5-dev, libdtkcore2-dev, libqt5svg5-dev
 Filename: ./l/libdtkwidget-bin/libdtkwidget-bin_15.11~2.2.1+rebuild-1_arm64.deb
-Size: 20452
-MD5sum: 71d22d8daa9d148640a3b85c3d214be0
-SHA1: 06e160890500174b94cd00748a11f66b141a8e58
-SHA256: f6d008041a644167ce0f7ebeb954f17289663dcaff13135fc13f9168c1b2d057
-SHA512: 48e35dd13e8482ddce8efdfa893a56e5815bc85499ebb27a96e86911f6fe9b45f3f9a79feabe64fc9049236914e946660ef43f78ba15c6f1aaebfc41fb58d117
+Size: 20528
+MD5sum: 2bfbe41ddca7c232e9e27d25835f68e5
+SHA1: 968d1a012fdda18615eec04729aca8b97e355e4f
+SHA256: 010608271f2b5ff4874fa979774ab175d7ccee7ab7d19dd240a8f82231d36d3d
+SHA512: 4b681fc6ae59a54bd06d097d05f7287b60e7538de80ea0263195b7007e1489081ff0aa1a02182be5c9280b3e04054bbbd06a03c2e98e38c23aa031c159c7ac55
 Description: Deepin graphical user interface library utilities
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
