@@ -15371,6 +15371,24 @@ Description: Deepin Print Manager is a eazy tool to manage printers.
 
 Package: dde-dock-dev
 Architecture: all
+Version: 4.10.10
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 31
+Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.10_all.deb
+Size: 5172
+MD5sum: 80b2e03978d47aa662d7b206a2a41a27
+SHA1: 3725c0e33eaf7907ce78a9064d1945219f2e7603
+SHA256: 13cf0ea252dff98b63f526c0a5e4f282b2caaa7c1e1eeaffc9cba991961c8394
+SHA512: 44d63356b9085a7a46fec96213a1d791e4234fb22f00a4964262db0505a158622975f9a5705d68c73bdd9c733369c1f41158159b340ba8ee43a0fd8205028191
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+
+Package: dde-dock-dev
+Architecture: all
 Version: 4.10.9gxde0
 Priority: optional
 Section: x11
@@ -18029,6 +18047,25 @@ Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
 
 Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 4.10.10
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.10_amd64.deb
+Size: 20588
+MD5sum: 1297aff472a98397cb40ec8abec32ba0
+SHA1: ed2581be98238769fe6317c526050efe2f440bf9
+SHA256: 110deb857317f63ec35967a9589c35f830f9711fef39596cddfb0b56e569f2b6
+SHA512: 7c16821f8c3a7b7b004fd694b36e3e81946a29d08f84b9f6d6815482e386c2c531ae35f7fc2d0afc266eda505ac431d41448b914636d00987c4ab49993b551f1
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+
+Package: dde-dock-onboard-plugin
 Architecture: arm64
 Version: 4.10.8+c1-1+comsta
 Priority: optional
@@ -18846,6 +18883,28 @@ MD5sum: e706bbac815170f648024661277b97f1
 SHA1: 33c61bf59aa99625b4aaa220c34152db93e292ed
 SHA256: 905157db160df0a6c0561c806f17ee4fe3c0ea8c078fe15f1c28fb9f08b3bf63
 SHA512: 4b6f4b775114484f1bebc72cd3d6fd129838a528f0def30b8977abdc837b48e3a0bcde1aa5a41701f0f998ed7f61f93137a9cd3a7e3fa8fdd682558dbb7ba439
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
+Version: 4.10.21
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14370
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.21_amd64.deb
+Size: 4235700
+MD5sum: cddc48cf699dcaf224215b1dfdcdddc0
+SHA1: 766002543b38a1176356e3a95f7ea7a5a9e030d8
+SHA256: 5ab16a69ba04d16719f736708937f8e2adaa75d47ebfba97e969958470686efc
+SHA512: 4202db9d53283271e21ce32e8c8732fbb8204a423344f035f5ef47be7d71f3dff4b8bdae6718deb2a42ab2aa6497b9fb9ef94f1750d8f8c0a668c9e785a2cab8
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -21030,6 +21089,27 @@ MD5sum: b9b990d2d0796fa2dc94a7d54496d54a
 SHA1: 9703da72f15c5f419d2bf35d105199dad468082b
 SHA256: ba5e7c982e8b446cca1f5229b10222c41f4e587aa507b4f6c33d92f78fde7f5c
 SHA512: 24a7089402bacefea8f1641c41ec63f1d2a8256f35516936e22e55b2c7cba11ab707a8febdf3fe85b5225467f9808d4b331c144fc1fc1f808f3c2683135e5e8e
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+
+Package: dde-dock
+Architecture: amd64
+Version: 4.10.10
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3267
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.10_amd64.deb
+Size: 645916
+MD5sum: 23b48fdfeff7269b2d8a97e3b194bd1d
+SHA1: 678c1e6f71206180b7b516a686a352dd7b05b2b7
+SHA256: 289b08682664e4527edb333e724ad2b02b5e1a00e9060ffe1da1c4a96b0e6de0
+SHA512: 68f66401bc8fa556bced63b67e853f99c5a213fe70a07a1f6ff5ace877a03251d39d0d46ac7a44ed0f5613c4407335bf5ec58eda5325336039a48772d0a83340
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
