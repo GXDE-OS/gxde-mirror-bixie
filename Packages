@@ -4223,6 +4223,69 @@ Description: Web content engine library for Qt - Core
  This package contains the core QtWebEngine library.
 Instloong64ed-Size: 134825
 
+Package: libdtk6core
+Architecture: arm64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1373
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6xml6 (>= 6.1.2), libspdlog1.10-fmt9, libstdc++6 (>= 5.2), libsystemd0, qt6-base-abi (= 6.4.2), lshw
+Filename: ./l/libdtk6core/libdtk6core_6.0.10_arm64.deb
+Size: 467144
+MD5sum: c9bfa656abce19ae24dc4bdd29a749a7
+SHA1: 54805afa938de1df00101dbfe617ee620b6cda48
+SHA256: f32a24fc7f1d2bf2c903e2290372b13020298b8be20004afc2d0f4400a4b1044
+SHA512: 49bf0863f9c1e382d054dfe85ac2a440900f8e82972411e291684b29705ae78dc0e9565ba4a044709276ca367661af2fb158a08b152a2fab9537ea39cf884859
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6core
+Architecture: loong64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1359
+Depends: libc6 (>= 2.37), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6xml6 (>= 6.1.2), libspdlog1.10-fmt9, libstdc++6 (>= 13.1), libsystemd0, qt6-base-abi (= 6.4.2), lshw
+Filename: ./l/libdtk6core/libdtk6core_6.0.10_loong64.deb
+Size: 475904
+MD5sum: f2a7eb7566982fa6f5d6e77c51e89d3e
+SHA1: 70125b7da8d411b293128ddc544156920eeb3643
+SHA256: 9c5a56ed635c47bb38e2dfa676681905da5a1c4d5ff78972c48eada3b60989c2
+SHA512: 2d47554009f530e03adb0b6be800f512a238a758413b582d5dcd9edc0e157b28191e1c685a5367ce91d5666382512d1c82234196eba69c736439d970257a463a
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6core
+Architecture: amd64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1393
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6xml6 (>= 6.1.2), libspdlog1.10-fmt9, libstdc++6 (>= 5.2), libsystemd0, qt6-base-abi (= 6.4.2), lshw
+Filename: ./l/libdtk6core/libdtk6core_6.0.10_amd64.deb
+Size: 509976
+MD5sum: b9fe09ce18ed54f24ccfdfef48b8f57b
+SHA1: b4cf627dcd5354ce2c673cbba83cf960428af690
+SHA256: 56d2f68536bde2e53747d5de2c2a5830b3c5dbf44aa6e0c3a5948ca44da97223
+SHA512: dd2e003ab75a0558ba4c5bae754f5e56d887744187a027c334101131ffd7bf98507b80c1d4588439ef4250a6369006dd83fb5617dcd6be5582178fb9492b508d
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
 Package: libgnome2-bin
 Architecture: i386
 Version: 2.32.1-5+b1
@@ -5734,6 +5797,66 @@ Description: async fingerprint library of fprint project, shared libraries
  .
  This package provides shared libraries.
 
+Package: libdtk6gui-bin
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 351
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 6), libx11-6
+Filename: ./l/libdtk6gui-bin/libdtk6gui-bin_6.0.10_arm64.deb
+Size: 48460
+MD5sum: 45d9fd5c3fff11d1b96a7712457860a6
+SHA1: e72414244bf65f1781b981dee1d85af385acb94c
+SHA256: 9c648bed74e9128ebfcb880878313b53e471a220135304ead99a5a73da9a4b72
+SHA512: 22c0c8d911ffcaa39aee25ff869fb42afa6417c33887bec361824613b636dd877dc749b0c165ddfab5d01e84d6ed288a2d448569de6d199175d5c30e229646b1
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
+Package: libdtk6gui-bin
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 224
+Depends: libc6 (>= 2.37), libdtk6core (>= 6.0), libdtk6gui (= 6.0.10), libgcc-s1 (>= 3.0), libglx0, libgomp1 (>= 4.2.1), libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libqt6xml6 (>= 6.1.2), libstdc++6 (>= 13.1), libx11-6
+Filename: ./l/libdtk6gui-bin/libdtk6gui-bin_6.0.10_loong64.deb
+Size: 50264
+MD5sum: c86990bb70294c5449dd2eae6868a647
+SHA1: 2754bb656580ca53ef95d217b0b60b0e084a1e58
+SHA256: f4a02ff8c674a50f0a9290b26b5b60d1a725c70eb548ceb3b24f502b0e2693c3
+SHA512: e655856e7672e27383ce635a1ae8b4c25f6ee9f03a19483805e1bc4a93f8a3a6bfe8e8f4ffdc0be2c75c126dcfdd91d8ac04732e6ad6552a2ebda9e94a68b150
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
+Package: libdtk6gui-bin
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 212
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 6), libx11-6
+Filename: ./l/libdtk6gui-bin/libdtk6gui-bin_6.0.10_amd64.deb
+Size: 53644
+MD5sum: 6fc5aded009d235b76c67df983dfcdba
+SHA1: 1feff26b6b09e73b3d6f1cc91bbdb7f3b046120c
+SHA256: 92f11b5c661f84265e25caefbc4a5ee0221069edcfcf811f1c5b1807c91db93e
+SHA512: a177cbfb7255beb723c7f581ebc12d5ec76d474d14be1c6db81ff730561405d1b3eee7eeedae5655594ebae29cebda76c111680375394fc34398959bb1c02c4b
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
 Package: libcroco3-dev
 Architecture: loong64
 Version: 0.6.11-3
@@ -5836,6 +5959,66 @@ SHA256: eed9ea6b7125989964bc6f573f6151f0c849458c8bc861a180285d8cdfa22edb
 SHA512: 9cda8aa703264ee4472155489ad8f1714d52e9709224d3e31deb8281be46bda3d6ecbc2d991c1024dc8c18a21f78d4ad531a6476522a0091a2968840b8f0bc34
 Description: DDE wayland server library
  with DDE custom protocol.
+
+Package: libdtk6gui-dev
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 133
+Depends: libdtk6gui (= 6.0.10)
+Filename: ./l/libdtk6gui-dev/libdtk6gui-dev_6.0.10_amd64.deb
+Size: 20988
+MD5sum: cfabaa8e7ed0f7c36abb776345211db5
+SHA1: 9a0915706a9fc858eb5721b949e07c902991cc90
+SHA256: b650c8a344699b81c709590e36aca30379dbb86f9b1dc9785fa5e62f765c90a9
+SHA512: 68ac2530d51a124ce1054b0265799c33ffd2d0adb275ffc6018c7e2f45775502e5fb7c1b17a6ba9f4f6398622dbc698209db7fcb0824278c0beb0b046bfeaa61
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtk6gui-dev
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 133
+Depends: libdtk6gui (= 6.0.10)
+Filename: ./l/libdtk6gui-dev/libdtk6gui-dev_6.0.10_arm64.deb
+Size: 20976
+MD5sum: 3d7b642336a78cbcdbea9c437bd88efa
+SHA1: 3d10144f2934cf492bd87a021bf05a484faf4cb0
+SHA256: 63ddcaa6d71eefa62f1957c773c0accd376d5cbb5ecd975d4194d3d17985bbf3
+SHA512: 2d6e4d3bb87c56f6855556dac35c3a5453487469e1164f647b80af7eb4f2633e4937db9a85f4565b738c32a231e1d7329ed71e1ada7e8499e9ebd430df1b28b4
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtk6gui-dev
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 133
+Depends: libdtk6gui (= 6.0.10)
+Filename: ./l/libdtk6gui-dev/libdtk6gui-dev_6.0.10_loong64.deb
+Size: 20984
+MD5sum: 5c8b44bbd8129d40c23774622928192d
+SHA1: 416b38aa4aefd7ad136780e554bea8468d5e9694
+SHA256: 33598242dfffc3b82144396c4b970604be8eaa060609f1f078d78e30add8372a
+SHA512: 133dd52034cc534c7178880226e7e759ecc6fc48831d51bb97cc9ac45dc25f7fa47c04f3bbdcedc271bf1534fc1c1b8b40b8bf82d457e36afddaee4a25c5c75d
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
 
 Package: libgnomevfs2-extra
 Architecture: arm64
@@ -6283,6 +6466,69 @@ Description: Qt 5 PDF library
  .
  This package contains the Qt PDF library.
 
+Package: libdtk6widget-bin
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 50
+Depends: libc6 (>= 2.37), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6svg6 (>= 6.2.0), libstdc++6 (>= 4.1.1), libdtk6widget (= 6.0.10)
+Filename: ./l/libdtk6widget-bin/libdtk6widget-bin_6.0.10_loong64.deb
+Size: 11456
+MD5sum: 4a1002cadf4ae3bd4b8794f92be943d7
+SHA1: 1e2947bf9ebd3e4fb79833f56471754e9699b5b9
+SHA256: fe5e980651c475755589016bb20493f14bf0b96397cda162426547b82462b0dd
+SHA512: c311ff5e84dea3b5d7b5a2f1fb7e8a9a76a6735bcda48728dd41288f348c27c257fdb732c7275dce63bfa8fc4933615e8ad076ff98279325359f016089c1f248
+Description: deepin graphical user interface library utilities
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing deepin applications.
+
+Package: libdtk6widget-bin
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 42
+Depends: libc6 (>= 2.34), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6svg6 (>= 6.2.0), libstdc++6 (>= 4.1.1), libdtk6widget (= 6.0.10)
+Filename: ./l/libdtk6widget-bin/libdtk6widget-bin_6.0.10_amd64.deb
+Size: 11924
+MD5sum: 8e6cb6023d80297e42f6b5f83b3fa79d
+SHA1: 8c7441c2a80c90f5f10eb7bda9aa3bdffa03bdcf
+SHA256: 8ea9ad6cb553f43ada23d9ec04bd0a2c2f36b316904c4411b9c2ef70eaffbcce
+SHA512: a6f2ae109dc7e1ae389c98967c581476d9e17be41b55cb9979b34038191fcd01660b3d3772ff7c5b68a87a2aa9a8c3d98a4dc3ed9b73fd2587f8a735d0a37cbf
+Description: deepin graphical user interface library utilities
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing deepin applications.
+
+Package: libdtk6widget-bin
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.34), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6svg6 (>= 6.2.0), libstdc++6 (>= 4.1.1), libdtk6widget (= 6.0.10)
+Filename: ./l/libdtk6widget-bin/libdtk6widget-bin_6.0.10_arm64.deb
+Size: 11288
+MD5sum: f805805cfd8c1f65a909875bcd42bb72
+SHA1: f3a7af8211b23e49382d7e53a39fc76dad5ce695
+SHA256: f240170b33e3859beef6cf555103a07c5e78ec0a85c402697643bdca86cd1cda
+SHA512: 82039ba3fdcc62b839518fba60cf1ef85034e98f2ad8a1e6b9ea4235cc119313d2af033c1d153ed9c1df2baf752eff1a11cc22bdd2ccf0e2e091e9f3aafa34eb
+Description: deepin graphical user interface library utilities
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing deepin applications.
+
 Package: libdeepin-font-installer
 Architecture: amd64
 Version: 1.1.5.1-1+comsta
@@ -6715,6 +6961,63 @@ Description: Deepin Font Instaler Devel library
  This package contains the header files and static libraries
  of libdeepin-font-installer
 
+Package: libdtk6gui-doc
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 2575
+Filename: ./l/libdtk6gui-doc/libdtk6gui-doc_6.0.10_amd64.deb
+Size: 1737388
+MD5sum: 67da70ea619c265d6d8d98c8ec4707fe
+SHA1: 3dec3360c3b32ada07f5dad6d800397260d70157
+SHA256: 7f723be07c5fc23225eea69995b595811a0cf5e53a454af883f75078d2170a35
+SHA512: 26189ea09407033f3f8204a5851ee5767f635a582480cad5a80a9fcc39d5cfd71fff911c9ad330141d41e6dd523239828431b19a25572342ad5e80f62d9b1cc6
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the qt Document of DtkGui
+
+Package: libdtk6gui-doc
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 2575
+Filename: ./l/libdtk6gui-doc/libdtk6gui-doc_6.0.10_loong64.deb
+Size: 1737388
+MD5sum: 20c34fcd6ba22c94e8f0fad7f8e58189
+SHA1: e1079e71ae64b9b3afa033534d984cdd73d2ba2b
+SHA256: e69d470f137ff26973ae05266520a37e0f174f2aa4fbe159820a6ec3cce50898
+SHA512: f593cbeb9903b1930b0dbddbd493bfacc533526117fb0f6cf7d606677224fbe103f38f20be12049e3a6e2b6baecba7efd318e5ff562a1a689b6f0de3304e66c9
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the qt Document of DtkGui
+
+Package: libdtk6gui-doc
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 2575
+Filename: ./l/libdtk6gui-doc/libdtk6gui-doc_6.0.10_arm64.deb
+Size: 1737388
+MD5sum: 153cfa3ee96c821a8f8844d96cff87be
+SHA1: a7600db13e6177e62ef9d5a90b5dd25110357436
+SHA256: cbdd3a46ec3b93b359947bf7264defd3b63f8cbf95677f3f4964848931595e8c
+SHA512: fc51d5b1814e5dd1dae69a97ffa0523125a311aebc6a38c22ab16d42e1dd5d83cff2a3adb1abb28b9282570e0a60b69945d876e3e90ddf0c635aa37662bd48ed
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the qt Document of DtkGui
+
 Package: libdtkgui-dev
 Architecture: mips64el
 Version: 5.6.22
@@ -6854,6 +7157,66 @@ Description: Deepin Tool Kit Gui Devel library
  DtkGui is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the header files and static libraries of DtkGui
+
+Package: libdtk6core-dev
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 293
+Depends: libdtk6core (= 6.0.10)
+Filename: ./l/libdtk6core-dev/libdtk6core-dev_6.0.10_loong64.deb
+Size: 40840
+MD5sum: 8cc28a20556abb6b517ec9587dc8d022
+SHA1: e90030281bbab095ffb34c0efc9ab16ca5d39a51
+SHA256: d6c7fa324a8947647a3d869d287e0a32f400d14f201fc390caf6ef1a87ca6192
+SHA512: fc2eef3d5a4429cfb91a747b8c69a1b7c69dc065d1653ecf61eebf88cc4baf32f9408f2cf23314fc7dbc2c03b67b40d393edf0e2ac30d166b952e058bb8c4b71
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtk6core-dev
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 293
+Depends: libdtk6core (= 6.0.10)
+Filename: ./l/libdtk6core-dev/libdtk6core-dev_6.0.10_arm64.deb
+Size: 40844
+MD5sum: a1b505d5814de5e76807d8ff82596bb8
+SHA1: 245f8f47ae8d04462d1e41a05e6c7e7469a76ce5
+SHA256: 90cfb45da83ccf46f1a934acc1f0ced384c2d3336a5597bc932e4b01470ebde6
+SHA512: d0486d1fc9766c7557e38fe29c74737db4afc97dd8a8dabdee4412174dbf529ff68c68103481d88907bd7caa7485cf8ced220967902fb580e6dad4b2314db20f
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtk6core-dev
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 293
+Depends: libdtk6core (= 6.0.10)
+Filename: ./l/libdtk6core-dev/libdtk6core-dev_6.0.10_amd64.deb
+Size: 40848
+MD5sum: 2b0ecd2c0c1edc025c96041c3c7ba0f0
+SHA1: 73be278cec48c3ad42e8e03d3333fb398139050f
+SHA256: dca743cdd10934cc3e678243a2be5a1f9d80a75e2f92a1eca934a8fee0b1a11f
+SHA512: 1f38de4d05bd697da8125c8dd3b8c492bef68044985814f0c396e5f04f15726e319c066be16a393f6e63a432ad69244bd5aa63fc0eadf47be1347d69917f2f63
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
 
 Package: libdtkgui-doc
 Architecture: loong64
@@ -10255,6 +10618,66 @@ Description: video player based on MPlayer/mplayer2 (client library dev files)
  .
  This package provides development files for libmpv.
 
+Package: libdtk6core-bin
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 802
+Depends: libc6 (>= 2.34), libdtk6core (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6xml6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6core-bin/libdtk6core-bin_6.0.10_arm64.deb
+Size: 289596
+MD5sum: b9d648b39305615ada69342059bac6db
+SHA1: 13eccdf51b4807e9e12caba47cc5d065cb15d456
+SHA256: 41d165e56eae56a62ef00d4e6d2ec346ee29fc6836e0f837e731c2a6a526bff6
+SHA512: 0150aad94754a9de99e4326e43b0ca0d85275faa4d372542e4ac2ae4b5807330b61d0ffca078ad9ce597efbcfe1af75410f5ae9534f9842827566a5f6357db10
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtk6core-bin
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 698
+Depends: libc6 (>= 2.34), libdtk6core (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6xml6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6core-bin/libdtk6core-bin_6.0.10_amd64.deb
+Size: 308956
+MD5sum: 8143cfaaf88ca095cfd47cfd37ba46f0
+SHA1: f07d9626438f276c0e39adbf60e581c108c01716
+SHA256: 2a0ab01002c1febd6a7f7990a386263ed4b74f9d1a32c7a947914bb9b1bd3f79
+SHA512: 44fe0ae9d8e4703a5ffddf44d0ef0098839bb26d6ffe57a01d0cb2fde3695b76b762313ab947007ee39ba404ed00bf838bdfe14deffc5b00ecffd2fbd5b44914
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtk6core-bin
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 674
+Depends: libc6 (>= 2.37), libdtk6core (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6xml6 (>= 6.1.2), libstdc++6 (>= 13.1), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6core-bin/libdtk6core-bin_6.0.10_loong64.deb
+Size: 292312
+MD5sum: 93d521366bf8fc246587ad7070891915
+SHA1: b6694e61538db84fea9aaaaf204a04e4e0f13c41
+SHA256: 95a48d7581a51b5d28c895e27f8c29c208c9be964b47d5f1f388c342a6985cf6
+SHA512: 237f2e90952780650943b42f11d51bcea47b746ec204f0ef42216943703e24e48b9ad65420bea17eb72ca8a2b892d5c974734a5942ed9859dc87aadadad85748
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
 Package: libhd-dev
 Architecture: loong64
 Version: 21.82-1
@@ -10570,6 +10993,69 @@ SHA256: 7cf33f0f98f38894377a080fb2aa3b7c5b582ef59a5a6c2c207b88e2e70ebb80
 SHA512: cc8bd0837ff6ba2232aa3572e26cf268a7693a99a6f8cf234c7f7540e2b244e28f15b503a1e8da3e42527e182115f077467cadbcb409db90f372fcbe5e7a760d
 Homepage: http://www.deepin.org
 Description: DDE File Manager library
+ This package contains the shared libraries.
+
+Package: libdtk6gui
+Architecture: amd64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1239
+Depends: libc6 (>= 2.29), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2), libdtkdata, qt6-image-formats-plugins
+Filename: ./l/libdtk6gui/libdtk6gui_6.0.10_amd64.deb
+Size: 347392
+MD5sum: 4ee8ba609137b9097ce80b292271acc6
+SHA1: 041fd309c9785516a7be59e0d2ee905d3392edfc
+SHA256: 228a7a03adabf3452c98fbe3d947bf980fc161bcfeaaa20bd401f478230c18f2
+SHA512: b6052e13b32cea3e37216b468bff7ac685c903daadc0bfd3d41c1bbe894ca4197616b607ed50163e5a61f72981e54984f0ef6fa12f0db831d83d30cada25301a
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6gui
+Architecture: loong64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1234
+Depends: libc6 (>= 2.37), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2), libdtkdata, qt6-image-formats-plugins
+Filename: ./l/libdtk6gui/libdtk6gui_6.0.10_loong64.deb
+Size: 322848
+MD5sum: 7841bb2447d8e31e993a6439e659e553
+SHA1: cbcf36d2a62087f6536e847bd353f34836f09bc6
+SHA256: a3a54fb8d557a2790d96ee169208cebc397cd06e93bf30dd1cda03a211d5904e
+SHA512: 94d88a19924312b92fd7eb9b058b7d645fc6939ceb620593c81a604d0c547d03632ee0ad06d753431e03ceb2068292fda3c082d4775934c4416e4f552b629005
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6gui
+Architecture: arm64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1247
+Depends: libc6 (>= 2.29), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2), libdtkdata, qt6-image-formats-plugins
+Filename: ./l/libdtk6gui/libdtk6gui_6.0.10_arm64.deb
+Size: 313956
+MD5sum: 994de209fbbace3f6eeea863acb6f5e4
+SHA1: 0c019587ac7922769519871b6d96943bfe935466
+SHA256: b2f445f0826a1588043445c308a0c63db4860525c4b01a93bee30f4552f91b12
+SHA512: 947209ad495cad917bb8fc66e1451295ebb9330d10d20d8379199d84a5ea4d02b0e4b769ef07bce28a3c4fa1dbeccf5b5237f85e46f1d414d64b57731f7915fd
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
  This package contains the shared libraries.
 
 Package: libdframeworkdbus-dev
@@ -11280,6 +11766,63 @@ SHA512: 70d74d20746663fdfd45483a53922f01e2e5e5dd34fdaf0adec4c1092e1b4590a5bd6dab
 Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
+Package: libdtk6core-doc
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 4283
+Filename: ./l/libdtk6core-doc/libdtk6core-doc_6.0.10_loong64.deb
+Size: 3282868
+MD5sum: 52c921b7831b6f22317b6b6fcdb3ac07
+SHA1: 27c718254f0102c6fdbd09974a3b391a9397e688
+SHA256: 8661fd2df4492f1b4061cd6befeac074615d3731b87f89da27319c9417b3bf0f
+SHA512: e731627ec213ef5f7ae1e52af6f9692447ae3ae3ab3026bba412cabc797f2aadcae0e30fd658ed18077a439bcd0c0b41e788ffda26120f388a533efff25bbdc2
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
+
+Package: libdtk6core-doc
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 4283
+Filename: ./l/libdtk6core-doc/libdtk6core-doc_6.0.10_arm64.deb
+Size: 3282864
+MD5sum: c0a785ae01c87e3aa738303c49dcd741
+SHA1: 6926eb834f891bd018b24ebb93cb0a876ce4d92d
+SHA256: e6cdecb6d8dcdd24b6d8ead801d7cdc1d92a81f9e86f2f70c1a0998e00c909d7
+SHA512: bdd029b41b87d21cdf274f52611309c19b73f2b6a3d93a184c50be80fc6793ccd8f446edcac31da0bd19f861c2b4a556799027c05d783ad9974f9a861b1f4ab0
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
+
+Package: libdtk6core-doc
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6core
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 4283
+Filename: ./l/libdtk6core-doc/libdtk6core-doc_6.0.10_amd64.deb
+Size: 3282864
+MD5sum: c147d1fed162246687073319c70deaab
+SHA1: f7d4e0de6fcba7f5c797fd7964f787cf182e89bf
+SHA256: 361afb6f0c03127e0bd3b3fefce2300623cec4c0fe5cfd145a54109015fdcc2c
+SHA512: d1f6b7693926fd5c99785c84a546f6a8e5a9b367af72d7548624ce378bf5638479f7d63252f0260eb15230b62a22994e0eae8be7060f4948203566e3f4486ad3
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
 
 Package: linglong-loader
 Architecture: arm64
@@ -12245,6 +12788,69 @@ Description: Qt5 binding of CEF3.
  .
  This package contains the header files of qcef.
 
+Package: libdtk6widget
+Architecture: loong64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 4239
+Depends: libc6 (>= 2.37), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2), libdtkdata
+Filename: ./l/libdtk6widget/libdtk6widget_6.0.10_loong64.deb
+Size: 897636
+MD5sum: c5024822bd80400cbedd3616a0d3cf8b
+SHA1: f9e67bd52481dd637132f25161ed3a582cdf43e2
+SHA256: a10c70429039a787457b19b231acee1973dcdb0005da358c8a2b28dca9d420c0
+SHA512: 72b5144358be8dd04d8fc6cc4d57622e6dbc4dba510f45a264d4075ac22444591c1253637ffd988bf360d35f6dca711ca38af908ada87a0cc8732904ddb6bc7d
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6widget
+Architecture: amd64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 4167
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2), libdtkdata
+Filename: ./l/libdtk6widget/libdtk6widget_6.0.10_amd64.deb
+Size: 937344
+MD5sum: 03012d1917ce9806e03e3fcf61f00457
+SHA1: d6318b6bcfe30b196d6ee0a951cb4bbc385f0c8d
+SHA256: f7e81a88eac0fd396fdd725d9a73c53b21e4c82e15302e0ea976bb58321d97f8
+SHA512: d765203809daac20a76434f85dde8775ce0c9af9116c85ec7d6e3977922a138c39ce39e8daa46f276bf5d5a156ad86fc195fcdfbb05e7b00a675fd5d4d417648
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6widget
+Architecture: arm64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 4101
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2), libdtkdata
+Filename: ./l/libdtk6widget/libdtk6widget_6.0.10_arm64.deb
+Size: 854552
+MD5sum: 76bf5dd9982f718168905f103942183a
+SHA1: 92932910d61b92dcc9ac8bf35a52359fd2f38d3f
+SHA256: 8b3b8d3e1a4186fe7922cf4683e433e06a182da2146ff3ae12f3ef31b28f2799
+SHA512: 39689c6e3a73dcda828f0abeed50dd96877a3ab3d9c4af03939ab44a99b4facb37d9a71acafa763bb9cd4b8271f2e511580463426338dd491125cfc009faf1ea
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
 Package: libdeepin-metacity-dev
 Architecture: amd64
 Version: 3.22.24-1+stable
@@ -12729,6 +13335,66 @@ Description: Deepin Tool Kit Core Devel library
  .
  This package contains the header files and static libraries of DtkCore
 
+Package: libdtk6widget-doc
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 17104
+Filename: ./l/libdtk6widget-doc/libdtk6widget-doc_6.0.10_arm64.deb
+Size: 13749596
+MD5sum: 6e11fcc9c79df58fbbbaa8052876e4fa
+SHA1: fa1b80b6d90688c3114fba64e9fdf8478a166b63
+SHA256: c931951475e058a486bbd9d70a4864e705e005415d7b5572cfb45b97c42c96c7
+SHA512: a71ff14948ed368b37f40eda3f4f1d90c191dcae3beaa8bd057ef528c650b540169669362bfde641ab887f5f4bb3a3f8405d43418c56f1db467a5220fe237cd0
+Description: deepin graphical user interface library (Document)
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
+
+Package: libdtk6widget-doc
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 17104
+Filename: ./l/libdtk6widget-doc/libdtk6widget-doc_6.0.10_amd64.deb
+Size: 13749596
+MD5sum: 6886a9c6b9012d8c8bed0f23f6955d37
+SHA1: ca77d6614f7a491586cc634a4c62189d6a2cc58c
+SHA256: 3641ad70fa0df6e6da6549251f87a005e92b6045ab80ea0b08639b2b72c89208
+SHA512: 9726bc21af14878af52a4b9b03e6af85bf4ba0ea6172bdf0c556e9289c75eb9b419ccff1cc87f182cb1d1b47e2e2d1e0d2805944fc74bab52bed7871eeccfcb4
+Description: deepin graphical user interface library (Document)
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
+
+Package: libdtk6widget-doc
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 17104
+Filename: ./l/libdtk6widget-doc/libdtk6widget-doc_6.0.10_loong64.deb
+Size: 13749596
+MD5sum: e053a6ef99e55b6d2135fc014822b7d0
+SHA1: 7632208e7f82479910cf861d35eee2b8ed41d519
+SHA256: d8bebf77f39961406e0db528acf2e3b16b8c920a2e58d32e0a430aacf0575496
+SHA512: f2d7aa441ec4dac6a01d5f21a165050dd00065099a769d1e77acfd9757125d735f354013f89953215a42e3f900fbd9f5e0155eac9a41ec0360615d97179a0c88
+Description: deepin graphical user interface library (Document)
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
+
 Package: libgnome2-common
 Architecture: all
 Version: 2.32.1-5
@@ -12750,6 +13416,69 @@ SHA512: 41d776612a78a14d1a8a04ee3531cd8c88105fe9d544f95e589ca65d131ea0d841a1ced8
 Description: The GNOME library - common files
  This package contains internationalization files for the base GNOME
  library functions.
+
+Package: libdtk6widget-dev
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 498
+Depends: libdtk6widget (= 6.0.10), libdtk6core-dev, libdtk6gui-dev
+Filename: ./l/libdtk6widget-dev/libdtk6widget-dev_6.0.10_arm64.deb
+Size: 59536
+MD5sum: 7f53c762e1007fd4f5896f5cd8ba4a32
+SHA1: a66af34fc9f5d145dbf24f5b50fe074fe5843907
+SHA256: 24a7eece24829bf3c342e9529e87d5dac293937dde5eafcc8c97a69b321d06e7
+SHA512: bd7d05bf430b2523cfe28c8f6f87f0d5e7b014a75f5a959937820526ce3eb72628e4b7b04cbd9ecf6c4b4b70845b7f228abed5f60fe5c7af2e30b8ed9ca37a6e
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing deepin applications.
+
+Package: libdtk6widget-dev
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 498
+Depends: libdtk6widget (= 6.0.10), libdtk6core-dev, libdtk6gui-dev
+Filename: ./l/libdtk6widget-dev/libdtk6widget-dev_6.0.10_amd64.deb
+Size: 59544
+MD5sum: c71ff31aed4d8ff8e33b744bc61a1445
+SHA1: 93556c51f2087b785ff2668f61407f647c573a53
+SHA256: 9602e04ac1f07ca95d0a45e5ce2e801fbb434a15a225c4a415d17e694fae87a4
+SHA512: 8a7f60412a96a523b609ece145bda7d4ad43a783d6f1df4ee90d5d719cebf87c12ce692e7e471046c7329fe85d20a6e1e72ad39291865006b8151a9823a2c994
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing deepin applications.
+
+Package: libdtk6widget-dev
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 498
+Depends: libdtk6widget (= 6.0.10), libdtk6core-dev, libdtk6gui-dev
+Filename: ./l/libdtk6widget-dev/libdtk6widget-dev_6.0.10_loong64.deb
+Size: 59544
+MD5sum: dfab928189012edf1dd8c4af57416931
+SHA1: bf87a59daea726b6ae0a5a6c21e19857bb4b2a84
+SHA256: bd5d5ab7220bf1338426ddf752e8c03d8a5ac05c3a89bc78311ea9d36114351a
+SHA512: db93af3faaec9cd6909574bb47cbc8cedfa20d9f17ca9819aed1ff1246f7ac52f78423cb920065d0ea2d7d0a38dec68a0bfed4073a93f5bb24889efe5b766ac0
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing deepin applications.
 
 Package: libdtkwidget2
 Architecture: amd64
@@ -16859,6 +17588,69 @@ SHA512: b8482eaa1c6fbbafb3ad8ea207ff070829d9ef4163425c98e581d594ec56553fe333c3a1
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Icons
  This package is DeepinIconTheme
+
+Package: dtk6widget-examples
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 18480
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libdtkdata
+Filename: ./d/dtk6widget-examples/dtk6widget-examples_6.0.10_amd64.deb
+Size: 14768892
+MD5sum: e967523c2f98c0c8200614bfb0178b7e
+SHA1: 345cb7825d150965eeedfa2409cd4f2e276c3ee5
+SHA256: 6a7e0ffda2a1b1ad52d32358af15ce77724e29461209fe1721e422c90b155c8c
+SHA512: c9664aaf2d6e3408f4a06d26afae7a97c1cf1cb163d4b97148b5bceae47c4dd27063d351d0b41dbef871a49431af0ea3c25d65d71cd2d13fd9ea515452524cdb
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
+
+Package: dtk6widget-examples
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 18527
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libdtkdata
+Filename: ./d/dtk6widget-examples/dtk6widget-examples_6.0.10_arm64.deb
+Size: 14754556
+MD5sum: 75d4381dfa155589f84673f9bbc9ed58
+SHA1: 3b507a411dc39925186a00ba248334b0225fbdfa
+SHA256: 1602fa4745a593fcd74b9ed7b8d41cc2ce7cd9b9b77cb8a9f3c2b4d715f99c1c
+SHA512: 816994882c27b7de97a64725daa16b32775a5bea7b11d6faa822a0d3025016f52d258baea6d879c0153585e5a393a35e08182c28d1769e7fa2c3b9e73db76708
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
+
+Package: dtk6widget-examples
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 18497
+Depends: libc6 (>= 2.37), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (= 6.0.10), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libdtkdata
+Filename: ./d/dtk6widget-examples/dtk6widget-examples_6.0.10_loong64.deb
+Size: 14759372
+MD5sum: fb6df005dcda95f57f649bc0181296d9
+SHA1: 49e369c85ac3478e2780e12832e55c12238dd639
+SHA256: e123cad0180c7bd2f935a8a1a8a6cf0f6f502a5b2caaef2a077fd548ffe82a53
+SHA512: 4d6833a9bc7234bef4001f93c4b25e4c28ca8960690423adb08ba5c1a6f19bbcbb4ddbb1e2e1e14e7873a010874dac736f320f28a0042b5434f6994d85032786
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
 
 Package: deepin-menu
 Architecture: amd64
@@ -27591,6 +28383,24 @@ SHA1: 18f569c9acb7eeb56db4a37f35009094926ca068
 SHA256: 12a4b2772e30a5be9509d25f820d103d88a5a61fc169053fa4f57f3b5b2301c8
 SHA512: aa091f9f8ec1758ee2c5e1be4bb8e82793a9ccdf28ef939750570e4675fe0c7128641cd332739268b45e3008276074d4d2e53015d3a18995ef2424ac4976e302
 Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
+Description: video wallpaper for fantascene.
+
+Package: fantascene-gxde
+Architecture: arm64
+Version: 1.7.0
+Priority: optional
+Section: application
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 7733
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Filename: ./f/fantascene-gxde/fantascene-gxde_1.7.0_arm64.deb
+Size: 6117184
+MD5sum: ed4c09b75bd6bf342813a86376e389ce
+SHA1: dcb6d4ff48b620ef1ec13d542940b64bd5c29476
+SHA256: c1bbe208b14fd5c1fb0db3c5fd4ef70b328918cdf834a959b7f2fef975164c24
+SHA512: cb875878f94434740f70ff5871abe71355547aa72822468c4874ccbbce8804d60759f7f816b3d699887b826db627d33da0ee40e8f9d3798315d4513628456bf7
+Homepage: http://github.com/dependon
 Description: video wallpaper for fantascene.
 
 Package: fantascene-gxde
