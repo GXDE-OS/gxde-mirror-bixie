@@ -7,12 +7,13 @@ Source: deepin-kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 137
 Provides: kwin-wayland-backend
+Depends: deepin-kwin-common (= 4:5.25.18-kwin.5.24.3), libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.18-kwin.5.24.3), libdeepin-kwinxrenderutils13 (= 4:5.25.18-kwin.5.24.3), libepoxy0 (>= 1.0), libkf5i18n5 (>= 5.89~), libkf5windowsystem5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
 Filename: ./d/deepin-kwin-wayland-backend-x11/deepin-kwin-wayland-backend-x11_5.25.18-kwin.5.24.3_amd64.deb
-Size: 40048
-MD5sum: b3f19759a6b0f11ff36f888052260132
-SHA1: 286cabd81ff826c61d3d92dfbd1d26445888e97d
-SHA256: e8b1a658d49cb1f0c6e809afacc54fb68f1af5bde6202e8685607668060c204a
-SHA512: 869c9baac2a284ef99a6d4ba773f07b280db072bd96bff3b3ebc2263de38075d39adc3fe19d6d1c862eab2d387fc7a6ff3f6110e547acd3a684a47cfb8c01816
+Size: 40140
+MD5sum: 2cb5dd194105ca3c89c7bef42739e06d
+SHA1: 269506df923550a176f6aedfe3b0e556cef84992
+SHA256: b96e698f8b0e1e11c3999039296fde0db74be1d969c857b9db3b5f74d540de67
+SHA512: 3bf6aaa651b67346faaed62b60e893de68a4e4053ffe0352b3448e1b6e5332066dedff39b7ec91393d1615c1b34266708f9021151dcc7249d1f3a6a14ce86a07
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager x11 plugin
  KWin (pronounced as one syllable "deepin-kwin") is the window

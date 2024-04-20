@@ -6,13 +6,14 @@ Section: libs
 Source: deepin-kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 201
+Depends: libc6 (>= 2.14), libepoxy0 (>= 1.3), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 11), libxcb1
 Breaks: libdeepin-kwin4-effect-builtins1
 Filename: ./l/libdeepin-kwinglutils13/libdeepin-kwinglutils13_5.25.18-kwin.5.24.3_amd64.deb
-Size: 61644
-MD5sum: 9b4cf4e633981def43d1ecfceb08db86
-SHA1: 6a6f123a750b0382634f0d3e12a6b1500af15eee
-SHA256: f9264f20fa5fc5f7231024693b6c6189fdfca5d5d05a624dab4ed47ccd46239e
-SHA512: 8dde1f7ed7624289636b4033a149c544fd5c83a988d3deceffa41ef0f8db439b901f773f28017c4d2ed9603f9e899fed53516c25099b7df458dda55455f111a6
+Size: 61700
+MD5sum: c27a6d715cf2355102a147b5edec62c5
+SHA1: c3e8a1399a980b604b8221e3636a92d465159838
+SHA256: e8aa1b8e41eb6013e51b8d55ddde85d5d2523c52e521b911cbe40cbc881a3165
+SHA512: 7e203526cfb47cdef20251e79bb56df211ba011b2f22a29ec76a59b9302077293f89bcc621115620dfd6de5e7f3260ea2df155e3dfdb1b6e908cdc17ad82dbe9
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "deepin-kwin") is the window

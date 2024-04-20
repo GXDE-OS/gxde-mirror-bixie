@@ -6,14 +6,15 @@ Section: libs
 Source: deepin-kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 362
+Depends: libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.18-kwin.5.24.3), libepoxy0 (>= 1.0), libkf5configcore5 (>= 5.89~), libkf5coreaddons5 (>= 5.89~), libkf5declarative5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5qml5 (>= 5.15.0~), libqt5quick5 (>= 5.15.0~) | libqt5quick5-gles (>= 5.15.0~), libstdc++6 (>= 5)
 Breaks: libdeepin-kwin4-effect-builtins1, libdeepin-kwineffects12
 Replaces: libkwin4-effect-builtins1, libkwineffects12
 Filename: ./l/libdeepin-kwineffects13/libdeepin-kwineffects13_5.25.18-kwin.5.24.3_amd64.deb
-Size: 96460
-MD5sum: 63cc25698290d8df4a22197c0b79d606
-SHA1: f9a2e466abf1e5da65ee1ea4f02a8674de945025
-SHA256: af3e3f748c430d3d7d1e6e35d1a1aed95085fd4ef2acc4103ec2ddc438ebb8f5
-SHA512: 0dc72ba0cd3dc2918711a08498355bf5622fe30fe69e90537078bf4c8bbcff84c40f66f1ce95a88f0bda4453902f0c559ebfe837c55817fcf21fe8c85221d157
+Size: 96472
+MD5sum: bf511651632ec10aaf23c77b6d89f529
+SHA1: 0c734c3b9cf72f1d08060cc6006512ddf542c7d9
+SHA256: 544a2beaf6c877a6a00226510cf2e23c069295a8d6228803db59332040f411fa
+SHA512: deebc28dd5a8021d93757fcc4c7b2dd63214571d7e7c5153a129ab529adf0a473d957b20dee50117e7b62b136219167a3e67ec05caccbcf110c8e674bbaadf54
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "deepin-kwin") is the window
