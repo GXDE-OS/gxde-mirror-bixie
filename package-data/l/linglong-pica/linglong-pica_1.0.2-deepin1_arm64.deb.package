@@ -1,0 +1,18 @@
+Package: linglong-pica
+Architecture: arm64
+Version: 1.0.2-deepin1
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 20882
+Depends: libc6 (>= 2.34), linglong-builder, grep
+Filename: ./l/linglong-pica/linglong-pica_1.0.2-deepin1_arm64.deb
+Size: 4962484
+MD5sum: 2fea81b20aec18ddbf495d6c1908b4ee
+SHA1: 70134461472e76b586dc9c959ebe598d29f7d56d
+SHA256: 6cc08d3cad3f548ef99775074e93f0d05ac6889a5ed3b9be5534c17633149e35
+SHA512: 31553217afe89a8109c3df83d7a832278ce5cf90fba798d186ea86b793e171463a1809cfa0908d992b933f6e437b4dd150679e6e4636bf1081350aed2a48a6b2
+Homepage: http://www.deepin.org
+Description: Linglong transform package tools.
+ Linglong transform package command line tool from deb.
+

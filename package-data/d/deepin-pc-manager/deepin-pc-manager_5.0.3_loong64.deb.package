@@ -1,0 +1,18 @@
+Package: deepin-pc-manager
+Architecture: loong64
+Version: 5.0.3
+Priority: optional
+Section: utils
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 13679
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.12.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), dconf-gsettings-backend | gsettings-backend
+Filename: ./d/deepin-pc-manager/deepin-pc-manager_5.0.3_loong64.deb
+Size: 9691956
+MD5sum: 48ca427948333addc111383391a6e062
+SHA1: 5ec66b21378265cf13950ae0e7707557e320d6f1
+SHA256: 88c32659c2e75e273373cf2fcdf192c3d95fa87a5b2e49f56c83205065f27932
+SHA512: 906f51e9801b7ad7f2c511e31c471ea56e0563ce17a7ddf413c4e206c9608a8e168010b10f370e338ad4cda36cd544a7f1ce3410acba8c7e1e5e66b5012a26da
+Homepage: https://www.deepin.org
+Description: New deepin defender provide security protection for the system
+ Deepin Defender is the system protection App.
+

@@ -1,0 +1,21 @@
+Package: deepin-font-manager
+Architecture: loong64
+Version: 6.0.4
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 4728
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.3)
+Recommends: uos-reporter, deepin-event-log
+Conflicts: deepin-font-installer
+Replaces: deepin-font-installer
+Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.4_loong64.deb
+Size: 2528648
+MD5sum: 5ff6c3df85630fe1135fd31e2a58c756
+SHA1: a8166a44f0e6b77b4d81af4d2460c6a42c258943
+SHA256: 73fb402f83a86c11fb03d587f4ac9d39e7c5aa3f52ecc694ff338b7cf59400ad
+SHA512: 5358bce82f2ff2673f880a04a61ed592459a790362ef9b9ac63195a4c437c0f619c6a1737a92a4a5576cd4d561813fe1a9010c8393b2abab6bf9530544e5c4a8
+Homepage: http://www.deepin.org
+Description: Deepin Font Manager binary
+ Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
+

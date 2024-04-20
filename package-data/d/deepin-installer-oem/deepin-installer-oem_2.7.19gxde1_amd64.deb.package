@@ -1,0 +1,19 @@
+Package: deepin-installer-oem
+Architecture: amd64
+Version: 2.7.19gxde1
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 252
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.19gxde1_amd64.deb
+Size: 74752
+MD5sum: 12888adaeeaf504de5096593e4f92f28
+SHA1: be197d774ba2bbb787f06ff6c123f51b360de8ae
+SHA256: 2d2705aac7100f7655f8b34a5ddcd40a9a58a3ab5f12be0518e02a86a83b753a
+SHA512: 9cf20d610be853efdb6dcdd7d40e876df4fcb59d7cdb75552003621cf4fc3f8f7c7a67c1dd7365cf2e764c1ee0cf52b098fdb5a02b43cb614adb61e2be99c78d
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+

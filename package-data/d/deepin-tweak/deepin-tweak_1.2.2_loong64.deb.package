@@ -1,0 +1,17 @@
+Package: deepin-tweak
+Architecture: loong64
+Version: 1.2.2
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 1252
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./d/deepin-tweak/deepin-tweak_1.2.2_loong64.deb
+Size: 867596
+MD5sum: 071af86447240877f347da546b18cb90
+SHA1: d0f6eceb729d69023e2bbed45a700ca8e35f93b4
+SHA256: b34015d80cd4c02dca41a4bad520f1ecde8ee2a020d631abc58b1d1354799aea
+SHA512: 68e2eddde11b2974002eabf9fdcb78427f459112284b1d98af49d222988f10ba08065b33328e27ff2d1caa6fc0290bbf10bdf6c58be53d3e76c9e00d57ad1ef0
+Description: deepin tweak tools
+ Advanced customization features for communities
+

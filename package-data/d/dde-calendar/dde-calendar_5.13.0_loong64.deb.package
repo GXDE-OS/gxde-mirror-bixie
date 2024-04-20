@@ -1,0 +1,19 @@
+Package: dde-calendar
+Architecture: loong64
+Version: 5.13.0
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11454
+Depends: dde-qt5integration, dde-api, libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libical3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./d/dde-calendar/dde-calendar_5.13.0_loong64.deb
+Size: 2385312
+MD5sum: 60173006f7aab160b19ba5d5e70e2f5a
+SHA1: f2fd5f2f2ba803c6f3780878e57a276ef35bf07e
+SHA256: 23dd86bd7145d114470c2693df08be63a39c6d2075dd9945d2fe6f6aa79c82d3
+SHA512: 625ae7d66463497b46c30f53b6341c229f1e16a834e746dea440665862cbcbf44a44aabab4204581e07aae9293dd36e8ff899c17bc0bc68896e658682de85af2
+Homepage: http://www.deepin.org
+Description: Calendar is a smart daily planner to schedule all things in life.
+ Calendar is a small management tool for personal life that combines time
+ and events and integrates the function of memorizing and scheduling.
+

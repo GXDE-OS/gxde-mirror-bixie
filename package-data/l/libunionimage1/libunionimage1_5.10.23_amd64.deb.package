@@ -1,0 +1,19 @@
+Package: libunionimage1
+Architecture: amd64
+Version: 5.10.23
+Multi-Arch: same
+Priority: optional
+Section: utils
+Source: deepin-album
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14
+Filename: ./l/libunionimage1/libunionimage1_5.10.23_amd64.deb
+Size: 5052
+MD5sum: a1df1e431addfbc2ef3e0ce1aeaf0c8c
+SHA1: 082c6878ea909625d829742995ef597ae508bf08
+SHA256: d5faed592b0da2dcf6d4f52f7ab3e67da3b5d604c67967e56c01bf595633ec86
+SHA512: 46ca0aeb272135edfc87d7910cea8e8851212b1daef998920402f589ea420d1eb19c568803dfd8c1d579f455904460f5b15a936ce591e68fc9788ad1b9a11d51
+Homepage: <insert the upstream URL, if relevant>
+Description: Image processing for album
+  A Image processing library for album.
+

@@ -1,0 +1,19 @@
+Package: dde-cooperation-daemon
+Architecture: arm64
+Version: 0.7.10
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3976
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5network5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libsystemd0
+Filename: ./d/dde-cooperation-daemon/dde-cooperation-daemon_0.7.10_arm64.deb
+Size: 979792
+MD5sum: 0cc056062ed37d751b1dfc460383792f
+SHA1: 925acd4aad5f5ff4a38a3e39596bc3bf41b6db89
+SHA256: ebbf7b8bafc3993e4ee37a88d0541f4317cac5918e9faa3374401413424290ac
+SHA512: f337e021f08f7f8ad83024a0e4d9fa4062ede670cf55dcd1d4405eb021f770291d4881dcadb8fa5e5d6ea3bafdfaf0b203fcaf0eb5d8351ccc367f77f477afee
+Homepage: http://www.deepin.org
+Description: Deepin cooperation backend
+ All cooperation related application's backend server
+

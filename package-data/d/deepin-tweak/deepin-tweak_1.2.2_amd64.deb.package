@@ -4,14 +4,14 @@ Version: 1.2.2
 Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 1227
+Installed-Size: 1235
 Depends: libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.17), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.14.1), libstdc++6 (>= 5)
 Filename: ./d/deepin-tweak/deepin-tweak_1.2.2_amd64.deb
-Size: 867464
-MD5sum: 56e2ddd66a3864021484df80f9f007d8
-SHA1: a83461c825fd2b002cb30954d4bbe9b80b8d514d
-SHA256: bf1de419353245f28768ca442da41f4d3000b5bcff71ab368f9a44aa99f27765
-SHA512: 0075895c5665a8e6bdb3835f0cd82a2a344ca158d229cea9073cc6fd0731084a4e2a2c246b6ad309bf08b4004924bc0d230fa8ff77254d77d4a6c5f911ac57d8
+Size: 868648
+MD5sum: 006c1324d126c8f2e11ed1091904cdda
+SHA1: 0f6ba51374fce608237b029a72bd2e7358a7b9ce
+SHA256: 65d3006cb7cbdf3582cae39abc02222ff54861e755c200c54ad21ed344c70f54
+SHA512: 2cd695b978d2e28246831af3d4be328c2d90481df50ac8b7ff595e78dffdfe9e0f4f1a35c00fb4662f6cc8fffdc80eb24e4af2c0af9d5c1eaa75b1d712ea7f17
 Description: deepin tweak tools
  Advanced customization features for communities
 

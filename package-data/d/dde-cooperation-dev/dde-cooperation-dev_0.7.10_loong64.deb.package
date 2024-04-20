@@ -1,0 +1,19 @@
+Package: dde-cooperation-dev
+Architecture: loong64
+Version: 0.7.10
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 91
+Depends: dde-cooperation (= 0.7.10)
+Filename: ./d/dde-cooperation-dev/dde-cooperation-dev_0.7.10_loong64.deb
+Size: 14604
+MD5sum: 7bb90c3b9c4ca48992323315c1f4efb5
+SHA1: 662e2546b1e45e33dbeb2c31ef4d7df7febf9f80
+SHA256: bde71de24f6ba67bad357635b2441fcae64aba889bc7b91a956f3a0d7871b79f
+SHA512: 4a83076f83c1739759b2072d0275d6bc7c3372f3726a6653061deba2d1e1ca24681765e196fd344826d9dcb689f0f4f53f81a9cff638f4c392cb949bebf50640
+Homepage: http://www.deepin.org
+Description: Development package for deepin cooperation frontend
+ This package contains the header files and static libraries
+

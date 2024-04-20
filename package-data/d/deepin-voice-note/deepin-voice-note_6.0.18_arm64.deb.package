@@ -1,0 +1,19 @@
+Package: deepin-voice-note
+Architecture: arm64
+Version: 6.0.18
+Priority: optional
+Section: devel
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 18614
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdmr0.1 (>= 5.10.6), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgstreamer1.0-0 (>= 1.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), gstreamer1.0-plugins-good, vlc-plugin-base, gstreamer1.0-pulseaudio
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-voice-note/deepin-voice-note_6.0.18_arm64.deb
+Size: 13432584
+MD5sum: f13216482214afcb170d5825a5112281
+SHA1: bca234477c0fa54a25add81eefb738dc3fd2752c
+SHA256: 4987e4fe4c03fdd296615739a7d4ceb02a8ea350f130e138f5b7d17a784d5bb9
+SHA512: e26906851f6bd2d1f657bdf9fe2d447827b58e3dfc2f3ed131de7bf28aee6d1ab64492f79792d48b601143fb67b6a85db789dd4ad5bc132d92c3a59df803be8d
+Homepage: <insert the upstream URL, if relevant>
+Description: Voice Notes is a lightweight memo tool to make text notes and voice recordings
+  Voice Notes is a simple memo software with texts and voice recordings. You are able to save the recordings as MP3 format or texts.
+

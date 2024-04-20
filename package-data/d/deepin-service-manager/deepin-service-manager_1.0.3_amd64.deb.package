@@ -7,11 +7,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 281
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2), libsystemd0 (>= 243)
 Filename: ./d/deepin-service-manager/deepin-service-manager_1.0.3_amd64.deb
-Size: 62212
-MD5sum: ea763d543f36f584c13f748634038f77
-SHA1: 550959dbb857350a9f9db873ffa9e3440cbfd6d1
-SHA256: 7e516ab59264b7d1da1a47aa9f4849fb8695f16ba09e1b81fa8594768aba1859
-SHA512: dce6a1eeebe7695322a2ebf033c3e821a793490081240f52d436047345b4af7fe5a198e3b439fce617e7cf456a0cc773365f2ce43fffc1e4fb8d639684ca9cb3
+Size: 62500
+MD5sum: 307a9263b628119a7c76ebd5685e2a44
+SHA1: 7917346eba23a41c032480a8e2e293c0b0d6062e
+SHA256: 726cc0c41a359be078323aa57c1f1c66f7d1d55a27f28f3199afbaf99e163a9c
+SHA512: fcd6454e23786e3b70ee31642f1de2a972cd4ea98d9637585736d8f28278de1280b56fb9df0c600d1724500923f651028f1c45679a0ee9fd82fc749dc7c57825
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service manager frame
  Load system plug-ins for unified management

@@ -1,0 +1,17 @@
+Package: deepin-reader
+Architecture: amd64
+Version: 6.0.9
+Priority: optional
+Section: graphics
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 7967
+Depends: libc6 (>= 2.34), libchardet1, libdjvulibre21 (>= 3.5.28), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), liblcms2-2 (>= 2.2+git20110628), libopenjp2-7 (>= 2.2.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.9.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), pandoc
+Filename: ./d/deepin-reader/deepin-reader_6.0.9_amd64.deb
+Size: 3120256
+MD5sum: e425a1c63e2d1abe69e2b5d2e13b794a
+SHA1: 465de65af161e00b3bf359111576f4547b92b521
+SHA256: 9b58e6c6db2a87c662c4e10c398b3dfb97f8dc9221d18c5a9cbe1016d05738aa
+SHA512: 216ee9fcd513fdca3c7a5aa6bceb9c066e7b5b5af2b1de70eaef60ff7bdd29bb88954892ccedb31101bab6d38746eac946333ae98f60bafecf1a61efe142cb34
+Description: a tool for reading document files.
+ Document Viewer is a tool for reading document files,supporting PDF, DJVU, DOCX etc
+

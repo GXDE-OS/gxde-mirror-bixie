@@ -1,0 +1,21 @@
+Package: libdtkwidget5
+Architecture: arm64
+Version: 5.6.26
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4016
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-8, libdtkdata
+Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.26_arm64.deb
+Size: 855728
+MD5sum: 8c401c59713a2cdfe96cace1d5ddf938
+SHA1: 61ed8f990a20fa13b2c71f157f8f1e2c5ff1bf57
+SHA256: 3e9e9317187c9cc21ffd2ca5b08aa07b4e24cb24696f04da25a3209353d284d0
+SHA512: 991fe97d41af4606aad86f5abd65c2e8baa14962e20921f7694c41d746fc7547f8cb0cb0ee1ad0eddb1ff042eb85d14e6f3f2034d68c89d97ace1d78f516a695
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+

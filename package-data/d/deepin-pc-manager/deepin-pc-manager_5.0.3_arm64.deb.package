@@ -1,0 +1,18 @@
+Package: deepin-pc-manager
+Architecture: arm64
+Version: 5.0.3
+Priority: optional
+Section: utils
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 13741
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 5.2), dconf-gsettings-backend | gsettings-backend
+Filename: ./d/deepin-pc-manager/deepin-pc-manager_5.0.3_arm64.deb
+Size: 9700056
+MD5sum: 5f8ee059137d3d6d5fae7803f3a35c38
+SHA1: f4c025e3018c0a7a803a16af4cc4e71c42dba9cf
+SHA256: fe13925c9a490e8ef1724eb9bb0bc95b392de3e00b49182d078e27ef85e69232
+SHA512: 13c490f92046a9b1c856ed514a4bfd30fd1466c198c8942db5805a81308e2f94ed0304a8e11cb55425867aec8ed1d4d196947730f901cc9a491b4306cf77d582
+Homepage: https://www.deepin.org
+Description: New deepin defender provide security protection for the system
+ Deepin Defender is the system protection App.
+

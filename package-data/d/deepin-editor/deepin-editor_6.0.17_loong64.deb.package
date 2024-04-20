@@ -1,0 +1,21 @@
+Package: deepin-editor
+Architecture: loong64
+Version: 6.0.17
+Priority: optional
+Section: editors
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 19500
+Depends: dde-qt5integration, libc6 (>= 2.37), libchardet1, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-8
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-editor/deepin-editor_6.0.17_loong64.deb
+Size: 13986160
+MD5sum: b331f7ddc6ab40131d9fc4dd7972feb6
+SHA1: 513a204fc87eee18a1c7c085abf914decda3694f
+SHA256: 49d756d25184e342d14fd09a99e7150fae5fd50e0e2cb22c208dd7a19b82f7fd
+SHA512: 00e875cc777e4e9db4939e24260caedfed5b5c95d492f4a79406df2125dedabfb00c2aa93b6d2a1931bb02a14e289b3e84c5094cb83674e11b2bdcdc3d4f1870
+Homepage: https://github.com/linuxdeepin/deepin-editor
+Description: Text editor for DDE (Deepin Desktop Environment)
+ Advanced text editor based on dtk.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
