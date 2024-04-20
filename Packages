@@ -15379,10 +15379,10 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 31
 Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.10_all.deb
 Size: 5172
-MD5sum: 80b2e03978d47aa662d7b206a2a41a27
-SHA1: 3725c0e33eaf7907ce78a9064d1945219f2e7603
-SHA256: 13cf0ea252dff98b63f526c0a5e4f282b2caaa7c1e1eeaffc9cba991961c8394
-SHA512: 44d63356b9085a7a46fec96213a1d791e4234fb22f00a4964262db0505a158622975f9a5705d68c73bdd9c733369c1f41158159b340ba8ee43a0fd8205028191
+MD5sum: 6629510d57865fb0d4b9c23737f1d106
+SHA1: 7e00bda99575d95fcfd257a7879d5ab34b5ccb7a
+SHA256: 533c4c6b25e6b25132bd4ff17e45a5f1610166b38f51395b068791cc26688a1b
+SHA512: 3907c573528e98466810f1752c661da66a8bad03e0663e5a4206158082915d6787591d30ffdbbca0cd9f49f1b4769205a9abdcebf1b60d92247d12df21703501
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Deepin desktop environment - dock module development files.
@@ -18067,6 +18067,25 @@ Description: deepin desktop-environment - dock plugin
 
 Package: dde-dock-onboard-plugin
 Architecture: arm64
+Version: 4.10.10
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 143
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.10_arm64.deb
+Size: 19692
+MD5sum: ae541ca01fa1ed1bf32c4ff4ca02a171
+SHA1: 2466de6c6dda48e7ba90a5ba28bfb1d601a08f02
+SHA256: fcbd38612d300918cd15b8cd1e206f700cdb0bb88739bee2a29f0c8c94f09191
+SHA512: 365f7c452f08a024b5f1fd2fff3ce946fb216e802a1a0b4534c5930ecd848f5a9466e9aeb610b877fab70b11812ebb7d90649d5b70d6ce83f1d3e9bd110c45ae
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+
+Package: dde-dock-onboard-plugin
+Architecture: arm64
 Version: 4.10.8+c1-1+comsta
 Priority: optional
 Section: x11
@@ -19015,6 +19034,28 @@ MD5sum: 645355fb563e19e9ac56c07b1019a883
 SHA1: 33c968fbbbd85f830718c0a706585cba94ef9638
 SHA256: 7b303f455e39c4de29be65d06afaad9fc8e1e2a563250a338b1cb73ca4cf8371
 SHA512: 10cd67125768390053ea699864cf84913e3bdee7c0a147fa7d881a9b125db5438006e17705ca42efa1a52f031ed7ae87324792366879f0d0c4c20e7d2700e298
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: arm64
+Version: 4.10.21
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14388
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.21_arm64.deb
+Size: 4159148
+MD5sum: 0daa5758c77ea0cd97bb6d956df7008f
+SHA1: f06964c3f18fbf94e33b93b4a08200e089f6a4f5
+SHA256: 76229d85ce042419609e88027ac04527502d15dee4c9e99a27d827827d578f72
+SHA512: c88623bf31dcf071650d79df76e94f829d47a38f053f9b9549b528a1f1770d405073399fa264a91121893e1c7426effd30654d0a3de20ade99ba4026941b73f3
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -21089,6 +21130,27 @@ MD5sum: b9b990d2d0796fa2dc94a7d54496d54a
 SHA1: 9703da72f15c5f419d2bf35d105199dad468082b
 SHA256: ba5e7c982e8b446cca1f5229b10222c41f4e587aa507b4f6c33d92f78fde7f5c
 SHA512: 24a7089402bacefea8f1641c41ec63f1d2a8256f35516936e22e55b2c7cba11ab707a8febdf3fe85b5225467f9808d4b331c144fc1fc1f808f3c2683135e5e8e
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+
+Package: dde-dock
+Architecture: arm64
+Version: 4.10.10
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3520
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.10_arm64.deb
+Size: 600024
+MD5sum: 28708fe518b1ed5ccfb8dbb2ae881d06
+SHA1: ffa4ed2f2983aba0876bc61d63dd38f84a3e09ad
+SHA256: 60000ba06b3ef1ca609a5ea0f0751995fe5e459108b9902f115a3c273b38be17
+SHA512: 06a9e48a138248820e6cb8d4d87e6b7cc41175a16e789259a7735608930fea535baef6128cfea4f06396efdf0d12a2fe724c71263e661a394eafbddbfe0d6e7a
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
