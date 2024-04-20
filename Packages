@@ -16988,6 +16988,25 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: loong64
+Version: 2024.04.20
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.04.20_loong64.deb
+Size: 19432
+MD5sum: 3114564b1232108d1e717d5d3b90d71d
+SHA1: 196cf32d9ed5e3b24b92edfefa0da5ffa8dc8f00
+SHA256: 297d6437b944d57583bed0e35c49da50d919814b3f24d93cc6f8f59d5246be38
+SHA512: 5633b1d5ca80085d326144912c8cd3361f297a2bf1e04506aa7e3399fe23618411fca5fbfdfad6d7159e3454686a955d297a583d755280cbf2fcff25a128414f
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: arm64
 Version: 2024.04.05
 Priority: optional
@@ -23713,6 +23732,25 @@ Description: start deepin desktop environment
  starter of deepin desktop environment.
 
 Package: spark-store
+Architecture: amd64
+Version: 4.2.11
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1339
+Provides: spark-store-console-in-container
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.11_amd64.deb
+Size: 711408
+MD5sum: 6d750e58b6e2d968b513c7320024df78
+SHA1: 06dd364dcc442d1e08ee918391d8224758533a5c
+SHA256: d93b2ac0ef6d3332d0b0131c8f62143f2db18fc4ee4bc595436048a23f57afd0
+SHA512: e5acbeab085a549d7d39db2f15cc27273b1e2ddb97e1afd64491b86d5e5deb04185035bf0eb5e0de19aa18aef4b15d3230f0208a4ce0a3d7341cb150fb011e15
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
 Architecture: loong64
 Version: 4.2.10
 Priority: optional
@@ -23727,6 +23765,44 @@ MD5sum: 3b047fea24030bf55daaadfbcd4afffe
 SHA1: 52a4eeea6f62e058cf6000cae7a9132f31e1ef10
 SHA256: acfd2ff04ff0f607665afd68918a0b4092d6b77f0e2b14fe56b7af5bcdd03007
 SHA512: 4a92a5abb091618d53f0ea907d4d5caae00a6a8fa32f83715ce5058dc732d315b4a0173c1878cb3992c7e2f95d77b681354f4416adc065139af9c9ee0728a625
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Architecture: arm64
+Version: 4.2.11
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1340
+Provides: spark-store-console-in-container
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.2), libdtkgui5 (>= 5.2), libdtkwidget5 (>= 5.2), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.11_arm64.deb
+Size: 698452
+MD5sum: 3e9aec38f26e38bb37825233fc810b90
+SHA1: 91b02911aa8b749b79e7628c9afe6be8a0320fb9
+SHA256: 481065cc5daec6d5000ee23c99c2df38ed552f625e56628d4224e136a0595215
+SHA512: 182d55cdc35f19135f0453f9afdcb94c70f2e6d45408d449e783a8a81d5020ba3e340131adaf816aa82186ef878d3a26d4e4a1b67c92b07e75d9faa4924f79e3
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Architecture: loong64
+Version: 4.2.11.1
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1289
+Provides: spark-store-console-in-container
+Depends: libc6 (>= 2.28), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6, libqt5gui5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils,liblol,liblol-dkms
+Filename: ./s/spark-store/spark-store_4.2.11.1_loong64.deb
+Size: 705524
+MD5sum: b5385f91cb63fe4194895203a3b75577
+SHA1: 5c26a55dfb4445add3487d8987cfcfa773ce48a7
+SHA256: 3db12500635a735678ee18c117d2956ee27d8d221af1b89456a4d8e60d48b714
+SHA512: dcc4d60d8e6da51584253e30b514e422310ffbdeb1e2f223945b6f1aef71d7403dc513c64e36f134e52ef86526c22054d5751d9a84d9820960679e169ea02797
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
