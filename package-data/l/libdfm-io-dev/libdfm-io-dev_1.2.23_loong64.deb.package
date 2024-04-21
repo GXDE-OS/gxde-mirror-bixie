@@ -1,0 +1,20 @@
+Package: libdfm-io-dev
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 68
+Depends: libdfm-io
+Filename: ./l/libdfm-io-dev/libdfm-io-dev_1.2.23_loong64.deb
+Size: 11648
+MD5sum: e4a2bc050997a31f69e3edd8e1f167c5
+SHA1: 8662126104c07d865cff2df7aab540ffca5b7b21
+SHA256: 6d24b4eb3e2eee18c2578ccb50cbbc652e82086b365acacee52e954b201de824
+SHA512: a3a8833991efc8d1b725396ba6e591d114dfea8c2b2d538cb5df45b08b265cf4bd29b7e84cf13ab813fa206e68523d17773fd4f2d20e87f9edb6de7c7434407d
+Homepage: http://www.deepin.org
+Description: A libaray about I/O dev.
+ A libaray that provides I/O interface dev.
+

@@ -1,0 +1,19 @@
+Package: org.deepin.downloader
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3695
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 4.1.1), libdlmaria2, libdlmcontrolui, libdlmdatabase, libdlmlog
+Filename: ./o/org.deepin.downloader/org.deepin.downloader_5.3.76_amd64.deb
+Size: 2941608
+MD5sum: 69bf2a1e792ab52426b18ed3a48be1f1
+SHA1: bdf2a454ae0f52779d6ff14b80bffb5192e980e7
+SHA256: 9700c39bf1d80cbcd57ce9d628498c1863b19d105b9e12f740fbd45691ad42b9
+SHA512: b22da6d91eb73b7dfa59c22f1bd29d13b09471faa7cfebc16e4108d6b94d35f1fae9d63d60ce93207876b004c1f60ee9707a7ee9d8f715ec8c66dc837be45cb6
+Homepage: https://www.deepin.org/
+Description: it's a user-friendly download manager, supporting URLs and torrent files.
+ downloader for deepin desktop environment.
+

@@ -1,0 +1,21 @@
+Package: libdlmlog
+Architecture: arm64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libstdc++6 (>= 5.2)
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmlog/libdlmlog_5.3.76_arm64.deb
+Size: 19204
+MD5sum: c8667ad71c6e72bb759059d887dfdc9a
+SHA1: bc4b8d2c28a943c7db21f35ad1b1ec64748f976c
+SHA256: bbdc6cf15386dd495bfc0bac68f637b4f05b571e9b43e98edf1bae624d1678fc
+SHA512: e12c3bd47b98146f35d72c5dbf5655982b6b01095ff1006e0767b455523322f334601fa2a0cab5918beaa473d6c2e62fbd19265dbece47866efae9c72c2c2223
+Homepage: https://www.deepin.org/
+Description: download manager dlmlog lib.
+ downloader for deepin desktop environment.
+

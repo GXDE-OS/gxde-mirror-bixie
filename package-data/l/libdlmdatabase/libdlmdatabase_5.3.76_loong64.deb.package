@@ -1,0 +1,21 @@
+Package: libdlmdatabase
+Architecture: loong64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 100
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.76_loong64.deb
+Size: 29600
+MD5sum: 437979e68c5a201cef43dcf877c49b97
+SHA1: f853b3a67168da96a1a6a697d82a342585d08ae9
+SHA256: d9a3e1d7ca2e001c73b0a377c60beeae6ab2e6fdb8b0305cd2d28532d96c1655
+SHA512: 3455e086bd595bad5932d8eac5ba26894a858d7ae5628df059f88e0c61dc7129831c1ae0745b6d792ac26d9fc67f442d6cf10a45c2e71164733883e6d6de79a2
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
+

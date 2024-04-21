@@ -2452,6 +2452,46 @@ Homepage: http://www.deepin.org
 Description: A libaray about I/O.
  A libaray that provides I/O interface.
 
+Package: libdfm-io
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 439
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.55.2), libmediainfo0v5 (>= 0.7.56), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.14.1), libstdc++6 (>= 11), libzen0v5 (>= 0.4.23), zlib1g (>= 1:1.1.4), libglibmm-2.4-1v5
+Filename: ./l/libdfm-io/libdfm-io_1.2.23_loong64.deb
+Size: 110044
+MD5sum: 1bf04ec919af7762b6732b69f2c1f2da
+SHA1: 175a4d62c381cd3af07abaaa290eaba9281f6525
+SHA256: 2e78e828219c30e5a0ef7aadab32d97c49f9381b9ba56340bf001c3e42c8396b
+SHA512: 9bebb57514cdcca5c2f55b627cf857b4111ccec7a4bdc09735cabad05740df3042a3c107174b257cf0b343747d3b756a4a5c2e62eb16d81096384be89e7fe3f7
+Homepage: http://www.deepin.org
+Description: A libaray about I/O.
+ A libaray that provides I/O interface.
+
+Package: libdfm-io
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 406
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.55.2), libmediainfo0v5 (>= 0.7.56), libqt5core5a (>= 5.14.1), libstdc++6 (>= 11), libglibmm-2.4-1v5
+Filename: ./l/libdfm-io/libdfm-io_1.2.23_arm64.deb
+Size: 109708
+MD5sum: de79ad9fe506c8b65a77155863348701
+SHA1: 3cba49bf403646b5c505e8d11cb67aca5ffd63d3
+SHA256: 6a07b272955ed6376bb894bdedff4c1cd3fe692ade212c163f0b2fffe93fdccc
+SHA512: 9176ae7924ecefdbce14c7673e58914f89fff2523981a86bb0fc7a2063f0748ffa8b26b0dbb48dca46c0d0973601f08b016a3f3c4e768ad52767f472656ee990
+Homepage: http://www.deepin.org
+Description: A libaray about I/O.
+ A libaray that provides I/O interface.
+
 Package: libmpv2
 Architecture: loong64
 Version: 0.36.0-1
@@ -2684,6 +2724,69 @@ Description: program options library for C++
  Library to let program developers obtain program options, that is
  (name, value) pairs from the user, via conventional methods such as
  command line and config file.
+
+Package: libdtk6declarative-dev
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 115
+Depends: libdtk6declarative (= 6.0.10), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.10), libdtk6gui-dev, libdtk6core-dev, libdtkcommon-dev, qt6-base-dev, qt6-declarative-dev
+Filename: ./l/libdtk6declarative-dev/libdtk6declarative-dev_6.0.10_arm64.deb
+Size: 18392
+MD5sum: fccc92c980cc9514ff61867074e31484
+SHA1: 47eeec0cdbb1c97c21a5a32a30b64d4064298aa9
+SHA256: 40a175e15cdc2d408945eaa6bfa2d0d2f8ddbace7a9104274253d9b2317f68c5
+SHA512: 14a51c8ec7073403de628ece823663a6239bc23bd4dad5248db3ebd545b3fe64d5f9eb830a4bf428fa98295defee9410218210943e46ac8b44c4a9374bbee509
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
+
+Package: libdtk6declarative-dev
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 115
+Depends: libdtk6declarative (= 6.0.10), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.10), libdtk6gui-dev, libdtk6core-dev, libdtkcommon-dev, qt6-base-dev, qt6-declarative-dev
+Filename: ./l/libdtk6declarative-dev/libdtk6declarative-dev_6.0.10_amd64.deb
+Size: 18392
+MD5sum: ab67e507082260b8a881d37939797a9f
+SHA1: 4cbfc946711d9e9cb226c7d13fa844d4c5e71b63
+SHA256: b3b8947d2b86e829b2a7c22569fa0bec2d2e6a2bfcdf9fb6b998a56a4aa500b3
+SHA512: 4ef52f073e6e5be9e620871590b3a07737d324fb3fa6ccf21a7810d13357012b2efb9871a47731c84aca77b2f54a45f59c944ff9f02f5ad8d32d884b71216d1a
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
+
+Package: libdtk6declarative-dev
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 115
+Depends: libdtk6declarative (= 6.0.10), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.10), libdtk6gui-dev, libdtk6core-dev, libdtkcommon-dev, qt6-base-dev, qt6-declarative-dev
+Filename: ./l/libdtk6declarative-dev/libdtk6declarative-dev_6.0.10_loong64.deb
+Size: 18396
+MD5sum: a46a5dad8fc8fb40583da3aa6fa7db61
+SHA1: a1f85795e27297de762531281c6cd15e3a436f5e
+SHA256: 4ebdcf615f8574ed8066f20347e9d71bab104750ea0f4999967672543ab4be2c
+SHA512: d98feef852116a3d1ac0bb2623856126f3079f177d3a9d0fb70283ae95b4e53554b9139a26da4d9ec296e518519e4df448481d72592e6c83f9558d3e96736595
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
 
 Package: lastore-daemon
 Architecture: amd64
@@ -4169,6 +4272,60 @@ Homepage: http://www.deepin.org/
 Description: dtk common files
  Used to store public configuration files
 
+Package: libdtk6declarative-doc
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6913
+Filename: ./l/libdtk6declarative-doc/libdtk6declarative-doc_6.0.10_loong64.deb
+Size: 5209728
+MD5sum: 55363efa705467e8ff413fb937e18540
+SHA1: aa5e4e1a0e11fb13e2ca4ec225245afff7b8f151
+SHA256: a80dd25a2d98f3752db3b542c4d4b6c677410903492570d2fd38707f1f3d11eb
+SHA512: e851112c0ad879adf802047ac81d099697179c4de23d2a13a0cbfd9ba149baf469258302a802ed316e916d13ba4ea176fad371dcf0407c7d039898d026ea9e12
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library (Document)
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: libdtk6declarative-doc
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6913
+Filename: ./l/libdtk6declarative-doc/libdtk6declarative-doc_6.0.10_amd64.deb
+Size: 5208824
+MD5sum: ef07fa83d43b39febaf7dc419c99c57f
+SHA1: a7b0704605fc01703cb68ad0052ecce2e6e294f5
+SHA256: 3352f326186de555ee76b0aec2aa6bf2c2d22af20a671857e0ac4bdde04ff116
+SHA512: e59c6b7fee3f543617e5daa34ac38c39afea89cb38b17abdf5325929b6749aba2ba49f26c88a65a02733b4cb55d7b22f1bd8a859b697d67eb462098cd1a19326
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library (Document)
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: libdtk6declarative-doc
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6913
+Filename: ./l/libdtk6declarative-doc/libdtk6declarative-doc_6.0.10_arm64.deb
+Size: 5206248
+MD5sum: bcfc86d0a25853d54b84252814b9b644
+SHA1: f758b00ff93b453b533c2158a42e44e844214be1
+SHA256: 6abae534dfc373e7476d533d7b89decc2e037031a36822db9f8fa158dd399494
+SHA512: a62ad03f4e94eed2cf0b66312dc911b6dc1081f6cf6ef222f5eedc7954622534dbffcecbcce9433cd0410049c5e838e4c3c8f0e1cb9a87053b8e3fafb2a92346
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library (Document)
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
 Package: libgtk2-perl-doc
 Architecture: all
 Version: 2:1.2499-1
@@ -4197,6 +4354,72 @@ Description: Perl interface to the Gtk 2.x series (documentation files)
  .
  This package contains the documentation for the Gtk2 perl modules and some
  examples.
+
+Package: libdtk6declarative
+Architecture: arm64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3947
+Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.10_arm64.deb
+Size: 790536
+MD5sum: b5ca202cb6ad6cf0d44a1417e02a11d9
+SHA1: 1c748415d8834eab90a9cecdb79ca69d6e593fab
+SHA256: 95525b61b696af84072773764fe156459e9b180fe5b448017164500cd03db017
+SHA512: 90fe788e86feec40c1981cd2d8b062d7b423a7bbb8fd4ed210e79a1f5a9c36a1ec94d506fed77f8d26d2f63a54c55e13af39ff7331ad0173ca96bfadc452ff97
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6declarative
+Architecture: loong64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3892
+Depends: libc6 (>= 2.37), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libglx0, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libqt6quickcontrols2-6 (>= 6.2.0), libqt6xml6 (>= 6.1.2), libstdc++6 (>= 5), libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.10_loong64.deb
+Size: 815664
+MD5sum: 93e94e612a64ff90b278b463ac019d1a
+SHA1: 8da2759cec2b7de6251b0c2c3693e917dcbef1df
+SHA256: 8796f3dac216bc35495ccb6f9b31cdaef63081f0d08f534c0cfcfd6939daa60d
+SHA512: af9039d3e477941b42d478e5294fcb1880ba41c6c74643b93d2005296df65dd3ccfc5d9cbf76c327652b239b55fb631e69c71fc29302dc3adaef289efbde38a6
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtk6declarative
+Architecture: amd64
+Version: 6.0.10
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4546
+Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.10_amd64.deb
+Size: 925268
+MD5sum: 989f6a4c47a57ae72d00860edcd5b8ab
+SHA1: fb2c4e65b18be67549852eb8e6056cdbce48da87
+SHA256: ae568c147dea2eb8194937be51345f45927331ebe9e3367cfd4e6eebdfc84add
+SHA512: 1dcaee47acdbd567e3a57a3971fe47e37559407a2c020384fcc232399fd5410dfaa5e8052b68f148b9a316bf7f74e8f4b708344d66d953a897212cc46ccc5530
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
 
 Package: lastore-daemon-dev
 Architecture: all
@@ -6487,6 +6710,26 @@ Description: Qt 5 PDF library
  This package contains the Qt PDF library.
 
 Package: libdfm-mount-dev
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60
+Depends: libdfm-mount, libsecret-1-dev, libudisks2-dev
+Filename: ./l/libdfm-mount-dev/libdfm-mount-dev_1.2.23_loong64.deb
+Size: 10856
+MD5sum: cbe781443ff62d63c69499cbe7afc3eb
+SHA1: 03c12b40669be86f02b235b8603788d7b1d5ee11
+SHA256: 0899d32bb0bd74060118e9fa9c603e7e2c8f9d888f93b17f1e68595a87193d45
+SHA512: 8995550e8bea7a0ab63d35bf4b2a71244ff70c207583c3fb2f78b83b4d9ef4776669c2f157d7fe78dc4295e24c697af9f4f24a9789385ea6dd9a4db516c8aea1
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount dev.
+ A libaray that provides mount and umount interface dev.
+
+Package: libdfm-mount-dev
 Architecture: amd64
 Version: 1.2.23
 Multi-Arch: same
@@ -6502,6 +6745,26 @@ MD5sum: 9bc02f0f11ef1674efb2a57c86eea154
 SHA1: 8380c1ce53d7eb26672e8ca0e6f3ed46fb6ef1eb
 SHA256: f5375f07765e2605961a934597e88f57f854604f311e29048aaa8d722b925ebd
 SHA512: 54d24bb698bca72d115d483182552ef98c004f0fd1403c2648c2fcbd6bf211f502707f75fcca0db47dbbc1525f0eeddfd740843e7bc59089c86483757ff5adfa
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount dev.
+ A libaray that provides mount and umount interface dev.
+
+Package: libdfm-mount-dev
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60
+Depends: libdfm-mount, libsecret-1-dev, libudisks2-dev
+Filename: ./l/libdfm-mount-dev/libdfm-mount-dev_1.2.23_arm64.deb
+Size: 10852
+MD5sum: aaa833bd84465560ee11610be6b60074
+SHA1: d2d2ef0eb148601799dc3de6ecb71ba9b72e85df
+SHA256: a52c2a55e989ad9869bc7b43111b6785820732988d678337b371a09033c28ef6
+SHA512: c5425dd13c1c71d2eff3eb7bc7c75818ebaa239f5309ccb9dcb609eef5a0e612ca522e9870f44ba67367701e7c78f1eb4611c4903e7d3477374c1370d612e2bd
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount dev.
  A libaray that provides mount and umount interface dev.
@@ -6522,6 +6785,46 @@ MD5sum: 7aef9890855c9545770fbab278d7576f
 SHA1: 6c43a03f61438fe26ad583e7983d3146b73959c2
 SHA256: c6b21b1d078262c0d3a70cb8172f8c3f92b0f20b340c829fcdf1d58dec83e80d
 SHA512: 44efeb44f7dd38444055baaef7b4d35c1d0f8a5edda651773597d4fdfbbf6c9b5332511f575d84a21d07a414899bdbfd662a4054ce6ab2085879c2ed671bc3a0
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount.
+ A libaray that provides mount and umount interface.
+
+Package: libdfm-mount
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 585
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libmount1 (>= 2.25), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
+Filename: ./l/libdfm-mount/libdfm-mount_1.2.23_loong64.deb
+Size: 133060
+MD5sum: d0076675cdd5ffea531bac6597286504
+SHA1: de5fe70f4310a9f45c5577b87337f1727f9ccfd6
+SHA256: 31be8c08676f6465afbf584c01d2780e33fd084c4c05235c6179aa6b7cc89d9a
+SHA512: 59127c126485460360ad96612ed4707fcd9690333892a599964718ec836dbe4a6a6a401e2a77caa75dfcd4e788a7d582255042beabcc927aa5011dbf3b82d8c9
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount.
+ A libaray that provides mount and umount interface.
+
+Package: libdfm-mount
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 599
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libmount1 (>= 2.25), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
+Filename: ./l/libdfm-mount/libdfm-mount_1.2.23_arm64.deb
+Size: 132160
+MD5sum: 95979a96703ab7a715d42c075f66cc41
+SHA1: a619a445cec5c0832850ea46d5d5d15d2e6996fb
+SHA256: 63b08dccf84ae144959098b420e8a036afa408655fe7148bf0fc3a8f675aa7e4
+SHA512: 8eab92c292b2f0d6d298002a51d574aca81cf4f9bb346b7e5c6caa5557d13453a788bf600fa8db26d3c5baaec51ec86cc7224a8c22949da953e339ac10796f2c
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount.
  A libaray that provides mount and umount interface.
@@ -7685,6 +7988,69 @@ Homepage: https://www.deepin.org
 Description: dbus permission proxy for sandbox.
  dbus permission proxy.
 
+Package: libdlmaria2
+Architecture: loong64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 133
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 4.1.1), aria2, curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmaria2/libdlmaria2_5.3.76_loong64.deb
+Size: 39840
+MD5sum: b7d4208572896d3b5cfd2d158bfbc6d1
+SHA1: 730f1e47eeecf5994178464baa085ba7899d4edb
+SHA256: f26acfd08ac30e652e142d432ebaf2f57b56e188a74a6284f3aca32886c019f0
+SHA512: b3171ad3b4f859d9d3466caa20381e01398f29b1b4516c1c437319a610d605d5ac3ad60b042367b406f6bf119ed7d045e9436c656d49965f90c60d6923d4444b
+Homepage: https://www.deepin.org/
+Description: download manager dlmaria2 lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmaria2
+Architecture: arm64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 4.1.1), aria2, curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmaria2/libdlmaria2_5.3.76_arm64.deb
+Size: 39360
+MD5sum: 959eca53ddf62cccc036d0c5ea5e81c1
+SHA1: 4d0661d9505e2ffcec4331a55c91093d3b8d3a3c
+SHA256: 462795b24109cbee3cb189cb6677154f9f0fbca5b3b4d929d7caa61ff80d1ef0
+SHA512: 703485fa7d7133c5c0ab6e1f7378a6d328d61a439b86ce23ef66cee0fed6888c82d4a7d2aa170b77862e8fefd0a64a523cd1520d4f2bca2a70d010d0b1072120
+Homepage: https://www.deepin.org/
+Description: download manager dlmaria2 lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmaria2
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 4.1.1), aria2, curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmaria2/libdlmaria2_5.3.76_amd64.deb
+Size: 42128
+MD5sum: 5ede95048ac9cb3028d722bb03d9b84b
+SHA1: 3b8c57ea7adbe43e3e8b3a3ea91914b83f17b212
+SHA256: c042c6e94b29a3fc62e2320ea1c04e7bf18d84db87cb73443cd91ace84a3ab68
+SHA512: 29c8efa8cbef61fdcbe66064881ffe89bcf31ebe23d5d42f6d0e48c291825b1c4c876b65c5b57826fa55d55cbb7fdef9ed9bf5f75d07830f191ade6b09fe003e
+Homepage: https://www.deepin.org/
+Description: download manager dlmaria2 lib.
+ downloader for deepin desktop environment.
+
 Package: libdtkdeclarative-dev
 Architecture: arm64
 Version: 5.6.26
@@ -8098,6 +8464,27 @@ Description: Deepin Tool Kit Core Devel library
  This package contains the header files and static libraries of DtkCore
 
 Package: libdfm-burn
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 405
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt5core5a (>= 5.5.0), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdfm-burn/libdfm-burn_1.2.23_arm64.deb
+Size: 117556
+MD5sum: 683924f78c2476a963e812b9dbebf786
+SHA1: a2b0c755a4e17f267ec72a0b497a210792e250d6
+SHA256: f41e8f0a6b66481371c5f0645ae67f18524d35db2fb6d6a2dcd106adff98883b
+SHA512: 73ba434f299c07e2f150988ae8bdd661af59ccc6532f180f8ce6552bc55dca8997e8e38c398d67b9f1c0f6e74a3644202a05c27cc966eeaf9c4a600b595d8333
+Homepage: http://www.deepin.org
+Description: A libaray about burning CD.
+ A libaray that provides burning CD interface.
+
+Package: libdfm-burn
 Architecture: amd64
 Version: 1.2.23
 Multi-Arch: same
@@ -8114,6 +8501,27 @@ MD5sum: 622010c3ad02283a13d5c9df124b0f0a
 SHA1: 153389d088da9df19e803cb394cd3d3668d84aac
 SHA256: f949dcd8e8a70537840273effc23b75dbd61a453c9c36d5edeb17fec58a36b53
 SHA512: e0694fc5a0e62faf9eb609299f22819c3a6fa33105cb77c785a25257b40c6c096c12fe919af0951a2224e5285f3df10ab3189669c1119ba21e67f6c67e9ed5a9
+Homepage: http://www.deepin.org
+Description: A libaray about burning CD.
+ A libaray that provides burning CD interface.
+
+Package: libdfm-burn
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 374
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt5core5a (>= 5.5.0), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdfm-burn/libdfm-burn_1.2.23_loong64.deb
+Size: 118312
+MD5sum: ae1d36ebe3e26e7208d187023c0b05ee
+SHA1: ac694f479767455d1988c0ee6511e580ba270b2e
+SHA256: c8bdd7d91fd027d2c384a5cf0689982da4e66c5f4f07ceae6b9101467b00da1d
+SHA512: d99e0920a5225d70c230580d6fabfc6cd9e9742d76207234996f39c8a5200418f23f50f3a8c8b8d5daa680cf2484f4933ee5e2d3059c2a0248a30d5742fed271
 Homepage: http://www.deepin.org
 Description: A libaray about burning CD.
  A libaray that provides burning CD interface.
@@ -8195,6 +8603,26 @@ Description: The GNOME library - transition package
  This convenience package is for upgrades.
 
 Package: libdfm-io-dev
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 68
+Depends: libdfm-io
+Filename: ./l/libdfm-io-dev/libdfm-io-dev_1.2.23_arm64.deb
+Size: 11640
+MD5sum: 4d3f3a5cc58968a06d68c6ce6181cc06
+SHA1: 5985674d30eac1172b754ada0408d0df947f2d6f
+SHA256: c544e0395a1710ddbedbe4eb9d6d25d64b4a38a55b8466af2c053c7a572a24dd
+SHA512: f31f30b10944d6f307885fcbeefc64b674f97c37a3d8b076c340a999cb83e8b9ca3fd6e017f75364aa6284f813e930f1ea34f6de5d0287a8af3e20f035f26587
+Homepage: http://www.deepin.org
+Description: A libaray about I/O dev.
+ A libaray that provides I/O interface dev.
+
+Package: libdfm-io-dev
 Architecture: amd64
 Version: 1.2.23
 Multi-Arch: same
@@ -8210,6 +8638,26 @@ MD5sum: 1899bc497f0bea03ebf74df848e78244
 SHA1: 85978f23349a694fb0d3626d190a1d9c184e9e7c
 SHA256: 5709fa9bef350b9ad21d0a6c3bc8e7b714aa6c1c6928237765b628130bbfc749
 SHA512: 8313742afdfce915639d60cdf85c0dc525db526e10c4a38eeabe469b2cc600ca282118826d28a88308cc6cd4d4821f6530e2f10a1c1101cf30d171a779b1d987
+Homepage: http://www.deepin.org
+Description: A libaray about I/O dev.
+ A libaray that provides I/O interface dev.
+
+Package: libdfm-io-dev
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 68
+Depends: libdfm-io
+Filename: ./l/libdfm-io-dev/libdfm-io-dev_1.2.23_loong64.deb
+Size: 11648
+MD5sum: e4a2bc050997a31f69e3edd8e1f167c5
+SHA1: 8662126104c07d865cff2df7aab540ffca5b7b21
+SHA256: 6d24b4eb3e2eee18c2578ccb50cbbc652e82086b365acacee52e954b201de824
+SHA512: a3a8833991efc8d1b725396ba6e591d114dfea8c2b2d538cb5df45b08b265cf4bd29b7e84cf13ab813fa206e68523d17773fd4f2d20e87f9edb6de7c7434407d
 Homepage: http://www.deepin.org
 Description: A libaray about I/O dev.
  A libaray that provides I/O interface dev.
@@ -9838,6 +10286,26 @@ Description: DDE wayland server library
  include header files.
 
 Package: libdfm-burn-dev
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 27
+Depends: libdfm-burn, libisoburn-dev
+Filename: ./l/libdfm-burn-dev/libdfm-burn-dev_1.2.23_arm64.deb
+Size: 4300
+MD5sum: fb3aa96797fe639c8b39297c1250342a
+SHA1: 5e769ec1f03559b53ebe8a0c3554d86d0ebe9b5a
+SHA256: 901718e50870e6965f18aea8da0e82478054f08775a44117053bf513f7925376
+SHA512: 913a19b1eedd013ae71d4d82aa8863868fa3d21b848b669a8c5ce58c37c2acac9a0338ccfd61dea3b63e9ab75d72bf5b8d6fbcc66a692f01d073e2b3cc9d3cb2
+Homepage: http://www.deepin.org
+Description: A libaray about mount burning CD.
+ A libaray that provides burning CD interface dev.
+
+Package: libdfm-burn-dev
 Architecture: amd64
 Version: 1.2.23
 Multi-Arch: same
@@ -9853,6 +10321,26 @@ MD5sum: 717cae463b6f4fd5013704d6dac4800f
 SHA1: a750f5bd1c3af133cd9913795dc77069cb586bc6
 SHA256: 3a7c5399b61bb85e9a365b02063b66587341425810025d97e1bcbd57d510e706
 SHA512: 6b4fa15fdab039566f32eb2a4469fcab1b96f0623aca783e13bdb94d8a7219749880bd87cb8208e0f74337ff290f3d97499e214ead5a851be75f5533ae7ae58b
+Homepage: http://www.deepin.org
+Description: A libaray about mount burning CD.
+ A libaray that provides burning CD interface dev.
+
+Package: libdfm-burn-dev
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 27
+Depends: libdfm-burn, libisoburn-dev
+Filename: ./l/libdfm-burn-dev/libdfm-burn-dev_1.2.23_loong64.deb
+Size: 4316
+MD5sum: bd19b17a058a966d588873bb10204ccb
+SHA1: b7659c1a4c438359467a0358ecd75504a1b4e94b
+SHA256: 1ca6ac7eb87c41bffe6a3cad428a26adca178272bcf18b0cee86d8c1247844bf
+SHA512: 15bcc704eb737329bbffb4da3dccfc94cd7d4e7e8b6403e2783def8550287c1e3e8571f67d88aea0c2946f6a8fc8248c22e3a596b1274b37fc39ff25a41e1f01
 Homepage: http://www.deepin.org
 Description: A libaray about mount burning CD.
  A libaray that provides burning CD interface dev.
@@ -11403,6 +11891,69 @@ Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries
  DWayland provides a Qt-style Client library wrapper for
  the Wayland libraries.
+
+Package: libdlmdatabase
+Architecture: loong64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 100
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.76_loong64.deb
+Size: 29600
+MD5sum: 437979e68c5a201cef43dcf877c49b97
+SHA1: f853b3a67168da96a1a6a697d82a342585d08ae9
+SHA256: d9a3e1d7ca2e001c73b0a377c60beeae6ab2e6fdb8b0305cd2d28532d96c1655
+SHA512: 3455e086bd595bad5932d8eac5ba26894a858d7ae5628df059f88e0c61dc7129831c1ae0745b6d792ac26d9fc67f442d6cf10a45c2e71164733883e6d6de79a2
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmdatabase
+Architecture: arm64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.76_arm64.deb
+Size: 29704
+MD5sum: 38bb8ae5b4bf7b3f1f18d2f02474be13
+SHA1: f378a238dc172f62f2dbc5b628c7247eaefd60de
+SHA256: 244536d8c7a3e6b5827bd23785241d7e80580b28d1e48f98c5b6246fd84c19de
+SHA512: bf3b9d7e316f807b44cfcfe7aae05d969506121a2af54e19f91a3a9da35bff75e256a4a92a762ae657ddc0c82e396b2c65c5b40a76068ddfbdee01ccacd3c1ea
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmdatabase
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 95
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.76_amd64.deb
+Size: 31248
+MD5sum: 8488d131e9e00ea02ff8393d7a629a51
+SHA1: 7e92f26966f40703dae5cd391ce17ba8e4f625df
+SHA256: 5a115ad71da07da2bd12a18bc30392a2b02510adcddd706f7e310469cf731cd0
+SHA512: 5e0a1cf316d983cfd535b1f2b8e8c1de8358113085d90841c83c4410b6b13b0583f43296fa4e8301a124d372f0b9d3b330ecfd2bedfbe887f3a3bad97c82021a
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
 
 Package: libbonobo2-common
 Architecture: all
@@ -13144,6 +13695,132 @@ Description: Deepin Tool Kit Gui library
  .
  This package contains the shared libraries.
 
+Package: libdlmcontrolui
+Architecture: loong64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1636
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmcontrolui/libdlmcontrolui_5.3.76_loong64.deb
+Size: 434740
+MD5sum: 1241d166c1c5d3fb76dd3f6ad247c903
+SHA1: b1e93b019473a0580d2272d64d001fb77dafbfa5
+SHA256: 5c7bd649e9513775096ca333a5acdec6c1626661176de758de56a6c980e813a9
+SHA512: 2d0535ed6fb86f8a2c7f76e7b9a12a6b02d37fd116dc52bb17ea2469654a9bb07ef6a5fb6e88df63fa93148614978fe6f66b9f8ecc33d688660736e8893ea783
+Homepage: https://www.deepin.org/
+Description: download manager dlmcontrolui lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmcontrolui
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1620
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 4.1.1), curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmcontrolui/libdlmcontrolui_5.3.76_amd64.deb
+Size: 465688
+MD5sum: 22f9949bb03958e46a2e4b204eaf8beb
+SHA1: 95498ada4c55c4071b42fa264c6a21e657ad1a73
+SHA256: 429e43de653f6fd28557a922dc0cf9fbe7273131c09ed84c8b8814779fa6bd8b
+SHA512: cf0e5aef894508c18ae626d5eda6db72f179a295e88a3456cd19a72cbcfc05fb88033d2406f258a119fda71788753641fee444b9994c2202936e9c2970516ee1
+Homepage: https://www.deepin.org/
+Description: download manager dlmcontrolui lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmcontrolui
+Architecture: arm64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1619
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 4.1.1), curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmcontrolui/libdlmcontrolui_5.3.76_arm64.deb
+Size: 430928
+MD5sum: f17a6c7fc493e2e3b2dd352f74dd833e
+SHA1: 37832e6bd571621e3e5b9e3156c237fbcab249d1
+SHA256: ced16580fed0257072abe235145205be52e4e7a5be94bc2c9615c7d40ee168ba
+SHA512: 2d4e2e28d5632b193ffb7de6814e5a9bc9836a4d6adce63faf742d405b0ace2abb190591fb5a106187391f59343454217b0036c4de66831fc8fb6172224b3f11
+Homepage: https://www.deepin.org/
+Description: download manager dlmcontrolui lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmlog
+Architecture: loong64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 52
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libstdc++6 (>= 13.1)
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmlog/libdlmlog_5.3.76_loong64.deb
+Size: 19240
+MD5sum: 7819aba7de6956af705edeeebc03b0b6
+SHA1: 682668a1a0785fd2b5bbb72a2e3416406734ee8a
+SHA256: c5e507b7ee1105f67575686d04f35392fbc89b8672585a7f03d18451efab3d97
+SHA512: a5706a884246f517b2ece4f436703d5d0f55cec2579efe098e9979b3a9bf336b905b8d748c4fd1685a340b8e0350c4dc2dca9dfcaba68b3161354abb89a4fc6e
+Homepage: https://www.deepin.org/
+Description: download manager dlmlog lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmlog
+Architecture: arm64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libstdc++6 (>= 5.2)
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmlog/libdlmlog_5.3.76_arm64.deb
+Size: 19204
+MD5sum: c8667ad71c6e72bb759059d887dfdc9a
+SHA1: bc4b8d2c28a943c7db21f35ad1b1ec64748f976c
+SHA256: bbdc6cf15386dd495bfc0bac68f637b4f05b571e9b43e98edf1bae624d1678fc
+SHA512: e12c3bd47b98146f35d72c5dbf5655982b6b01095ff1006e0767b455523322f334601fa2a0cab5918beaa473d6c2e62fbd19265dbece47866efae9c72c2c2223
+Homepage: https://www.deepin.org/
+Description: download manager dlmlog lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmlog
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 55
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmlog/libdlmlog_5.3.76_amd64.deb
+Size: 19448
+MD5sum: 2125e51c723941990b72b07fce923ab7
+SHA1: 76d280bca20c9ce2ccb445495724c2c17c8d190f
+SHA256: a9c1b1ccde9749d8bde6a70868b8e9677ff4f3a7cdfbb7b25c50dd343e2704fd
+SHA512: f50d1bf679cdc9d632ad0ef35ae644e146a8f3c520cdf394242dea4a3f5ef69402239a70c57ae49a8e55a4ea65135ba2609efac0a503626aaddc0ef826caaccf
+Homepage: https://www.deepin.org/
+Description: download manager dlmlog lib.
+ downloader for deepin desktop environment.
+
 Package: libdisomaster-dev
 Architecture: arm64
 Version: 0.2.0-1+comsta
@@ -13810,6 +14487,63 @@ Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
  This package contains the shared libraries.
+
+Package: org.deepin.downloader
+Architecture: loong64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3709
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libdlmaria2, libdlmcontrolui, libdlmdatabase, libdlmlog
+Filename: ./o/org.deepin.downloader/org.deepin.downloader_5.3.76_loong64.deb
+Size: 2941680
+MD5sum: f757da45c7ddb928b38800701543c5cb
+SHA1: 16adea98ca0d2758fd7e0848ba502bca032a2372
+SHA256: 9f52139470e519dbd121c225b39e546a943e4da2f039b07035e6c184be3d5c55
+SHA512: 7b6fb87eabba879c81fea570c6485d0de7b107d3ab6ff0925639ca0f4ea2bf0e3ae0d5b999a59a45c1448bec846bf8416f0b3471377b37f8e4e1a9b9d50a7d77
+Homepage: https://www.deepin.org/
+Description: it's a user-friendly download manager, supporting URLs and torrent files.
+ downloader for deepin desktop environment.
+
+Package: org.deepin.downloader
+Architecture: arm64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3707
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 4.1.1), libdlmaria2, libdlmcontrolui, libdlmdatabase, libdlmlog
+Filename: ./o/org.deepin.downloader/org.deepin.downloader_5.3.76_arm64.deb
+Size: 2940516
+MD5sum: 25739d1c84a22c230e487502be464c0f
+SHA1: 65cf511640eea0967904fb7ad44adfeb5015c846
+SHA256: 704e1466a1626fe34841a60ee48d69370e5ca3ee09aeb16ce8e72c04a225b6a5
+SHA512: 744efd42ff57bb5cff6bf94910927dcdfe916d45b58b85522ceaafe6e30dcf98d000206b1e20d5ce50bab01b42878ed906095fc86e7511de75b9a63c62e7d0ff
+Homepage: https://www.deepin.org/
+Description: it's a user-friendly download manager, supporting URLs and torrent files.
+ downloader for deepin desktop environment.
+
+Package: org.deepin.downloader
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3695
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 4.1.1), libdlmaria2, libdlmcontrolui, libdlmdatabase, libdlmlog
+Filename: ./o/org.deepin.downloader/org.deepin.downloader_5.3.76_amd64.deb
+Size: 2941608
+MD5sum: 69bf2a1e792ab52426b18ed3a48be1f1
+SHA1: bdf2a454ae0f52779d6ff14b80bffb5192e980e7
+SHA256: 9700c39bf1d80cbcd57ce9d628498c1863b19d105b9e12f740fbd45691ad42b9
+SHA512: b22da6d91eb73b7dfa59c22f1bd29d13b09471faa7cfebc16e4108d6b94d35f1fae9d63d60ce93207876b004c1f60ee9707a7ee9d8f715ec8c66dc837be45cb6
+Homepage: https://www.deepin.org/
+Description: it's a user-friendly download manager, supporting URLs and torrent files.
+ downloader for deepin desktop environment.
 
 Package: orbit2-nameserver
 Architecture: i386
@@ -17937,6 +18671,29 @@ Description: default settings for deepin destkop environment
  This package does tweaking and to provide better experience of deepin desktop
  environment.
 
+Package: debootstrap
+Architecture: all
+Version: 1.0.134
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 314
+Depends: wget
+Recommends: gnupg, mount, debian-archive-keyring, arch-test (>= 0.11~)
+Suggests: squid-deb-proxy-client, ubuntu-archive-keyring, binutils, xz-utils, zstd
+Filename: ./d/debootstrap/debootstrap_1.0.134_all.deb
+Size: 47302
+MD5sum: 243bd131d0bb8a6defc569c098e3bd11
+SHA1: a26392a4ae89358bcf11e15ad3bf88eae3550633
+SHA256: 0b9de8a3003fef50ff1be50b210d5ee7838bdaded52d221090cd7ad85e49243f
+SHA512: c10236b2fbb5a90ca1f31952f3557cc88e0cf961e97bd9bee2a6ab44b87c7666d455e34327322536409f8315b24ac4f6d6191d5cfe323d77b9c9f7122cad166a
+Description: Bootstrap a basic Debian system
+ debootstrap is used to create a Debian base system from scratch,
+ without requiring the availability of dpkg or apt. It does this by
+ downloading .deb files from a mirror site, and carefully unpacking them
+ into a directory which can eventually be chrooted into.
+
 Package: dde-calendar
 Architecture: arm64
 Version: 5.13.0
@@ -18288,6 +19045,24 @@ SHA1: 5f79d83427449d0daf4bef507afa70b4d53769d1
 SHA256: c0f138511fb6981cfff6359d19f6e2fc1b282283543b50150060aa4c2f418374
 SHA512: 4aca26e981a8fb37fe8a44b773ccc4ba399d6484f86ee1bd344602f66513e964abf2b60875cc1a58b5b67d6ccd167593642b9aee6f438d0f9352ecd0db25730e
 Description: DDE Global Menu Service Daemon
+
+Package: deepin-defender
+Architecture: amd64
+Version: 1.0-1
+Priority: optional
+Section: utils
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 11406
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libparted2 (>= 3.1), libpcap0.8 (>= 0.9.8), libpolkit-qt5-1-1 (>= 0.112.0), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 5.2), libudev1 (>= 183), dconf-gsettings-backend | gsettings-backend, deepin-defender-vdbup, deepin-pw-check, uos-resource-manager
+Filename: ./d/deepin-defender/deepin-defender_1.0-1_amd64.deb
+Size: 7103840
+MD5sum: 65817af0bd093ba4357bdd549bc69258
+SHA1: 29e182837dbd3c4562dd57e3a4e71a123860e198
+SHA256: 70116bd4741355c04f8887f68188ef11fa7d200dd9151d13410d3140d51c3bc7
+SHA512: b973eadb1d598568dc77705b28c786a9c112bc717283246d9bf4a4b4f96be8cbcd661281684b08342ce3356cd2b4b0a61495cf3a5bf73436bd9e22ad369c7700
+Homepage: https://www.deepin.org
+Description: New deepin defender provide security protection for the system
+ Deepin Defender is the system protection App.
 
 Package: deepin-service-manager
 Architecture: amd64
@@ -23059,6 +23834,60 @@ Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Go-lang bindings for dde-daemon -- dev file
 
+Package: deepin-defender-vdbup
+Architecture: amd64
+Version: 2.1.0.1-1
+Priority: optional
+Section: devel
+Maintainer: Uniontechos THIRD Maintainers<uniontechos-third@uniontech.com>
+Installed-Size: 16911
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./d/deepin-defender-vdbup/deepin-defender-vdbup_2.1.0.1-1_amd64.deb
+Size: 10099348
+MD5sum: e97420c23068d8632b4a29ae7b07ee84
+SHA1: baf3a002d0f246b8bc45acaae62694c7b27f0fd2
+SHA256: 057876b1638fe5c78dba4b233f6cb587daaed1226abd2897b06300c277dcefd3
+SHA512: 43d41e4ee8b66845811fc03390aad8f5b57ba1d00774022baa0992b25e32ad4037c8ae7c95ab3e511d8d8c493a6cece2cf19c13a48697c6ead6a6a42aa8e8dfb
+Homepage: http://www.deepin.com
+Description: AnHeng virus engine
+ Solved the problem that the deepin-defender uses the Anheng virus engine interface.
+
+Package: deepin-defender-vdbup
+Architecture: amd64
+Version: 0.1.1-1
+Priority: optional
+Section: devel
+Maintainer: Uniontechos THIRD Maintainers<uniontechos-third@uniontech.com>
+Installed-Size: 16911
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./d/deepin-defender-vdbup/deepin-defender-vdbup_0.1.1-1_amd64.deb
+Size: 10099696
+MD5sum: a5e0242dbef24f8062dad32b6d76461f
+SHA1: d1a6b21271a0bc98272b6f8fcbf3ebc93760617e
+SHA256: b007f84c248b5a34db2c63e06480a1038ff15ebbd49455215f70db1fb3e6c971
+SHA512: bf91b5618bf96201232940c418d07b13974e15102925cc02b5ca473db4bce45d0426fbaaaa2cc4634e84994ae4cf0f0b787b185d3d876d0d58a56ed374ba8505
+Homepage: http://www.deepin.com
+Description: AnHeng virus engine
+ Solved the problem that the deepin-defender uses the Anheng virus engine interface.
+
+Package: deepin-defender-vdbup
+Architecture: arm64
+Version: 2.1.0.1-1
+Priority: optional
+Section: devel
+Maintainer: Uniontechos THIRD Maintainers<uniontechos-third@uniontech.com>
+Installed-Size: 15016
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libidn2-0 (>= 0.6), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Filename: ./d/deepin-defender-vdbup/deepin-defender-vdbup_2.1.0.1-1_arm64.deb
+Size: 9244792
+MD5sum: 4c7f7f6c3a6f5b708093911b4e4175a2
+SHA1: 9b210a0cd3043f6a3beb48c37e67241420e6a30b
+SHA256: 6d4a837a394d5684afc43881c46eccae7d71d3551b27e0b3c539d3cb86a99b0c
+SHA512: 17d5dec46f3962112e1c623e1796e7f0368ac7f4b1c2c7371d3b6015f2ebe84f9a67cf421c4a8cfe6934489283a567af5383bad9bb2dd27fddcc93e1a973e686
+Homepage: http://www.deepin.com
+Description: AnHeng virus engine
+ Solved the problem that the deepin-defender uses the Anheng virus engine interface.
+
 Package: dde-control-center
 Architecture: amd64
 Version: 4.10.19
@@ -23901,6 +24730,63 @@ SHA512: 854616ef1ca9c450b5622c8c5c5caefa7fc16bf88cc30705037f82555782a79730b32dbc
 Homepage: https://github.com/zty199/desktop-entry-editor
 Description: Desktop Entry Editor
  A simple GUI tool to create and edit desktop files, desinged for Deepin.
+
+Package: dtk6-exhibition
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21970
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), libdtk6declarative (= 6.0.10), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.10)
+Filename: ./d/dtk6-exhibition/dtk6-exhibition_6.0.10_arm64.deb
+Size: 10557912
+MD5sum: 5e5ea2b971a125644f9c416b39fa8420
+SHA1: 7a763bd7fdb947f13ae21966e4883c034eae586c
+SHA256: 44cd7e00894612807746749603a54d0a3316c01f44b40dc68858717e80120342
+SHA512: 04d148123f23c0ea7f5857a1a9eaff3553296f8fee6cdcc096efc9198fb8b63ed519e73a65deb95b96066e61f076ede4a0f6b0f22d93a541c1c79ccc6134daa7
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit QML Controls example.
+ This package contains a applicatioin.
+
+Package: dtk6-exhibition
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21974
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), libdtk6declarative (= 6.0.10), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.10)
+Filename: ./d/dtk6-exhibition/dtk6-exhibition_6.0.10_amd64.deb
+Size: 10558116
+MD5sum: 4b2fc12a4b36b45eb51644bedbddf176
+SHA1: bc95a2793770e1aa3be1a76582082b3a648483a5
+SHA256: 416f646db10af19ecc9a30c47f26d0ee963d82bceb841f0a18052fc3c805c86c
+SHA512: fda980cafa704ec598d893743c1df9e727bdf2993a35f742a01499a3473a624d5e485dc54df24b70ac2ad5e670422c1e13cb675c93fe4397181ff1a36d569a88
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit QML Controls example.
+ This package contains a applicatioin.
+
+Package: dtk6-exhibition
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21971
+Depends: libc6 (>= 2.37), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), libdtk6declarative (= 6.0.10), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.10)
+Filename: ./d/dtk6-exhibition/dtk6-exhibition_6.0.10_loong64.deb
+Size: 10558604
+MD5sum: 97bb739813e87becf232b3ef78dee764
+SHA1: af97fa3ce6285729f4eb31f2455424ef89cdb98f
+SHA256: d04cea3d6f902defe49ae65aaa783eb1c5262d7c5b90e28fcf8413765936865d
+SHA512: 8a49d98bf575dffa7f631070cdcde73ac7746d4e5d33693777db321519147a3b98d04cf9efcabc796d226f8114903e13e438e249e1119fe11736107bddbaf464
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit QML Controls example.
+ This package contains a applicatioin.
 
 Package: dde-top-panel
 Architecture: amd64
@@ -24904,6 +25790,24 @@ MD5sum: eee11556724f2d46423a2146e8729917
 SHA1: 20a540012ea8588d3c8fd9c7786fb5b3c8a8d216
 SHA256: c0d82efdd377c9348ec813237c6899086aa6d6a1cfc76950cef0f76afa26dbda
 SHA512: 93c8401cc9d94fa2152d59117bcdb6b3593fb23e742041c42f08bdad5b76986225832a8e8ff1dc40d9c0fe1794907a1b0ea41137fcb57d3af609262b9dc78f8d
+Homepage: https://www.deepin.org
+Description: client to login deepin sync account
+ Deepin user can login with DeepinID oauth
+
+Package: deepin-deepinid-client
+Architecture: arm64
+Version: 7.0.2
+Priority: optional
+Section: net
+Maintainer: Iceyer <me@iceyer.net>
+Installed-Size: 1055
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.4.0), libqt6webchannel6 (>= 6.2.1), libqt6webenginecore6 (>= 6.2.2), libqt6webenginecore6-bin (>= 6.2.2), libqt6webenginewidgets6 (>= 6.2.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5.2), libdframeworkdbus2, dcc-deepinid-plugin
+Filename: ./d/deepin-deepinid-client/deepin-deepinid-client_7.0.2_arm64.deb
+Size: 143776
+MD5sum: 81b4ee264142520864fa38448b580780
+SHA1: 6fdfde755ad753f4f9cb6d9d64a4cf5ca25a6aed
+SHA256: b59233a8d986435ea6098a541d85c284a5ba569e470ea67ce3b8634c1cb4118e
+SHA512: 2df86c1b39228aaf368e6ddccd899371d2a749bd4c842cfbf3f2a12a019b53b32172e0923b7d5e35acb14a3f58176b8879d0558720172013b658d59e5b7d749e
 Homepage: https://www.deepin.org
 Description: client to login deepin sync account
  Deepin user can login with DeepinID oauth
@@ -28794,6 +29698,63 @@ Description: Qt PDF - examples
  This package contains the PDF examples.
 Instloong64ed-Size: 761
 
+Package: qml6-module-qtquick-controls2-styles-chameleon
+Architecture: loong64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 135
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libglx0, libopengl0, libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-shapes, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, libdtk6declarative (= 6.0.10)
+Filename: ./q/qml6-module-qtquick-controls2-styles-chameleon/qml6-module-qtquick-controls2-styles-chameleon_6.0.10_loong64.deb
+Size: 21228
+MD5sum: fd6c6937b1f2c573ee623338f23b4d7d
+SHA1: efd55b5a93f5f834699c42eb9a2e5c8f45aa008c
+SHA256: 785625e85f47f0c54230b9f7cc2df605a17528693c39896c27ecf758dbdd5e66
+SHA512: 2f8e8cf64ee65f8620422cff7d42738b297c3d1a49b9440b1f58064be60dba4ce9ea813bb179a621c5ca2f474dc282525bffd8755a8b43704ffe59406eb0b3e1
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: qml6-module-qtquick-controls2-styles-chameleon
+Architecture: amd64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 127
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-shapes, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, libdtk6declarative (= 6.0.10)
+Filename: ./q/qml6-module-qtquick-controls2-styles-chameleon/qml6-module-qtquick-controls2-styles-chameleon_6.0.10_amd64.deb
+Size: 21028
+MD5sum: b9c5e51c08d61d0c95108b449cecb3ad
+SHA1: 5128b9ee5ed8c1ba078f6bd49bfe639b012de35e
+SHA256: 838015bce5a5dd68048c06787517de9ce5d8365b69bddd428b5751bb3d19aa25
+SHA512: 3dfc11eee1152ba891e8949b22178e3d634f24e3e2db0ddcc2145759225165d4575977dcdadcb75f11e2a1429bf190d2d676f4e89fd7ad0ee6f8377fa4fefc7f
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: qml6-module-qtquick-controls2-styles-chameleon
+Architecture: arm64
+Version: 6.0.10
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 183
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-shapes, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, libdtk6declarative (= 6.0.10)
+Filename: ./q/qml6-module-qtquick-controls2-styles-chameleon/qml6-module-qtquick-controls2-styles-chameleon_6.0.10_arm64.deb
+Size: 20480
+MD5sum: 7facca8cfb50401cc9fd7e38582e673c
+SHA1: 1001f7027508a760e43132dc11825d104d4f5370
+SHA256: 5c5524cbb31b0cf4b71d436b34f2982aa681a892b341270657e402ec0b50d79c
+SHA512: 5728720d3f22f890a64472176a544364402d8453a7bc572853e849d752cfc9aa2c96eab84a7c20c423d51121677b13f8f7dd3de05560549339f2144db75f7a3d
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
 Package: qt5-image-formats-plugin-pdf
 Architecture: loong64
 Version: 15~5.15.2+dfsg-lnd.3
@@ -28863,6 +29824,34 @@ Description: Qt 5 PDF library - development files
 Instloong64ed-Size: 271
 
 Package: erofs-utils
+Architecture: loong64
+Version: 1.7.1-1
+Priority: optional
+Section: admin
+Maintainer: Gao Xiang <xiang@kernel.org>
+Installed-Size: 484
+Depends: libc6 (>= 2.37), libdeflate0 (>= 1.0), liblz4-1 (>= 1.9.1), liblzma5 (>= 5.4.0), libselinux1 (>= 3.1~), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Suggests: erofsfuse
+Filename: ./e/erofs-utils/erofs-utils_1.7.1-1_loong64.deb
+Size: 109252
+MD5sum: 4d64250bb6900dd36397d47f14d5a604
+SHA1: d0075244a422950a879d1a6f8b2f2cd5b2a44d84
+SHA256: a0cfa9b5efa738a8dba88517036284634b98f91acee42910081d9707ae4f4155
+SHA512: 1ea80a132ed3b2deb0556102f9f2707e042191ede22b7f2055b6a7f2fa7595cc3820d08f5025ae2684bded937fe8c2199b293828a9070e2b6d6442942d9c0950
+Homepage: http://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
+Description: Utilities for EROFS File System
+ EROFS (Enhanced Read-Only File System) is a lightweight
+ read-only file system with modern designs (eg. page-sized
+ blocks, inline xattrs/data, etc.) for scenarios which need
+ high-performance read-only requirements, e.g. Android OS
+ for smartphones and LIVECDs.
+ .
+ It also provides fixed-sized output compression support,
+ which improves storage density, keeps relatively higher
+ compression ratios, which is more useful to achieve high
+ performance for embedded devices with limited memory.
+
+Package: erofs-utils
 Architecture: amd64
 Version: 1.7.1-1
 Priority: optional
@@ -28890,6 +29879,65 @@ Description: Utilities for EROFS File System
  compression ratios, which is more useful to achieve high
  performance for embedded devices with limited memory.
 
+Package: erofs-utils
+Architecture: arm64
+Version: 1.7.1-1
+Priority: optional
+Section: admin
+Maintainer: Gao Xiang <xiang@kernel.org>
+Installed-Size: 545
+Depends: libc6 (>= 2.34), libdeflate0 (>= 1.0), liblz4-1 (>= 1.9.1), liblzma5 (>= 5.4.0), libselinux1 (>= 3.1~), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Suggests: erofsfuse
+Filename: ./e/erofs-utils/erofs-utils_1.7.1-1_arm64.deb
+Size: 107832
+MD5sum: cb78b794f9a332883542e65b9d240836
+SHA1: 63b6512ec1bbe6c92b7f1ff2d306f833db5e54dc
+SHA256: 449aa6ccf5c9e148d310468a1c1fd3a1f06a8b616975997419528ba3b264f4f1
+SHA512: 345d79476598737af18a3562767e34be01f22c12a7ccd7740c94b29a06c3a14fe555a28e2a8397dc70e2e610a80d656f2545759e55855dde8b7bb1c4914e485d
+Homepage: http://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
+Description: Utilities for EROFS File System
+ EROFS (Enhanced Read-Only File System) is a lightweight
+ read-only file system with modern designs (eg. page-sized
+ blocks, inline xattrs/data, etc.) for scenarios which need
+ high-performance read-only requirements, e.g. Android OS
+ for smartphones and LIVECDs.
+ .
+ It also provides fixed-sized output compression support,
+ which improves storage density, keeps relatively higher
+ compression ratios, which is more useful to achieve high
+ performance for embedded devices with limited memory.
+
+Package: erofsfuse
+Architecture: loong64
+Version: 1.7.1-1
+Priority: optional
+Section: admin
+Source: erofs-utils
+Maintainer: Gao Xiang <xiang@kernel.org>
+Installed-Size: 183
+Depends: libc6 (>= 2.37), libdeflate0 (>= 1.0), libfuse2 (>= 2.6), liblz4-1 (>= 1.9.1), liblzma5 (>= 5.4.0), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)
+Filename: ./e/erofsfuse/erofsfuse_1.7.1-1_loong64.deb
+Size: 65748
+MD5sum: d3118b197ed00a0f1ad30ea2646e71dc
+SHA1: b95a66d68e7d6082a6eb3b5563ccf2573e8faafc
+SHA256: 9ae4d666817f34da31f4a7e64a11cd8e35584ad62112bdf3e6c1c604f67b5880
+SHA512: 4d2a097635ee08f1c98d90bf7c0a0c0a8b6e35b50a548feebd78438d8e90af45569d15dc32c2ecdb5d6362ac09acd37a3b542010f1126a88fea0df26ac86e9d0
+Homepage: http://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
+Description: FUSE Mount Utility for EROFS File System
+ EROFS (Enhanced Read-Only File System) is a lightweight
+ read-only file system with modern designs (eg. page-sized
+ blocks, inline xattrs/data, etc.) for scenarios which need
+ high-performance read-only requirements, e.g. Android OS
+ for smartphones and LIVECDs.
+ .
+ It also provides fixed-sized output compression support,
+ which improves storage density, keeps relatively higher
+ compression ratios, which is more useful to achieve high
+ performance for embedded devices with limited memory.
+ .
+ This package contains a utility to mount EROFS images
+ using FUSE.
+
 Package: erofsfuse
 Architecture: amd64
 Version: 1.7.1-1
@@ -28905,6 +29953,37 @@ MD5sum: a7c1c1ad3a97c5b3b32811cf3be05de5
 SHA1: 49d32fc2f7303e7cafb01f455371f09132cc6fc0
 SHA256: 27ca352e03e0ac323981ab56bd86e1060c1f6ee3079e6ea11955929345ac114a
 SHA512: 226da95fe8f09adf755ac0d1b7672f369c0d017f926698ed3ae8c5998190f98bd9b2e1c830b896aa111fa3b958e4e3925d073e24cd6823dc50138321aec200ef
+Homepage: http://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
+Description: FUSE Mount Utility for EROFS File System
+ EROFS (Enhanced Read-Only File System) is a lightweight
+ read-only file system with modern designs (eg. page-sized
+ blocks, inline xattrs/data, etc.) for scenarios which need
+ high-performance read-only requirements, e.g. Android OS
+ for smartphones and LIVECDs.
+ .
+ It also provides fixed-sized output compression support,
+ which improves storage density, keeps relatively higher
+ compression ratios, which is more useful to achieve high
+ performance for embedded devices with limited memory.
+ .
+ This package contains a utility to mount EROFS images
+ using FUSE.
+
+Package: erofsfuse
+Architecture: arm64
+Version: 1.7.1-1
+Priority: optional
+Section: admin
+Source: erofs-utils
+Maintainer: Gao Xiang <xiang@kernel.org>
+Installed-Size: 214
+Depends: libc6 (>= 2.34), libdeflate0 (>= 1.0), libfuse2 (>= 2.6), liblz4-1 (>= 1.9.1), liblzma5 (>= 5.4.0), libselinux1 (>= 3.1~)
+Filename: ./e/erofsfuse/erofsfuse_1.7.1-1_arm64.deb
+Size: 65372
+MD5sum: 8f8614cf24e005c34d51337e32d5315d
+SHA1: a42615842aa0d75fc7ef85854e1cf5bd3b3a2fab
+SHA256: 92a4351be4925d390f8dbe06a1d23e5533f117d3d2c76b3ebc26969f1d766f66
+SHA512: 71e3c101668c06fcf17222371be1f53feb512cb58378f3704298405f5b0987fbd4721dc9a3334996c4144ecc6a7c760d383ba2552afcea72ce3270b67a4341c7
 Homepage: http://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
 Description: FUSE Mount Utility for EROFS File System
  EROFS (Enhanced Read-Only File System) is a lightweight
@@ -29488,6 +30567,23 @@ Description: Spark Store
  A community powered app store, based on DTK.
 
 Package: com.deepin.gomoku
+Architecture: loong64
+Version: 1.0.11
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14863
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11)
+Filename: ./c/com.deepin.gomoku/com.deepin.gomoku_1.0.11_loong64.deb
+Size: 6513328
+MD5sum: ad7f51ee0a735f3eecc854d28df5f918
+SHA1: 13ab013eea58bea7bdc5b5fc0eb33a302bf402ce
+SHA256: ac7020e7eb752da998a2331f8d690829dc9ffe3b363b3c9966f35a70c6dea29a
+SHA512: 68f9d5f74917ee3687376faf7315a060c37847274b152ba2276c28e6b93dd5379ed83c716be4bb440c60617ebf01565747de5320fdbd1904843b4afb3078a390
+Description: Gomoku is a small chess game for two players.
+ Gomoku is an easy and funny chess game that is suitable for all ages.
+
+Package: com.deepin.gomoku
 Architecture: arm64
 Version: 1.0.11
 Priority: optional
@@ -29496,11 +30592,28 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 14875
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11)
 Filename: ./c/com.deepin.gomoku/com.deepin.gomoku_1.0.11_arm64.deb
-Size: 6510316
-MD5sum: 28a57abfada00568dc69c77a919e11ad
-SHA1: 0762a10c23f54c7db60fb7973b88028f93a2103a
-SHA256: fd39ca68eb5e575e7895814e41a3378c5b1a3827ad60b45e2f6426e71f8d6eb4
-SHA512: d253845c246a95ad6ee8f2725a35af0bf78d5e3576a29c865441120db5855bc65c3ce463f72c52bbf51972fd727c2ec42fde8e141b5ea689a0d682d338b18b6f
+Size: 6510828
+MD5sum: d8a2f2932cd1268fce9732f5e7e4bd9a
+SHA1: 9ee5c8dcfd471fc629c0de64d053fe68485a8698
+SHA256: ce8e938230079feffc7c7fdadef783006e46dd9fdf2c12ef1f13345f61e04e3f
+SHA512: daaf60e9e83a298f102de97e5cf71debbb5d068448af3274dad102c3bd009b1cf7bb0d84d732985a7adcbcf1f28b121c907d58a9c0599366c206907ea22cefd9
+Description: Gomoku is a small chess game for two players.
+ Gomoku is an easy and funny chess game that is suitable for all ages.
+
+Package: com.deepin.gomoku
+Architecture: amd64
+Version: 1.0.11
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14839
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11)
+Filename: ./c/com.deepin.gomoku/com.deepin.gomoku_1.0.11_amd64.deb
+Size: 6515724
+MD5sum: 9ec7bd7b07c5e27c639e25dfd4c916fa
+SHA1: a827f4d321ea07728bbdc841869b9b981f13676b
+SHA256: 663a5a344456e8144c60170615283271fa36c969e26fc1e4421ec01bf4fc430e
+SHA512: 7dbb041129dd9b76ad31a4f7dda1daa1349e494cf87ddeb4851d5b5ef3992a491d06e2369fd82cdfb12ade320e18dabd87210e985017027b60232ced345a7722
 Description: Gomoku is a small chess game for two players.
  Gomoku is an easy and funny chess game that is suitable for all ages.
 
@@ -29650,11 +30763,28 @@ Maintainer: Packages <deepin@deepin.com>
 Installed-Size: 19207
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.8)
 Filename: ./c/com.deepin.lianliankan/com.deepin.lianliankan_1.0.12_arm64.deb
-Size: 15628996
-MD5sum: 175c210ffe64defd5051d0b5ca582193
-SHA1: fb93bd794bc9c77f9ea4f833a8ad7f16bde8ce78
-SHA256: 6bb94ec1404e7d30d3e2e30cbb957fdbb1470a8d6f51168c1446b504cf78cbd5
-SHA512: f2ffd249cd6905089153bde3459ea586b06f66cc732f779b897062a9d24e910360c3315b12c91e7f8b3e6dc51139c11b9aff6de475acfa7845e32686f193646b
+Size: 15628636
+MD5sum: 52eb70554bfe8942256f8a9f48cf0fc7
+SHA1: b2dc4d9e4f91b03739b2fe9bb98f0c4374c0f1e8
+SHA256: 12b263c4fe754aec8c44cb69f4a6ae2932c828f1cc02a986ebf4c01c3eea5a11
+SHA512: b432484e9ae791c1d6e75d1d4b93c2fb8353240b12f785af2354f2d58d21eeb3331f091dd9a26d03faf218a237d22435fbfe8508535e7ead2f20c9a168ea1960
+Description: Lianliankan is a puzzle game.
+ Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
+
+Package: com.deepin.lianliankan
+Architecture: loong64
+Version: 1.0.12
+Priority: optional
+Section: utils
+Maintainer: Packages <deepin@deepin.com>
+Installed-Size: 19192
+Depends: libc6 (>= 2.37), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.8)
+Filename: ./c/com.deepin.lianliankan/com.deepin.lianliankan_1.0.12_loong64.deb
+Size: 15627216
+MD5sum: d2d0755a8d20d13bde8dc73f9ebd55d8
+SHA1: 95432e13c60747c5e01d2efbab8627b584339a2f
+SHA256: ee1efa7b92f7234bcfd2e44666b7032eaa223730df8bbfd28bed6ffdd2864875
+SHA512: 99be47f2e03850c9511f14b1e6d9ffd5b58664c51e7b4e74aeb428f540a0e31edda3fa88263f341012a47dccc4c85523da88701553a45b029c0dbf92019113ca
 Description: Lianliankan is a puzzle game.
  Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
 
@@ -29689,6 +30819,23 @@ MD5sum: 88b2180590c57029bed6a28b7e25be79
 SHA1: 799d7fc1bf7a9265c921b2acc20ca001f69a9a7a
 SHA256: 95b789f9ecad37d3ca541605d9601c21e40cc893dc4468f8a42ba097f77dae4e
 SHA512: 162e789749b08153022f9811c5171030648b3e9febcebfbd07e02a1618dd520e02c65d3e3047218f0cad8821f088deb8ce50ee7975c6dcab1ada2c4a97846d5a
+Description: Lianliankan is a puzzle game.
+ Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
+
+Package: com.deepin.lianliankan
+Architecture: amd64
+Version: 1.0.12
+Priority: optional
+Section: utils
+Maintainer: Packages <deepin@deepin.com>
+Installed-Size: 19186
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.8)
+Filename: ./c/com.deepin.lianliankan/com.deepin.lianliankan_1.0.12_amd64.deb
+Size: 15632276
+MD5sum: 4a3b8c8a2bc63cbc4f86976ba2416fbb
+SHA1: 07974da60dbdca099c8545c49a31c6e7a49ac429
+SHA256: b8c29f19f0c6b559b882fdcfa84e9ca227137348724d4e0ec5dd68ebd2415812
+SHA512: 4e3de9336198629919746c3e2f4aceedc86a48ad9be6d8b1df41d32f6a9a3ac80458cc77bafdfb178e324f1b0fbdfc002c8f1fcc6bddc45ed5db9e166dc6810b
 Description: Lianliankan is a puzzle game.
  Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
 

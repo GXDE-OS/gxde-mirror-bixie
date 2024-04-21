@@ -1,0 +1,21 @@
+Package: libdfm-burn
+Architecture: arm64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 405
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt5core5a (>= 5.5.0), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdfm-burn/libdfm-burn_1.2.23_arm64.deb
+Size: 117556
+MD5sum: 683924f78c2476a963e812b9dbebf786
+SHA1: a2b0c755a4e17f267ec72a0b497a210792e250d6
+SHA256: f41e8f0a6b66481371c5f0645ae67f18524d35db2fb6d6a2dcd106adff98883b
+SHA512: 73ba434f299c07e2f150988ae8bdd661af59ccc6532f180f8ce6552bc55dca8997e8e38c398d67b9f1c0f6e74a3644202a05c27cc966eeaf9c4a600b595d8333
+Homepage: http://www.deepin.org
+Description: A libaray about burning CD.
+ A libaray that provides burning CD interface.
+

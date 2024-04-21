@@ -1,0 +1,28 @@
+Package: erofs-utils
+Architecture: loong64
+Version: 1.7.1-1
+Priority: optional
+Section: admin
+Maintainer: Gao Xiang <xiang@kernel.org>
+Installed-Size: 484
+Depends: libc6 (>= 2.37), libdeflate0 (>= 1.0), liblz4-1 (>= 1.9.1), liblzma5 (>= 5.4.0), libselinux1 (>= 3.1~), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Suggests: erofsfuse
+Filename: ./e/erofs-utils/erofs-utils_1.7.1-1_loong64.deb
+Size: 109252
+MD5sum: 4d64250bb6900dd36397d47f14d5a604
+SHA1: d0075244a422950a879d1a6f8b2f2cd5b2a44d84
+SHA256: a0cfa9b5efa738a8dba88517036284634b98f91acee42910081d9707ae4f4155
+SHA512: 1ea80a132ed3b2deb0556102f9f2707e042191ede22b7f2055b6a7f2fa7595cc3820d08f5025ae2684bded937fe8c2199b293828a9070e2b6d6442942d9c0950
+Homepage: http://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
+Description: Utilities for EROFS File System
+ EROFS (Enhanced Read-Only File System) is a lightweight
+ read-only file system with modern designs (eg. page-sized
+ blocks, inline xattrs/data, etc.) for scenarios which need
+ high-performance read-only requirements, e.g. Android OS
+ for smartphones and LIVECDs.
+ .
+ It also provides fixed-sized output compression support,
+ which improves storage density, keeps relatively higher
+ compression ratios, which is more useful to achieve high
+ performance for embedded devices with limited memory.
+

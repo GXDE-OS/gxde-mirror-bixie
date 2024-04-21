@@ -1,0 +1,20 @@
+Package: libdfm-burn-dev
+Architecture: loong64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 27
+Depends: libdfm-burn, libisoburn-dev
+Filename: ./l/libdfm-burn-dev/libdfm-burn-dev_1.2.23_loong64.deb
+Size: 4316
+MD5sum: bd19b17a058a966d588873bb10204ccb
+SHA1: b7659c1a4c438359467a0358ecd75504a1b4e94b
+SHA256: 1ca6ac7eb87c41bffe6a3cad428a26adca178272bcf18b0cee86d8c1247844bf
+SHA512: 15bcc704eb737329bbffb4da3dccfc94cd7d4e7e8b6403e2783def8550287c1e3e8571f67d88aea0c2946f6a8fc8248c22e3a596b1274b37fc39ff25a41e1f01
+Homepage: http://www.deepin.org
+Description: A libaray about mount burning CD.
+ A libaray that provides burning CD interface dev.
+
