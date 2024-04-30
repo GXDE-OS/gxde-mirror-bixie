@@ -1,0 +1,17 @@
+Package: lat
+Architecture: loong64
+Version: 1.5.0-1
+Priority: optional
+Section: interpreters
+Maintainer: loongson <loongson@loongson.cn>
+Installed-Size: 8128
+Filename: ./l/lat/lat_1.5.0-1_loong64.deb
+Size: 2479828
+MD5sum: 6131161c898505d1e36ba349095dfd71
+SHA1: f0607d5db5c3c7ba0a94df23640fa0940df0d69b
+SHA256: 248c702d75f7723d195d4d5e7e290b1107594b14b035eddb505ea8ee7aa7ec7c
+SHA512: 09cd9e937ffe806cb05a9f47d4aec3c8be5939c0acc1a38ec5b32745a291dc5e2cb3e3273a6813b83e8dd2f32b29e61360ef5d75174b731d984323f080ea10a6
+Homepage: http://loongson.cn/
+Description: The Binary Translator.
+ It is provided by loongson. The host is LOONGARCH, and the target is I386.
+
