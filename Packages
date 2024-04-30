@@ -16415,6 +16415,24 @@ Description: Deepin Icons
 
 Package: deepin-icon-theme
 Architecture: all
+Version: 2024.04.30
+Priority: optional
+Section: x11
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46863
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: ./d/deepin-icon-theme/deepin-icon-theme_2024.04.30_all.deb
+Size: 7174788
+MD5sum: 21a60c50a566301a0b42a61903a47ba7
+SHA1: fd13a866a59344126a6c768dd1a73ad424d5e16d
+SHA256: 655c7ca5abe040c365bd3ebc8295dc46d5f50f7bc86f5429b6ddf4fb5c1cae3a
+SHA512: 0ea1efb30734252725deec08df04e440a0f34c86c61b4687807ae2ec96b5356ed6548a09ec54a1415e3b0a6b765215014c787f765f612cc440b7b8f7ebf74f2d
+Description: Deepin Icons
+ This package is DeepinIconTheme
+
+Package: deepin-icon-theme
+Architecture: all
 Version: 2024.02.16
 Priority: optional
 Section: x11
@@ -30529,6 +30547,24 @@ SHA1: b71e189799e3a11457b86d5a8356d1eae9034bce
 SHA256: 6af52c7653f16d7a54b19773fbf2898dcde5125b57bc757d852ccfa03460b42d
 SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4fffdc14dcd50a20acf272b13f67a27b03c0664d8e32f725f5805462be
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
+Description: Deepin Sea Icons
+ This package is DeepinIconTheme Sea
+
+Package: sea-icon-theme
+Architecture: all
+Version: 2024.04.30
+Priority: optional
+Section: x11
+Source: deepin-icon-theme
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6232
+Conflicts: deepin-icon-theme (<< 15.12.65)
+Filename: ./s/sea-icon-theme/sea-icon-theme_2024.04.30_all.deb
+Size: 2017316
+MD5sum: 7d4415cf1f7b182f34cab5c622acae8d
+SHA1: 6077215061f9ec278898ee86c8aa0bc4485eabdd
+SHA256: 70b7269c588b0a45e6cdaaf16ca84efc8fd11b697619b4f2bd47bf122a5b1779
+SHA512: 0fc67d88cb52694ed59b9aed97124e4fa274fa7502cce88d03a23fcc318c83349d50c4de4b3aea038880bb6e1a541095313eb785ae83d92777d6c1e554ce2206
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
 
