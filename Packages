@@ -211,6 +211,28 @@ Description: default settings for gxde destkop environment - misc overrides
  .
  This package includes files to override cups default page and fcitx icon.
 
+Package: gxde-default-settings-tuning
+Architecture: all
+Version: 2024.04.30
+Priority: optional
+Section: admin
+Source: gxde-default-settings
+Maintainer: gfdgd xi <3025613752@qq.com>, sysdev <sysdev@deepin.com>
+Installed-Size: 37209
+Conflicts: deepin-default-settings-tuning
+Replaces: deepin-default-settings
+Filename: ./g/gxde-default-settings-tuning/gxde-default-settings-tuning_2024.04.30_all.deb
+Size: 10645140
+MD5sum: 07c84f172d8a1ae3432d4187deaa1d96
+SHA1: c12e53bcba232bd90a8a080f69b2d957538fcf5c
+SHA256: 89b6db4459f90b1f574aebec457ee38aefcef5a30ffa6410b8761d2d9aaca466
+SHA512: 2045422baacb96d1b30197c0495e3fa9757a0789f7ba85f55edfd1e2519395e9d4b9a8f01b71912a4e38facd9ebd86634debe288a364fd27ed72090fb1c6b273
+Description: default settings for gxde destkop environment - misc overrides
+ This package does tweaking and to provide better experience of gxde desktop
+ environment.
+ .
+ This package includes files to override cups default page and fcitx icon.
+
 Package: golang-gocheck-dev
 Architecture: all
 Version: 0.0~bzr20131118+85-2
@@ -332,6 +354,29 @@ MD5sum: 71f1969e8a0443488dead44d3a9acbc5
 SHA1: 56e4cee65555c9e8926df878b24209c80c88d2b7
 SHA256: d260aad168d5f8d37f903c347da1cecbd850989f771563a597947526833f6802
 SHA512: c5132b9a45cc723fc7127cee6adcd62807f0260ebb7bcec80bcf0b181eedaa71a56be4b4d116a66ef069e628f8f0b6920b55059001aa869bde026df83c1446a9
+Homepage: http://www.gfdgdxi.top
+Description: GXDE New Desktop Environment - Next
+ This is a meta package depends GXDE New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: gxde-desktop
+Architecture: all
+Version: 2024.04.30
+Priority: extra
+Section: metapackages
+Source: gxde
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, gxde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver, gxde-default-settings
+Recommends: file-roller, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, ttf-deepin-opensymbol, deepin-terminal, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-font-installer, warm-sched, spark-deepin-wine-runner, cheese, gxde-top-panel, plank, fcitx5-material-color, tela-grub2-themes, plymouth-theme-gxde-logo, fcitx5 | fcitx
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher, libdframeworkdbus2 (>> 15)
+Filename: ./g/gxde-desktop/gxde-desktop_2024.04.30_all.deb
+Size: 2708
+MD5sum: 8a5ca76faa622e06131163e962c5c976
+SHA1: 479acfb4a2804fab5067541cb4d23fd57059e8c0
+SHA256: ecb70adaf0393122a2ad85bdb7a8835bf3564c4fe3010f4528e9cb260bdb0452
+SHA512: b065d8c108a5316cf5cdce356013395f8fff3a24eea3569f8390a79f21ebd13375f1eec5ed4115f5fb552bcef9d6a805f5ec9d42295342bbc6eb8025e92e6390
 Homepage: http://www.gfdgdxi.top
 Description: GXDE New Desktop Environment - Next
  This is a meta package depends GXDE New Desktop Envrionment.
@@ -490,6 +535,27 @@ MD5sum: bcf5ade7f30b668a1423a5bcb17edfe2
 SHA1: e4c76e3a6de5b080374a0f423a701184eb53f745
 SHA256: f477d2dc0643e7c179f4fc8d5b3fe3d852b5f2de3e37433f9044a73e855549d6
 SHA512: d0445bd6a0b497d3499c4dbd7f4a04bfc4797f0eab4eb78e3569e2fa635e7be2c353dd7002aed65e03bd700b4212298e28575ea471b050a70dfcf106b9b46bd2
+Description: default settings for deepin destkop environment
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
+
+Package: gxde-default-settings
+Architecture: all
+Version: 2024.04.30
+Priority: optional
+Section: admin
+Maintainer: gfdgd xi <3025613752@qq.com>, sysdev <sysdev@deepin.com>
+Installed-Size: 2017
+Depends: deepin-artwork, gxde-default-settings-tuning (>= 2018.1.23), iw, gxde-wallpapers
+Suggests: binfmt-support
+Conflicts: chrome-default-settings, deepin-default-settings, deepin-default-settings-network, deepinop
+Replaces: deepin-default-settings-network, deepinop
+Filename: ./g/gxde-default-settings/gxde-default-settings_2024.04.30_all.deb
+Size: 1914880
+MD5sum: 344eaac0e4eb87b1d980ef7c75f1084d
+SHA1: 70cc1bfe586d656548e31253e576a93c75d7b678
+SHA256: c4ed9f60353c1fb21cc0779d4040542faa41c789d1b0d1c6487b52ed8d1b46a8
+SHA512: 69ce95d619d728039aeb460a6691cc03b0a9764e38ad22a0d7cd2a86ceb945bd60f5f4745291092513c91bbe17d093950bbe10deb0fb0d27e253471e8c2e0f5f
 Description: default settings for deepin destkop environment
  This package does tweaking and to provide better experience of deepin desktop
  environment.
@@ -945,6 +1011,26 @@ Description: GNOME keyring services library - introspection data
  This package provides introspection data for libgnome-keyring. It can
  be used by packages using the GIRepository format to generate dynamic
  bindings.
+
+Package: gxde-wallpapers
+Architecture: all
+Version: 1.7.24
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 52019
+Recommends: gxde-community-wallpapers
+Breaks: deepin-desktop-base (<< 2017.11.2)
+Replaces: debian-dde-wallpapers
+Filename: ./g/gxde-wallpapers/gxde-wallpapers_1.7.24_all.deb
+Size: 50702652
+MD5sum: 080b21eb5d6180bbca8c9c36f6ec6dee
+SHA1: 02118c597ce5be84e447cc09cd0fdd5ef945941e
+SHA256: 3c632cd377a30e051abf8842337431a0a3fca089d3e8179f5f6e784f20d0b942
+SHA512: 72ea1d21cb442c9a56aa677681913906c2521638292fe3d4e579d744068907e1ab420e556503926377ea9d6e0d9fa5cffeb4262405d76321812ea6c8c6024db6
+Homepage: https://www.deepin.org/
+Description: dde wallpapers
+ Default wallpapers for dde
 
 Package: gxde-time-screensaver
 Architecture: loong64
@@ -1674,6 +1760,25 @@ Description: userspace virtual filesystem - common data files
  .
  This package contains the data files and translations used by all gvfs
  components.
+
+Package: gxde-community-wallpapers
+Architecture: all
+Version: 1.7.24
+Priority: optional
+Section: utils
+Source: gxde-wallpapers
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 42458
+Breaks: gxde-wallpapers (<< 1.7.5)
+Filename: ./g/gxde-community-wallpapers/gxde-community-wallpapers_1.7.24_all.deb
+Size: 43026416
+MD5sum: e6e469d6471e79dc10c6e7b55f50d3e3
+SHA1: 3e3701b5ba332ac00e61e40f8f825897d1ff47a7
+SHA256: c2c0295502f88b56415531989ee5ad7f826ab457118e63c3ebd87ff27513ed2e
+SHA512: 49e0c4b7bd863da68ea6684e6e0c91ebf370f0ca0ecded3db76b656f04c60e16a01dfc0ceff74ed1fa52c4e7c05af297a88b85874723afd7b470c135fd033bab
+Homepage: https://www.deepin.org/
+Description: community wallpapers
+ Community wallpapers for dde
 
 Package: gxde-redict
 Architecture: arm64
@@ -22981,6 +23086,22 @@ SHA256: 5b6ba46bc77175097944f6c84b7a556082637752124a2e30e74be11eefc85429
 SHA512: 544e44c5d09234303399b8d082041a6540ec8a6adc536be07b1ca1cfc46dbda7010034063128799a2c4312bcc834e10f15d9d9670898a0a2452affa5b73eaffe
 Description: Screensaver data
  xscreensaver extra with the Deepin Screensaver.
+
+Package: debian-dde-wallpapers
+Architecture: all
+Version: 1.7.24
+Priority: optional
+Section: oldlibs
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: gxde-wallpapers, gxde-community-wallpapers
+Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.24_all.deb
+Size: 772
+MD5sum: 7d477e70385955e44ce3ec2674310a3f
+SHA1: d47248ea2b1d5306b125521ad00c09edb7d0d7ca
+SHA256: 4f4d311fe6fdc680ed107ccaebc5c723e68b643df76335a5834e45f37a45acf2
+SHA512: 59a6136d35dbf79d970ba54c0f823b8eef417decfb9aa1d72cd7000f2edfcf33c83329392f925bd4e74d8386f97a7124eae07bfab422960a2c853637efe74b85
+Homepage: https://gitee.com/GXDE-OS
+Description: GXDE 壁纸过渡包
 
 Package: debian-dde-wallpapers
 Architecture: all
