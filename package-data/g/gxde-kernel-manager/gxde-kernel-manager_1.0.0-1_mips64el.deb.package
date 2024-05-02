@@ -1,0 +1,17 @@
+Package: gxde-kernel-manager
+Architecture: mips64el
+Version: 1.0.0-1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 260
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-1 (>= 1.2.0), libstdc++6 (>= 5)
+Filename: ./g/gxde-kernel-manager/gxde-kernel-manager_1.0.0-1_mips64el.deb
+Size: 57200
+MD5sum: 19057a67936db8a78a77ffef1610c4a0
+SHA1: f89a1e351b78d0768f2a0507039d20acf3072663
+SHA256: 6b807f62ce1875a174169043980572e778d1fb8f009d22c889576d5572c26199
+SHA512: 9199a1405371f6b1182c363d05682c111753da248961471398c8efa8fa9cac8608ff4a644914d52361afbec541159db495c65ab59d13a8ba2d0dc6f1c7ebd7a2
+Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
+Description: GXDE 内核管理器
+
