@@ -1055,14 +1055,14 @@ Version: 1.1.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd_xi <3025613752@qq.com>
-Installed-Size: 1264
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-1 (>= 1.2.0), libstdc++6 (>= 5), apt
+Installed-Size: 1280
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-0 | libqtermwidget5-1, libstdc++6 (>= 5), apt
 Filename: ./g/gxde-kernel-manager/gxde-kernel-manager_1.1.0_amd64.deb
-Size: 853492
-MD5sum: 4d066f862ff4269af477d50d2f701eb3
-SHA1: c07d68e03a56ae04f0c4efd55bd8a10697439ef9
-SHA256: 871fb35db66d98e010f56baa09337af0340d186b265f3e8006ed5115444a8cbd
-SHA512: aca41ae9a6fdfc779343a12691eb847cef8b88b10d61b058d4e0e84fae3fca25b21921a8818470c3c4476e6648b7d39e6b422053566bb2cb4663e546ff5dcf6f
+Size: 1117172
+MD5sum: 3d364560b559b76c8ff1ce79b476151a
+SHA1: 10e7b756a3a12b84084aa1993162a1f9901e3ffc
+SHA256: ea2579604f3ec3baddc6d361af38ee0b3048a1e68d7a52bab7baa073290dded0
+SHA512: 500d96ba8a6f7f493f6cf8dec8bbe35af350fb8aca60b738753882f867a55e7e2d57c555e9f29cf7fa23dc52aaded9f0ab9f314af574ccb7624f46b6bf1e56d5
 Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
 Description: GXDE 内核管理器是一个帮助用户更方便获取、安装、移除内核的工具。
  GXDE Kernel Manager is a kernel manager allows users to install or remove kernels easily.
@@ -1082,6 +1082,24 @@ SHA256: 6580d548444a631ffc46f448b1f50baff1f4d0b6cb982f380cec22f8c1ba5a2a
 SHA512: 1d6687c92c1d1dbb6e20f0aab581f82e27cd6c31fd916ec1a3038bc7c082e9e11825cc654bb246c78a56642af09392dcd8b846713d428e36cc9c1d7dd8c613bc
 Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
 Description: GXDE 内核管理器
+
+Package: gxde-kernel-manager
+Architecture: mips64el
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 1351
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-1 (>= 1.2.0), libstdc++6 (>= 5), apt
+Filename: ./g/gxde-kernel-manager/gxde-kernel-manager_1.1.0_mips64el.deb
+Size: 853616
+MD5sum: a3ad6b12c8e60343babc3668f17490c7
+SHA1: 66c7811aac05de24b076518eac2637c64dea54bd
+SHA256: 06e6ed90acb15bb1dcde90f0605a80a5d38cfff1475e97f82f69efb9c9d69571
+SHA512: c890ae2e9f994fd6ea75b029830a3acb8baaa5bb5325cffaa3ca6a2eb88d3bf0e23d6040df954e05946daccac903b077d8d4e1772a80e8bb3b5374e13343dc5d
+Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
+Description: GXDE 内核管理器是一个帮助用户更方便获取、安装、移除内核的工具。
+ GXDE Kernel Manager is a kernel manager allows users to install or remove kernels easily.
 
 Package: gxde-kernel-manager
 Architecture: mips64el
@@ -1149,6 +1167,42 @@ SHA256: ae5db97d85b662ad2876d09ce570db0b63a0b122a313d5ef5831097eb9f6a433
 SHA512: 8b4065f740fac35ac5f8e2478263443897ba5ae9f7ca9682b439d952ca0c212f62e0d0be695ac70e6b57f14602000d28872f5e2dad3ebca49f95a6fe8efbe9a7
 Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
 Description: GXDE 内核管理器
+
+Package: gxde-kernel-manager
+Architecture: arm64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 1277
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-0 | libqtermwidget5-1, libstdc++6 (>= 5), apt
+Filename: ./g/gxde-kernel-manager/gxde-kernel-manager_1.1.0_arm64.deb
+Size: 1113720
+MD5sum: c5b37d4aaed193446994019a5d850ff0
+SHA1: 2339fbed6f8eb7761b9642d2d93d82a0c75b853a
+SHA256: 3b16dcc186fe61aa287d17d7d55808c93623ed77c593dd6c58d2cfdd3726d594
+SHA512: d12906115a870ebac28bf9768f01c876fe8910d6d27302f808b68f3fb698a08755bf73a48f00535a2103211a30b54ee35db018ace371af827988fe244d34e010
+Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
+Description: GXDE 内核管理器是一个帮助用户更方便获取、安装、移除内核的工具。
+ GXDE Kernel Manager is a kernel manager allows users to install or remove kernels easily.
+
+Package: gxde-kernel-manager
+Architecture: loong64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 1265
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-0 (>= 0.8.0), libstdc++6 (>= 5), apt
+Filename: ./g/gxde-kernel-manager/gxde-kernel-manager_1.1.0_loong64.deb
+Size: 850848
+MD5sum: b88e68692ae356de41716a59a62936dc
+SHA1: 4c4fe02e6aac5aa54263b01dd20a2ea4917e5125
+SHA256: b2d76f4f79918193d5c3873d5dbf85004d8c668f8c3473865092207215ca6e4b
+SHA512: 3ea01967f1fec73986357f3083bf277babf572eefa7e6e26c7bfd93b3ab6ab6554d9a5d758f4a8d077c61dc46129af57eb4bc2a2dc09e12e62f80f3c1dd419d9
+Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
+Description: GXDE 内核管理器是一个帮助用户更方便获取、安装、移除内核的工具。
+ GXDE Kernel Manager is a kernel manager allows users to install or remove kernels easily.
 
 Package: gxde-kernel-manager
 Architecture: arm64
