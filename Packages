@@ -1213,13 +1213,13 @@ Priority: optional
 Section: utils
 Maintainer: gfdgd_xi <3025613752@qq.com>
 Installed-Size: 1265
-Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqtermwidget5-0 (>= 0.8.0), libstdc++6 (>= 5), apt
+Depends: apt
 Filename: ./g/gxde-kernel-manager/gxde-kernel-manager_1.1.0_loong64.deb
-Size: 850848
-MD5sum: b88e68692ae356de41716a59a62936dc
-SHA1: 4c4fe02e6aac5aa54263b01dd20a2ea4917e5125
-SHA256: b2d76f4f79918193d5c3873d5dbf85004d8c668f8c3473865092207215ca6e4b
-SHA512: 3ea01967f1fec73986357f3083bf277babf572eefa7e6e26c7bfd93b3ab6ab6554d9a5d758f4a8d077c61dc46129af57eb4bc2a2dc09e12e62f80f3c1dd419d9
+Size: 850696
+MD5sum: 8f96f87054e4d7279b7473b91919c163
+SHA1: 639f84ceaf978615d7b31fb0874ae90db2a3e482
+SHA256: 2ee009a87229d78d2fb3f6feb9964b00cfd5da7ca8dc7a30c7188ea6e1592381
+SHA512: f936373da88ca868b815d0ea936ebc176d10ea1e6da90dfca182aa344b291bdf5594824b8c705c4e4d11ada677c20e3656c8bad3b35407010c8850b2fdc12ed1
 Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
 Description: GXDE 内核管理器是一个帮助用户更方便获取、安装、移除内核的工具。
  GXDE Kernel Manager is a kernel manager allows users to install or remove kernels easily.
