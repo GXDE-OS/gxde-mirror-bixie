@@ -2103,6 +2103,25 @@ Description: ImageWorsener is a cross-platform command-line utility and library 
  Features include resize/resample, dither, grayscale, apply background color, subpixel rendering.
 
 Package: imageworsener
+Architecture: loong64
+Version: 1.3.2-1
+Priority: optional
+Section: misc
+Maintainer: leaeasy <lilongyu@deepin.com>
+Installed-Size: 201
+Depends: libc6 (>= 2.37), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Filename: ./i/imageworsener/imageworsener_1.3.2-1_loong64.deb
+Size: 95472
+MD5sum: 16f87144b5ee339391742edff0ba60db
+SHA1: 1010efca268f4e1c9af24ea71270cbc501904568
+SHA256: 0c0d475095458af08a460c147685384ba482bfc57b89785d306bb289654c6adb
+SHA512: 927d0802b938117507154e9f207d2eef7a36d744cc2cd728f573b5fa944a45237ae1c28259c079adf6c7e9311361629ce84101a630a3a13162d5333fb741c07b
+Homepage: https://github.com/jsummers/imageworsener.git
+Description: ImageWorsener is a cross-platform command-line utility and library for image scaling and other image processing.
+ A utility for processing PNG, JPEG, BMP, and WebP images.
+ Features include resize/resample, dither, grayscale, apply background color, subpixel rendering.
+
+Package: imageworsener
 Architecture: mips64el
 Version: 1.3.2-1
 Priority: optional
