@@ -1,0 +1,21 @@
+Package: linglong-bin
+Architecture: amd64
+Version: 1.5.2-1
+Priority: optional
+Section: admin
+Source: linglong
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4052
+Depends: desktop-file-utils, erofsfuse, libglib2.0-bin, crun, ostree, shared-mime-info, init-system-helpers (>= 1.52), systemd | systemd-standalone-sysusers | systemd-sysusers, libc6 (>= 2.34), libdocopt0, libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libostree-1-1 (>= 2017.6), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.8.0), libstdc++6 (>= 11), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
+Conflicts: linglong-dbus-proxy
+Replaces: linglong-dbus-proxy
+Filename: ./l/linglong-bin/linglong-bin_1.5.2-1_amd64.deb
+Size: 799592
+MD5sum: 4d58b1b1980e89662f84490f2eabc5e7
+SHA1: be7bfb6dc41af82dab1d53b4c10d386295640670
+SHA256: ec3e1b7a073039646d9160386766e85fcef53f53c964d78c4baed357adaea148
+SHA512: b2c38e89fb4aa93c274e79edc594a7f5ae54f8fecb455f03f4cf1ae77016892a55a2d833cd718ef887a05f4399a1ef1e741d166db9d0c90f338047112969de2c
+Homepage: http://www.deepin.org
+Description: Linglong package manager.
+ Linglong package management command line tool.
+
