@@ -20621,6 +20621,25 @@ Homepage: http://www.deepin.org
 Description: deepin data transfer frontend
  Deepin Desktop Environment (DDE) - data transfer frontend.
 
+Package: deepin-data-transfer
+Architecture: amd64
+Version: 0.8.0
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 15230
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libuuid1 (>= 2.16), libzip4 (>= 0.10)
+Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.8.0_amd64.deb
+Size: 11370384
+MD5sum: d072bbde782cc0f706323bef0e7059ca
+SHA1: 04c4b8a6552bb635748bb49f1dab3b9668c60f50
+SHA256: 1b6157c89043d02b6440ea4aabb4b9b5ff4969fc5d3007ed07d7cbc3cd0feb8f
+SHA512: 7a814915be424756a8a7b35d39354afaec8ecf83ea2646e98c04e9ac0271fe1c9c9cf3b721975391d872fc16cb6a238f0dfe785375b45ece344d0b1142f6ae3c
+Homepage: http://www.deepin.org
+Description: deepin data transfer frontend
+ Deepin Desktop Environment (DDE) - data transfer application.
+
 Package: dde-kwin-dev
 Architecture: loong64
 Version: 5.6.6-1
@@ -25306,6 +25325,25 @@ SHA512: ef84e3d2eb3188053ae400a04641d2846fa7fc44e4f3976e8b0a8750a24d93fa3ede54a4
 Description: DDE Top Panel is a top bar supporting the global menu for Deepin V20
 
 Package: dde-cooperation-dev
+Architecture: amd64
+Version: 0.8.0
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 30
+Depends: dde-cooperation (= 0.8.0)
+Filename: ./d/dde-cooperation-dev/dde-cooperation-dev_0.8.0_amd64.deb
+Size: 7396
+MD5sum: 2d0f2dcd676d4e64844037697b1ffc36
+SHA1: 7d655e9d7f25bb655ee41724a6f0058c2eb8dd3d
+SHA256: c55d190e063293a9e8643ea9170c35746686e50b7a089c213aa2cab2beadcdb1
+SHA512: c1c9530a959047528d5eb68ba307253be9756f6e484c8e11fc7c002f5231160433cf90c61fbc8d2329bd53d415ef7664ef089d6f206a894c92dfa2152c4f9865
+Homepage: http://www.deepin.org
+Description: Development package for deepin cooperation application
+ This package contains the header files and static libraries
+
+Package: dde-cooperation-dev
 Architecture: loong64
 Version: 0.7.10
 Priority: optional
@@ -25380,6 +25418,25 @@ SHA512: ac87d3d365417f04f58e44347e9b21bb7eb575ee0f36038974f646197a57061acbf235b8
 Homepage: http://www.deepin.org
 Description: deepin cooperation frontend
  Deepin Desktop Environment (DDE) - cooperation frontend.
+
+Package: dde-cooperation
+Architecture: amd64
+Version: 0.8.0
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 9490
+Depends: dde-cooperation-transfer, libc6 (>= 2.34), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2, libxtst6
+Replaces: barrier
+Filename: ./d/dde-cooperation/dde-cooperation_0.8.0_amd64.deb
+Size: 4255408
+MD5sum: 781aa3cd91c417ecfddadc09c94c58ea
+SHA1: 618e980241af2c4c6e3e30bacae4196560caba0f
+SHA256: 616487cc211ae5601712576eb37f5661e281e2d8d74266d01b974da4ca0088ed
+SHA512: 9b0c720083300ad0fccb619057c80f51e12ce6f8e77db54982989fca0323a4f1ee19f340d90222c9f861a084eab7b99aea75c99e14142d99a6da2c89859f0541
+Homepage: http://www.deepin.org
+Description: deepin cooperation frontend
+ Deepin Desktop Environment (DDE) - cooperation application.
 
 Package: deepin-wayland-protocols
 Architecture: mips64el
@@ -27805,6 +27862,27 @@ SHA512: 64cfa171a559e3c0e3d023cb88ca80532beadae23e8673a524220d15c3438685dbb32fd5
 Homepage: http://www.deepin.org
 Description: deepin file transfer frontend
  Deepin Desktop Environment (DDE) - file transfer frontend.
+
+Package: dde-cooperation-transfer
+Architecture: amd64
+Version: 0.8.0
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3289
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libuuid1 (>= 2.16)
+Conflicts: dde-cooperation (<< 0.8.0)
+Replaces: QtZeroConf
+Filename: ./d/dde-cooperation-transfer/dde-cooperation-transfer_0.8.0_amd64.deb
+Size: 1023596
+MD5sum: eeb1bff17d6539c3b2d180c7ee82d303
+SHA1: d9b2b7ce66953f9b564081a8caa7155ad8d0d557
+SHA256: 7c96ba4cce3426dbf0f2857bfad8c10fcfa38c3913504765efe5d5ec5417ee39
+SHA512: 72ae48f04d3394221bd510577d7c28a312b3ce6b60e2b4a901dc369ba523b4a02bdb14da547a7f38551656f5600c92fa5b6d1f8473bfde7a176691bada5d7caf
+Homepage: http://www.deepin.org
+Description: deepin file transfer frontend
+ Deepin Desktop Environment (DDE) - file transfer application.
 
 Package: dde-cooperation-transfer
 Architecture: arm64
@@ -31481,4 +31559,52 @@ SHA256: b8c29f19f0c6b559b882fdcfa84e9ca227137348724d4e0ec5dd68ebd2415812
 SHA512: 4e3de9336198629919746c3e2f4aceedc86a48ad9be6d8b1df41d32f6a9a3ac80458cc77bafdfb178e324f1b0fbdfc002c8f1fcc6bddc45ed5db9e166dc6810b
 Description: Lianliankan is a puzzle game.
  Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
+
+Package: zenity-common
+Architecture: all
+Version: 4.0.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: zenity
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 11381
+Filename: ./z/zenity-common/zenity-common_4.0.1-1_all.deb
+Size: 2956840
+MD5sum: 04aaadde0321f7a96c2e73e0e8d3cf69
+SHA1: 47105d588f42bf55dbce173998a37eaf5ab5d59e
+SHA256: d587ae0bc6aef3dc50f5441a20ed33c9c6e46194552b6922dc873a1ea683d057
+SHA512: c020d31b9c73abc1fd9ab41f07c0dfbd81c230f568e5639525c596d134d178fd2b8cf1ad468f3474bf30550fa01f1dad31e2b9913772b79e736bc40f867fd930
+Homepage: https://wiki.gnome.org/Projects/Zenity
+Description: Display graphical dialog boxes from shell scripts (common files)
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
+ .
+ This package contains architecture independent files.
+
+Package: zenity
+Architecture: amd64
+Version: 4.0.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 183
+Depends: libadwaita-1-0 (>= 1.2), libc6 (>= 2.34), libglib2.0-0 (>= 2.43.4), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), zenity-common (>= 4.0.1-1)
+Filename: ./z/zenity/zenity_4.0.1-1_amd64.deb
+Size: 72068
+MD5sum: 9809a0eda8db369dbbb9e2084967e11a
+SHA1: 682975a9df0a9ae2dd87220c35a3b47281253950
+SHA256: 9431b5cc98d0ad360cb129c057be622381bac65bf60e9f681fcfc0243fb225f3
+SHA512: 3edca619269eb1cb21ee17b5f72cedcefea77c365db698c972b01c1c5e26319958636c9dda8906e31c8183904dab5fc5dfd06c3de633ec69eb272b69f69fabed
+Homepage: https://wiki.gnome.org/Projects/Zenity
+Description: Display graphical dialog boxes from shell scripts
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
 
