@@ -4,15 +4,15 @@ Version: 1.7.0
 Priority: optional
 Section: application
 Maintainer: liuminghang <liuminghang0821@gmail.com>
-Installed-Size: 7716
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6
+Installed-Size: 7724
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6, dde-desktop (>= 4.8.8.3)
 Recommends: libqt5libqgtk2, kimageformat-plugins
 Filename: ./f/fantascene-gxde/fantascene-gxde_1.7.0_amd64.deb
-Size: 6128028
-MD5sum: 719cb5de6e33e702091b9a00a1ed560e
-SHA1: 321741a4bb0600488d3bc2f22c7e46e927eed809
-SHA256: 46ba643fd45a3c684f4fcf87d4493a149745ffb2c2a143debcb99ad36327e452
-SHA512: 46a9dc9abde676a8b03b19946410e0eec55b6042aef0fb4ce27401debfa78615548bf8a415900af4b4a861f4d17ce55cc79cfe7d86edf1889867b9fcf9064b16
+Size: 6128452
+MD5sum: aa591ebc237f607e93d68e9f60d37b6c
+SHA1: 4149be7f00a944642b82a37ce1c6e7f92f129bec
+SHA256: b61048099dd9cab3fed2c0ec3f01aef1e32bdea519cbd817ae9ed1687c43aecd
+SHA512: bb3748de0f4893e216d2e0a20cdd4fa5a6db9ac33715ecff605f650d2cb849187203fd712330adeb9fb6eca113bbe07bcc30fc443b63aea49ad6bc784e990647
 Homepage: http://github.com/dependon
 Description: video wallpaper for fantascene.
 

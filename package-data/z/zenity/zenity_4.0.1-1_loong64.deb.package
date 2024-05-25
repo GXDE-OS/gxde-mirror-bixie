@@ -1,0 +1,23 @@
+Package: zenity
+Architecture: loong64
+Version: 4.0.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 190
+Depends: libadwaita-1-0 (>= 1.2), libc6 (>= 2.37), libglib2.0-0 (>= 2.43.4), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), zenity-common (>= 4.0.1-1)
+Filename: ./z/zenity/zenity_4.0.1-1_loong64.deb
+Size: 69944
+MD5sum: fe348a6f7b2020a4f6829f55bda37b35
+SHA1: e7242151b49c3da75d05bca043073f8c0a833d30
+SHA256: 7bea96b6fdd3c3057ca20443b3b19d415584499a49b6f53334957e9d0f2842ee
+SHA512: e8b80c6484c13bec85634a845b3a8e8ff883cb55a4125f57fd075ec8e112c749bacc3934afb61003ef4d89391e649b817b44242750534ab16152b2b128ada888
+Homepage: https://wiki.gnome.org/Projects/Zenity
+Description: Display graphical dialog boxes from shell scripts
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
+
