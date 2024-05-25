@@ -10,3 +10,4 @@ sudo apt update
 sudo apt install gxde-desktop
 ```
 # ©2023～Now gfdgd xi
+
