@@ -1038,16 +1038,16 @@ Version: 1.7.26
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51998
+Installed-Size: 52051
 Recommends: gxde-community-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: debian-dde-wallpapers
 Filename: ./g/gxde-wallpapers/gxde-wallpapers_1.7.26_all.deb
-Size: 50679716
-MD5sum: 99df89a42902d2d1ee2b19b252778600
-SHA1: 906406029f91115984376a7222a8aaa01625bfac
-SHA256: a5dfbd009f1e3d23faee5abe89bad840b3a3948394eac9b039e28695fbe36a01
-SHA512: c9b5744005329ad389b510eda87f182b249c7f14ddbfdb8357d333486ecb4eac6ef34d5f0fe5ced382ea391ff39e703881223883b7e3a8f3e800c34b068b73cc
+Size: 50741668
+MD5sum: a764b7658a417fef015cb11a6244be07
+SHA1: eafb672f15b89e86437bd7c7393a249e6e4e55f4
+SHA256: dc429a5a36f6cf5f1053135bcc0ffd03f7ccef202393108cf61efdbfd0b4982c
+SHA512: e7bd745e6caf62ea12b0c01d0ad32f97ee6a352279f854cb489203eacbd80bd5e07b554e1a3ffd772858b3d29fad548f3e088fea6de1922987fe8d57dd7400dd
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for dde
@@ -1997,14 +1997,14 @@ Priority: optional
 Section: utils
 Source: gxde-wallpapers
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 44276
+Installed-Size: 44732
 Breaks: gxde-wallpapers (<< 1.7.5)
 Filename: ./g/gxde-community-wallpapers/gxde-community-wallpapers_1.7.26_all.deb
-Size: 44827748
-MD5sum: 31093291031462ae52c9acbbfb5552c0
-SHA1: d8f869d725878e34e4ff7d148f63b22b919668ef
-SHA256: e55641c9b483df0cf7984e8d047d59477fcfc7a9f73694b7827eab354578c9f0
-SHA512: 84fac4c2e4eb04a6571f9229ad5a15cd0e52f14ee7f7e16aa8040675a4b01fff94e2f979d8a000a3256fda31307ba7c1a6657fa3c095ecfc518d916ed14e15d6
+Size: 45291052
+MD5sum: 6eda0dd2f759ffb479eeef0835ce029b
+SHA1: 263a9014687249a97b0373c85794a0e685b89d95
+SHA256: b07d2cccbe14bc95aed58e95db3937726112f04542c404d98aea43dfb348e89e
+SHA512: 1c8d351d64f3c9bf0d1dd17ed487cc379d66082b25b4c56675ba44ecfca9733138c920558a7f03e83924a90ccdbe893996b6323ccd15da06ffb2f6c9740749cf
 Homepage: https://www.deepin.org/
 Description: community wallpapers
  Community wallpapers for dde
