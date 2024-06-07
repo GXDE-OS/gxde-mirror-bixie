@@ -1,0 +1,18 @@
+Package: libdeepin-unioncode-dev
+Architecture: mips64el
+Version: 1.3.1
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 78
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.3.1_mips64el.deb
+Size: 13164
+MD5sum: 0bf74a98536ec41c16c4e579e098bc81
+SHA1: 535e59d8d8084240afe912087e20d86f32cbee0c
+SHA256: 85fafd2827b60ff2940840cb7bb1cdadb82f2f1f3dc7d7638b759e4af664e98f
+SHA512: c9b6f7fcd9e2f4da604c567dc1b59fd5fa1e4a50a49391aec676ca7e9264b3de09f69c6a94003e79ef72c2fb072d0630984d642ede11f91d71f6646531495725
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+

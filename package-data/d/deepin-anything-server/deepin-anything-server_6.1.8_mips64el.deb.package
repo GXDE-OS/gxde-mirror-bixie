@@ -1,0 +1,19 @@
+Package: deepin-anything-server
+Architecture: mips64el
+Version: 6.1.8
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 499
+Depends: deepin-anything-libs, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5), libudisks2-qt5-0 (>= 5.0.6), deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_6.1.8_mips64el.deb
+Size: 90020
+MD5sum: 8fe81591243ec6f06da318a71381f113
+SHA1: 50b86c6fb17e0c8467cbf86fec7a4379a32c2de3
+SHA256: f1b11809dc0aa53e7d5832e643d66f80558a6956e0d8a78b681ab5637d2308c3
+SHA512: 95091ac1a47623eb77f9258c05e1f8a8983169074656d11c9262eea1207a091c02b921fee3090a97b34c0568d632875997c3c6e86badac4f090fd95a3559f77f
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
+

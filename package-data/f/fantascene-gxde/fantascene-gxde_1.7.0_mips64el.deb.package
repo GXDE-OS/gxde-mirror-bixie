@@ -1,0 +1,18 @@
+Package: fantascene-gxde
+Architecture: mips64el
+Version: 1.7.0
+Priority: optional
+Section: application
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 7887
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6, dde-desktop (>= 4.8.8.3)
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Filename: ./f/fantascene-gxde/fantascene-gxde_1.7.0_mips64el.deb
+Size: 6121992
+MD5sum: 143e79f66cbfa56da8173631c067230d
+SHA1: 006d26d0b10a0faa86c9489b309139c2421f8d00
+SHA256: 515560a0b986a0fae15af060eea65f6de2db574e999cc7f0703b4d5e1e7fc6e0
+SHA512: 6488620622f8e8fab5a4de8011e318898260d0b318c9f2b7caa5adfecc555a4fece75e6ac49cc3bab89f7a158fdae1d6c0edde2f58caadacbab3a583f041b0a6
+Homepage: http://github.com/dependon
+Description: video wallpaper for fantascene.
+

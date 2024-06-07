@@ -1,0 +1,19 @@
+Package: deepin-unioncode
+Architecture: mips64el
+Version: 1.3.1
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 122802
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13 | clangd, python3-pip
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.3.1_mips64el.deb
+Size: 70659476
+MD5sum: f9809d52a8d4bee3046e79805e70040e
+SHA1: 8434599264ba0cdff51a95b66666962b0a5d2f5b
+SHA256: 010103f3f778d859d6bd613c504599fe8d6d99189d466e086d209cd84590cf31
+SHA512: 1182d3dcdad4b6991e19cf5db621e815b0d0a7ab0942ebc446443218db6bc91a3e8cb955db41a6e791d8f2018735f35c74c61031924c3d17d6a8f6df73bb3bb4
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
+
