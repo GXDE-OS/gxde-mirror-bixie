@@ -2000,11 +2000,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 44732
 Breaks: gxde-wallpapers (<< 1.7.5)
 Filename: ./g/gxde-community-wallpapers/gxde-community-wallpapers_1.7.26_all.deb
-Size: 45291052
-MD5sum: 6eda0dd2f759ffb479eeef0835ce029b
-SHA1: 263a9014687249a97b0373c85794a0e685b89d95
-SHA256: b07d2cccbe14bc95aed58e95db3937726112f04542c404d98aea43dfb348e89e
-SHA512: 1c8d351d64f3c9bf0d1dd17ed487cc379d66082b25b4c56675ba44ecfca9733138c920558a7f03e83924a90ccdbe893996b6323ccd15da06ffb2f6c9740749cf
+Size: 45290960
+MD5sum: 7b26d2451d5d90e7597dc994390aa36e
+SHA1: 56efe8261883dfe7fe57a4166d4d7ac37227e172
+SHA256: a6ad347a13e0a7fddde6c3742ac2ae17f2f15fbd741769d9eac5deac5fa0371a
+SHA512: 675cc49988db413113eb5a12cef22ca8e9008ecc198d55f36fc06ae68910dab9e6ce821d5aa3a3bc3f2a75954d25accefc2c1ab292382908dde2d8192d382766
 Homepage: https://www.deepin.org/
 Description: community wallpapers
  Community wallpapers for dde
