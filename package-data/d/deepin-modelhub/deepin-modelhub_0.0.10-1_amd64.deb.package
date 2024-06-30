@@ -1,0 +1,18 @@
+Package: deepin-modelhub
+Architecture: amd64
+Version: 0.0.10-1
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4726
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 12)
+Filename: ./d/deepin-modelhub/deepin-modelhub_0.0.10-1_amd64.deb
+Size: 1338092
+MD5sum: 1bdd746e992167e6c30bff599ab630a1
+SHA1: e0a7449b695410cc6cc2c685b66fdb0b6f1df682
+SHA256: 2d8e131078cc42eb531876158babc1f29a84ea66bc847e9cb9b5873e67e39479
+SHA512: 74a364f40bfde358f63810baa7bc95a75a369801d3e52ea2e338ef546294f4b69441ec3ed2f9ede5a39b0bd5b38507244f67326baf8aca032255eef467838862
+Homepage: http://www.deepin.org/
+Description: Model manager.
+ Deepin Modelhub is a model base that provides large model management and running large models locally.
+

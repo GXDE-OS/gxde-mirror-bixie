@@ -1,0 +1,17 @@
+Package: deepin-systemassistant-knowledge
+Architecture: amd64
+Version: 0.0.2-1
+Priority: optional
+Section: misc
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60791
+Filename: ./d/deepin-systemassistant-knowledge/deepin-systemassistant-knowledge_0.0.2-1_amd64.deb
+Size: 51984404
+MD5sum: ac9bff43895157f1cbae28dd44b49348
+SHA1: e6f4d78ade0bc2f97b93e82f4b8f76826d559715
+SHA256: 0c26330c4ae0e0d72ab66203cce1ca82c791b463d6788ea30ec0e0b7c3221e01
+SHA512: aed7c0d6f10a48e6b6b16c6cf9390cb9a99764041cf83353ee82233fb53e991a53147e03552aec887b4eee220d21667dbfda7fe7538751b6539472ed5a7a4589
+Homepage: http://www.deepin.org
+Description: deepin-systemassistant-knowledge
+ This package contains the knowledge data for system assistant.
+

@@ -1,0 +1,18 @@
+Package: deepin-modelhub-dev
+Architecture: amd64
+Version: 0.0.10-1
+Priority: optional
+Section: utils
+Source: deepin-modelhub
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8
+Filename: ./d/deepin-modelhub-dev/deepin-modelhub-dev_0.0.10-1_amd64.deb
+Size: 1380
+MD5sum: 624e0e56c576bb36ac2386c838d5adf4
+SHA1: 8bab77cc55d637d5d902ba4f3b8a707471078465
+SHA256: 50b06d2bd1a68a9ca1c4bca33d1650220eec969505e4285564f0af04c3feee75
+SHA512: dfeaf61f2e91e926785d7900ade0193887a5c8c81fbbfe7162de2ee74ad75c0a3667a182db9a6873fdef1ef873dd2ddd1c71052759249b83403e65e3ba63cb72
+Homepage: http://www.deepin.org/
+Description: Model manager Devel library.
+  This package contains the header files deepin-modelhub.
+

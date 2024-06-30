@@ -1,0 +1,17 @@
+Package: uos-ai-rag
+Architecture: amd64
+Version: 1.0.1-1
+Priority: optional
+Section: metapackages
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8
+Depends: uos-ai, deepin-modelhub, deepin-ai-daemon (>= 1.1.0.19), baai-bge-large-zh-v1.5, deepin-systemassistant-knowledge
+Filename: ./u/uos-ai-rag/uos-ai-rag_1.0.1-1_amd64.deb
+Size: 1872
+MD5sum: b43e6a2de303e89f824446a2f13f02a3
+SHA1: c76ef1ca7ca871cd2166db5e27b1c164f6578fba
+SHA256: 41be5e5ba1dcfa709d9508849f45c3fdc6ddcf02ea64b45af07025404be4d2ec
+SHA512: 090163828490b48da1164677247d2d70292c514af3c5f45e0d14c3aabea759b1c451139034891959273e813e7c3700211b33e8adb5989290199604161bce6292
+Description: The RAG extension for UOS AI
+ Collection of dependency packages for UOS AI RAG extensions.
+
