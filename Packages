@@ -406,6 +406,29 @@ Description: GXDE New Desktop Environment - Next
  .
  You can safety remove it after installed.
 
+Package: gxde-desktop
+Architecture: all
+Version: 2024.07.15
+Priority: extra
+Section: metapackages
+Source: gxde
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, gxde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver, gxde-default-settings
+Recommends: file-roller, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, ttf-deepin-opensymbol, deepin-terminal-gtk, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-font-installer, warm-sched, spark-deepin-wine-runner, cheese, gxde-top-panel, plank, fcitx5-material-color, tela-grub2-themes, plymouth-theme-gxde-logo, fcitx5 | fcitx
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher, libdframeworkdbus2 (>> 15)
+Filename: ./g/gxde-desktop/gxde-desktop_2024.07.15_all.deb
+Size: 2700
+MD5sum: 0e8e98072bba4af4e686094b2a40942d
+SHA1: e86f339f4840060229f01fa970f59bbd4933a378
+SHA256: 8add4df28ebe228291a45ec560de5553874ebacc6f47c55d5a486bf825a02e16
+SHA512: d9dd74704b927115b808533bf3aa7f76a3f09c80af730c34c2b6b90a3af74ae52ee51545a7d7efcb275fe9c649dc37770bd6d14e70eb5e68b79d32460e1b6b42
+Homepage: http://www.gfdgdxi.top
+Description: GXDE New Desktop Environment - Next
+ This is a meta package depends GXDE New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
 Package: gvfs-daemons
 Architecture: i386
 Version: 1.30.4-1
@@ -19091,6 +19114,26 @@ SHA512: e6f1269aa9f4f0b722776bd938cbad66942d24aafec3f03783d2d3fe25889cc489bea6e2
 Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
  Disk Utility is a disk management tool for disk.
 
+Package: deepin-terminal-gtk
+Architecture: amd64
+Version: 5.0.4.3-1
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2225
+Provides: x-terminal-emulator
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgtk-3-0 (>= 3.21.5), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, deepin-menu, expect, lrzsz, zssh
+Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3-1_amd64.deb
+Size: 365184
+MD5sum: 969388553e156f429a84ce0bdb930d2d
+SHA1: 5f045d7de9bcfc1aa99d16b67cea597b3f683d1b
+SHA256: 9e130779258ebb5799fe181444304e6ea29835d8dac727bb85bfe8011865a3eb
+SHA512: 13b74bc9c9abbb2a8d0136c9f4a0677dab42895da8add1b89da495dd64873fc649c8aa3774748c357369416c403195f2e303b7d01dc655c5f3628f730053c7b6
+Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
+Description: sharpens your focus in the world of command line!
+ Deepin Teminal is an advanced terminal emulator with window-splitting,
+ workspaces, remote management, Quake mode and other features.
+
 Package: deepin-album
 Architecture: amd64
 Version: 5.10.23
@@ -31006,6 +31049,29 @@ MD5sum: 3737e45e0d3ebd84a8d347fea681153f
 SHA1: bfca2dea457df1fb192b8bdcfb36bb89d061a665
 SHA256: 5d999827e294e5eae5b9ea686e8528386995884d2528ff549fe0f3883f9ba124
 SHA512: e91bd83d1affd78584738c348a69196e3afb89b44a2840dfcee6478489f2e99698018a05dab7bdc3d1e14554f118309e0b49a8b644fc0207d02b6811e86acb0c
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
+Architecture: amd64
+Version: 6.0.13
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6870
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.13_amd64.deb
+Size: 3393500
+MD5sum: ca520a54bfcf0e7c47f8da344055435a
+SHA1: a7bdef0f292bb0fac949ee36193a869cbec3a441
+SHA256: 33711136d711cea33ee704fd2a594130448eb04388aad9a94f29f8636ce6770a
+SHA512: 28e097a62de6c90e8870bc2f23253cdb8941f68eef2a0c4767dd7beeb9bc13301330308bd96a3398fcf59c08b2c66319e0edc3022e89e05950a9fa36fbb2be53
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
