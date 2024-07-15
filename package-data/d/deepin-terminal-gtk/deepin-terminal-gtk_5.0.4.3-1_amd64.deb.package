@@ -8,11 +8,11 @@ Installed-Size: 2225
 Provides: x-terminal-emulator
 Depends: libc6 (>= 2.34), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgtk-3-0 (>= 3.21.5), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, deepin-menu, expect, lrzsz, zssh
 Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3-1_amd64.deb
-Size: 365184
-MD5sum: 969388553e156f429a84ce0bdb930d2d
-SHA1: 5f045d7de9bcfc1aa99d16b67cea597b3f683d1b
-SHA256: 9e130779258ebb5799fe181444304e6ea29835d8dac727bb85bfe8011865a3eb
-SHA512: 13b74bc9c9abbb2a8d0136c9f4a0677dab42895da8add1b89da495dd64873fc649c8aa3774748c357369416c403195f2e303b7d01dc655c5f3628f730053c7b6
+Size: 365568
+MD5sum: a853d7b78df1870bc21dacf031405ba6
+SHA1: 39215dc4f988e5405d5f203270d6834721f985ed
+SHA256: 1e6253a4ca6cc371de02d13dd44d051779ee95dd0606bf491b799a7ca7289788
+SHA512: cdf503cfc89b83bfdbee4a107022dc7edc2f6bb8e3d2b728162138a1cfed96bb36fded9098a1b7e65ebd334b8663999d370302aaf50e885adb6e8dac72243b2d
 Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
 Description: sharpens your focus in the world of command line!
  Deepin Teminal is an advanced terminal emulator with window-splitting,
