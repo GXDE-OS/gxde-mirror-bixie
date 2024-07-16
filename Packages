@@ -19115,6 +19115,66 @@ Description: Disk Utility is a disk management tool for creating, reorganizing a
  Disk Utility is a disk management tool for disk.
 
 Package: deepin-terminal-gtk
+Architecture: mips64el
+Version: 5.0.4.3gxde2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2310
+Provides: x-terminal-emulator
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgnutls30 (>= 3.6.5), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 0.12.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.32), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libsm6, libstdc++6 (>= 4.1.1), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, zlib1g (>= 1:1.1.4), deepin-menu | dde-launchpad, expect, lrzsz, zssh
+Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3gxde2_mips64el.deb
+Size: 296668
+MD5sum: e400bd28275242a9fd73ce9dd26e0353
+SHA1: d04fbb2e749de2774a1aa57931a7ce5cee5c2699
+SHA256: 95400efbbdf3a875ce9730778386bc8d15c20086f2645afadefa40001c8650ba
+SHA512: c656d594d91ddfc897bbe3f47415694d4d0f82c5b2b89e909b63c423ca393b4c8a208100d759b0f3841411d2528f184825535317634cda7250e569971f5d9c2a
+Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
+Description: sharpens your focus in the world of command line!
+ Deepin Teminal is an advanced terminal emulator with window-splitting,
+ workspaces, remote management, Quake mode and other features.
+
+Package: deepin-terminal-gtk
+Architecture: amd64
+Version: 5.0.4.3gxde2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2223
+Provides: x-terminal-emulator
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgnutls30 (>= 3.6.5), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 0.12.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.32), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libsm6, libstdc++6 (>= 4.1.1), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, zlib1g (>= 1:1.1.4), deepin-menu | dde-launchpad, expect, lrzsz, zssh
+Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3gxde2_amd64.deb
+Size: 363976
+MD5sum: 9c2fc7d086802eacda491987786785f3
+SHA1: 93d3e281242786fd443cb95d73455a6adec701fd
+SHA256: 956a663bd77cb84a7e6c68e23bbaf1557f3c7b850db6e56f2b95d0bd20bedd72
+SHA512: 3b2c9ed1ac2970b67816a9cd58fbd9d39ba53193e5b70ff602c521423eba998eadbefbe5108dc6d877a5b0d9925a452b2c6113bb0604beeb0e5cf51897bb3fd2
+Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
+Description: sharpens your focus in the world of command line!
+ Deepin Teminal is an advanced terminal emulator with window-splitting,
+ workspaces, remote management, Quake mode and other features.
+
+Package: deepin-terminal-gtk
+Architecture: loong64
+Version: 5.0.4.3gxde2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2216
+Provides: x-terminal-emulator
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.37), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgnutls30 (>= 3.7.0), libgtk-3-0 (>= 3.21.5), libharfbuzz0b (>= 0.6.0), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.22), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libsm6, libstdc++6 (>= 4.1.1), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, zlib1g (>= 1:1.1.4), deepin-menu | dde-launchpad, expect, lrzsz, zssh
+Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3gxde2_loong64.deb
+Size: 337044
+MD5sum: 353e6f4dc09cac2a7dd2ab44599b937b
+SHA1: 703323857e356aa872e3e5bb3f5e65da5c265dc3
+SHA256: 4aac803c17e9e1dcfdb7203c5be36a4d6912d68a9fd7258c37d7c763eac869f0
+SHA512: 70151e4e9ed5ba397b687faff900f7aeac6a9e8ad246d9713ca10c7fcbb27dc34260899eb0880c32ac2128951d4bc325c13e20d3c8b9ed77c4c1c2cc7df5e93e
+Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
+Description: sharpens your focus in the world of command line!
+ Deepin Teminal is an advanced terminal emulator with window-splitting,
+ workspaces, remote management, Quake mode and other features.
+
+Package: deepin-terminal-gtk
 Architecture: amd64
 Version: 5.0.4.3gxde1
 Priority: optional
@@ -19149,6 +19209,26 @@ MD5sum: 46a7fe935029d93e62cf5eb2ebad1935
 SHA1: 91a3ffe4a7d262e92b03a04264d46a0ac95058b6
 SHA256: fd3f26a3e178ffb778a386e346dcbe07454f33ba3cb999d7f0fbafdcb0d9089c
 SHA512: ed9b8c387c2cd95480dfcab0f9852daf84e08ca20d5b7b5ba8ffa8e01b653e1e125945f54e0fa8a1abd219c876db99404dea509e0ea317e4ab4fcde54a0809ee
+Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
+Description: sharpens your focus in the world of command line!
+ Deepin Teminal is an advanced terminal emulator with window-splitting,
+ workspaces, remote management, Quake mode and other features.
+
+Package: deepin-terminal-gtk
+Architecture: arm64
+Version: 5.0.4.3gxde2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2207
+Provides: x-terminal-emulator
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgnutls30 (>= 3.6.5), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 0.12.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.32), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libsm6, libstdc++6 (>= 4.1.1), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, zlib1g (>= 1:1.1.4), deepin-menu | dde-launchpad, expect, lrzsz, zssh
+Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3gxde2_arm64.deb
+Size: 341500
+MD5sum: c6b1b0dd6031ff68f09d61f8a3f5c154
+SHA1: 48d649c2cbc57225691e33d20738981b4a336945
+SHA256: b7f15d99c2bf833785ea4398b0a738b5405d1546a1d716fc592c362cbf481e64
+SHA512: 431eda3022471a23abde1d807f0140cb38ee8ecbaba80e9ad2eaa4d53b526a780fcb6cab2790ea5303026bc8ba394da0ec373336dd0e1ff67813cd8b9fe962a5
 Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
 Description: sharpens your focus in the world of command line!
  Deepin Teminal is an advanced terminal emulator with window-splitting,
