@@ -1,0 +1,18 @@
+Package: deepin-wayland-protocols
+Architecture: amd64
+Version: 1.10.0.28-deepin28-1
+Priority: optional
+Section: libdevel
+Maintainer: Debian Qt/Deepin Maintainers <luochaojiang@uniontech.com>
+Installed-Size: 269
+Filename: ./d/deepin-wayland-protocols/deepin-wayland-protocols_1.10.0.28-deepin28-1_amd64.deb
+Size: 41948
+MD5sum: 317ddaa7d813a6e3f42523903d64bd57
+SHA1: aa4b5bdabfdea694badfd06d301e49eca6e9dc1c
+SHA256: d4e17c89809442f69770abb4ce7c3236359e7727068e08b63878789c855ae56c
+SHA512: dfc6eef96759a0cdd87aafd5e5dc2c3cf81f132d5d95b8937a121017f32c6b10cd5d027b46fb29ff2fc4d4d48097e6e2a772d2be410b86d7d8ee629fa5e44756
+Homepage: https://gerrit.uniontech.com/admin/repos/snipe/deepin-wayland-protocols
+Description: Wayland protocols for Deepin
+ This package contains protocols for Wayland that are not standard, and used
+ in Deepin.
+

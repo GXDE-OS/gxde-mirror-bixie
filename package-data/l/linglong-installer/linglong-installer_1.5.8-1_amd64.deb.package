@@ -1,0 +1,19 @@
+Package: linglong-installer
+Architecture: amd64
+Version: 1.5.8-1
+Priority: optional
+Section: admin
+Source: linglong
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1586
+Depends: linglong-bin
+Filename: ./l/linglong-installer/linglong-installer_1.5.8-1_amd64.deb
+Size: 498392
+MD5sum: 178bd4e6daa59081973cc5dcec9ae628
+SHA1: 97cc8e0b06ceee8c37effa28ae45d60615748d39
+SHA256: b39a000071ff31110b2a03310c71753aa02028cf9f9004fcb63d5c0fbb80fe04
+SHA512: 4b26634c047be88526a7b48055fd1d16053a793999e32b6b13b6bb73d4822c7671304aed53ecc3fb1e4f6ea219d6016a2e197e061228c6be3ef540ae37e147a3
+Homepage: http://www.deepin.org
+Description: Linglong online store application installation tool.
+ Linglong apps installation tool for deepin linglong web store(https://store.linglong.dev/).
+
