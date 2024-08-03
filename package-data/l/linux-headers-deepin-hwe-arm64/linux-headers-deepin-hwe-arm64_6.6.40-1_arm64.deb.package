@@ -1,0 +1,20 @@
+Package: linux-headers-deepin-hwe-arm64
+Architecture: arm64
+Version: 6.6.40-1
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.6.40-arm64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-arm64/linux-headers-deepin-hwe-arm64_6.6.40-1_arm64.deb
+Size: 2224
+MD5sum: 1fc0beeb8d7720f2f07dba6b018211d2
+SHA1: 2c902e667e3b19af42d40a969e91c63abb6476c2
+SHA256: 157f3fb8f7e34e5639f223e96135aefb3f497ffc9192f3c8df523a4d50719169
+SHA512: 285b88491dc3a6e8eb411082d5049541f307a6dbc1b8634bce4d89592243fbbff5531757837c28207ac29b9247b305558f771123cff57b2bc4442eff319f7bb6
+Homepage: http://www.deepin.com
+Description: Header files for Linux arm64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+

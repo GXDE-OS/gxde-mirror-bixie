@@ -1,0 +1,19 @@
+Package: linux-image-6.6.40-amd64-desktop-hwe
+Architecture: amd64
+Version: 23.01.00.33
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: root <root@deepinci-amd7>
+Installed-Size: 501302
+Filename: ./l/linux-image-6.6.40-amd64-desktop-hwe/linux-image-6.6.40-amd64-desktop-hwe_23.01.00.33_amd64.deb
+Size: 92731248
+MD5sum: 7cc759eacbcfb5a7b6265a8bb4485ddb
+SHA1: 5b5ac6544909804bf72cae4f75cf8f54896a126a
+SHA256: 35aca2933df7db183d254a5dadbddf6ec4f2cedb909061e6abab6c66e53040f5
+SHA512: dc806e0278c64956704a22015e2a9b52fd6ac0d7190aca6adff3e544a28cdbe07e667e213d1ad574f9be79613ee3c235b85618a1298951d6c422c3b72770554d
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.6.40-amd64-desktop-hwe
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.40-amd64-desktop-hwe.
+

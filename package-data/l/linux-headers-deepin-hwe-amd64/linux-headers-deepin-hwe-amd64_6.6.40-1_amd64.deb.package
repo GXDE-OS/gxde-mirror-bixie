@@ -1,0 +1,20 @@
+Package: linux-headers-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.40-1
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.6.40-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.6.40-1_amd64.deb
+Size: 2220
+MD5sum: 25fb2d93c9ea6a1404bbb7bfe3e000a2
+SHA1: 3efce8eabf05e2dcde4241b68f5c0f3a85cc57f0
+SHA256: 8e4d6b8cca4403bb3fec16b1c4ac69386ad5844cdb12f5b4653b936c2e022153
+SHA512: 5c082d6930593afd4db516fa290b0c7c719f21a9505810c95bd845cb02841df3bacc5ee8641899457c03203d0fb4ffefe49b36f3ba4d6a110b1ef19990a5c0ac
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+

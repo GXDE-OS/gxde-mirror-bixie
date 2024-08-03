@@ -1,0 +1,19 @@
+Package: deepin-desktop-base
+Architecture: arm64
+Version: 2024.08.04
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 133
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.08.04_arm64.deb
+Size: 20120
+MD5sum: 3a21685aaaae93b9de56ac706e5a9c64
+SHA1: 8a20cbbd25c55886164a6ed92957bfaf8239c075
+SHA256: 06a12da9d0d433e90ca126651a1eb4684eb16cd1a3848d449a5dc0ca6eb5bc5f
+SHA512: bc11a7d97aaed94a2662aa7c7e1fe99311d23066de89659907c7828a6e2a14589af03611faef68bb20e7e401cd83fad600f0299b883f6811e0854c8f6d828e9f
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+

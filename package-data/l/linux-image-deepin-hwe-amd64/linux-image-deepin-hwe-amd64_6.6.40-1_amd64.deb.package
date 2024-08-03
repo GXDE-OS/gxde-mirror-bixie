@@ -1,0 +1,23 @@
+Package: linux-image-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.40-1
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.6.40-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.6.40-1_amd64.deb
+Size: 2316
+MD5sum: 20e8f130a8c734886d9fe8c99d787ed1
+SHA1: b1e2085f810d0f9db1fcada3a93ebee44a4c0093
+SHA256: 78786ab0f9f41fbf22b7081308b4a0cbd31cdf146b72bd9acc3c3e34a0c18faa
+SHA512: 2db20caca06d8aab3000d2537509cdec47a83847d720c0614364fea96b6ec609ed97791ba49708bc9730663bf7d0386188208239d17691039602240e0c2df39d
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+

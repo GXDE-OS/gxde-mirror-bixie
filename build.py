@@ -77,7 +77,7 @@ var _hmt = _hmt || [];
 def Dir(path: str):
     Write(path)
     for i in os.listdir(path):
-        print(f"{path}/{i}")
+        #print(f"{path}/{i}")
         if os.path.isdir(f"{path}/{i}") and i != ".git" and i != ".github" and i != "deb"  and "deb" != i[:3]:
             Dir(f"{path}/{i}")
 Dir(".")

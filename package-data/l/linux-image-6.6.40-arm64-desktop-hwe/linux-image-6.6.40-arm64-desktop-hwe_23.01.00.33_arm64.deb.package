@@ -1,0 +1,19 @@
+Package: linux-image-6.6.40-arm64-desktop-hwe
+Architecture: arm64
+Version: 23.01.00.33
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: deepin <deepin@deepinci-kp-pc1>
+Installed-Size: 343662
+Filename: ./l/linux-image-6.6.40-arm64-desktop-hwe/linux-image-6.6.40-arm64-desktop-hwe_23.01.00.33_arm64.deb
+Size: 62479780
+MD5sum: 2b6a78fc236d4fb24af349e3780a26a3
+SHA1: 6529d20d6bc06d857e4c4dade99d525b1c39a61a
+SHA256: 8c6246d902f60f2297f753d7b330969cdd28069cfe790fd197148a54b3a2a389
+SHA512: bdd55595b73632afd8f7b5fda668b098b57f47be1ab68f85beb32180bd5eb8952e71f6027c785d04434d56a673dade43368975a30bba9070f565d4afc49af463
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.6.40-arm64-desktop-hwe
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.40-arm64-desktop-hwe.
+
