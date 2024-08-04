@@ -3947,26 +3947,6 @@ Description: control and monitor control groups (library)
  .
  This package contains the shared library.
 
-Package: linux-headers-6.6.40-amd64-desktop-hwe
-Architecture: amd64
-Version: 23.01.00.33
-Priority: optional
-Section: kernel
-Source: linux-upstream
-Maintainer: root <root@deepinci-amd7>
-Installed-Size: 55381
-Filename: ./l/linux-headers-6.6.40-amd64-desktop-hwe/linux-headers-6.6.40-amd64-desktop-hwe_23.01.00.33_amd64.deb
-Size: 9365004
-MD5sum: 364184656e8583816e1a3efa877c89ba
-SHA1: 4784fd5dfc6b760bdd3980262a0ee26bde33409e
-SHA256: 98502b1ff2e3ee049dcf2a44a0192dcd41bd665e47e933bedfbc745e56c39afd
-SHA512: f5807bb4c7dd85224f062d921bf285a39acb99e52afcc50b58008edf9cf9840324495cbb734216ed3ef29613d93c26251e03320bba6a4e5c5cdb0526e3bad150
-Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.6.40-amd64-desktop-hwe on amd64
- This package provides kernel header files for 6.6.40-amd64-desktop-hwe on amd64
- .
- This is useful for people who need to build external modules
-
 Package: libdeepin-kwineffects13
 Architecture: loong64
 Version: 4:5.25.15-kwin.5.24.3
@@ -5754,25 +5734,6 @@ Description: Lossy compression of digital photographic images.
  WebP uses the modern VP8 compression format to deliver efficient
  compression of images for the web. More than 30% extra gain over
  optimized JPEG, for same quality, is not unusual.
-
-Package: linux-image-6.6.40-arm64-desktop-hwe
-Architecture: arm64
-Version: 23.01.00.33
-Priority: optional
-Section: kernel
-Source: linux-upstream
-Maintainer: deepin <deepin@deepinci-kp-pc1>
-Installed-Size: 343662
-Filename: ./l/linux-image-6.6.40-arm64-desktop-hwe/linux-image-6.6.40-arm64-desktop-hwe_23.01.00.33_arm64.deb
-Size: 62479780
-MD5sum: 2b6a78fc236d4fb24af349e3780a26a3
-SHA1: 6529d20d6bc06d857e4c4dade99d525b1c39a61a
-SHA256: 8c6246d902f60f2297f753d7b330969cdd28069cfe790fd197148a54b3a2a389
-SHA512: bdd55595b73632afd8f7b5fda668b098b57f47be1ab68f85beb32180bd5eb8952e71f6027c785d04434d56a673dade43368975a30bba9070f565d4afc49af463
-Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.6.40-arm64-desktop-hwe
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.40-arm64-desktop-hwe.
 
 Package: liborbit-2-0
 Architecture: arm64
@@ -8231,29 +8192,6 @@ Homepage: http://www.deepin.org
 Description: Deepin Font Instaler Devel library
  This package contains the header files and static libraries
  of libdeepin-font-installer
-
-Package: linux-image-deepin-hwe-arm64
-Architecture: arm64
-Version: 6.6.40-1
-Priority: extra
-Section: metapackages
-Source: linux-deepin-hwe
-Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 8
-Depends: linux-image-6.6.40-arm64-desktop-hwe
-Filename: ./l/linux-image-deepin-hwe-arm64/linux-image-deepin-hwe-arm64_6.6.40-1_arm64.deb
-Size: 2312
-MD5sum: 7f91cdc214f7edce76f4d9d367aefe3f
-SHA1: d7aad360f647554e2a10d28883f902ec8586342f
-SHA256: 8227649cb9c4af1e8df43e97fdb7b903a7b63fd491a0dc8452dae3549162e0c5
-SHA512: fdebe754c95973ecf50cdf552ca892eabf0a0328fa691f02162fdfdd7abf1c93cf51ab8940a179774de8a11594921c79dfc747b271f8b2864ee82031df2cc24f
-Homepage: http://www.deepin.com
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
- .
- This kernel also runs on a Xen hypervisor.  It supports both privileged
- (dom0) and unprivileged (domU) operation.
 
 Package: libdtk6gui-doc
 Architecture: amd64
@@ -10884,29 +10822,6 @@ Description: Qt 5 PDF Widgets library
 
 Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
-Version: 6.6.40-1
-Priority: extra
-Section: metapackages
-Source: linux-deepin-hwe
-Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 8
-Depends: linux-image-6.6.40-amd64-desktop-hwe
-Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.6.40-1_amd64.deb
-Size: 2316
-MD5sum: 20e8f130a8c734886d9fe8c99d787ed1
-SHA1: b1e2085f810d0f9db1fcada3a93ebee44a4c0093
-SHA256: 78786ab0f9f41fbf22b7081308b4a0cbd31cdf146b72bd9acc3c3e34a0c18faa
-SHA512: 2db20caca06d8aab3000d2537509cdec47a83847d720c0614364fea96b6ec609ed97791ba49708bc9730663bf7d0386188208239d17691039602240e0c2df39d
-Homepage: http://www.deepin.com
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
- .
- This kernel also runs on a Xen hypervisor.  It supports both privileged
- (dom0) and unprivileged (domU) operation.
-
-Package: linux-image-deepin-hwe-amd64
-Architecture: amd64
 Version: 6.1.32-hwe
 Priority: extra
 Section: metapackages
@@ -12434,26 +12349,6 @@ Description: Linux kernel headers for 6.1.32-amd64-desktop-hwe on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.6.40-arm64-desktop-hwe
-Architecture: arm64
-Version: 23.01.00.33
-Priority: optional
-Section: kernel
-Source: linux-upstream
-Maintainer: deepin <deepin@deepinci-kp-pc1>
-Installed-Size: 54344
-Filename: ./l/linux-headers-6.6.40-arm64-desktop-hwe/linux-headers-6.6.40-arm64-desktop-hwe_23.01.00.33_arm64.deb
-Size: 8877052
-MD5sum: 862d3eba399a078d84fc3e2b9816b35f
-SHA1: 672816d3d8e0c8835c6e7872fcf82854aa0af285
-SHA256: 5cc6a82bc85ae90e8be10b72b2503026cae59618c03a06fdbec063b57c87e6be
-SHA512: 88ddbc69dcc44c39e1dc3feda68418f34c2ffee3c1fb4b0c6a03af31a1a494d1d593482d82f3c1220273280230fcea70a117e35a00e4d0610a2281737e4b5f6f
-Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.6.40-arm64-desktop-hwe on arm64
- This package provides kernel header files for 6.6.40-arm64-desktop-hwe on arm64
- .
- This is useful for people who need to build external modules
-
 Package: libbonobo2-0
 Architecture: mips64el
 Version: 2.32.1-3+b1
@@ -12549,25 +12444,6 @@ Description: Bonobo CORBA interfaces library
  documents.
  .
  This package contains the shared libraries.
-
-Package: linux-image-6.6.40-amd64-desktop-hwe
-Architecture: amd64
-Version: 23.01.00.33
-Priority: optional
-Section: kernel
-Source: linux-upstream
-Maintainer: root <root@deepinci-amd7>
-Installed-Size: 501302
-Filename: ./l/linux-image-6.6.40-amd64-desktop-hwe/linux-image-6.6.40-amd64-desktop-hwe_23.01.00.33_amd64.deb
-Size: 92731248
-MD5sum: 7cc759eacbcfb5a7b6265a8bb4485ddb
-SHA1: 5b5ac6544909804bf72cae4f75cf8f54896a126a
-SHA256: 35aca2933df7db183d254a5dadbddf6ec4f2cedb909061e6abab6c66e53040f5
-SHA512: dc806e0278c64956704a22015e2a9b52fd6ac0d7190aca6adff3e544a28cdbe07e667e213d1ad574f9be79613ee3c235b85618a1298951d6c422c3b72770554d
-Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.6.40-amd64-desktop-hwe
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.40-amd64-desktop-hwe.
 
 Package: libunrar-dev
 Architecture: arm64
