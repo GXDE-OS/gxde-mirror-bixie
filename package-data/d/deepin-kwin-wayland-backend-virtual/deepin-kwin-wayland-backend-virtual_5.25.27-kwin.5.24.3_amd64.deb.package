@@ -9,11 +9,11 @@ Installed-Size: 115
 Provides: kwin-wayland-backend
 Depends: deepin-kwin-common (= 4:5.25.27-kwin.5.24.3), libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.27-kwin.5.24.3), libepoxy0 (>= 1.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5)
 Filename: ./d/deepin-kwin-wayland-backend-virtual/deepin-kwin-wayland-backend-virtual_5.25.27-kwin.5.24.3_amd64.deb
-Size: 38216
-MD5sum: ac973f119ff1b98a6c58a9001adc06d5
-SHA1: 2aa54d7bd517d870ad6479a4a52021595c0fbc2a
-SHA256: b8226abef1ab5055b40fce61049c8a0529ac975da3efb7f68bd21c774e690c76
-SHA512: 09c1c05e84a12d14bbafece2bc070893244e6f41ff4b686504f55a7efbb76289538fe53025eb7fe410adb1e0ec2f1ee61a14f2119652524dddb00e545c8ca7d2
+Size: 38224
+MD5sum: 92ebbf1f477c95a588db9bbb411d04a8
+SHA1: 750252428340556e20632c7eae357db46c9a90b4
+SHA256: e3a7ccd6f1d5f326c597af837536c64ca82aa0052a88cca4b47b471dc85a78df
+SHA512: c506dd37d050bbb280152ecdd5659a8475339c04783aec75f4f5181acccedd35ba56247c99b52c0beedece893ca8716b16cdd061ed7cc43bc4f772deb98e7405
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager virtual plugin
  KWin (pronounced as one syllable "deepin-kwin") is the window

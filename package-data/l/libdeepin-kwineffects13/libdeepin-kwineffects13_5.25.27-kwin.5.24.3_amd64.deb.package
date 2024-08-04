@@ -10,11 +10,11 @@ Depends: libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.27-kwin.5.24.3), lib
 Breaks: libdeepin-kwin4-effect-builtins1, libdeepin-kwineffects12
 Replaces: libkwin4-effect-builtins1, libkwineffects12
 Filename: ./l/libdeepin-kwineffects13/libdeepin-kwineffects13_5.25.27-kwin.5.24.3_amd64.deb
-Size: 102828
-MD5sum: ee011d95eea0de9d1500b9d69c56ed1a
-SHA1: ba30f671c5f20c3a94141468452c95c82e58f543
-SHA256: aa42700ee2e88a519916d0e1187577ce8a6630f7c33f3563822556325ab4462b
-SHA512: 04ebab43edc489c1ccbc03d719db43618d57613defa2e4af630c053a642fc953e2d0b574da6b38d5a9cfba0bf749d69b850bbfc0b3ab29613e40ce6e33ef0adf
+Size: 102800
+MD5sum: 19a7145300aa1ed82f82348b2ca442c1
+SHA1: b859751b1effad6d5b0fecd15db58cc4bc1bcac5
+SHA256: 49cefdf025197376d932704674e68aed298741715e4ebf9ff6852d2d2d645148
+SHA512: d9e1e4a76ffeddc1dd22ec8e41866a7b50d38fd356a68db875cf8c25fdb1b9e79a74ed9540e655ddfca093ff220acdeb64e010b7b9d0fd90e91d6b869195401d
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "deepin-kwin") is the window

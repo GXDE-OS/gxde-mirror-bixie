@@ -9,10 +9,10 @@ Installed-Size: 68
 Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
 Filename: ./l/libdeepin-kwinxrenderutils13/libdeepin-kwinxrenderutils13_5.25.27-kwin.5.24.3_amd64.deb
 Size: 26224
-MD5sum: 16490f9f5e8150fd13fd7723e9fb120e
-SHA1: 0611bc94f0e6d0146fa6c4e93823b9851126f75e
-SHA256: ef50c627dd0fa71f2ec7d213e29f30471d5c67093ebe01620c9fc832be0bda22
-SHA512: 25d4db4b8e577f6d7602cc87e1428b10e2a476ca4394d0aee78ba7eca4d62d05ec7f78df9fdbd2c86355e02b24f11227cb8000ce2173bfb8fd03163f2ea611ad
+MD5sum: d2eec6ac1745a72f9d6bfcca6fda2d7c
+SHA1: 8b10eaaff3bc0b6432949577dd249ba3b0c1db0b
+SHA256: 27b4f5231bdcc150ce88636cfca1b94b350c7bb181034477ed54aecb124be10c
+SHA512: abaa32447915bd17079eb41195e160b12b53ca5d8bbc81aba2644c58866ff7e7084455231dbe06900fce94a9f601c498d048a63cda6ec42ce77e88dfd1e73b08
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "deepin-kwin") is the window

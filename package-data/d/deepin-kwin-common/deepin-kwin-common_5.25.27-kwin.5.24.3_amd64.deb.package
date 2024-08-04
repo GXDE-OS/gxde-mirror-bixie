@@ -10,11 +10,11 @@ Depends: hwdata, deepin-kwin-data (= 4:5.25.27-kwin.5.24.3), libkf5globalaccel-b
 Recommends: libqt5multimedia5-plugins
 Suggests: deepin-kwin-addons (>= 4:5.24)
 Filename: ./d/deepin-kwin-common/deepin-kwin-common_5.25.27-kwin.5.24.3_amd64.deb
-Size: 1948252
-MD5sum: d79f0762bf60cef301831d6e96d867f0
-SHA1: ed8054ee53b894d7aab4b8117f6e1b1a7909429b
-SHA256: 2119a5920e48fc0214d54a13647a3bfd095073bc4a5456d3365e8e0202eeb5fb
-SHA512: 46726701ffa96016fb61a38c7451c5d24dc7bf772ccd61df09ef21877da7eb944f4edb3e3e375cb8caffcbef3122421737fab57d54e74d7687b435eb8eef651c
+Size: 1949616
+MD5sum: 7d22d11a7c4dab68d7669090f33385b7
+SHA1: 74cb6560da87ab2fded290477e6cf81ff4a1ecc8
+SHA256: 387df4c29cd7070bfbad207281ee1758d363c719f8fcaa7bbe24addbf0728670
+SHA512: 3b8dab9e7be163c8fd5e573a70e83591ffa7bb464408e9c98aa8336d840b26c348dc9a34ee3f0fe5f1c8c336b0afeaf223226278d8e2a4091349cde067c6aa54
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "deepin-kwin") is the window

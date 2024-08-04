@@ -9,11 +9,11 @@ Installed-Size: 87
 Provides: kwin-wayland-backend
 Depends: deepin-kwin-common (= 4:5.25.27-kwin.5.24.3), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5)
 Filename: ./d/deepin-kwin-wayland-backend-fbdev/deepin-kwin-wayland-backend-fbdev_5.25.27-kwin.5.24.3_amd64.deb
-Size: 30560
-MD5sum: 404391fa8ea0ba3502edc9e8ca119faa
-SHA1: 3d861bfda8c6944400da381fb8827bf740b411c9
-SHA256: f208c41388f04f36a7f91128e96714c25c90b44e92daef009e9f3f8b4a9afe0b
-SHA512: a4c7ec7a8867cbc172ba279c82b5f0998e7398643535c742cf2c68d7a114444a7e54e32d095680e8c6ab91904fcf70c73e8a7593683c7755ab2beb6ea8645b1c
+Size: 30596
+MD5sum: adb0fb79937a7ff46f5c0330e3a300e6
+SHA1: e349daa9f1ee445e753a05d5006980858a027f41
+SHA256: e8eca78c57e2905c1ac395a1ee334290c169dfeffa70d29e7f1da1e301e1ac45
+SHA512: 8c78ffb4a06fb98aa460cdd5e1ace8e9391381d1e2497c3968f674ef246cc493f7ae69b73d131c18aba2b164d64cb5bdcdb1d5b5930b8f20a5eafbaf5a1483ed
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager fbdev plugin
  KWin (pronounced as one syllable "deepin-kwin") is the window

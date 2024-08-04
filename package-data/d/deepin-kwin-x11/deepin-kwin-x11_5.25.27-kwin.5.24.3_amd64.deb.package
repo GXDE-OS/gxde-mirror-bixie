@@ -8,15 +8,13 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1855
 Provides: deepin-kwin, x-window-manager
 Depends: deepin-kwin-common (= 4:5.25.27-kwin.5.24.3), libc6 (>= 2.34), libdeepin-kwineffects13 (= 4:5.25.27-kwin.5.24.3), libdeepin-kwinglutils13 (= 4:5.25.27-kwin.5.24.3), libdeepin-kwinxrenderutils13 (= 4:5.25.27-kwin.5.24.3), libdwaylandserver5 (>= 5.24.3-1), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkf5configcore5 (>= 5.89~), libkf5configgui5 (>= 5.89~), libkf5configwidgets5 (>= 5.89~), libkf5coreaddons5 (>= 5.90.0), libkf5crash5 (>= 5.89~), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.89~), libkf5i18n5 (>= 5.89~), libkf5notifications5 (>= 5.89~), libkf5plasma5 (>= 5.89~), libkf5quickaddons5 (>= 5.89~), libkf5service-bin, libkf5service5 (>= 5.89~), libkf5windowsystem5 (>= 5.89~), libqaccessibilityclient-qt5-0 (>= 0+git20130108), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5qml5 (>= 5.15.0~), libqt5quick5 (>= 5.15.0~) | libqt5quick5-gles (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.15.0~), libstdc++6 (>= 11), libsystemd0 (>= 255.2), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2), libxss1, dde-qt5xcb-plugin (>= 5.6.21)
-Conflicts: dde-kwin
 Breaks: deepin-kwin-addons (<< 4:5.14)
-Replaces: dde-kwin
 Filename: ./d/deepin-kwin-x11/deepin-kwin-x11_5.25.27-kwin.5.24.3_amd64.deb
-Size: 524860
-MD5sum: 7fa3a604818bfcb16ce5cf0b39d50889
-SHA1: d4fd9c630b2cbdce8762244b1bb546025bf26db2
-SHA256: 014e634818eb522c8df4cb2b09347f46b18df8c87021dcd53c8207bc73d63c09
-SHA512: f38c42252a06c41d7ab618dfab72d060695c15848751e5ab4b4d3105adea9f566504d63a789948d9271244b686dabad1814ccefc8936694f4cc30cdc48c6b8af
+Size: 524716
+MD5sum: 483c6e475d7c7e11a96eac30db64a772
+SHA1: e4839cbac0e04a9d7ad6d861ce5f68e1e9249ed7
+SHA256: 896d40ed6955596f6852a534027ce2e60a8507456e3c3d05ac48b077fe34f974
+SHA512: 44eceec3a2c8e09b57ae90456c9c766a91c0323133fc377a7d27ebdd4325b629a92f4f5725c99cc95aca9458d061c05d8a5a7f8d14cbd91802e3b0b88c73975a
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "deepin-kwin") is the window

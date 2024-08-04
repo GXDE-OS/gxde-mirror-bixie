@@ -9,11 +9,11 @@ Installed-Size: 320
 Depends: deepin-kwin-common (= 4:5.25.27-kwin.5.24.3), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.3), libkf5config-dev (>= 5.89~), libkf5coreaddons-dev (>= 5.89~), libkf5windowsystem-dev (>= 5.89~), libqt5x11extras5-dev (>= 5.15.0~), libxcb-xfixes0-dev (>= 1.10~), qtbase5-dev (>= 5.15.0~)
 Replaces: kde-workspace-dev
 Filename: ./d/deepin-kwin-dev/deepin-kwin-dev_5.25.27-kwin.5.24.3_amd64.deb
-Size: 69964
-MD5sum: 757dc9407b4e1514d4c99612c3fe7ba8
-SHA1: 46edb3ae0dc6cb735e171bf27d914a5675d92832
-SHA256: 08a40143fd17ee3533ad84bf522c96f5821bf97f291283ff892733a211b399c5
-SHA512: 543e3099a5ae44402f57e441712addfe20b7234d426a1e18f140075ca96c3cbf8d9f2acc25ff1b0b843ba69589a47304fd57ec3ac8b1a2bf03d7e98783a03a2b
+Size: 69988
+MD5sum: 518060076a648e7c87535d472fac0a97
+SHA1: e9fdb9ff2726173c0a11715bb2d2a116dbbc25fe
+SHA256: 093683ec781960e819c4ba9e7739dad956e259cddf5b73d70d3c3c0dc1fc3ca4
+SHA512: 9200ace1f3aa3c545f56881d8dd58f38449adc1b0fcbe9459ac501da48836dd1340d217f9268eb65ca2e5cbda676ff1bc2afa2ffe5dce7da68840df41609160d
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager - devel files
  KWin (pronounced as one syllable "deepin-kwin") is the window
