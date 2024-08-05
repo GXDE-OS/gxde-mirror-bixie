@@ -22147,6 +22147,24 @@ Description: deepin desktop-environment - dock module development files
 
 Package: dde-dock-dev
 Architecture: all
+Version: 4.10.11gxde3
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 32
+Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.11gxde3_all.deb
+Size: 5208
+MD5sum: 543017b706693990bcc15e4fc86250d5
+SHA1: 08de4ffd2b9e918c79c9885d96990c7c8fd4b9e6
+SHA256: 001255e1422f2334a52c64f96acd3dd2caaf8edda7299946a12f57e612ee6003
+SHA512: 54218fd1f9a96b5336a597f966818e523709b3703247e2ecf94d0cea0706bf52c5c699ef0eb9790c11cffe1b1c1bbf6149b2fadb3540c8e4c55a813f194b1e43
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+
+Package: dde-dock-dev
+Architecture: all
 Version: 4.10.11gxde2
 Priority: optional
 Section: x11
@@ -26209,6 +26227,25 @@ Description: deepin desktop-environment - dock plugin
 
 Package: dde-dock-onboard-plugin
 Architecture: amd64
+Version: 4.10.11gxde3
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.11gxde3_amd64.deb
+Size: 20652
+MD5sum: 3c00ce26b57c16501bf72adf027edcbf
+SHA1: 4da3b75297afa80fc7029b780e2588ca83494bab
+SHA256: 7e210765ed937f840f9b62c800ada21c8cc445f71585b1c24ef8f29206d6a2cf
+SHA512: 00beb609dde4399f61f4c3260e04df2c834d4b000ef3eed04d0b648630503248a52bd29c642edeb6d6e67e6e2c5f9f571a9fad7f2f9a30e97f80e1f19f26ce87
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+
+Package: dde-dock-onboard-plugin
+Architecture: amd64
 Version: 4.10.11gxde1
 Priority: optional
 Section: x11
@@ -27124,6 +27161,28 @@ MD5sum: 2354a8c69b24500db7306adf15a1394f
 SHA1: fcf21254851b3a5c1fb221a5413d7897e984ab33
 SHA256: 57ca3130f46e3188f33ed6efeba22d6a0bd11d8d0ca3cff5c29f0fd8acf91d3c
 SHA512: ec1d4a489247d94eee83eda74d62a96afee067c7fb169cdfd716724c05817e701268badf5d5360c24088b574f653a6bc068c137d7c3b65889a98da744898faf6
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
+Version: 4.10.23
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14386
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.23_amd64.deb
+Size: 4246076
+MD5sum: 4365c91b04ac3c0dfadaa913a9251f1c
+SHA1: 078820a0e57f3e53b9f95755b18fb9c4efdfc7f3
+SHA256: 5d3fd1feed24691ff041525787aa233ee9979c9d43755cdddb936ea59332ca9d
+SHA512: bddd73e2a1b62f3b3623bfcd4fb031aeffefc564136b927943138e32ab64089fe5eaa68ace432a695e2968f42c3fdb53193134b737686c4f736f423b448f508f
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -30368,6 +30427,25 @@ Description: deepin desktop-environment - launcher module
  Deepin desktop environment 2015 - launcher module.
 
 Package: dde-launcher
+Architecture: amd64
+Version: 5.0.16
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1687
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb-ewmh2 (>= 0.4.1), libxcb1, qtbase-abi-5-15-8, lastore-daemon, deepin-desktop-schemas (>= 3.1.11), dde-launcher-wayland
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_5.0.16_amd64.deb
+Size: 355856
+MD5sum: 758ceb886a7f669fdc14d6a186152edf
+SHA1: e47cdd06a2e42c676f1585d47de918bdbe5fa238
+SHA256: 10b6e771abecc398d0b43487248f4a2a8d3048a2593feea1bd97a92ca15c52f2
+SHA512: 31213381c2ccbb927e527798c6fba1936f589345f61390e78a0259cbe1a8ebef6a9746eddd463e53ba60029906e35e9a424b3163f48e35b382d639f85c126f0e
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+
+Package: dde-launcher
 Architecture: arm64
 Version: 4.6.14+c1-1+comsta
 Priority: optional
@@ -30756,6 +30834,27 @@ MD5sum: 2a2e462d377fb3dc507b7d2ce46b7779
 SHA1: be9caa06c95b24d9cf83331cedf036a6409317f1
 SHA256: 8048a199a13e2740ceef9b0e4bbaba3b7e4b8580bff129c98d4a58f824856ebf
 SHA512: 40e81ddefbc8e82139c87bff0d838633a34ed26ca2f8b8d2aa5df138009068f58f638433b437314b6caf3224fb0436bce6d01e9ca3bf58851841728f40a013e7
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+
+Package: dde-dock
+Architecture: amd64
+Version: 4.10.11gxde3
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3267
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.11gxde3_amd64.deb
+Size: 645276
+MD5sum: 02b3246d4fa19b45ebb43a065d4c3ed8
+SHA1: 68e64a1f839b061ea464fb63a16b76300329dabb
+SHA256: 5219e487a4be5331fbb801e64ffd8c84a0fc4882a2e6e46a08cd3bf37a60afd9
+SHA512: 3a085f0feeeb45c74f181901e86b58873f083b1ae0619747c2de77f96d0000a24ce40d2b4d511f1dee1ffdf74b005986a1865c1650a79e76c11b72c84a1611f8
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
