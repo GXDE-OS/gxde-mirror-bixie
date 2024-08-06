@@ -1,0 +1,21 @@
+Package: dde-dock
+Architecture: arm64
+Version: 4.10.11gxde3
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3520
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.11gxde3_arm64.deb
+Size: 600592
+MD5sum: 8ffbe26b4b4758340650e0c49f6a9236
+SHA1: e8c6400a102a9223d5ddbbe5249f1fc596aa231d
+SHA256: 2acef17ba02a86910b43a6915690c7b294b1d85117653877cd75f3bd306be9d3
+SHA512: e279567132ec975e0f1a8187395ef3acb8c8f66b1ca4f9ab6d2c5590c15fb232485a2c2f1839e4301680ac9c2e093e5de44d90e0449330dbb98cc2f29d2b07c0
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+

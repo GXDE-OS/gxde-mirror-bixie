@@ -10,11 +10,11 @@ Installed-Size: 12651
 Depends: python3:any, plasma-framework
 Recommends: qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
 Filename: ./d/deepin-kwin-data/deepin-kwin-data_5.25.27-kwin.5.24.4_all.deb
-Size: 4019036
-MD5sum: 6d2ab20971494c0de68a047587898ed2
-SHA1: 3d452c3419d1f91a4cdcad3a967ebd0fbf402721
-SHA256: f5113fa01981931dde0d9b653c41c40ba4ce2c1e676598a1ebc4cf19724d89a0
-SHA512: 3bb090f7de0e2e7b0bedb5880a79bac4d95dc1c3493f679f060a6fc8242769c22dc52e3f974e76c36952e9f068e0540f65d89f79891a7a2a149eb6d3339df13a
+Size: 4018884
+MD5sum: f0a87bde6856d155f38ad29dba2d5d27
+SHA1: dc6ee518c8225b33d22249eacd495182eac710ef
+SHA256: 238cf094c92fdfaf91aa181fc0392002b785d59d17c038e44613cb38f16e5cc9
+SHA512: ac1139dc7be7b2741af27389a4dccc10a79f602e063c153015b7c94e0ee89311b869461283b61b1122c06dbe1787166542e7b27f50671b565d9487963d430fa1
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager data files
  KWin (pronounced as one syllable "deepin-kwin") is the window
