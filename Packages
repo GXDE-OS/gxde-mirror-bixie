@@ -22921,6 +22921,44 @@ Description: Release version of deepin installer
  New version of deepin-installer, rewritten with Qt5.
 
 Package: deepin-installer
+Architecture: amd64
+Version: 2.7.19gxde2
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 27589
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libparted2 (>= 3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxtst6, zlib1g (>= 1:1.1.4), btrfs-progs, deepin-installer-timezones, dosfstools, imagemagick, jfsutils, mtools, ntfs-3g, os-prober, parted, pciutils, reiserfsprogs, squashfs-tools, tshark, udev, x11-xserver-utils, xfsprogs, xinit, xkb-data
+Filename: ./d/deepin-installer/deepin-installer_2.7.19gxde2_amd64.deb
+Size: 20175808
+MD5sum: b240e511476790a872ce2667fbeff5f9
+SHA1: cbf000bf2a5d7576997bd63871aed0f8b562e123
+SHA256: b1ae29161c87a4961664faeffcce9e31adcf6e00a5c58744d8a299515cba2700
+SHA512: 141f988e0c753eeb8a641ae35f29a4aae69241e1b2b37a9342c589c2535b5612303f98871601948e4f5439760d5473d650e261b46bf6e625ca2b8adb0f668453
+Homepage: http://www.gfdgdxi.top
+Description: Release version of deepin installer
+ New version of deepin-installer, rewritten with Qt5.
+
+Package: deepin-installer
+Architecture: arm64
+Version: 2.7.19gxde2
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 23721
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libparted2 (>= 3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxtst6, zlib1g (>= 1:1.1.4), deepin-installer-timezones, dosfstools, imageworsener, mtools, ntfs-3g, parted, pciutils, squashfs-tools, udev, x11-xserver-utils, xinit, xkb-data
+Filename: ./d/deepin-installer/deepin-installer_2.7.19gxde2_arm64.deb
+Size: 16095612
+MD5sum: ca16bc5b79078897c69a149e7b6e31e2
+SHA1: f84ec9bfbb097059b0121fc19941f89f06beb0c1
+SHA256: 6024ac311f8e948b8a96ab1e408552c90ef31a0bfd121ff7692031255c3a8cb0
+SHA512: d84d978673dc0e955909815668d6e8aa8ecf4f33c0dc08905dd989b87020b1f4e549b33d2f0fc322b90308fef2a8e29be43af0b76cf22502312a6d90c61aecec
+Homepage: http://www.gfdgdxi.top
+Description: Release version of deepin installer
+ New version of deepin-installer, rewritten with Qt5.
+
+Package: deepin-installer
 Architecture: arm64
 Version: 2.7.19
 Priority: extra
@@ -29505,6 +29543,25 @@ Description: OEM tool
  OEM tool for deepin-installer
 
 Package: deepin-installer-oem
+Architecture: arm64
+Version: 2.7.19gxde2
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 293
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.19gxde2_arm64.deb
+Size: 70848
+MD5sum: b05b9ac77ff032b446909b8768e52dec
+SHA1: 4a74f458ef59190bf909fd65ffe65471683dc33c
+SHA256: b14c399bc251bf17ea1a952b5bce038f8f082d95cb7b1abbe99767ad4f286c38
+SHA512: 72bad8ed389949566a3acf0f8d485796f417a758675fed30c2ff9e4921a495dcfb699be35f2de8a43db352906fe437deef77eb8cc1fec13eab380436f46d996e
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+
+Package: deepin-installer-oem
 Architecture: mips64el
 Version: 2.7.17
 Priority: extra
@@ -29595,6 +29652,25 @@ MD5sum: 12888adaeeaf504de5096593e4f92f28
 SHA1: be197d774ba2bbb787f06ff6c123f51b360de8ae
 SHA256: 2d2705aac7100f7655f8b34a5ddcd40a9a58a3ab5f12be0518e02a86a83b753a
 SHA512: 9cf20d610be853efdb6dcdd7d40e876df4fcb59d7cdb75552003621cf4fc3f8f7c7a67c1dd7365cf2e764c1ee0cf52b098fdb5a02b43cb614adb61e2be99c78d
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+
+Package: deepin-installer-oem
+Architecture: amd64
+Version: 2.7.19gxde2
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 252
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.19gxde2_amd64.deb
+Size: 75060
+MD5sum: 2d0b2ff5280d9452a70da90332f2f7a3
+SHA1: f44dc66b63ee873f489d2ba3659a5b61596c6e1e
+SHA256: c839cb8fc32922671e81936a05fee849e6e20c2f723aadf3a4c843bd87abcf6c
+SHA512: dce896549ff3199a30ad6049c0d768d02c10c03b014d706e241c1c7e4b316cb1ecccbd7e9dd65bff5a645bb77578d91933a7cd81cdd1d089fb32b94a2fc64124
 Homepage: http://www.gfdgdxi.top
 Description: OEM tool
  OEM tool for deepin-installer
@@ -30382,6 +30458,24 @@ SHA1: 802a18f224481db378477fe92197dd93222f19d1
 SHA256: 2b53a0e41d4190b87ab5ff0f5d00eaa586ece9089718e4a8b11dc57ea8e8daa6
 SHA512: 3f7bed1649aa2ed89cc93d1ad19a895bca14b66ede9fa612549b407ba5ca8b5ebfe35a4d80f5ffe95b01553d3d4c2301177d2721a16a257aaed28be4befc1779
 Homepage: http://www.deepin.org
+Description: Language package for timezone names
+ Installer language package for timezone names
+
+Package: deepin-installer-timezones
+Architecture: all
+Version: 2.7.19gxde2
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 546
+Filename: ./d/deepin-installer-timezones/deepin-installer-timezones_2.7.19gxde2_all.deb
+Size: 53392
+MD5sum: 52f09bed1f75d98bafde4e9dcea0ebc0
+SHA1: ede4a2f042123bf3804099d92fd8d80406cf5f10
+SHA256: 294059603410b61a6614ecabadbbc31850190b7ffdc07fe884e2803813730ece
+SHA512: 54e24ee134d45917c01a1741f1aca1865faefbd60f2f53f81ccfb5f09e4a8a2990648b70cdbe9fe3f2eb6e3f4c2905fa311b5a4818d613e76774b0851a6b7527
+Homepage: http://www.gfdgdxi.top
 Description: Language package for timezone names
  Installer language package for timezone names
 

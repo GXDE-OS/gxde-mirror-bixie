@@ -1,0 +1,19 @@
+Package: deepin-installer
+Architecture: arm64
+Version: 2.7.19gxde2
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 23721
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libparted2 (>= 3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxtst6, zlib1g (>= 1:1.1.4), deepin-installer-timezones, dosfstools, imageworsener, mtools, ntfs-3g, parted, pciutils, squashfs-tools, udev, x11-xserver-utils, xinit, xkb-data
+Filename: ./d/deepin-installer/deepin-installer_2.7.19gxde2_arm64.deb
+Size: 16095612
+MD5sum: ca16bc5b79078897c69a149e7b6e31e2
+SHA1: f84ec9bfbb097059b0121fc19941f89f06beb0c1
+SHA256: 6024ac311f8e948b8a96ab1e408552c90ef31a0bfd121ff7692031255c3a8cb0
+SHA512: d84d978673dc0e955909815668d6e8aa8ecf4f33c0dc08905dd989b87020b1f4e549b33d2f0fc322b90308fef2a8e29be43af0b76cf22502312a6d90c61aecec
+Homepage: http://www.gfdgdxi.top
+Description: Release version of deepin installer
+ New version of deepin-installer, rewritten with Qt5.
+
