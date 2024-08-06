@@ -20934,6 +20934,27 @@ Description: Text editor for DDE (Deepin Desktop Environment)
  .
  This package is part of DDE (Deepin Desktop Environment).
 
+Package: deepin-editor
+Architecture: arm64
+Version: 6.0.18
+Priority: optional
+Section: editors
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 19495
+Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-8
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-editor/deepin-editor_6.0.18_arm64.deb
+Size: 13982300
+MD5sum: 8c3c8a4965bdca71bc34bd65e3c16129
+SHA1: 6f788305c6e25ee964d8443460e6f815c0b2a51f
+SHA256: 2572f148cff027934e999e9a6217fb7dde3ca65f16e6a628d62aa4b6febee428
+SHA512: 83711a47b196c29e3709f25b2dcd195ca7b743c06c082555b1685b523c864465c41031fb82e1278e04f6f306417e64ae9fac9102a08a3bdda4cfa7478ca8d8d8
+Homepage: https://github.com/linuxdeepin/deepin-editor
+Description: Text editor for DDE (Deepin Desktop Environment)
+ Advanced text editor based on dtk.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
 Package: deepin-modelhub
 Architecture: amd64
 Version: 0.0.10-1
@@ -32634,6 +32655,29 @@ MD5sum: f0a46850001f6a97c6aba7fd2301c0d2
 SHA1: e95394a90b4f5856ce2c4f29929f1849dd27e371
 SHA256: f21271d54c1bc323b390bade2b854702bc519e6684e212ee35fb05632222fce3
 SHA512: ce8969ef219fe9ed2e17d63e71c4499cd63c5d747a6f2876ab44942c927c2c3c9380efddbbb3a4c4bc496bb87fd87a6a3af9e45cf96dff08850761abd0935ab7
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
+Architecture: arm64
+Version: 6.0.14
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6937
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.14_arm64.deb
+Size: 3345324
+MD5sum: b155f345a9872b8d76f27e242c02ec0f
+SHA1: 7f5b189fa0c6d338888a3267aef3632b742dc9e4
+SHA256: c40853d1a917f1331d659e2aa5a1509302fb2c5ca544dde6c9a06dcd9565df97
+SHA512: 079e36c9172c62b40f260794298d4ff5ea88829e3a88ba38088492601e8a7618d57d94d08cbb4639f594a95e125dc267c781f15c40676af83c2cf333b50dec98
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
