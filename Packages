@@ -1304,6 +1304,23 @@ SHA512: 9019f3b17d883b0755c6145024104dfc4b565db0c4330114ac7e8d1178daff05f497ce94
 Homepage: https://gitee.com/GXDE-OS/gxde-kernel-manager
 Description: GXDE 内核管理器
 
+Package: gxde-top-panel-plugins
+Architecture: amd64
+Version: 5.1.0.0gxde1
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2592
+Depends: libc6 (>= 2.32), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2)
+Filename: ./g/gxde-top-panel-plugins/gxde-top-panel-plugins_5.1.0.0gxde1_amd64.deb
+Size: 505140
+MD5sum: 035bb6b696e9e92c646d595f22a7ff09
+SHA1: e9a72afdd2e1ff44e243d82775ab3869d5f7036b
+SHA256: cdb0012addd26b39cc9aaff2f86a2896df4c29949ba2a89e2f0f4c8dd15ab7b2
+SHA512: 42d5c5838f38f5d2c49a35b9308c70fcf4839f4c14017f16f19897ee02b4c14b6d58b003ee268df27da42dcdb0c46687d73ab06bbdad7789f34d645273989ee4
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin for gxde top panel
+
 Package: gxde-time-screensaver
 Architecture: loong64
 Version: 1.0.1
@@ -1662,6 +1679,24 @@ MD5sum: 2cf8a07cb9a59246e35830dd79710855
 SHA1: b742ea9c073e0ef2a69920f3944d18c728f75107
 SHA256: 5f667df1323358c67870812a2291c5f5a1e8f5825eafaae19cc3f822e7353151
 SHA512: 536b3f172549605c19956db0b3d9a57b6a58752e66159b59346fc2a5491c2ee390ada2c7133cb59a835d911f460bf746bd4d9d8c8ed7a5b9debc8205f5a2e8bf
+Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
+
+Package: gxde-top-panel
+Architecture: amd64
+Version: 0.6.9gxde1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 912
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxdo3 (>= 1:3.20130104.1), dconf-gsettings-backend | gsettings-backend
+Recommends: gxde-top-panel-plugins
+Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9gxde1_amd64.deb
+Size: 314660
+MD5sum: 5f0bb32170dcc924b462dedd2c378477
+SHA1: 63d032a8f54fd81c19bf1d7a05c94ec2b14d7105
+SHA256: 1af766f04d352678c7818b1fd6b0f737406935204f9994a5b71c8888182470c3
+SHA512: 5f9915d7ef196bac0192991cd3656b828b651f76b3cf0e8b449609d6adda68d542086590cab61a39678bd924cfa89088040a7a36dce9218d2ef0ed80a61b75b3
+Homepage: https://gitee.com/GXDE-OS/gxde-top-panel
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
 Package: gxde-top-panel
@@ -20702,6 +20737,27 @@ Description: Text editor for DDE (Deepin Desktop Environment)
  .
  This package is part of DDE (Deepin Desktop Environment).
 
+Package: deepin-editor
+Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: editors
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 19509
+Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-8
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-editor/deepin-editor_6.0.18_amd64.deb
+Size: 14030276
+MD5sum: fccf6c95bbb9d505d457eea1dd6fd2b8
+SHA1: 0873637594778cde378e103bb5abad92affff886
+SHA256: c7aa4165e5359e951ac38d2f2c19475b494376a927d629be8f37f27b8c61c394
+SHA512: 3e6a033e712c201a70df2dbc9d5064bd4649d71b6d1c1ee765147b2e8c4f92cb3501ef3f623fc2f0589426fff4eca51c550f554b17a72fe4cf35d25415987f3a
+Homepage: https://github.com/linuxdeepin/deepin-editor
+Description: Text editor for DDE (Deepin Desktop Environment)
+ Advanced text editor based on dtk.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
 Package: deepin-modelhub
 Architecture: amd64
 Version: 0.0.10-1
@@ -28202,6 +28258,24 @@ Homepage: http://www.deepin.org
 Description: Development package for deepin cooperation frontend
  This package contains the header files and static libraries
 
+Package: dde-top-panel-plugins
+Architecture: amd64
+Version: 5.1.0.0gxde1
+Priority: optional
+Section: x11
+Source: gxde-top-panel-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2591
+Depends: libc6 (>= 2.32), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2)
+Filename: ./d/dde-top-panel-plugins/dde-top-panel-plugins_5.1.0.0gxde1_amd64.deb
+Size: 505460
+MD5sum: 779b6cfe7cfec9b40bc61c894467d973
+SHA1: e15cc1313fad5df2d9591f8222c51672e3dab557
+SHA256: ce435a4e57b4defe32da9874aae8bec6132a3b172696eda4cc5bf39ede24d78c
+SHA512: 5c74c8a3e6f3db714953ec7db2f7d0d61aad4e25875b72fc8b12d4945ee5d86b24491c405d511dd86e617af13b3a8d3d997107714d3dfb884f8a516dc61bec2a
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin for dde top panel
+
 Package: dde-cooperation
 Architecture: loong64
 Version: 0.7.10
@@ -29170,6 +29244,25 @@ MD5sum: e99fb84c1993ecb325bd8fd2d0916183
 SHA1: 73ba62bb49aae452ca83c7c6d8d50bcdc2217715
 SHA256: 0c8f278cfb07b5cbee3eae18dc07dc2a9dfc81496fe143fa7c2b943c8b1445c5
 SHA512: 15abae2076b53dc39686859a067f98fc897d931380a79cf98cf76ef89950699ef697c1f18c5cd2245e322040ae393a33e906c56f482b858426e962e521a48dbe
+Homepage: http://www.deepin.org
+Description: Draw for UOS
+ Draw is a lightweight drawing tool for users to freely draw and simply edit images.
+
+Package: deepin-draw
+Architecture: amd64
+Version: 7.0.2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 30405
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), qt5-image-formats-plugins, deepin-picker-cli
+Recommends: uos-reporter, deepin-event-log, kimageformat-plugins
+Filename: ./d/deepin-draw/deepin-draw_7.0.2_amd64.deb
+Size: 24649880
+MD5sum: 1de03400b350c867536256f2f991878a
+SHA1: a8fd19d3e21da6c7aad46bf076be47306368dad2
+SHA256: f66805b622208fb61b6f4c6a3209ebeb677a44dd0894d7e73cb08b293a3204eb
+SHA512: 211bf4ab1995c02789495251bf3d2d2fc860e7099f6ad37ccdb0f238915d52efbc2f3ff787ce110d2fbbbb18ed8c21cd215ce13d7689d4a7ab5ea5bcff566b58
 Homepage: http://www.deepin.org
 Description: Draw for UOS
  Draw is a lightweight drawing tool for users to freely draw and simply edit images.
@@ -32089,6 +32182,29 @@ MD5sum: 39ab62ec86c1511072aa577c51c5822b
 SHA1: 49470997d59f6f33bd6cd3e830c094007bd8031b
 SHA256: 69c9475ef1e4ae70fad72c1382d2bae4d318fa2a9a44bd6dbe7725f982cd12d6
 SHA512: 555fec91bc5611fb240444540f1304ad82e53dfdd1348134220911204c95fa2c7dd763bf04a3c68b7d4248ad608fbca24c92317e112d19a32965e5e443d12636
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
+Architecture: amd64
+Version: 6.0.14
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6870
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.14_amd64.deb
+Size: 3393972
+MD5sum: 65d14ed988a7fa24fd0cafafa42a31d2
+SHA1: cb9cba5bcc5d3eeb8cf6166e5b20449174dff1dc
+SHA256: a5d5a4f258f98960603c2ceaa24e4e96903d846aa96bea1a9867087d7eaa7f99
+SHA512: a159823e4d5878a09bab19a4489dafa8b3b1d6a71d9958e496f301739154eaa16556f1dc3fff5fbd4ceaf84ab7fcd89d8ffd237c78f4b07e1969c72e272f7485
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
