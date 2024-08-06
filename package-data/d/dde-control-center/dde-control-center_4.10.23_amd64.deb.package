@@ -11,11 +11,11 @@ Suggests: redshift
 Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
 Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
 Filename: ./d/dde-control-center/dde-control-center_4.10.23_amd64.deb
-Size: 4246076
-MD5sum: 4365c91b04ac3c0dfadaa913a9251f1c
-SHA1: 078820a0e57f3e53b9f95755b18fb9c4efdfc7f3
-SHA256: 5d3fd1feed24691ff041525787aa233ee9979c9d43755cdddb936ea59332ca9d
-SHA512: bddd73e2a1b62f3b3623bfcd4fb031aeffefc564136b927943138e32ab64089fe5eaa68ace432a695e2968f42c3fdb53193134b737686c4f736f423b448f508f
+Size: 4245224
+MD5sum: c2fac4731f1b9c8ad6447ace6b462de2
+SHA1: e07a525988bcece88d3d407dcaabf22f8329b7c8
+SHA256: 0e71119fd09a7b5fdce9800e437e585c208bac1a464992fecb869ccf576ca081
+SHA512: 7a05934676f23e2b60b76221319118637027ee7228ef781bff69a736801f2ef2f43e396d0edb82c63a381cdacd2cc3de1d3048dda5e3076f9ec96fd74c231506
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
