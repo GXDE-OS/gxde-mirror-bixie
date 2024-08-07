@@ -691,6 +691,25 @@ Description: userspace virtual filesystem - private libraries
  This package contains private libraries with common functions between
  the daemons and the GIO module.
 
+Package: gxde-globalmenu-service
+Architecture: amd64
+Version: 1.1.0gxde1
+Priority: optional
+Section: utils
+Maintainer: SeptemberHX, gfdgd_xi <3025613752@qq.com>
+Installed-Size: 358
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb1
+Breaks: dde-globalmenu-service
+Replaces: dde-globalmenu-service
+Filename: ./g/gxde-globalmenu-service/gxde-globalmenu-service_1.1.0gxde1_amd64.deb
+Size: 98136
+MD5sum: bd60a47701a2e9505bb9a3f686d7722d
+SHA1: ea94e5bbed08426de45753b5b344d1299ec7a11c
+SHA256: f723e8e5a977cd0775cb6cb479b6b8fa1b3f00e16833440b4ded91e708079c61
+SHA512: 6f702c5801b0c5d79a6f12a1d11ed5a134ebbf68a48b648709fd954c59668c0f118813414f01d73cdf515f1ce53abd6e21f17e5b9346f7bda197c16db4395190
+Homepage: https://gitee.com/GXDE-OS/gxde-globalmenu-service
+Description: DDE Global Menu Service Daemon
+
 Package: golang-gir-gobject-2.0-dev
 Architecture: amd64
 Version: 15.11~2.0.2-1+comsta
@@ -1749,6 +1768,23 @@ MD5sum: d63d2f01a02d92c7286e71720d9797e2
 SHA1: 65ac54efb15fcaa1a04c61387cb089789dde1bb1
 SHA256: dbd4bb9f16c095cbf05ec183f1fe7e1a3f2d172ce0d24b37817a75030a91a045
 SHA512: 5c357a04bdab390c88c89f60200f91188e8b7448fb82c0c403fb84959d51bb6c80769474bc70ac28161e349be4f627657dcec079c6c38dd51b48b612346c0c0b
+Homepage: https://gitee.com/GXDE-OS/gxde-top-panel
+Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
+
+Package: gxde-top-panel
+Architecture: amd64
+Version: 0.6.9gxde2
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 912
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxdo3 (>= 1:3.20130104.1), dconf-gsettings-backend | gsettings-backend, gxde-top-panel-plugins, gxde-globalmenu-service
+Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9gxde2_amd64.deb
+Size: 313056
+MD5sum: 21a70563ea54664e873486ac34a40885
+SHA1: 0a547df817ae268ac162bb39eb071454528f7e8b
+SHA256: d68ffe6710ab6e41dd2da6972746294da19c8a1a8c020d14ad057e715a026ffe
+SHA512: 5e9ae6ea80e4ba8d47e7b6573f97744a29efbe146fe1f4f1a5cc54d344170626a1907eec80e120d96f966f828fc90cea4fe6fcff748edaa3d2341fdd211a1178
 Homepage: https://gitee.com/GXDE-OS/gxde-top-panel
 Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
@@ -27922,6 +27958,28 @@ MD5sum: bd9c77637f3395119b8424217a9b6803
 SHA1: b851b6d2af72a754774cf5a4bfaa79893a99dd83
 SHA256: de2a199bcc3eb5c696607699f76a2ee7e32bbdf50f6d749daefc9300d75dcc3a
 SHA512: e37a75785aae4faeb7c9cd92a5f40a99e17d403f5de9037a65fbc6ce37d37f050a349b2be84e0534d447d41d304394d7b107bcaae46706bd119b785ca8a8583c
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
+Version: 4.10.24
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14390
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.24_amd64.deb
+Size: 4245228
+MD5sum: 82efae40f9ff910007c535171ae3cedd
+SHA1: 7f3ecea82069f1717b3911b20d58cbb0e0ddb0b7
+SHA256: ea5b50e9ab64a8707c9cf5f2717821ce15c1f9aa20548cc996ae66b4e35aaacc
+SHA512: 7fc381c70ee9fa71fc3b5fc5f649c3281b27e7a94228938f02b3b69c636bc58aa60c168a8a30db91f5127fe98c361dfae60efb5c93d85f08b75782694109bbb6
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
