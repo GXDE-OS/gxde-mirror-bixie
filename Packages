@@ -22590,11 +22590,11 @@ Source: dde-dock
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 32
 Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.11gxde3_all.deb
-Size: 5200
-MD5sum: 469938e53b803b07a75259010f70d434
-SHA1: 8c4caf6a3b70e7ce08e5030bb68d11ef4e051e6e
-SHA256: 61f2247e4266bff91607b941b5f02cfe319a5360b6e3e85c6b9a7646f300c9d9
-SHA512: 4223e1f189bb4344f93cbea315a9f123826bd6f7ee625175227fbe5db04a4dcd5350393836e4354ab4365482cd1383d57882a9e825d3681bf115c4b958818171
+Size: 5384
+MD5sum: b96456526b2fe87f15cff7d98d5fd7b4
+SHA1: e537b5d545fb33a9e2df016b26a6fa8fd7f2c85f
+SHA256: fbfba9ef24e71ef18c1c3e4302b90b3ee62b60c6b8a4b424462fb44df8b6537b
+SHA512: 15ed7534bd6dc4068bdd786158c53cf321a18c48223a3d61ae9385132ade7bae72e82c43513fca3829f5f8a20ee09303e25329b883d0fa16bbac879d0b71d09d
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Deepin desktop environment - dock module development files.
@@ -26794,11 +26794,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 83
 Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
 Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.11gxde3_amd64.deb
-Size: 20652
-MD5sum: 3c00ce26b57c16501bf72adf027edcbf
-SHA1: 4da3b75297afa80fc7029b780e2588ca83494bab
-SHA256: 7e210765ed937f840f9b62c800ada21c8cc445f71585b1c24ef8f29206d6a2cf
-SHA512: 00beb609dde4399f61f4c3260e04df2c834d4b000ef3eed04d0b648630503248a52bd29c642edeb6d6e67e6e2c5f9f571a9fad7f2f9a30e97f80e1f19f26ce87
+Size: 20608
+MD5sum: 3344d79515b70ac8b57898dd720ee997
+SHA1: 9973176bb3e34d603c56a8bbca48d6c60d261004
+SHA256: 268433f90552e8849bdd60bbfc704c27a9570e5420252728c350ec5fbd5e398f
+SHA512: 666693ee142e02ca88b3d0b5f9fc5ac1a8b4471dc2c4805c9a78e1fe149416c8846ea79393d0ab7383ec3df66dcec8ed3b8e6ab262f547f370eb0678836e9cf3
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
@@ -27784,11 +27784,11 @@ Suggests: redshift
 Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
 Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
 Filename: ./d/dde-control-center/dde-control-center_4.10.24gxde1_amd64.deb
-Size: 4244588
-MD5sum: 01321ea940eda438791d8c212eafc7c9
-SHA1: 3b08db282286d5ec724ffd15b9835bd48562b2ce
-SHA256: 2451ad72c14079f1a52972446fb33b9ec674c2bda7794a7999d84b26f487dadc
-SHA512: cbe0dc0405968c8d2f5f12ed97ae54875a2980bb40a6d30e5650e7c419f0fa1e4291eacf1cb04912dcbf507e3885d7b6baeb4267c25b4ebd21a08cdd2a4b1eb1
+Size: 4244612
+MD5sum: 42920e6aab6cbbad11d634318f561f16
+SHA1: c8822f7623a11df48108384a71766eac6e007f05
+SHA256: b2f406ae8b8dc5b37cf35aa67f17be943fc6f38c5b70fb7db9ab67f170545146
+SHA512: f75eacc2ff35a5844247bb58c556fec90cf72ac8e57258b10cb63b1bfe8ab9de1516aba1ffeb2f3057023194b05c231366dc971a43734f91c11def2c75a7f03f
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -31699,11 +31699,11 @@ Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_4.10.11gxde3_amd64.deb
-Size: 645276
-MD5sum: 02b3246d4fa19b45ebb43a065d4c3ed8
-SHA1: 68e64a1f839b061ea464fb63a16b76300329dabb
-SHA256: 5219e487a4be5331fbb801e64ffd8c84a0fc4882a2e6e46a08cd3bf37a60afd9
-SHA512: 3a085f0feeeb45c74f181901e86b58873f083b1ae0619747c2de77f96d0000a24ce40d2b4d511f1dee1ffdf74b005986a1865c1650a79e76c11b72c84a1611f8
+Size: 645500
+MD5sum: b2c4c82318badc39351109dabbeae782
+SHA1: 939b429266cf21ff43b81c2155f1ef8e9f6284df
+SHA256: 87aef904281c68d9e7f8649e8b921acb4072d896893642e6225b32bc177fe3a1
+SHA512: a442441fd0e5d98db62c3886c998792a4644fc9a80239d3c21166cd854b5c4958ef4202fea74db5e13bba31d17897e7ef7351d8a1be00596441795b81ee295ef
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.

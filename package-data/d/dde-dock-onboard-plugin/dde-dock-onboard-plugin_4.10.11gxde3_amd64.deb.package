@@ -8,11 +8,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 83
 Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
 Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.11gxde3_amd64.deb
-Size: 20652
-MD5sum: 3c00ce26b57c16501bf72adf027edcbf
-SHA1: 4da3b75297afa80fc7029b780e2588ca83494bab
-SHA256: 7e210765ed937f840f9b62c800ada21c8cc445f71585b1c24ef8f29206d6a2cf
-SHA512: 00beb609dde4399f61f4c3260e04df2c834d4b000ef3eed04d0b648630503248a52bd29c642edeb6d6e67e6e2c5f9f571a9fad7f2f9a30e97f80e1f19f26ce87
+Size: 20608
+MD5sum: 3344d79515b70ac8b57898dd720ee997
+SHA1: 9973176bb3e34d603c56a8bbca48d6c60d261004
+SHA256: 268433f90552e8849bdd60bbfc704c27a9570e5420252728c350ec5fbd5e398f
+SHA512: 666693ee142e02ca88b3d0b5f9fc5ac1a8b4471dc2c4805c9a78e1fe149416c8846ea79393d0ab7383ec3df66dcec8ed3b8e6ab262f547f370eb0678836e9cf3
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
