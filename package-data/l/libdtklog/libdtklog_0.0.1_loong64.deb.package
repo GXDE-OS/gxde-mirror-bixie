@@ -1,0 +1,19 @@
+Package: libdtklog
+Architecture: loong64
+Version: 0.0.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtklog
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 194
+Depends: libc6 (>= 2.39), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.10), libspdlog1.12-fmt9, libstdc++6 (>= 14), libsystemd0, qtbase-abi-5-15-13
+Filename: ./l/libdtklog/libdtklog_0.0.1_loong64.deb
+Size: 52860
+MD5sum: 25c98e79fcba0c10acc60b4bf3419439
+SHA1: 9e2e8c1e42fbe15127feefa36971edb03facb80b
+SHA256: c2e5bdc548bb70bbcc2545c6936e1e8664548f8b7d006b057df04d9a8876c1a5
+SHA512: 03ab9b841a84e5a2a694ae80391b370c5409e618df3f873c6970855458262f2e9abab9bd1ee4555ec525f90ab71219dddba010dc9c01e1c4b685a85fd335221f
+Description: Simple, convinient and thread safe logger for Qt-based C++ apps.
+ This package contains the shared libraries.
+

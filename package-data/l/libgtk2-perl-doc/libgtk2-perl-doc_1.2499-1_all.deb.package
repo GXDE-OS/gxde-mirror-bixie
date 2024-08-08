@@ -5,14 +5,14 @@ Priority: optional
 Section: doc
 Source: libgtk2-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 2399
+Installed-Size: 2342
 Recommends: libgtk2-perl
 Filename: ./l/libgtk2-perl-doc/libgtk2-perl-doc_1.2499-1_all.deb
-Size: 1088772
-MD5sum: e4975ab3ad2ccd3947e3a1dddfe0a9fc
-SHA1: e9224acc84d988ab80cb4d5e464dc5769db90a14
-SHA256: 2ca658182520eec95c5399562c5579387229fe1f4376fb8abbfbf8d27aa2fdab
-SHA512: 4bfd60b9c1ed0512f836ab7cc1be35a4e26b313acc630f7d71fcc4a21470e1111c8f63b181aad33acb0e27520b50f76682933347afbdc0982b870ca468ae9ad3
+Size: 1008012
+MD5sum: ba671f69a7e976d39cebdf36c81ec5f0
+SHA1: 4d4057e92c973882737dcbf0a8713aeae825ffe8
+SHA256: 543774f2c12410ca83dddd419b000e6eb6e52778535e1cfcedd813e3bbde1800
+SHA512: 12483f7067e6757327465d2682e18af973f4534f834f702f0298054586240c93a129608b3d0cb13ba004d6bcac5ab24bd7f0f90298e36bf3c9e61d679077f345
 Homepage: http://gtk2-perl.sourceforge.net/
 Description: Perl interface to the Gtk 2.x series (documentation files)
  Gtk2 allows you to write graphical user interfaces in a Perlish and

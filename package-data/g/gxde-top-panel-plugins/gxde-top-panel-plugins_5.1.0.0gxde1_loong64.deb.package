@@ -1,0 +1,17 @@
+Package: gxde-top-panel-plugins
+Architecture: loong64
+Version: 5.1.0.0gxde1
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2737
+Depends: libc6 (>= 2.39), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.5.0), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.2.0~alpha1), libstdc++6 (>= 14)
+Filename: ./g/gxde-top-panel-plugins/gxde-top-panel-plugins_5.1.0.0gxde1_loong64.deb
+Size: 482708
+MD5sum: 38f35c54af09683acc35631da6d32e48
+SHA1: 5e1a37b2f2817823581843620a36331a763c56e2
+SHA256: 96c4986d840db34371024cee115196653380f38e1094dbc5afdbe351313a32ab
+SHA512: 26f98bb03240de4976d000dc706eaf4ce43f2aae8e6e2a9298ec246bcfe31b568c5d8782b9484db4e48fd80316b39498ea123278c958e72ac66f03bcff9843dd
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin for gxde top panel
+

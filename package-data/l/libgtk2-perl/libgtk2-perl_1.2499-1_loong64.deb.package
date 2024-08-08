@@ -4,15 +4,15 @@ Version: 2:1.2499-1
 Priority: optional
 Section: perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 2822
-Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libcairo-perl, libglib-perl (>= 3:1.280), libpango-perl, shared-mime-info
+Installed-Size: 2772
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.24.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), perl (>= 5.38.2-5), perlapi-5.38.2, libcairo-perl, libglib-perl (>= 3:1.280), libpango-perl, shared-mime-info
 Suggests: libgtk2-perl-doc, librsvg2-common
 Filename: ./l/libgtk2-perl/libgtk2-perl_1.2499-1_loong64.deb
-Size: 539656
-MD5sum: 8e1edc8647d059ae2b95a07fe2cd0b4c
-SHA1: 930feb3ddba64375570a7a17635bf1ad36c54d22
-SHA256: 0c6971d10fccef5d9e358903b47ea37277af8b10f265c8932b4abe2e4db71126
-SHA512: a6e564eee2aa2b55aa668a4ac14ad4a70227b7d845aff89d2627d546d54d02a1a15d548ce04c305d6b6c73faaa5e5a0a54ac5d331f34d598d604481276319afd
+Size: 550780
+MD5sum: 2bd622d2bf628cda3ba79db9a493aec7
+SHA1: 4f5b8e96c8ca6898ea89887dede8fa3e1d3ca052
+SHA256: b8937e891e4c5db9edd9e1674c1dc94566becf5053cfafe69403bc4d6d94aa02
+SHA512: 77f7d424fd76a9f63f6123d9abceab96f1a25c92899a5120236caaeffbce5de257df3f1c4b53505c1d2307b5526419b2e36be2df063c6be2631b36abb04749b5
 Homepage: http://gtk2-perl.sourceforge.net/
 Description: Perl interface to the 2.x series of the Gimp Toolkit library
  Gtk2 allows you to write graphical user interfaces in a Perlish and

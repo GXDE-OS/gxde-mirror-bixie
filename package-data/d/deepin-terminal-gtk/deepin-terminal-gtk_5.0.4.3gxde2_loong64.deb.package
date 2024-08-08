@@ -4,15 +4,15 @@ Version: 5.0.4.3gxde2
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2216
+Installed-Size: 2183
 Provides: x-terminal-emulator
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.37), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.40.0), libgnutls30 (>= 3.7.0), libgtk-3-0 (>= 3.21.5), libharfbuzz0b (>= 0.6.0), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.22), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libsm6, libstdc++6 (>= 4.1.1), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, libxext6, zlib1g (>= 1:1.1.4), deepin-menu | dde-launchpad, expect, lrzsz, zssh
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), librsvg2-2 (>= 2.14.4), libsecret-1-0 (>= 0.7), libvte-2.91-0 (>= 0.51.90), libwnck-3-0 (>= 2.91.6), libx11-6, deepin-menu | dde-launchpad, expect, lrzsz, zssh
 Filename: ./d/deepin-terminal-gtk/deepin-terminal-gtk_5.0.4.3gxde2_loong64.deb
-Size: 337044
-MD5sum: 353e6f4dc09cac2a7dd2ab44599b937b
-SHA1: 703323857e356aa872e3e5bb3f5e65da5c265dc3
-SHA256: 4aac803c17e9e1dcfdb7203c5be36a4d6912d68a9fd7258c37d7c763eac869f0
-SHA512: 70151e4e9ed5ba397b687faff900f7aeac6a9e8ad246d9713ca10c7fcbb27dc34260899eb0880c32ac2128951d4bc325c13e20d3c8b9ed77c4c1c2cc7df5e93e
+Size: 340108
+MD5sum: 100768ba51cd3082e5aeccf6af484a90
+SHA1: 5a3a865f63e8fe42b004fe98e8abb9bae9b5904c
+SHA256: c05c1bedff7719e0aa7d90b1f5019e6f1aece6ecc889cf5facb3ac23fc7ae872
+SHA512: efd9a45954e6c514f8296f685278af9a0340822c7a991ac6b88277a7b579a090397981615d90594a33c57e9b77c963c49b2f1832be7f990b893e0166024f35c2
 Homepage: https://github.com/linuxdeepin/deepin-terminal-gtk
 Description: sharpens your focus in the world of command line!
  Deepin Teminal is an advanced terminal emulator with window-splitting,
