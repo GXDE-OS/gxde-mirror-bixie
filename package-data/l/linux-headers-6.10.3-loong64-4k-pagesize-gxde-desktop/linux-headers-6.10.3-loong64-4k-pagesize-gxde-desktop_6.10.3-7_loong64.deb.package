@@ -1,0 +1,20 @@
+Package: linux-headers-6.10.3-loong64-4k-pagesize-gxde-desktop
+Architecture: loong64
+Version: 6.10.3-7
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 52512
+Filename: ./l/linux-headers-6.10.3-loong64-4k-pagesize-gxde-desktop/linux-headers-6.10.3-loong64-4k-pagesize-gxde-desktop_6.10.3-7_loong64.deb
+Size: 8861588
+MD5sum: 774ae6c24e488338b4de017e022491e9
+SHA1: eab7e43c917ff3a5f3a4e00a636f59a89d040817
+SHA256: 851ddda830d652c95cc7b67af39308358136218f222f41532a4325e2ee755a7d
+SHA512: 39b633f12bc1e30fbacc9632ea8935b8030bb8527fdb4f50df39d0856b15a99bd7a6109936cda182313d874ce05b3a2c37436534bd9c0357d298e1d3495099e4
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.10.3-loong64-4k-pagesize-gxde-desktop on loong64
+ This package provides kernel header files for 6.10.3-loong64-4k-pagesize-gxde-desktop on loong64
+ .
+ This is useful for people who need to build external modules
+

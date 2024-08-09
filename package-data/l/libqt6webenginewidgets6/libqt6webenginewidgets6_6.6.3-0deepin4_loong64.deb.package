@@ -1,0 +1,26 @@
+Package: libqt6webenginewidgets6
+Architecture: loong64
+Version: 6.6.3-0deepin4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qt6-webengine
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 348
+Depends: libqt6webengine6-data (= 6.6.3-0deepin4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglx0, libopengl0, libqt6core6 (>= 6.6.1+dfsg~), libqt6gui6 (>= 6.6.1+dfsg~), libqt6network6 (>= 6.6.1+dfsg~), libqt6opengl6 (>= 6.6.1+dfsg~), libqt6positioning6 (>= 6.6.1~), libqt6printsupport6 (>= 6.6.1+dfsg~), libqt6qml6 (>= 6.6.1+dfsg~), libqt6qmlmodels6 (>= 6.6.1+dfsg~), libqt6quick6 (>= 6.6.1+dfsg~), libqt6quickwidgets6 (>= 6.6.1+dfsg~), libqt6webchannel6 (>= 6.6.1~), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6widgets6 (>= 6.6.1+dfsg~), libstdc++6 (>= 5), libxkbcommon0 (>= 0.5.0)
+Filename: ./l/libqt6webenginewidgets6/libqt6webenginewidgets6_6.6.3-0deepin4_loong64.deb
+Size: 80172
+MD5sum: 44b9c06153c0926371a49a8606ae483e
+SHA1: 710e18a353bd804966305edff8347e0565263f54
+SHA256: 3c1575ed9b5f5a4ff46cdd5cbee1809970ba2e231d5c71dadff8dde4859b2a28
+SHA512: 52d7aa1b867ddcf8dcea003e42c32a442d57053e966e9924e3faa136bf64d50c3d7e927cb7880ab87fa7a0b22a61d6315b42fec8c1f85b37e333e8d20ff51183
+Homepage: https://www.qt.io/developers/
+Description: Qt 6 WebEngine Widgets library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt WebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the Qt 6 WebEngine Widgets library.
+

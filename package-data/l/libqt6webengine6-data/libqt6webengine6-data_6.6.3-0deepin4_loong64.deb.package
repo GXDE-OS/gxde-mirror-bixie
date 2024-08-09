@@ -1,0 +1,25 @@
+Package: libqt6webengine6-data
+Architecture: loong64
+Version: 6.6.3-0deepin4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qt6-webengine
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 35032
+Filename: ./l/libqt6webengine6-data/libqt6webengine6-data_6.6.3-0deepin4_loong64.deb
+Size: 9966748
+MD5sum: 60ce5906952f8f1f04989d8dd7b60ad1
+SHA1: c760c189c4474b818032a9227cfe79321af840ec
+SHA256: 8514767a332107c882d4e9233a9168e1ce95dd238cbaba50cd8b79693c9525fb
+SHA512: a9adc1b4c055dc25e93f3a0dbdfa244b556bc589f95e490c7f0b79517ffea7f80603098898db34c0cde2f09d778d83c8c74b6db49ef00ddc392ebd649ce266ab
+Homepage: https://www.qt.io/developers/
+Description: Qt 6 Web content engine library - data
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt WebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the arch independent parts of Qt WebEngine libraries.
+

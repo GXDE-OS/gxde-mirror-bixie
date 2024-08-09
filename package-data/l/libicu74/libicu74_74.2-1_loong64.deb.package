@@ -1,0 +1,24 @@
+Package: libicu74
+Architecture: loong64
+Version: 74.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: icu
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 35991
+Depends: libc6 (>= 2.37), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+Replaces: libiculx63 (<< 63.1-5)
+Filename: ./l/libicu74/libicu74_74.2-1_loong64.deb
+Size: 9320728
+MD5sum: eb0e875b7ee71ae0a5f5edf05ae13a52
+SHA1: e212633211fb07fac05cedf3ac8763732fede504
+SHA256: ad3068aee2d3b3d2b9cf42497cb4e82626cf272202d0736b349a649116ed557c
+SHA512: 25d5f76d373bc391b07064a0a8eef1418bd62857ace2ffaa5479200e7a78c83eb6e5ccfdf12b814ba3d80b454c9f92b1ae23cbbb8a3a365b93ba0bca7bec15b5
+Homepage: https://icu.unicode.org/
+Description: International Components for Unicode
+ ICU is a C++ and C library that provides robust and full-featured
+ Unicode and locale support.  This package contains the runtime
+ libraries for ICU.
+
