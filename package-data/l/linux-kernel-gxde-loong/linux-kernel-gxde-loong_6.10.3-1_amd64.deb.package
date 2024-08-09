@@ -1,0 +1,17 @@
+Package: linux-kernel-gxde-loong
+Architecture: amd64
+Version: 6.10.3-1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 9
+Depends: linux-headers-6.10.3-loong64-4k-pagesize-gxde-desktop, linux-image-6.10.3-loong64-4k-pagesize-gxde-desktop
+Filename: ./l/linux-kernel-gxde-loong/linux-kernel-gxde-loong_6.10.3-1_amd64.deb
+Size: 2288
+MD5sum: 03497d3064820f575b5fc1e55294afbd
+SHA1: 56f92890a2b72db6a400a3a15f9a90e5fbfb4860
+SHA256: 74d6c8f7345538e9d8fc51a873afc52f96b9609c0d15dcaf8c193b1920150d95
+SHA512: d795f7024d12851f681d2400a80a94e41baa61721ed4510bb7d0d12a3e03646b99530fbb84077c01a7dd9cd29ffe308b7bbae2fa14da8093521137ca5c4d12d1
+Homepage: <insert the upstream URL, if relevant>
+Description: GXDE Kernel For loong64
+
