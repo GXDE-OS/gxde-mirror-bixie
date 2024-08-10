@@ -2174,6 +2174,29 @@ Description: userspace virtual filesystem - fuse server
  This package contains the gvfs-fuse server that exports gvfs mounts to
  all applications using FUSE.
 
+Package: gxde-account-faces
+Architecture: all
+Version: 15~1.0.12.1-1
+Priority: optional
+Section: utils
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 1478
+Depends: accountsservice
+Conflicts: deepin-system-settings-module-account
+Breaks: dde-account-faces
+Replaces: dde-account-faces
+Filename: ./g/gxde-account-faces/gxde-account-faces_15~1.0.12.1-1_all.deb
+Size: 1151624
+MD5sum: c40ad64990ef54e58aa5b2a8dced461e
+SHA1: ce09c2b1eec631f5b20007d83f24f0ba5d8400e9
+SHA256: a680952db5d793011b62a006c623ecb91626a8e9a6f43c24f38dcb13635ec1f8
+SHA512: 1ab8946ef8eee824cdc85270a45dfaa141fbd5717fbfaeed4dc4a9ad240f82b168936debbcff73b641479750d182aea890b1c00b774f63127607d129c72d5cea
+Homepage: https://github.com/linuxdeepin/gxde-account-faces
+Description: provides account-faces of dde
+ When users are ready to set their own account avatars,
+ Deepin Account avatars provide many beautiful avatars for users to choose from.
+ It is part of Deepin software and DDE (Deepin Desktop Environment).
+
 Package: gvfs-common
 Architecture: all
 Version: 1.30.4-1
@@ -29351,6 +29374,28 @@ Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
 
 Package: dde-control-center
+Architecture: loong64
+Version: 4.10.24gxde3
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 15169
+Depends: libc6 (>= 2.39), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5t64 (>= 5.6.0~rc), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5t64 (>= 5.5.0), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libxext6, gxde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.24gxde3_loong64.deb
+Size: 4195256
+MD5sum: d97b3b6d3c14432e4ad146c8307bd708
+SHA1: fc6bb704a67879e5d930013d8e271d1af344ae3b
+SHA256: 63822f1c4500e29749e831ca898189cabbfbf170e834c89d4c0dc4740fc37617
+SHA512: 4677dd61a925aa7495c7ab43c6797efea1995c13a5c4a5e57eca9e17301c30870b8b7df4b32944153fe777c3e067981918cecfe17d2391abde952e90b73c697f
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
 Architecture: arm64
 Version: 4.10.12.2-1+stable
 Priority: optional
@@ -29588,6 +29633,28 @@ MD5sum: ae7134e371f057be83f39a1547a871c1
 SHA1: 7d270a0e3aa936e81d4df923949f06f7808e89ae
 SHA256: 0f97118805f02ccabab6dd0011a203bd6e6cd716f4d4928fabac5f514faa8a40
 SHA512: 653c0d75e8349770080e75e6fcec8782aec9d263cb6b6b92f808f9a047f464c455f65ddd5ac02e7acdd7a9074a825e52ba99f4e3f6087b257927b6e29f161f2a
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
+Version: 4.10.24gxde3
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14390
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, gxde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.24gxde3_amd64.deb
+Size: 4245652
+MD5sum: 6c9b515f2a57890e718d11ad63bcdddf
+SHA1: 665b7233fdb03c5059b1f7798bde40bae0c5b000
+SHA256: 00199a00bc1feb44cedd078fa966780bd327dc2d9218ecb60bc28c507afef4dd
+SHA512: a4e0d83d2448e9485feb033ec89e081e1ec645bb531cbe5391c816066c78fb177157f1ba85ab5814314720f9dcaa6d9532158c26614a9096502b0f44012edc47
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
