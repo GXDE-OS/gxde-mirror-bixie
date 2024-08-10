@@ -26441,6 +26441,25 @@ Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
 Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.08.10
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.08.10_amd64.deb
+Size: 19568
+MD5sum: 547453cc1d64af96cdfa4950e102f0c9
+SHA1: d5c53011403b79e9dc11c2097a41fb6b4768331a
+SHA256: dff08f03d42e7b75a9a9b2fe3f542e3f2412a77abb1f99d3395bf9daa274497e
+SHA512: 81f585254df0973ede2c419333c3287f2e5d86c376236bcae573c9c3d9c76dfa21065d59f11171e8a512bc4308bcd77dd1769b0fc861fb094b1fe6e269dd377f
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
 Architecture: arm64
 Version: 2024.03.10
 Priority: optional
@@ -26684,6 +26703,25 @@ MD5sum: d34e00895621dea2744725ae93415810
 SHA1: c46eabe4ab92925959967d56c83976150db64ee4
 SHA256: 7da54b55ddf4a7a536c23c688803d9306a468130db7890ad8b80429948c9ed9b
 SHA512: 6ad4afffa547ba8cfca0fc70faf039e298db2fbde95b304376c7dad12f4aa7f6c70561f13c9dbce7d7da060c26af46b401d29357421b64e799b86694091a4569
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
+Architecture: loong64
+Version: 2024.08.10
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.08.10_loong64.deb
+Size: 19556
+MD5sum: cf8dbd3acd99ff4c1d21774e7ea3f354
+SHA1: 029b962a966b41e9989c0251eb40ab875e4d2d1b
+SHA256: 23ba76950e6bc283c525a94afef5ab1597ffa327aa32f1c358189d2a5a0015f2
+SHA512: cb936b7c9222f4bdf05ddea0a5d5d1d6b765aa953edede3c515c05d9def7e33f0fed5fdb41d87cbb8cb62884bd2ac021a14cea562562642ea8ad5a1d92e9ec78
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
@@ -36104,6 +36142,23 @@ SHA256: cf7d4fdb950ac96e8fd3743241ce98d6397ea092889676dc0b6276d51ac1e6a0
 SHA512: 0981d2040fffcfd1e8f6e247edab990ddd7cb051dc2a98795799a75dbaa736aa04cc68b189ec02e5dfb537f0f2486f055674a57bc6c4020efc0e31a4e07407e3
 Description: deepin home
  quick login bbs, bug report.
+
+Package: tela-grub2-themes
+Architecture: all
+Version: 2022.10.30-2
+Priority: optional
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 2463
+Depends: dialog, grub-common
+Filename: ./t/tela-grub2-themes/tela-grub2-themes_2022.10.30-2_all.deb
+Size: 685068
+MD5sum: c485c2f08aa455c3b8376613d3330414
+SHA1: ae2bfa25eb1ae02acc37f8d43dc63eb89c0edc2a
+SHA256: e28069f95b54181626887f307c2ef6f7d534e22c0066d0d83b5f6bf852f0dd76
+SHA512: a596a8faedeb6fc09c6c90050760c5c651dd7cd7aae428bb22f78f62c3c2da5b1014a1308a88439450021a562a9da0be0adb844c422b98148b562765d46d53b5
+Homepage: https://github.com/GXDE/tela-grub2-themes
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
 
 Package: tela-grub2-themes
 Architecture: all
