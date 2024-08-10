@@ -1,0 +1,23 @@
+Package: deepin-terminal
+Architecture: loong64
+Version: 6.0.14
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 7027
+Depends: libc6 (>= 2.39), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.12.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 14), libxcb1, qtbase-abi-5-15-13, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.14_loong64.deb
+Size: 3376792
+MD5sum: 9c072d105a33544c7020bbca245d8f7a
+SHA1: be67d5e2fa73c27b3f72f335cd0ba179e89952f7
+SHA256: 663135e03c0848a5de5757c37d2c9f82436fbe7c67b0faba2c485d71fd53c083
+SHA512: 54d9aee7d8bbb3d67a78756f7d00f31cd00f563991bbd611925a0a4701272dc70f31cbc8078b8a210e920768aeb41516e056638bad36a3128c8962924b16fa7b
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
