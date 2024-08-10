@@ -1,0 +1,21 @@
+Package: linux-libc-dev
+Architecture: loong64
+Version: 6.10.3-10
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: linux-upstream
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 6864
+Provides: linux-kernel-headers
+Filename: ./l/linux-libc-dev/linux-libc-dev_6.10.3-10_loong64.deb
+Size: 1335668
+MD5sum: 1835fc7674b7d0bbcee25ec6fc0aff12
+SHA1: 9ded1c3abf615eab408bb5db002ba125c0978ef9
+SHA256: deecb19b691a00133b7e0ebd61a721901853e112a5f5eba531f7b043eb974257
+SHA512: efa2c32fbfa402fe301dc10cbef9b048e5a40a29904a818182550f95d9633b7973b4940de7bc2cccafae3fd0a75b3653922923dae742748d56f6f25d0f9ee8d8
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+

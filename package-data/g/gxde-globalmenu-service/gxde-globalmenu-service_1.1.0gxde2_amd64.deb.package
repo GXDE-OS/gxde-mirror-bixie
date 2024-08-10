@@ -1,0 +1,19 @@
+Package: gxde-globalmenu-service
+Architecture: amd64
+Version: 1.1.0gxde2
+Priority: optional
+Section: utils
+Maintainer: SeptemberHX, gfdgd_xi <3025613752@qq.com>
+Installed-Size: 353
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb1
+Breaks: dde-globalmenu-service
+Replaces: dde-globalmenu-service
+Filename: ./g/gxde-globalmenu-service/gxde-globalmenu-service_1.1.0gxde2_amd64.deb
+Size: 97940
+MD5sum: c4f5d0825265c3f06eab0825b7a26eb6
+SHA1: 90573c661c1f0ec749680e19d9866aad1aa02005
+SHA256: 53358e759a2b133b63cad8e4493492425356fdac6e648fe10645106bc8bc4ab3
+SHA512: 68c36cc2b1a8c31cc0b4b7281ad1eb12b7437a052e29d0fecf25475d0e8550c1fafa6e8f4ecb4650bcd2d753bac604682a70223abcf76d0d340b7cf6edbfb2bb
+Homepage: https://gitee.com/GXDE-OS/gxde-globalmenu-service
+Description: DDE Global Menu Service Daemon
+

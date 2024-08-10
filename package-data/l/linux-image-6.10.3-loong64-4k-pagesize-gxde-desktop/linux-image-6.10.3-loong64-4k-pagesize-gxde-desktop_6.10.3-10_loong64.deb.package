@@ -1,0 +1,19 @@
+Package: linux-image-6.10.3-loong64-4k-pagesize-gxde-desktop
+Architecture: loong64
+Version: 6.10.3-10
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 61498
+Filename: ./l/linux-image-6.10.3-loong64-4k-pagesize-gxde-desktop/linux-image-6.10.3-loong64-4k-pagesize-gxde-desktop_6.10.3-10_loong64.deb
+Size: 52537024
+MD5sum: 7b87ed38e8b4078b8578c281f350695c
+SHA1: 85e1454ff86e800cd1e718eeb4a6aba2ab94163f
+SHA256: 683c77513a0353e90802407ac973bede287c9e380fae17578de57ced6ccf8921
+SHA512: da2fe185b60f14ba77fc96d015efee9dc4a154ff13de5ca1b5899f70f79abbd97e4bd6397f7a1cd3699c47b14f0d24390771248b41a74e6c5af34538a1b77ab6
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.10.3-loong64-4k-pagesize-gxde-desktop
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.10.3-loong64-4k-pagesize-gxde-desktop.
+
