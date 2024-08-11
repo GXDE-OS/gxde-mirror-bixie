@@ -692,6 +692,25 @@ Description: userspace virtual filesystem - private libraries
  the daemons and the GIO module.
 
 Package: gxde-globalmenu-service
+Architecture: arm64
+Version: 1.1.0gxde2
+Priority: optional
+Section: utils
+Maintainer: SeptemberHX, gfdgd_xi <3025613752@qq.com>
+Installed-Size: 401
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb1
+Breaks: dde-globalmenu-service
+Replaces: dde-globalmenu-service
+Filename: ./g/gxde-globalmenu-service/gxde-globalmenu-service_1.1.0gxde2_arm64.deb
+Size: 91144
+MD5sum: 3034f630df8a2fddca5a98caf0b5f647
+SHA1: 25bed58390f745970c53e44166bf18848184f058
+SHA256: 942c10f90179829f51c0ba941540f2e2db1e42efdcc52920a10cd92502c46e48
+SHA512: 739daf9e5cafc76de5e717aafe671d5bdff78dcba6ebe3e5528e9bf957cdb7799917f27dd7bf81f324a477bfc046ff438c64976dae54b403280fcb25dc1302ce
+Homepage: https://gitee.com/GXDE-OS/gxde-globalmenu-service
+Description: DDE Global Menu Service Daemon
+
+Package: gxde-globalmenu-service
 Architecture: amd64
 Version: 1.1.0gxde1
 Priority: optional
@@ -1846,6 +1865,23 @@ Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
 
 Package: gxde-top-panel
 Architecture: arm64
+Version: 0.6.9gxde2
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 928
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxdo3 (>= 1:3.20130104.1), dconf-gsettings-backend | gsettings-backend, gxde-top-panel-plugins, gxde-globalmenu-service
+Filename: ./g/gxde-top-panel/gxde-top-panel_0.6.9gxde2_arm64.deb
+Size: 288524
+MD5sum: 04731d1b7238ebbb449ad50344d236b3
+SHA1: cb2ce295e3591632c06e28894903bc9fe71203cb
+SHA256: 79b512aa74d53ff2e8d95486d798d83b32b0806fa604080c5470d112311ccb35
+SHA512: b71840c709a1ef859b9f03c7e6e1621e0b4b8653192426bdbc80fe6a940f6927839cc6c3389add1ce7f4390de04e95bb3f65ab53c5239630d159d9fc7a64d717
+Homepage: https://gitee.com/GXDE-OS/gxde-top-panel
+Description: GXDE Top Panel is a top bar supporting the global menu for GXDE
+
+Package: gxde-top-panel
+Architecture: arm64
 Version: 0.6.9gxde1
 Priority: optional
 Section: utils
@@ -2494,6 +2530,24 @@ MD5sum: cc12090586f60ec29873b60305425a4c
 SHA1: 1b044b21aa632f5253e935e313846f54243c3c4f
 SHA256: fe8c7a31effbe89806d778d850e06a78f51405735ba329fbb9051b5036542529
 SHA512: d17fab901d03b5d01219bcf0de9de7c988e5c15e0396be1b11ae0fbb05bcfbed0bd84b8fa8f0d087f7c06a9bf23016005d773044f0e02c0a2e136d6b392446b5
+Description: A libaray about PDF.
+ A library for parsing and editing and displaying PDF.
+
+Package: libdeepin-pdfium
+Architecture: arm64
+Version: 1.0.2+rb1
+Priority: optional
+Section: libdevel
+Source: deepin-pdfium
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 4856
+Depends: libc6 (>= 2.33), libchardet1, libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libopenjp2-7 (>= 2.2.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
+Filename: ./l/libdeepin-pdfium/libdeepin-pdfium_1.0.2+rb1_arm64.deb
+Size: 1817540
+MD5sum: dc3f7fda7b8c75dce0aba975c1a7be1c
+SHA1: 7bb6d3dc3f1eaf6a552a7e2d3fe084d832955c09
+SHA256: 4d837ccaacf821cc0ea77c13adbb75bfdd708afd1548a74f38264c4c265719de
+SHA512: 7f2b20a3fcfe54962d8e5b4dbad3685da41f9c633fc047b737f5783f9a3b78ab5c037a008129a3ea69165bb2e85e5b21ea436f33c60270ea0a0758b79c88eb6d
 Description: A libaray about PDF.
  A library for parsing and editing and displaying PDF.
 
@@ -14108,6 +14162,24 @@ Description: A libaray about PDF dev
  A libaray that provides for parsing and editing and displaying PDF interface dev.
 
 Package: libdeepin-pdfium-dev
+Architecture: arm64
+Version: 1.0.2+rb1
+Priority: optional
+Section: libdevel
+Source: deepin-pdfium
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 30
+Depends: libdeepin-pdfium
+Filename: ./l/libdeepin-pdfium-dev/libdeepin-pdfium-dev_1.0.2+rb1_arm64.deb
+Size: 5668
+MD5sum: 61fdf3f3a9f45cb01aa689fb4500ecf3
+SHA1: df69059e54ee06280623cf4c5638e89f6a55c594
+SHA256: 645c83139dbae0b8c19461abf291497f8bd0e0c89196247165c7b157a75b6f28
+SHA512: 6cbbfdeb08972600809df1d3f77e185c966c378057242b93cd38eeccd20f2a6f8c8836d2ed242c50198e3603685dcb34c0be14a7468e089d08a735cb57a922cb
+Description: A libaray about PDF dev
+ A libaray that provides for parsing and editing and displaying PDF interface dev.
+
+Package: libdeepin-pdfium-dev
 Architecture: loong64
 Version: 1.0.2+rb1
 Priority: optional
@@ -20485,6 +20557,32 @@ Description: daemon handling the DDE session settings
  under it.
 
 Package: dde-daemon
+Architecture: arm64
+Version: 3.28.1gxde1
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 63939
+Provides: lastore-daemon-migration
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgdk-pixbuf-xlib-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.3), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 212), libinput10 (>= 0.21.0), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpam0g (>= 0.99.7.1), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.14.4), libudev1 (>= 183), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), fprintd, libpam-fprintd, upower, network-manager, iso-codes, gvfs-common, gnome-keyring, deepin-desktop-base, deepin-sound-theme, user-setup, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>> 3.13.7+), mobile-broadband-provider-info, bamfdaemon, dde-polkit-agent, xdotool, libfprint0, dnsmasq-base, cgroup-tools, imwheel, procps, lastore-daemon, deepin-installer-timezones, dde-api (>> 3.17.1+), libpam-runtime (>= 1.1.3-2~), hwinfo, dde-clipboard, dde-grand-search
+Recommends: proxychains4, flatpak, laptop-mode-tools, iio-sensor-proxy
+Suggests: bluez (>= 5.4), network-manager-pptp, network-manager-l2tp, network-manager-openconnect, network-manager-openvpn, network-manager-vpnc, network-manager-sstp, xserver-xorg-input-wacom, xserver-xorg-input-synaptics, miraclecast
+Conflicts: dde-workspace, lastore-daemon-migration
+Breaks: dde-daemon (<< 2.92.2), dde-workspace, lastore-daemon (<< 0.9.64)
+Replaces: lastore-daemon (<< 0.9.64)
+Filename: ./d/dde-daemon/dde-daemon_3.28.1gxde1_arm64.deb
+Size: 11155992
+MD5sum: ecdc2acc01be51f4e2a88a4aca2570b9
+SHA1: b70413175519b67d6562210137ab7771e73a442f
+SHA256: c729b68400fafe12b9d36d718e7e3bf8382b7b2ff95146c7adcae72df750980a
+SHA512: b8d2c695066a2a117ce01a3350d5b2bd57cc7e945de8d37a8c2ceeef3b4a049a74e4e647265de18e60063a853c72bad27ed3163368fb63fba0907ce48bf2a097
+Homepage: http://www.deepin.org
+Description: daemon handling the DDE session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a DDE session and the applications that run
+ under it.
+
+Package: dde-daemon
 Architecture: amd64
 Version: 3.28.0gxde1
 Priority: extra
@@ -21290,6 +21388,24 @@ SHA512: ca2e556cfcb00ccb3b14e32c65d86c92775e744577a2a4d809e27a8348a619a6b9fcd765
 Homepage: <insert the upstream URL, if relevant>
 Description: Album for UOS
   Album is a fashion photo manager for viewing and organizing pictures.
+
+Package: dde-clipboard
+Architecture: arm64
+Version: 1:6.0.11gxde1
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 774
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon, startdde, dde-api
+Filename: ./d/dde-clipboard/dde-clipboard_6.0.11gxde1_arm64.deb
+Size: 165100
+MD5sum: da88961236ddd92b516c3e00f7dfc609
+SHA1: 4e13c6580b8a04c54e56365bd84a6a61e29b76be
+SHA256: 6eea84132e31ae8d29323af31c752fdce5b9baa04b5d234236921bfcdba445ce
+SHA512: 0b7505ddfe72906547412e3a79c8167e8fb7e0eb85952f996254da8917c80f34fe194dc840f166bb68d487cb04e90106902644d243cc0e430f819db5ea0fcb6a
+Homepage: https://github.com/linuxdeepin/dde-clipboard
+Description: deepin desktop-environment - clipboard module
+ Clipboard module of deepin desktop-environment
 
 Package: dde-clipboard
 Architecture: loong64
@@ -23972,11 +24088,11 @@ Source: dde-dock
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 32
 Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.11gxde4_all.deb
-Size: 5384
-MD5sum: 6a77dcf3729dd9fd4c7255a29a6b1282
-SHA1: 8dacdf2085377cfd1423e545896b1840a199f880
-SHA256: b06d42b07d6f16c8790a45d4638d2a63f7014d34e153c1690a023be029b92d22
-SHA512: 6fef5a3b2e0ea451f6e0f23875f23fbf9416a5b42ca91da7cc85307f0a297af7ecfdf66e3d440e991bc5952662f916da22ecb3549d6c4d4c2908d2818c8596c5
+Size: 5376
+MD5sum: 6c2b3c4be36b4bd3aed2692c1b807ff5
+SHA1: 361f6a54a6ff44178de26746c33f0eacfe0630ac
+SHA256: 9c38cc754786a017693dde50600d21d143a62973e56fe553873688c9e4b6e5df
+SHA512: 08898e7f7a99cb59ece88f7dda1ec6486151cb30885ca3c28a7bafa18b9e06a61f09ac2243fd725cb5b26c7cc530449c7dba9b30c9b6fb4384e2a8b158b819dd
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Deepin desktop environment - dock module development files.
@@ -24428,13 +24544,13 @@ Section: utils
 Source: deepin-installer-reborn
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 23721
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libparted2 (>= 3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxtst6, zlib1g (>= 1:1.1.4), deepin-installer-timezones, dosfstools, imageworsener, mtools, ntfs-3g, parted, pciutils, squashfs-tools, udev, x11-xserver-utils, xinit, xkb-data
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libparted2 (>= 3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxtst6, zlib1g (>= 1:1.1.4), deepin-installer-timezones, dosfstools, imageworsener, mtools, ntfs-3g, parted, pciutils, squashfs-tools, udev, x11-xserver-utils, xinit, xkb-data, grub-efi
 Filename: ./d/deepin-installer/deepin-installer_2.7.19gxde2_arm64.deb
-Size: 16095612
-MD5sum: ca16bc5b79078897c69a149e7b6e31e2
-SHA1: f84ec9bfbb097059b0121fc19941f89f06beb0c1
-SHA256: 6024ac311f8e948b8a96ab1e408552c90ef31a0bfd121ff7692031255c3a8cb0
-SHA512: d84d978673dc0e955909815668d6e8aa8ecf4f33c0dc08905dd989b87020b1f4e549b33d2f0fc322b90308fef2a8e29be43af0b76cf22502312a6d90c61aecec
+Size: 16095620
+MD5sum: dd251affbf8d4f31f78a248117c3d27a
+SHA1: 8baa6735b47dbdb68fcf0f82a6e9d1e658320ab8
+SHA256: d2a88ca40d09a8d2d9b8e233edbcdba67250e8742241bc6c6d8d1ba41afd0048
+SHA512: f9735cc4e01604b97be05016717318c880e353b9bc3f9ee7b9f1ffd813e30def9406760da13296d1f65d0f16ea461373e6ac42bf0ad1d07660250f709792ac98
 Homepage: http://www.gfdgdxi.top
 Description: Release version of deepin installer
  New version of deepin-installer, rewritten with Qt5.
@@ -26782,6 +26898,25 @@ SHA512: 0ca6281fa94c226e72f7ee79046f6c5ea5b1b2cd06fa603a70e040094c88b0e770c137ef
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
+Package: deepin-desktop-base
+Architecture: arm64
+Version: 2024.08.10
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.08.10_arm64.deb
+Size: 19552
+MD5sum: d1f266310503dc3ce0d495e8fe014dfc
+SHA1: 6e43bfa2282cbe18d796f1e2d8eb442df21e9dde
+SHA256: 34f12492ecd9ab2ee86bc4d4c0143953158192ce8119a6a727e87c0b7cd25201
+SHA512: 236dfac49e4157e7589d06391c8b8fd7cc48cd4e79829adf7091797accfa867c212f3f21bfbf1f6b7a91892108656594c31153457141fc4662e77768a7ed0a87
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
 Package: deepin-anything-dkms
 Architecture: all
 Version: 0.1.0-1+comsta
@@ -28288,6 +28423,25 @@ MD5sum: ae541ca01fa1ed1bf32c4ff4ca02a171
 SHA1: 2466de6c6dda48e7ba90a5ba28bfb1d601a08f02
 SHA256: fcbd38612d300918cd15b8cd1e206f700cdb0bb88739bee2a29f0c8c94f09191
 SHA512: 365f7c452f08a024b5f1fd2fff3ce946fb216e802a1a0b4534c5930ecd848f5a9466e9aeb610b877fab70b11812ebb7d90649d5b70d6ce83f1d3e9bd110c45ae
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+
+Package: dde-dock-onboard-plugin
+Architecture: arm64
+Version: 4.10.11gxde4
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 143
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.11gxde4_arm64.deb
+Size: 19748
+MD5sum: c632f81ab9ef6421a6be23988a8fc19b
+SHA1: 1854874759f73a237edf8bd1df0f09bdaa167b76
+SHA256: e40273e15beb2f27c20b54bb434633a70c562af573e3d8f6df039163617c065e
+SHA512: 941aa64e2edb2e02653c99fdd9409b78f420ff72662ec33b20db127ef2d46082f14b73b108e2cbb165c76bff0076737a04e35bf6cd0e72dcb74480c49c581c9a
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
@@ -29891,6 +30045,28 @@ MD5sum: da2618724d5171933565fff10be110ce
 SHA1: 68df797b3cc0903330b6c1fb363fc4c5494c8219
 SHA256: 679fcf7d95d3ec0f46e972b020e6cd208000af09d642f66496775c117d2feb00
 SHA512: bb0eccb9134e89b68debb03492c801488a238ac0a1290f173a18bfada116538f7d23b24afa3aa2c9b6180199a4cf01b25ce6cd7a45def7b93229b9bb9a5e28e4
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: arm64
+Version: 4.10.24gxde3
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 14452
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxext6, gxde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, deepin-installer-timezones, passwd, fantascene-gxde, gxde-top-panel, ntp, x11vnc
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Filename: ./d/dde-control-center/dde-control-center_4.10.24gxde3_arm64.deb
+Size: 4170512
+MD5sum: dc48e46aefa50c59e3d1c4312e35bd28
+SHA1: c58a5bc856258c1b37a0cdcbb2f2e2c3aeaeb5c3
+SHA256: fb575b42bab25ab7e9b795b248025595186968da51f77b16cba29974dc2582d5
+SHA512: dce4f8263426511f7fc9ad07039aad6d5013b605f45d3a1f8da74d7b359cfa2649670b81314c3d8d6860d2205abeae683afdc3c60700e28e82d13f2ffcf9c60a
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -32874,6 +33050,25 @@ Description: anything server user interface library
  anything server library developer package.
 
 Package: dde-grand-search
+Architecture: arm64
+Version: 5.5.1
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3195
+Depends: libavformat59 (>= 7:5.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpcre3, libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
+Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34)
+Filename: ./d/dde-grand-search/dde-grand-search_5.5.1_arm64.deb
+Size: 616808
+MD5sum: faf46997abf801a598f155960297a9fd
+SHA1: 3b548cf19a07c57803b9c7277efa7821e9ce2e17
+SHA256: dbff764f560d105d37a90db5e191f985d1bc23e3c29599eacd6b6df1dc6e9642
+SHA512: dc35c5dfd4662c431e78392a1991e4fcd15bd403f5d8a8583bec40ca18129aec187acb2f5e3bf03f33c0566d7cddf3647c25dac18ed8730256dcad73efda0216
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - search module
+ Search module of deepin desktop-environment
+
+Package: dde-grand-search
 Architecture: loong64
 Version: 5.5.1
 Priority: optional
@@ -33405,6 +33600,27 @@ MD5sum: 3a6f4397877d57c66d74c77028b4fc94
 SHA1: f52c278cf87a692114fae180416d92ff9c56d95a
 SHA256: e8a8e756b7ad2a5fc1a43ea61478775b4b6977ef391a4099485e83b960f3168d
 SHA512: 47367d65ccca51e7a10d75b1425257abc561a91c5477429a71446f4f72ccf0fa6d01c7bda5afa32d65aef4eb44763d129df3b8a1fd952846c7472d02b114513f
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+
+Package: dde-dock
+Architecture: arm64
+Version: 4.10.11gxde4
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3520
+Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.11gxde4_arm64.deb
+Size: 600772
+MD5sum: 801ba73ad7efdfa46a67f946d3fa51d9
+SHA1: c0106f3d6ed4a8f6d300528da770c52c6ddb00ff
+SHA256: c09f3b44495eaee558e1d1deec0fa03515c6f008c53813a7adaee1d6e3b637b0
+SHA512: e8f9380f2760170bd2566860d3067e557d3e4473be308d4747f20372783aaaa29b1207d293611f4ed92e1e746a175a303840a7b753bc9b5ee96cdbecf1d4020f
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
@@ -35801,6 +36017,28 @@ MD5sum: d15dbca75cdd9a13e13781505ba661e1
 SHA1: 4f5e6a69aaeeea4cde7f6fa0a015061e1b4268ac
 SHA256: edde63bea071938835f560878fa0f7cc8fb0413a15c84745c708436433eca756
 SHA512: 53a0f8e6b10a9fc30dcf42696320ac4abb71df772ac7da413a0def4ca55733dd57a252d1431f9b7c072c26ed71c72ba59ba53636b9ef4f460c6f529ef2fa6a78
+Homepage: http://www.deepin.org/
+Description: GSettings deepin desktop-wide schemas
+ deepin-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+
+Package: deepin-desktop-schemas
+Architecture: arm64
+Version: 3.13.10gxde0
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 299
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: deepin-default-gsettings
+Breaks: dde-daemon (<< 2.92.2), deepin-default-gsettings, deepin-wm (<< 0.2.1), startdde (<< 2.91.0)
+Replaces: deepin-default-gsettings
+Filename: ./d/deepin-desktop-schemas/deepin-desktop-schemas_3.13.10gxde0_arm64.deb
+Size: 38248
+MD5sum: 7dfdb9cd1b3c9d969946c5904aa6193b
+SHA1: 199a42cc8c289a867eba3642c17236f93f8472f3
+SHA256: 5c714e701f404b784476bfe3fa084fb97120a9c7d24f72b42a583431286ac915
+SHA512: de0f79c4defdbd2ccf1dca2aff83c1b0e6526c4b24af43e71eea5b093af903b850ce6808e76870f4e2fcea62facfe77a55fba06de3ed3b42622fd1a57ae5a982
 Homepage: http://www.deepin.org/
 Description: GSettings deepin desktop-wide schemas
  deepin-desktop-schemas contains a collection of GSettings schemas for
