@@ -1,0 +1,31 @@
+Package: grub-common
+Architecture: loong64
+Version: 2.12deepin9
+Built-Using: lzo2 (= 2.10-3)
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 17919
+Depends: libc6 (>= 2.39), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1t64 (>= 38), libefivar1t64 (>= 38), libfreetype6 (>= 2.2.1), libfuse3-3 (>= 3.2.3), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
+Recommends: os-prober (>= 1.33)
+Suggests: multiboot-doc, mtools, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
+Conflicts: init-select
+Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
+Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4), init-select
+Filename: ./g/grub-common/grub-common_2.12deepin9_loong64.deb
+Size: 2603828
+MD5sum: 94f33d042b6fefdd5160ee33c68bb55a
+SHA1: 1d68c2317e9448424577f4c38f99304bca0836eb
+SHA256: 8ce392a175de098acb212bbca94a1410ba98f7249e508198dee34ca3117f2f71
+SHA512: e5a0dc7f66d65fafbf923ef11b5a7a84401851c59c4553feeba842f8132037ca25c6cf4b0bb64df3c763687b3cb3d683b8fd0e6efc29ed84deb0c0d480a24acd
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files)
+ This package contains common files shared by the distinct flavours of GRUB.
+ It is shared between GRUB Legacy and GRUB 2, although a number of files
+ specific to GRUB 2 are here as long as they do not break GRUB Legacy.
+ .
+ grub-mkrescue needs the suggested packages mtools (for UEFI targets) and
+ xorriso.
+

@@ -1,0 +1,31 @@
+Package: grub-efi-loong64
+Architecture: loong64
+Version: 2.12deepin9
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 223
+Depends: debconf (>= 0.5) | debconf-2.0, grub2-common, grub-efi-loong64-bin (= 2.12deepin9), ucf
+Filename: ./g/grub-efi-loong64/grub-efi-loong64_2.12deepin9_loong64.deb
+Size: 68368
+MD5sum: 3bdafe11faee4d2fa0ca346e1aefbf4d
+SHA1: 3b0852f5d2e0ae191fafc640f6f6e515b158ea1c
+SHA256: d72652487c62e51ba3e4d2f7b0013a0774901662da4061b7a32699ff70fce640
+SHA512: 8c56730a9e7b1ac729e3ece724e54d5a073e09170efdc1e2530ee3cf1827b95ec0e67d81c8e5a609776de18035a84af2ddc211fee5cd8905009acbf86bee2bfb
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (loong64 UEFI version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use on Loongarch 64-bit systems with UEFI.  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+

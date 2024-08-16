@@ -1,0 +1,21 @@
+Package: grub-efi
+Architecture: loong64
+Version: 2.12deepin9
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 51
+Depends: grub-efi-loong64 (= 2.12deepin9)
+Filename: ./g/grub-efi/grub-efi_2.12deepin9_loong64.deb
+Size: 24916
+MD5sum: 3de71693e9f421b8be906fb30e2ab0df
+SHA1: 853f3c519f757358693729c9cd7224957b2cc708
+SHA256: 5a36d72b2775cb6d1204f7eec827fb5d679216e05788e0ecfda1ebc3d39c65fe
+SHA512: 2d623d5a0ea2a641e5b84b08c85ca9872f39d47a26d551bb9004a5f09160879f2072620ac35d7553232ecab855e4af9019c942712c033c0af3e5e312ebd1fc08
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy package that depends on the grub-efi-$ARCH package most likely
+ to be appropriate for each architecture.
+
