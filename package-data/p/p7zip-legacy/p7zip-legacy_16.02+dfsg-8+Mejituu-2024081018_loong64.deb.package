@@ -1,0 +1,19 @@
+Package: p7zip-legacy
+Architecture: loong64
+Version: 16.02+dfsg-8+Mejituu-2024081018
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: 懵仙兔兔 <acgm@qq.com>
+Installed-Size: 5217
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0) | libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Filename: ./p/p7zip-legacy/p7zip-legacy_16.02+dfsg-8+Mejituu-2024081018_loong64.deb
+Size: 1035364
+MD5sum: 858685e2250bfdef3423f2ec783fa644
+SHA1: 08dc65e2cd41b1e380a92193614b44976111f0d2
+SHA256: c39d10708483b221dde69331bbe6bc84ecdd476eb0c9152c3dce5df065b30050
+SHA512: d505cc3d9beae4b7e806aca2a64549bf002d3721323bd8d0664c5e278367f66f1191cb0b192598bee48b54ea9426dc5a5261e3a344eb021e4787afc39fc69ed7
+Homepage: https://2dph.com
+Description: Collection package p7zip-legacy of old versions of p7zip, p7zip-full, and p7zip-rar is suitable for spark-dwine-helper
+ 旧版本 p7zip、p7zip-full、p7zip-rar 的集合包 p7zip-legacy 适用于 spark-dwine-helper
+
